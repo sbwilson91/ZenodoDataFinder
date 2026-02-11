@@ -3,8 +3,6 @@ import datetime
 import smtplib
 import re
 import os
-import anndata
-import fsspec
 import time
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -25,45 +23,81 @@ def get_ai_summary(text):
     if not HF_TOKEN: return "No AI Token provided."
     API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
     headers = {"Authorization": f"Bearer {HF_TOKEN}"}
-    clean_text = re.sub('<[^<]+?>', '', text)[:1024]
+    clean_text = re.sub('<[^<]+?>', '', text).strip()[:1024]
 
-    for _ in range(3): # Retry 3 times if model is loading
+    if len(clean_text) < 50:
+        return "Description too short for summary."
+
+    for attempt in range(3):
         try:
-            response = requests.post(API_URL, headers=headers, json={"inputs": clean_text}, timeout=20)
-            content_type = response.headers.get('Content-Type', '')
-            if 'application/json' not in content_type:
-                print(f"HuggingFace returned non-JSON response (Content-Type: {content_type})")
+            response = requests.post(API_URL, headers=headers, json={"inputs": clean_text}, timeout=30)
+            try:
+                res_json = response.json()
+            except ValueError:
+                print(f"HuggingFace returned non-JSON (status {response.status_code})")
                 return "AI Summary unavailable."
-            res_json = response.json()
             if isinstance(res_json, list) and len(res_json) > 0:
                 return res_json[0].get('summary_text', "Summary content missing.")
             elif isinstance(res_json, dict) and "estimated_time" in res_json:
-                time.sleep(res_json['estimated_time'])
+                wait = min(res_json['estimated_time'], 30)
+                print(f"Model loading, waiting {wait:.0f}s (attempt {attempt+1}/3)")
+                time.sleep(wait)
                 continue
-        except Exception:
-            pass
+            elif isinstance(res_json, dict) and "error" in res_json:
+                print(f"HuggingFace error: {res_json['error']}")
+                return "AI Summary unavailable."
+        except Exception as e:
+            print(f"HuggingFace request failed: {e}")
     return "AI Summary unavailable."
 
-def peek_data(files):
-    # Safe check for H5AD
-    h5ad = next((f for f in files if f.get('key', '').endswith('.h5ad')), None)
-    if h5ad and h5ad.get('links', {}).get('self'):
-        try:
-            with fsspec.open(h5ad['links']['self'], mode='rb') as f:
-                ad = anndata.read_h5ad(f, backed='r')
-                return f"Peeked H5AD: {ad.n_obs} cells, {ad.n_vars} genes"
-        except: pass
+def get_quick_stats(meta, files):
+    """Extract species, tissue, cell counts from Zenodo metadata fields."""
+    stats = []
+    desc = re.sub('<[^<]+?>', '', meta.get('description', '')).lower()
+    keywords = [k.lower() for k in meta.get('keywords', [])]
 
-    # Safe check for Metadata CSV/TSV
-    meta_file = next((f for f in files if any(k in f.get('key', '').lower() for k in ['meta', 'sample', 'cell'])
-                     and f.get('key', '').endswith(('.csv', '.tsv'))), None)
-    if meta_file and meta_file.get('links', {}).get('self'):
-        try:
-            r = requests.get(meta_file['links']['self'], headers={"Range": "bytes=0-500"}, timeout=5)
-            return f"Metadata Header: {r.text.splitlines()[0][:100]}..."
-        except: pass
+    # Species detection
+    species_patterns = {
+        'Human': r'\b(human|homo sapiens|patient|hg38|grch38|pbmc)\b',
+        'Mouse': r'\b(mouse|mus musculus|murine|mm10|mm39)\b',
+        'Zebrafish': r'\b(zebrafish|danio rerio)\b',
+        'Drosophila': r'\b(drosophila|fruit fly)\b',
+        'Rat': r'\b(rat|rattus)\b',
+    }
+    for species, pattern in species_patterns.items():
+        if re.search(pattern, desc) or any(re.search(pattern, k) for k in keywords):
+            stats.append(f"Species: {species}")
+            break
 
-    return "No automated stats found."
+    # Cell/nuclei count from description
+    cell_match = re.search(r'([\d,\.]+)\s*(million|thousand|k)?\s*(cells|nuclei|transcriptomes|samples)', desc)
+    if cell_match:
+        stats.append(f"Scale: ~{cell_match.group(0).strip()}")
+
+    # Tissue detection
+    tissues = ['bone marrow', 'brain', 'lung', 'liver', 'kidney', 'blood',
+               'tumor', 'skin', 'heart', 'intestine', 'pbmc', 'retina',
+               'pancreas', 'spleen', 'thymus', 'colon', 'breast', 'ovary']
+    for tissue in tissues:
+        if tissue in desc or tissue in ' '.join(keywords):
+            stats.append(f"Tissue: {tissue.title()}")
+            break
+
+    # File type summary
+    extensions = {}
+    for f in files:
+        ext = '.' + f.get('key', '').rsplit('.', 1)[-1] if '.' in f.get('key', '') else 'other'
+        extensions[ext] = extensions.get(ext, 0) + 1
+    if extensions:
+        file_summary = ', '.join(f"{count}x {ext}" for ext, count in sorted(extensions.items(), key=lambda x: -x[1]))
+        stats.append(f"Files: {file_summary}")
+
+    # Keywords
+    raw_keywords = meta.get('keywords', [])
+    if raw_keywords:
+        stats.append(f"Tags: {', '.join(raw_keywords[:5])}")
+
+    return ' | '.join(stats) if stats else "No metadata stats found."
 
 def run():
     date_range = get_date_query(LOOKBACK_PERIOD)
@@ -94,7 +128,7 @@ def run():
         # SAFE ACCESS: Use .get() to avoid KeyError
         record_url = links.get('html', f"https://zenodo.org/records/{hit.get('id', '')}")
         title = meta.get('title', 'Untitled Dataset')
-        stats = peek_data(files)
+        stats = get_quick_stats(meta, files)
         summary = get_ai_summary(meta.get('description', ""))
         total_size = sum(f.get('size', 0) for f in files) / 1e6
 
