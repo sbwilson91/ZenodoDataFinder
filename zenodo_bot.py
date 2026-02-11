@@ -26,14 +26,18 @@ def get_ai_summary(text):
     API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
     headers = {"Authorization": f"Bearer {HF_TOKEN}"}
     clean_text = re.sub('<[^<]+?>', '', text)[:1024]
-    
+
     for _ in range(3): # Retry 3 times if model is loading
         try:
             response = requests.post(API_URL, headers=headers, json={"inputs": clean_text}, timeout=20)
+            content_type = response.headers.get('Content-Type', '')
+            if 'application/json' not in content_type:
+                print(f"HuggingFace returned non-JSON response (Content-Type: {content_type})")
+                return "AI Summary unavailable."
             res_json = response.json()
             if isinstance(res_json, list) and len(res_json) > 0:
                 return res_json[0].get('summary_text', "Summary content missing.")
-            elif "estimated_time" in res_json:
+            elif isinstance(res_json, dict) and "estimated_time" in res_json:
                 time.sleep(res_json['estimated_time'])
                 continue
         except Exception:
@@ -51,23 +55,27 @@ def peek_data(files):
         except: pass
 
     # Safe check for Metadata CSV/TSV
-    meta_file = next((f for f in files if any(k in f.get('key', '').lower() for k in ['meta', 'sample', 'cell']) 
+    meta_file = next((f for f in files if any(k in f.get('key', '').lower() for k in ['meta', 'sample', 'cell'])
                      and f.get('key', '').endswith(('.csv', '.tsv'))), None)
     if meta_file and meta_file.get('links', {}).get('self'):
         try:
             r = requests.get(meta_file['links']['self'], headers={"Range": "bytes=0-500"}, timeout=5)
             return f"Metadata Header: {r.text.splitlines()[0][:100]}..."
         except: pass
-    
+
     return "No automated stats found."
 
 def run():
     date_range = get_date_query(LOOKBACK_PERIOD)
     query = f'q=single cell RNA AND publication_date:{date_range} AND type:dataset'
-    
+
     try:
         res = requests.get(f"https://zenodo.org/api/records?{query}&sort=mostrecent&size=10", timeout=20)
         res.raise_for_status()
+        content_type = res.headers.get('Content-Type', '')
+        if 'application/json' not in content_type:
+            print(f"Zenodo returned non-JSON response (Content-Type: {content_type})")
+            return
         hits = res.json().get('hits', {}).get('hits', [])
     except Exception as e:
         print(f"Zenodo API connection error: {e}")
@@ -82,7 +90,7 @@ def run():
         meta = hit.get('metadata', {})
         links = hit.get('links', {})
         files = hit.get('files', [])
-        
+
         # SAFE ACCESS: Use .get() to avoid KeyError
         record_url = links.get('html', f"https://zenodo.org/records/{hit.get('id', '')}")
         title = meta.get('title', 'Untitled Dataset')
@@ -104,7 +112,7 @@ def run():
     msg['To'] = EMAIL_RECEIVER
     msg['From'] = EMAIL_SENDER
     msg.attach(MIMEText(html_content, 'html'))
-    
+
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
             s.login(EMAIL_SENDER, EMAIL_PASSWORD)
