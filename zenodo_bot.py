@@ -58,21 +58,29 @@ def run():
     res = requests.get(f"https://zenodo.org/api/records?{query}&sort=mostrecent&size=10")
     hits = res.json().get('hits', {}).get('hits', [])
 
-    if not hits: return print("No new data.")
+    if not hits: 
+        print("No new data found.")
+        return
 
     html_content = f"<h2>scRNA-seq Zenodo Report ({LOOKBACK_PERIOD})</h2>"
     for hit in hits:
-        meta = hit['metadata']
+        meta = hit.get('metadata', {})
+        links = hit.get('links', {})
+        
+        # Use .get() to avoid KeyError if 'html' or 'title' is missing
+        record_url = links.get('html', 'https://zenodo.org') 
+        title = meta.get('title', 'Untitled Dataset')
+        
         files = hit.get('files', [])
         stats = peek_data(files)
         summary = get_ai_summary(meta.get('description', ""))
         
         html_content += f"""
         <div style='border-bottom:1px solid #eee; padding:10px;'>
-            <a href='{hit['links']['html']}'><h3>{meta['title']}</h3></a>
+            <a href='{record_url}'><h3>{title}</h3></a>
             <p><b>Summary:</b> {summary}</p>
             <p><b>Stats:</b> {stats}</p>
-            <p><b>Size:</b> {sum(f['size'] for f in files)/1e6:.1f} MB</p>
+            <p><b>Size:</b> {sum(f.get('size', 0) for f in files)/1e6:.1f} MB</p>
         </div>"""
 
     msg = MIMEMultipart(); msg['Subject'] = f"scRNA-seq Zenodo Update"; msg['To'] = EMAIL_RECEIVER; msg['From'] = EMAIL_SENDER
@@ -80,5 +88,6 @@ def run():
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
         s.login(EMAIL_SENDER, EMAIL_PASSWORD)
         s.sendmail(EMAIL_SENDER, EMAIL_RECEIVER, msg.as_string())
+
 
 if __name__ == "__main__": run()
