@@ -1,0 +1,25 @@
+name: Weekly Zenodo Scraper
+on:
+  schedule:
+    - cron: '0 5 * * 1' # Every Monday at 5 AM UTC
+  workflow_dispatch: # Allows manual run for testing
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run script
+        env:
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          LOOKBACK_PERIOD: 'week'
+        run: python zenodo_bot.py
