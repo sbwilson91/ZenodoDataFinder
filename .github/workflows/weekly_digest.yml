@@ -38,3 +38,32 @@ jobs:
           git add digests/
           git diff --staged --quiet || git commit -m "Weekly digest $(date +%Y-%m-%d)"
           git push
+
+      - name: Read digest for email
+        id: digest
+        run: |
+          # Find today's digest (fall back to most recent if date mismatch)
+          DIGEST_FILE=$(ls digests/$(date +%Y-%m-%d)-weekly-digest.md 2>/dev/null || ls digests/*.md | tail -1)
+          echo "file=$DIGEST_FILE" >> $GITHUB_OUTPUT
+
+          # GitHub Actions output vars have a ~64KB limit — truncate just in case
+          {
+            echo 'body<<EOF'
+            cat "$DIGEST_FILE" | head -c 50000
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
+
+      - name: Send digest email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.GMAIL_ADDRESS }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          to: ${{ secrets.RECIPIENT_EMAIL }}
+          from: "Journal Digest <${{ secrets.GMAIL_ADDRESS }}>"
+          subject: "📄 Weekly Journal Digest — $(date +%Y-%m-%d)"
+          body: ${{ steps.digest.outputs.body }}
+          # The .md file is also attached so you have a clean copy
+          attachments: ${{ steps.digest.outputs.file }}
