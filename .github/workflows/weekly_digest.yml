@@ -59,10 +59,10 @@ jobs:
           server_address: smtp.gmail.com
           server_port: 465
           secure: true
-          username: ${{ secrets.GMAIL_ADDRESS }}
-          password: ${{ secrets.GMAIL_APP_PASSWORD }}
-          to: ${{ secrets.RECIPIENT_EMAIL }}
-          from: "Journal Digest <${{ secrets.GMAIL_ADDRESS }}>"
+          username: ${{ secrets.EMAIL_SENDER }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          to: ${{ secrets.EMAIL_RECEIVER }}
+          from: "Journal Digest <${{ secrets.EMAIL_SENDER }}>"
           subject: "📄 Weekly Journal Digest — $(date +%Y-%m-%d)"
           body: ${{ steps.digest.outputs.body }}
           # The .md file is also attached so you have a clean copy
