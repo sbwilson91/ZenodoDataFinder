@@ -26,7 +26,7 @@ from .feeds import Paper  # relative import — adjust if running standalone
 # ── Model configuration ────────────────────────────────────────────────────────
 
 DEFAULT_MODEL   = "mistralai/Mistral-7B-Instruct-v0.3"
-HF_API_BASE     = "https://api-inference.huggingface.co/models"
+HF_API_BASE = "https://router.huggingface.co/hf-inference/models"
 
 # Fallback model tried automatically if the primary returns an error.
 # Zephyr is also free-tier and has strong instruction-following.
