@@ -1,7 +1,3 @@
-# config.yaml
-# Each journal entry needs its RSS URL. Most journals have several
-# feeds (e.g. by section), so we pick the most relevant ones.
-
 journals:
   - name: "Nature"
     rss: "https://www.nature.com/nature.rss"
@@ -12,15 +8,15 @@ journals:
     category: "Multidisciplinary"
 
   - name: "Cell"
-    rss: "https://www.cell.com/cell/rss/current"
+    rss: "https://www.cell.com/cell/inpress.rss"
     category: "Life Sciences"
 
   - name: "Cell Stem Cell"
-    rss: "https://www.cell.com/cell-stem-cell/rss/current"
+    rss: "https://www.cell.com/cell-stem-cell/inpress.rss"
     category: "Stem Cell Biology"
 
   - name: "Stem Cell Reports"
-    rss: "https://www.cell.com/stem-cell-reports/rss/current"
+    rss: "https://www.cell.com/stem-cell-reports/inpress.rss"
     category: "Stem Cell Biology"
 
   - name: "Nature Biotechnology"
@@ -32,13 +28,11 @@ journals:
     category: "Methods & Tools"
 
   - name: "Bioinformatics"
-    rss: "https://academic.oup.com/rss/site_5168/3013.xml"
+    rss: "https://academic.oup.com/rss/site_5168/advanceAccess_3013.xml"
     category: "Computational Biology"
 
-# How many days back to look (7 = last week's publications)
 lookback_days: 7
 
-# Only include these article types (filters out editorials, news, etc.)
 include_types:
   - "research-article"
   - "letter"
