@@ -1,12 +1,12 @@
 # Weekly Journal Digest — 2026-03-02
 
-**99 new papers** across 6 journals.
+**102 new papers** across 6 journals.
 
 ---
 
 ## Table of Contents
 
-- [Uncategorised](#uncategorised) (99 papers)
+- [Uncategorised](#uncategorised) (102 papers)
 
 ---
 
@@ -1013,10 +1013,43 @@
 
 ---
 
+### Establishing a commercial solution for extremely rare genetic diseases
+**Nature Biotechnology** | Stanley T. Crooke, Andrew W. Lo  
+*Published: 02 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41587-026-03056-w)
+
+
+> Summary unavailable.
+
+
+---
+
 ### Highly mutagenic continuous evolution in <i>E</i>. <i>coli</i> using a Φ29-based orthogonal replication system
 **Nature Biotechnology** | Fabian B. H. Rehm, Kim C. Liu, Rongzhen Tian, Jason W. Chin  
 *Published: 24 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41587-025-02944-x)
+
+
+> Summary unavailable.
+
+
+---
+
+### A unified framework for multiomics deconvolution
+**Nature Methods** | Xiaoyu Wang, Fuyi Li, Robin B. Gasser, Jiangning Song  
+*Published: 02 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41592-026-03008-x)
+
+
+> Summary unavailable.
+
+
+---
+
+### DECODE: deep learning-based common deconvolution framework for various omics data
+**Nature Methods** | Tianyi Zhao, Renjie Liu, Yuzhi Sun, Bingtian Wang, Liyuan Zhang et al. (+6 more)  
+*Published: 02 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41592-026-03007-y)
 
 
 > Summary unavailable.
