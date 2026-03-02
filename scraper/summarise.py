@@ -102,57 +102,6 @@ def _build_prompt(model_id: str, system: str, user: str) -> str:
 
 # ── HF Inference API call ──────────────────────────────────────────────────────
 
-def _call_hf_api(prompt: str, model_id: str, token: str) -> str:
-    """
-    POST to the HuggingFace Inference API and return the generated text.
-    Handles:
-      - 503  model loading → waits MODEL_LOAD_WAIT seconds, retries
-      - 429  rate limit    → backs off exponentially
-      - non-200 errors     → raises RuntimeError
-    """
-    url     = f"{HF_API_BASE}/{model_id}"
-    headers = {"Authorization": f"Bearer {token}"}
-    payload = {
-        "inputs": prompt,
-        "parameters": {
-            "max_new_tokens": 1024,
-            "temperature": 0.2,          # Low temp = deterministic, structured output
-            "return_full_text": False,   # Only return the completion, not the prompt
-            "do_sample": True,
-        },
-        "options": {
-            "wait_for_model": True,      # Block until model is loaded (avoids 503 loops)
-            "use_cache": False,          # We want fresh summaries each run
-        }
-    }
-
-    for attempt in range(1, MAX_RETRIES + 1):
-        resp = requests.post(url, headers=headers, json=payload, timeout=120)
-
-        if resp.status_code == 200:
-            data = resp.json()
-            # HF returns a list of dicts: [{"generated_text": "..."}]
-            if isinstance(data, list) and data:
-                return data[0].get("generated_text", "")
-            raise RuntimeError(f"Unexpected response shape: {data}")
-
-        elif resp.status_code == 503:
-            # Model is warming up — HF usually loads within 20-30s
-            wait = MODEL_LOAD_WAIT * attempt
-            print(f"    Model loading (503) — waiting {wait}s before retry {attempt}/{MAX_RETRIES}...")
-            time.sleep(wait)
-
-        elif resp.status_code == 429:
-            wait = 60 * attempt   # Rate limited — back off more aggressively
-            print(f"    Rate limited (429) — waiting {wait}s...")
-            time.sleep(wait)
-
-        else:
-            raise RuntimeError(
-                f"HF API error {resp.status_code} for model '{model_id}': {resp.text[:300]}"
-            )
-
-    raise RuntimeError(f"HF API failed after {MAX_RETRIES} attempts for model '{model_id}'.")
 
 # chat prompt
 
@@ -241,7 +190,7 @@ def summarise_papers(
         results = None
         for attempt_model in [model, FALLBACK_MODEL]:
             try:
-                raw     = _call_hf_api(prompt, attempt_model, hf_token)
+                raw     = _call_hf_chat(prompt, attempt_model, hf_token)
                 results = _extract_json(raw)
                 if len(results) != len(batch):
                     # Model returned wrong number of items — pad or trim
