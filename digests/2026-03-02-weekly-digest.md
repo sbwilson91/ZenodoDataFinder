@@ -254,17 +254,6 @@
 
 ---
 
-### Author Correction: Global subsidence of river deltas
-**Nature** | L. O. Ohenhen, M. Shirzaei, J. L. Davis, A. Tiwari, R. Nicholls et al. (+13 more)  
-*Published: 24 Feb 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10294-0)
-
-
-> Summary unavailable.
-
-
----
-
 ### Author Correction: Myocardial reprogramming by HMGN1 underlies heart defects in trisomy 21
 **Nature** | Sanjeev S. Ranade, Feiya Li, Sean Whalen, Angelo Pelonero, Lin Ye et al. (+18 more)  
 *Published: 26 Feb 2026* | 🟡 Medium  
@@ -280,6 +269,17 @@
 **Nature** | Gabriel Castrillo, Paulo José Pereira Lima Teixeira, Sur Herrera Paredes, Theresa F. Law, Laura de Lorenzo et al. (+7 more)  
 *Published: 02 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10320-1)
+
+
+> Summary unavailable.
+
+
+---
+
+### BCDX2–CX3 and DX2–CX3 complexes assemble and stabilize RAD51 filaments
+**Nature** | Christopher W. Koo, Jiaqi Xiao, Sebastien Coassolo, Jie Liu, Christine Yu et al. (+8 more)  
+*Published: 02 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10314-z)
 
 
 > Summary unavailable.
