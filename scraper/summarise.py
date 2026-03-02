@@ -25,12 +25,13 @@ from .feeds import Paper  # relative import — adjust if running standalone
 
 # ── Model configuration ────────────────────────────────────────────────────────
 
-DEFAULT_MODEL   = "mistralai/Mistral-7B-Instruct-v0.3"
-HF_API_BASE = "https://router.huggingface.co/hf-inference/models"
+DEFAULT_MODEL  = "Qwen/Qwen2.5-7B-Instruct"
+##HF_API_BASE = "https://router.huggingface.co/hf-inference/models"
+HF_CHAT_URL = "https://router.huggingface.co/hf-inference/v1/chat/completions"
 
 # Fallback model tried automatically if the primary returns an error.
-# Zephyr is also free-tier and has strong instruction-following.
-FALLBACK_MODEL  = "HuggingFaceH4/zephyr-7b-beta"
+# 
+FALLBACK_MODEL = "microsoft/Phi-3.5-mini-instruct"
 
 # How long to wait (seconds) if HF returns a 503 "model loading" response.
 MODEL_LOAD_WAIT = 25
@@ -153,6 +154,26 @@ def _call_hf_api(prompt: str, model_id: str, token: str) -> str:
 
     raise RuntimeError(f"HF API failed after {MAX_RETRIES} attempts for model '{model_id}'.")
 
+# chat prompt
+
+def _call_hf_chat(user_prompt, model_id, token):
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "model": model_id,
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user",   "content": user_prompt},
+        ],
+        "max_tokens": 2048,
+        "temperature": 0.2,
+    }
+    resp = requests.post(HF_CHAT_URL, headers=headers, json=payload, timeout=120)
+    if resp.status_code == 200:
+        return resp.json()["choices"][0]["message"]["content"]
+    raise RuntimeError(f"HF API error {resp.status_code}: {resp.text[:300]}")
 
 # ── JSON extraction ────────────────────────────────────────────────────────────
 
