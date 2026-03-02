@@ -20,8 +20,8 @@ def get_date_query(period):
     return f"[{start_date} TO *]"
 
 def get_ai_summary(text):
-    if not HF_TOKEN: return "No AI Token provided."
-    API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
+    if not HF_TOKEN: return "No AI Token provided." 
+    API_URL = "https://router.huggingface.co/models/facebook/bart-large-cnn"
     headers = {"Authorization": f"Bearer {HF_TOKEN}"}
     clean_text = re.sub('<[^<]+?>', '', text).strip()[:1024]
 
@@ -157,3 +157,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
