@@ -11,9 +11,9 @@ from typing import Optional
 
 from .feeds import Paper
 
-HF_CHAT_URL    = "https://router.huggingface.co/hf-inference/v1/chat/completions"
-DEFAULT_MODEL  = "Qwen/Qwen2.5-7B-Instruct"
-FALLBACK_MODEL = "microsoft/Phi-3.5-mini-instruct"
+HF_CHAT_URL = "https://router.huggingface.co/v1/chat/completions"
+DEFAULT_MODEL  = "meta-llama/Llama-3.1-8B-Instruct:auto"
+FALLBACK_MODEL = "Qwen/Qwen2.5-7B-Instruct:auto"
 MAX_RETRIES    = 3
 
 SYSTEM_PROMPT = (
