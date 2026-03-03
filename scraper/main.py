@@ -4,7 +4,7 @@ from datetime import datetime
 from .feeds import load_config, fetch_papers
 from .extract_repos import extract_all_repos
 from .summarise import summarise_papers
-from .report import generate_report update_archive_index
+from .report import generate_report, update_archive_index
 
 def main():
     config    = load_config()
