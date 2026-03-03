@@ -28,7 +28,7 @@ journals:
     category: "Methods & Tools"
 
   - name: "Bioinformatics"
-    rss: "https://academic.oup.com/rss/site_5168/advanceAccess_3013.xml"
+    rss: "https://pubmed.ncbi.nlm.nih.gov/rss/journals/101232071/?limit=50&name=Bioinformatics&utm_campaign=journals"
     category: "Computational Biology"
 
 lookback_days: 7
@@ -38,3 +38,4 @@ include_types:
   - "letter"
   - "article"
   - "resource"
+
