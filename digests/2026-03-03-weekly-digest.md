@@ -6,28 +6,26 @@
 
 ## Table of Contents
 
-- [AI policy](#ai-policy) (1 papers)
-- [AI safety](#ai-safety) (1 papers)
+- [AI](#ai) (1 papers)
 - [CRISPR](#crispr) (1 papers)
+- [HIV-1](#hiv-1) (1 papers)
 - [TNF](#tnf) (1 papers)
-- [animal research](#animal-research) (1 papers)
 - [archaeology](#archaeology) (1 papers)
-- [artificial intelligence](#artificial-intelligence) (2 papers)
-- [bacterial genomics](#bacterial-genomics) (1 papers)
-- [battery technology](#battery-technology) (1 papers)
+- [artificial intelligence](#artificial-intelligence) (3 papers)
 - [big data](#big-data) (1 papers)
-- [biomechanics](#biomechanics) (1 papers)
-- [biotechnology](#biotechnology) (1 papers)
-- [cancer biology](#cancer-biology) (1 papers)
+- [biophysics](#biophysics) (1 papers)
+- [book reviews](#book-reviews) (1 papers)
 - [cardiology](#cardiology) (1 papers)
 - [career development](#career-development) (1 papers)
-- [cell biology](#cell-biology) (3 papers)
-- [climate change](#climate-change) (3 papers)
+- [cell biology](#cell-biology) (2 papers)
+- [climate change](#climate-change) (4 papers)
 - [climate policy](#climate-policy) (1 papers)
-- [climate science](#climate-science) (1 papers)
-- [colloidal assemblies](#colloidal-assemblies) (1 papers)
+- [colloidal assembly](#colloidal-assembly) (1 papers)
+- [coral reefs](#coral-reefs) (1 papers)
 - [ecology](#ecology) (1 papers)
 - [embryonic stem cells](#embryonic-stem-cells) (1 papers)
+- [endoplasmic reticulum](#endoplasmic-reticulum) (1 papers)
+- [energy storage](#energy-storage) (1 papers)
 - [environmental justice](#environmental-justice) (1 papers)
 - [evolution](#evolution) (1 papers)
 - [fertility](#fertility) (1 papers)
@@ -35,37 +33,37 @@
 - [genomics](#genomics) (2 papers)
 - [geology](#geology) (1 papers)
 - [human pluripotent stem cells](#human-pluripotent-stem-cells) (1 papers)
-- [immunology](#immunology) (4 papers)
+- [immunology](#immunology) (3 papers)
 - [immunotherapy](#immunotherapy) (2 papers)
 - [in vivo imaging](#in-vivo-imaging) (1 papers)
-- [lipid biology](#lipid-biology) (1 papers)
 - [magnetism](#magnetism) (1 papers)
-- [materials science](#materials-science) (1 papers)
+- [materials science](#materials-science) (3 papers)
 - [microbiology](#microbiology) (3 papers)
+- [molecular biology](#molecular-biology) (2 papers)
 - [multicellularity](#multicellularity) (1 papers)
 - [multiomics](#multiomics) (2 papers)
-- [nanoparticles](#nanoparticles) (1 papers)
 - [nanotechnology](#nanotechnology) (1 papers)
-- [neurology](#neurology) (1 papers)
-- [neuroscience](#neuroscience) (7 papers)
+- [neurology](#neurology) (2 papers)
+- [neuroscience](#neuroscience) (5 papers)
 - [nuclear speckles](#nuclear-speckles) (1 papers)
+- [organoids](#organoids) (1 papers)
 - [paleontology](#paleontology) (1 papers)
-- [phage biology](#phage-biology) (1 papers)
-- [physics](#physics) (6 papers)
-- [plant genetics](#plant-genetics) (1 papers)
+- [physics](#physics) (5 papers)
+- [plant biology](#plant-biology) (1 papers)
 - [primordial germ cells](#primordial-germ-cells) (1 papers)
 - [protein structure](#protein-structure) (1 papers)
 - [proteomics](#proteomics) (1 papers)
 - [quantum computing](#quantum-computing) (1 papers)
-- [science books](#science-books) (1 papers)
-- [science journalism](#science-journalism) (1 papers)
-- [science policy](#science-policy) (2 papers)
-- [single-cell genomics](#single-cell-genomics) (1 papers)
-- [social media](#social-media) (1 papers)
+- [science ethics](#science-ethics) (1 papers)
+- [science news](#science-news) (1 papers)
+- [science policy](#science-policy) (1 papers)
+- [single-cell genomics](#single-cell-genomics) (4 papers)
+- [sociology](#sociology) (1 papers)
 - [stem cell therapeutics](#stem-cell-therapeutics) (1 papers)
 - [stem cell therapy](#stem-cell-therapy) (1 papers)
 - [stem cells](#stem-cells) (3 papers)
-- [superconductivity](#superconductivity) (2 papers)
+- [superconductivity](#superconductivity) (1 papers)
+- [telecommunications](#telecommunications) (1 papers)
 - [toxicology](#toxicology) (1 papers)
 - [transdifferentiation](#transdifferentiation) (1 papers)
 - [virology](#virology) (1 papers)
@@ -73,33 +71,18 @@
 
 ---
 
-## AI policy
+## AI
 
-### South Korea’s AI framework act focuses on rights and safety
-**Nature** | WooJung Jon  
-*Published: 03 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00678-7)
-
-
-> This paper discusses South Korea's AI framework act, which prioritizes rights and safety.
-
-**Topics:** `AI policy` · `machine learning` · `South Korea`  
-**Key terms:** AI framework act, South Korea, AI policy  
-
----
-
-## AI safety
-
-### Releasing open-weight AI in steps would alleviate risks
-**Nature** | S. M. Nuruzzaman Nobel, Maxine Tan  
-*Published: 03 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00679-6)
+### AI agents are ‘aeroplanes for the mind’: five ways to ensure that scientists are responsible pilots
+**Nature** | Dashun Wang  
+*Published: 02 Mar 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/d41586-026-00665-y)
 
 
-> The authors propose a step-by-step approach to releasing open-weight AI to alleviate potential risks.
+> Artificial intelligence systems should be designed to preserve creativity and responsibility in scientific workflows.
 
-**Topics:** `AI safety` · `machine learning` · `artificial intelligence`  
-**Key terms:** open-weight AI, AI safety, machine learning  
+**Topics:** `AI` · `science policy`  
+**Key terms:** AI, scientific workflow, responsibility  
 
 ---
 
@@ -111,10 +94,25 @@
 [Full paper](https://www.nature.com/articles/s41586-025-10064-4)
 
 
-> CLCC1 promotes the flow of neutral lipids in the liver and helps assemble nuclear pore complexes, which are essential for cell function.
+> Researchers identified CLCC1 as a factor that increases neutral lipid flux to prevent hepatic steatosis and promotes nuclear pore complex assembly.
 
-**Topics:** `CRISPR` · `cell biology` · `lipid metabolism` · `nuclear pore complexes`  
-**Key terms:** CLCC1, CRISPR-Cas9, neutral lipid flux, nuclear pore complex assembly  
+**Topics:** `CRISPR` · `lipid metabolism` · `nuclear pore complex` · `hepatic steatosis`  
+**Key terms:** CLCC1, CRISPR, neutral lipid flux, nuclear pore complex, hepatic steatosis  
+
+---
+
+## HIV-1
+
+### Editorial Expression of&#xa0;Concern: The gene product Murr1 restricts HIV-1 replication in resting CD4+ lymphocytes
+**Nature** | Lakshmanan Ganesh, Ezra Burstein, Anuradha Guha-Niyogi, Mark K. Louder, John R. Mascola et al. (+4 more)  
+*Published: 27 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/s41586-026-10308-x)
+
+
+> The gene product Murr1 restricts HIV-1 replication in resting CD4+ lymphocytes, providing new insights into HIV-1 infection and potential therapeutic targets.
+
+**Topics:** `HIV-1` · `virology` · `immunology`  
+**Key terms:** Murr1, HIV-1 replication, CD4+ lymphocytes  
 
 ---
 
@@ -126,25 +124,10 @@
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00038-X?rss=yes)
 
 
-> Tumor necrosis factor (TNF) was previously thought to be a hematopoiesis villain, but its effects are now seen as cell type-, context-, and time-dependent. TNF can prune progenitors while transiently reprogramming hematopoietic stem cells without sacrificing long-term regenerative capacity.
+> TNF's effects on hematopoiesis are context-dependent and not simply suppressive. TNF can prune progenitors while reprogramming hematopoietic stem cells without sacrificing long-term regenerative capacity.
 
-**Topics:** `TNF` · `hematopoiesis` · `stem cell regulation`  
-**Key terms:** tumor necrosis factor, hematopoietic stem cells, progenitor cells  
-
----
-
-## animal research
-
-### The age of animal experiments is waning. Where will science go next?
-**Nature** | Diana Kwon  
-*Published: 25 Feb 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00563-3)
-
-
-> Advances in organ and computer models may lead to the elimination of some animal experiments, but significant hurdles remain.
-
-**Topics:** `animal research` · `organ models` · `computer models`  
-**Key terms:** animal research, organ models, computer models  
+**Topics:** `TNF` · `hematopoiesis` · `stem cell biology`  
+**Key terms:** TNF, hematopoiesis, hematopoietic stem cells, progenitor cells  
 
 ---
 
@@ -152,29 +135,42 @@
 
 ### How infighting led the Maya civilization to catastrophic collapse
 **Nature** | Andrew Robinson  
-*Published: 03 Mar 2026* | 🟡 Medium  
+*Published: 03 Mar 2026* | 🔴 **High impact**  
 [Full paper](https://www.nature.com/articles/d41586-026-00663-0)
 
 
-> New archaeological evidence suggests that infighting led to the collapse of the Maya civilization.
+> Archaeological evidence suggests that infighting led to the collapse of the Maya civilization.
 
 **Topics:** `archaeology` · `anthropology` · `history`  
-**Key terms:** Maya civilization, collapse, infighting  
+**Key terms:** Maya civilization, archaeology, infighting  
 
 ---
 
 ## artificial intelligence
 
-### AI agents are ‘aeroplanes for the mind’: five ways to ensure that scientists are responsible pilots
-**Nature** | Dashun Wang  
-*Published: 02 Mar 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/d41586-026-00665-y)
+### Releasing open-weight AI in steps would alleviate risks
+**Nature** | S. M. Nuruzzaman Nobel, Maxine Tan  
+*Published: 03 Mar 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/d41586-026-00679-6)
 
 
-> As AI systems take on more scientific tasks, researchers must prioritize creativity, responsibility, and surprise in AI design.
+> The authors propose a gradual release of open-weight AI to alleviate potential risks associated with its deployment.
 
-**Topics:** `artificial intelligence` · `science policy` · `responsible AI`  
-**Key terms:** AI, responsible AI, scientific workflow  
+**Topics:** `artificial intelligence` · `machine learning` · `risk assessment`  
+**Key terms:** open-weight AI, risk assessment, deployment  
+
+---
+
+### South Korea’s AI framework act focuses on rights and safety
+**Nature** | WooJung Jon  
+*Published: 03 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00678-7)
+
+
+> The paper describes South Korea's AI framework act, which prioritizes rights and safety in AI development and deployment.
+
+**Topics:** `artificial intelligence` · `policy` · `regulation`  
+**Key terms:** AI framework act, South Korea, rights, safety  
 
 ---
 
@@ -184,40 +180,10 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00542-8)
 
 
-> The United Nations has created a new scientific AI advisory panel to provide guidance on AI research and development.
+> The United Nations created a new scientific AI advisory panel to provide guidance on AI research and development.
 
-**Topics:** `artificial intelligence` · `science policy` · `UN`  
-**Key terms:** artificial intelligence, science policy, UN  
-
----
-
-## bacterial genomics
-
-### A membrane-bound nuclease directly cleaves phage DNA during genome injection
-**Nature** | Daniel S. Saxton, Peter C. DeWeirdt, Christopher R. Doering, Ian J. Roney, Michael T. Laub  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10207-1)
-
-
-> A bacterial defense system called SNIPE identifies and cleaves phage DNA as it is injected into the bacterial cell, providing a new understanding of how bacteria defend against phage infections.
-
-**Topics:** `bacterial genomics` · `phage biology` · `cell membrane`  
-**Key terms:** SNIPE, phage DNA, cell membrane, bacterial defense  
-
----
-
-## battery technology
-
-### Hydrofluorocarbon electrolytes for energy-dense and low-temperature batteries
-**Nature** | Lanqing Wu, Jinyu Zhang, Yong Li, Zhenyu Fan, Shuangxin Ren et al. (+7 more)  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10210-6)
-
-
-> A new method using hydrofluorocarbon electrolytes enables the synthesis of alkanes with monofluorinated structures, paving the way for high-energy-density and low-temperature lithium-metal batteries.
-
-**Topics:** `battery technology` · `electrolytes` · `lithium-metal batteries`  
-**Key terms:** hydrofluorocarbon electrolytes, alkanes, monofluorinated structures, lithium-metal batteries  
+**Topics:** `artificial intelligence` · `science policy` · `UN initiatives`  
+**Key terms:** AI advisory panel, UN, science policy  
 
 ---
 
@@ -229,29 +195,14 @@
 [Full paper](https://www.nature.com/articles/s41587-026-03052-0)
 
 
-> This paper discusses the importance of sharing big data for sustainable agri-food innovation, but no specific details or findings are provided.
+> This paper discusses the importance of sharing big data for sustainable agri-food innovation, but no specific findings or methods are presented.
 
 **Topics:** `big data` · `agri-food innovation` · `sustainability`  
-**Key terms:** big data, agri-food innovation, sustainability  
+**Key terms:** big data, agri-food innovation, sustainable innovation  
 
 ---
 
-## biomechanics
-
-### Echinoderm stereom gradient structures enable mechanoelectrical perception
-**Nature** | Annan Chen, Ziqin Wang, Zhizi Guan, Jiajun Wu, Qi Wei Shi et al. (+6 more)  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10164-9)
-
-
-> Researchers discovered that sea urchin spines have exceptional mechanoelectrical sensing capabilities due to gradient structures, which can be replicated in 3D-printed mimics.
-
-**Topics:** `biomechanics` · `mechanoelectrical sensing` · `3D printing`  
-**Key terms:** echinoderm stereom, mechanoelectrical perception, gradient structures, 3D printing  
-
----
-
-## biotechnology
+## biophysics
 
 ### Why ‘quantum proteins’ could be the next big thing in biology
 **Nature** | Nicola Jones  
@@ -259,25 +210,25 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00662-1)
 
 
-> The authors discuss the potential of 'quantum proteins' to offer unprecedented views inside cells.
+> Fluorescent proteins with quantum properties could provide new insights into cellular processes.
 
-**Topics:** `biotechnology` · `protein engineering` · `quantum biology`  
-**Key terms:** quantum proteins, fluorescent proteins, cell biology  
+**Topics:** `biophysics` · `fluorescent proteins` · `cell biology`  
+**Key terms:** quantum proteins, fluorescent proteins, biophysics, cell biology  
 
 ---
 
-## cancer biology
+## book reviews
 
-### A disease model resource reveals core principles of tissue-specific cancer evolution
-**Nature** | Sebastian Mueller, Niklas de Andrade Krätzig, Markus Tschurtschenthaler, Miguel G. Silva, Chiara Thordsen et al. (+61 more)  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10187-2)
+### Brain mysteries and Bronze Age diplomacy: Books in brief
+**Nature** | Andrew Robinson  
+*Published: 27 Feb 2026* | ⚪ Routine  
+[Full paper](https://www.nature.com/articles/d41586-026-00621-w)
 
 
-> Researchers created a large database of cancer cell lines to better understand how cancer evolves in different tissues.
+> Andrew Robinson reviews five science books, covering topics from brain mysteries to Bronze Age diplomacy.
 
-**Topics:** `cancer biology` · `genomics` · `cell lines`  
-**Key terms:** cancer cell lines, genomics, cancer evolution  
+**Topics:** `book reviews` · `science literature`  
+**Key terms:** brain mysteries, Bronze Age diplomacy, science books  
 
 ---
 
@@ -289,10 +240,10 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10283-3)
 
 
-> A correction has been made to a previous study on myocardial reprogramming by HMGN1, which underlies heart defects in trisomy 21.
+> An author correction was made to a previous study on myocardial reprogramming by HMGN1, which underlies heart defects in trisomy 21.
 
-**Topics:** `cardiology` · `genetics` · `developmental biology`  
-**Key terms:** HMGN1, myocardial reprogramming, trisomy 21  
+**Topics:** `cardiology` · `genetics`  
+**Key terms:** myocardial reprogramming, HMGN1, trisomy 21  
 
 ---
 
@@ -304,10 +255,10 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00158-y)
 
 
-> Researchers are hesitant to share their career plans with colleagues in academia.
+> Researchers are often reluctant to disclose their plans to leave academia due to social stigma.
 
-**Topics:** `career development` · `academia` · `industry`  
-**Key terms:** career development, academia, industry  
+**Topics:** `career development` · `academic culture` · `industry transition`  
+**Key terms:** industry career move, academic stigma, career transition  
 
 ---
 
@@ -319,23 +270,10 @@
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00115-7?rss=yes)
 
 
-> Aconitase 2 plays a crucial role in the canonical TCA cycle by preventing citrate accumulation, which can trigger the integrated stress response and impair cell fitness.
+> Aconitase 2 plays a crucial role in preventing mitochondrial citrate accumulation, which can trigger the integrated stress response and impair cell fitness.
 
 **Topics:** `cell biology` · `metabolism` · `mitochondria`  
-**Key terms:** aconitase 2, TCA cycle, citrate clearance, mitochondrial function  
-
----
-
-### CLCC1 governs ER bilayer equilibration to maintain lipid homeostasis
-**Nature** | Lingzhi Wu, Jianqin Wang, Yawei Wang, Junhan Yang, Yuanhang Yao et al. (+18 more)  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10161-y)
-
-
-> Phospholipid scrambling at the endoplasmic reticulum is crucial for maintaining cellular homeostasis by establishing a dynamic equilibrium.
-
-**Topics:** `cell biology` · `lipid metabolism` · `endoplasmic reticulum`  
-**Key terms:** phospholipid scrambling, endoplasmic reticulum, cellular homeostasis  
+**Key terms:** aconitase 2, canonical TCA cycle, citrate clearance, mitochondrial citrate accumulation  
 
 ---
 
@@ -345,25 +283,25 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10137-y)
 
 
-> A species of choanoflagellate can form different types of cell clusters depending on the salinity of its environment.
+> The choanoflagellate Choanoeca flexa was found to form clonal-aggregative multicellularity in response to environmental conditions, including salinity.
 
-**Topics:** `cell biology` · `multicellularity` · `choanoflagellates`  
-**Key terms:** choanoflagellates, multicellularity, salinity  
+**Topics:** `cell biology` · `multicellularity` · `choanoflagellate`  
+**Key terms:** clonal-aggregative multicellularity, choanoflagellate, Choanoeca flexa  
 
 ---
 
 ## climate change
 
-### US climate actions must continue, despite setbacks
-**Nature** | David Widawsky  
+### Climate research is global — risks and responsibilities should also be distributed
+**Nature** | Zhenhua Rui, Lu Lin, Hongfang Lu, Y. Frank Cheng  
 *Published: 03 Mar 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/d41586-026-00660-3)
+[Full paper](https://www.nature.com/articles/d41586-026-00680-z)
 
 
-> The US is taking a step back from climate action, but cities, states, and businesses can continue to push for a cleaner environment.
+> The authors argue that climate research is a global effort, and therefore, risks and responsibilities should be distributed globally as well.
 
-**Topics:** `climate change` · `environmental policy` · `sustainability`  
-**Key terms:** greenhouse gases, climate action, sustainability  
+**Topics:** `climate change` · `global governance` · `research ethics`  
+**Key terms:** climate research, global risks, responsibilities  
 
 ---
 
@@ -373,23 +311,36 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00544-6)
 
 
-> A global assessment of avoidable climate-change risks is needed to understand the urgency of emissions reductions.
+> Policymakers and citizens need a full analysis of avoidable climate-change risks to understand the urgency of emissions reductions.
 
-**Topics:** `climate change` · `risk assessment` · `policymaking`  
-**Key terms:** climate change, risk assessment, emissions reductions  
+**Topics:** `climate change` · `risk assessment`  
+**Key terms:** climate change, risk assessment  
 
 ---
 
-### Climate research is global — risks and responsibilities should also be distributed
-**Nature** | Zhenhua Rui, Lu Lin, Hongfang Lu, Y. Frank Cheng  
+### The first ice-core record of historical atmospheric hydrogen levels
+**Nature** | Unknown authors  
+*Published: 25 Feb 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00578-w)
+
+
+> Atmospheric hydrogen levels have increased drastically due to human activity since the pre-industrial era, and this should be considered when projecting the consequences of rising anthropogenic hydrogen emissions.
+
+**Topics:** `climate change` · `atmospheric science`  
+**Key terms:** hydrogen, climate change, atmospheric science  
+
+---
+
+### US climate actions must continue, despite setbacks
+**Nature** | David Widawsky  
 *Published: 03 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00680-z)
+[Full paper](https://www.nature.com/articles/d41586-026-00660-3)
 
 
-> The authors argue that climate research is a global issue and that risks and responsibilities should be distributed accordingly.
+> US climate actions must continue despite setbacks, with cities, states, and businesses taking the lead.
 
-**Topics:** `climate change` · `global governance` · `research ethics`  
-**Key terms:** climate research, global governance, research ethics  
+**Topics:** `climate change` · `environmental policy` · `politics`  
+**Key terms:** climate change, greenhouse gases, environmental policy  
 
 ---
 
@@ -401,29 +352,14 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00560-6)
 
 
-> Policymakers should not rush to change green-hydrogen rules without reviewing the evidence.
+> Policymakers should review evidence before revamping green-hydrogen rules, as some policies may not be impeding adoption.
 
-**Topics:** `climate policy` · `green hydrogen` · `energy policy`  
-**Key terms:** green hydrogen, climate policy, energy policy  
-
----
-
-## climate science
-
-### The first ice-core record of historical atmospheric hydrogen levels
-**Nature** | Unknown authors  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/d41586-026-00578-w)
-
-
-> Atmospheric hydrogen levels have increased drastically due to human activity since the pre-industrial era, and vary in response to climate change.
-
-**Topics:** `climate science` · `atmospheric science` · `hydrogen cycling`  
-**Key terms:** atmospheric hydrogen, climate change, hydrogen emissions  
+**Topics:** `climate policy` · `energy policy`  
+**Key terms:** green hydrogen, climate policy  
 
 ---
 
-## colloidal assemblies
+## colloidal assembly
 
 ### Pivoting colloidal assemblies exhibit mechanical metamaterial behaviour
 **Nature** | Julio Melio, Martin van Hecke, Silke E. Henkes, Daniela J. Kraft  
@@ -431,10 +367,25 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10217-z)
 
 
-> Researchers developed a method to create colloidal assemblies that can change shape in response to temperature and magnetic fields.
+> A method for creating pivoting colloidal assemblies with tunable mechanical properties was developed, using rotating diamond and triangle geometries.
 
-**Topics:** `colloidal assemblies` · `metamaterials` · `thermodynamics`  
-**Key terms:** colloidal assemblies, metamaterials, thermodynamics, magnetic fields  
+**Topics:** `colloidal assembly` · `mechanical metamaterials` · `soft matter`  
+**Key terms:** pivoting colloidal assemblies, colloidal assembly, mechanical metamaterials  
+
+---
+
+## coral reefs
+
+### Coral microbiomes as reservoirs of unknown genomic and biosynthetic diversity
+**Nature** | Fabienne Wiederkehr, Lucas Paoli, Daniel Richter, Dora Racunica, Hans-Joachim Ruscheweyh et al. (+46 more)  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/s41586-026-10159-6)
+
+
+> This study highlights the importance of coral reefs as reservoirs of molecular diversity, with 820 reef-building corals collected from 99 reefs across 32 islands in the Pacific Ocean.
+
+**Topics:** `coral reefs` · `microbiomes` · `genomics` · `biosynthesis`  
+**Key terms:** coral reefs, microbiomes, genomics, biosynthesis, molecular diversity  
 
 ---
 
@@ -449,7 +400,7 @@
 > This paper is an author correction to a previous study on how healthy forests protect traditional wild meat food systems in Amazonia.
 
 **Topics:** `ecology` · `conservation biology` · `Amazonia`  
-**Key terms:** Amazonia, wild meat food systems, healthy forests  
+**Key terms:** wild meat food systems, Amazonia, forests, conservation  
 
 ---
 
@@ -457,14 +408,44 @@
 
 ### Shugoshin 2A stabilizes heterochromatin complexes to suppress the 2-cell-like state in embryonic stem cells
 **Stem Cell Reports** | Panpan Shi, Kairang Jin, Guoxing Yin, Lin Liu  
-*Published: 26 Feb 2026* | 🔴 **High impact**  
+*Published: 26 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00035-4?rss=yes)
 
 
 > Shugoshin 2A stabilizes heterochromatin complexes to suppress the 2-cell-like state in embryonic stem cells by regulating the stability of KAP1.
 
 **Topics:** `embryonic stem cells` · `heterochromatin` · `epigenetics`  
-**Key terms:** Shugoshin 2A, heterochromatin, KAP1, 2-cell-like state  
+**Key terms:** Shugoshin 2A, KAP1, heterochromatin complexes, 2-cell-like state  
+
+---
+
+## endoplasmic reticulum
+
+### CLCC1 governs ER bilayer equilibration to maintain lipid homeostasis
+**Nature** | Lingzhi Wu, Jianqin Wang, Yawei Wang, Junhan Yang, Yuanhang Yao et al. (+18 more)  
+*Published: 25 Feb 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10161-y)
+
+
+> Phospholipid scrambling at the endoplasmic reticulum is essential for establishing a dynamic equilibrium to maintain cellular homeostasis.
+
+**Topics:** `endoplasmic reticulum` · `phospholipid scrambling` · `cellular homeostasis`  
+**Key terms:** endoplasmic reticulum, phospholipid scrambling, cellular homeostasis, equilibrium  
+
+---
+
+## energy storage
+
+### Hydrofluorocarbon electrolytes for energy-dense and low-temperature batteries
+**Nature** | Lanqing Wu, Jinyu Zhang, Yong Li, Zhenyu Fan, Shuangxin Ren et al. (+7 more)  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/s41586-026-10210-6)
+
+
+> A new method for synthesizing alkanes with monofluorinated structures using hydrofluorocarbon electrolytes has been developed, enabling the creation of high-energy-density lithium-metal batteries that can operate at low temperatures.
+
+**Topics:** `energy storage` · `battery technology` · `electrochemistry`  
+**Key terms:** hydrofluorocarbon electrolytes, alkanes, lithium-metal batteries  
 
 ---
 
@@ -476,10 +457,10 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00538-4)
 
 
-> Robert Bullard argues that researchers in environmental justice have a responsibility to back up their work with action.
+> Robert Bullard, known as the father of environmental justice, emphasizes the importance of researchers taking action to support their work, particularly in Black communities.
 
-**Topics:** `environmental justice` · `social justice`  
-**Key terms:** environmental justice, Robert Bullard, social justice  
+**Topics:** `environmental justice` · `social sciences`  
+**Key terms:** environmental justice, Black communities, research action  
 
 ---
 
@@ -487,7 +468,7 @@
 
 ### Pokémon turns 30 — how the fictional pocket monsters shaped science
 **Nature** | Miryam Naddaf  
-*Published: 27 Feb 2026* | ⚪ Routine  
+*Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00441-y)
 
 
@@ -506,10 +487,10 @@
 [Full paper](https://www.nature.com/articles/s41587-026-03034-2)
 
 
-> In vitro gametogenesis (IVG) has potential for reproductive technology, but significant technical hurdles must be overcome.
+> In vitro gametogenesis (IVG) has potential for reproductive technology, but faces significant technical hurdles and requires public engagement.
 
 **Topics:** `fertility` · `reproductive technology` · `in vitro gametogenesis`  
-**Key terms:** in vitro gametogenesis, IVG, reproductive technology  
+**Key terms:** in vitro gametogenesis, reproductive technology, fertility  
 
 ---
 
@@ -521,10 +502,10 @@
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00109-1?rss=yes)
 
 
-> A nutrigenomics framework identified vitamin B3 as a potential therapy for NAXD deficiency, a lethal neurodevelopmental disorder, by rescuing NAD(P)(H) metabolism and preventing brain pathology.
+> A nutrigenomics framework identifies genetic diseases amenable to vitamin B2 and B3 therapies, and nominates vitamin B3 as a therapy for NAXD deficiency.
 
-**Topics:** `genetics` · `nutrition` · `neurology`  
-**Key terms:** vitamin B3, NAXD deficiency, nutrigenomics, NAD(P)(H) metabolism  
+**Topics:** `genetics` · `nutrigenomics` · `therapeutics`  
+**Key terms:** vitamin B2, vitamin B3, nutrigenomics, NAXD disease  
 
 ---
 
@@ -534,10 +515,10 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00675-w)
 
 
-> Researchers claim to have found the first conclusive case of sex 'distortion' in humans, which could be evidence of 'selfish genes' in humans.
+> Researchers claim to have found the first conclusive case of sex 'distortion' in humans, and also discuss how stem cells could treat spina bifida and the influence of Pokémon on science.
 
-**Topics:** `genetics` · `evolution` · `sex determination`  
-**Key terms:** selfish gene, sex ratio, genetics, evolution  
+**Topics:** `genetics` · `stem cells` · `spina bifida`  
+**Key terms:** sex distortion, stem cells, spina bifida, Pokémon  
 
 ---
 
@@ -547,10 +528,10 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00505-z)
 
 
-> A Utah family has been found to have twice as many boys as girls, potentially due to a 'selfish gene' that influences sex ratio.
+> A genealogy study suggests that a Utah family may have a 'selfish gene' that causes them to have twice as many boys as girls, but not all researchers are convinced.
 
-**Topics:** `genetics` · `evolution` · `sex determination`  
-**Key terms:** selfish gene, sex ratio, genetics, evolution  
+**Topics:** `genetics` · `sex determination`  
+**Key terms:** selfish gene, sex distortion, genealogy study  
 
 ---
 
@@ -560,10 +541,10 @@
 [Full paper](https://www.nature.com/articles/s41587-026-03056-w)
 
 
-> Researchers propose a commercial solution for extremely rare genetic diseases, but no specific details are provided.
+> A commercial solution for extremely rare genetic diseases is being established, but details are not provided.
 
 **Topics:** `genetics` · `rare diseases` · `biotechnology`  
-**Key terms:** genetic diseases, commercial solution, biotechnology  
+**Key terms:** genetic diseases, commercial solution, rare diseases  
 
 ---
 
@@ -575,38 +556,38 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10121-6)
 
 
-> Massively parallel reporter assays identified thousands of causal, noncoding regulatory variants that shape complex traits and disease.
+> Massively parallel reporter assays identified thousands of causal, noncoding regulatory variants among 220,000 loci, revealing diverse regulatory mechanisms shaping complex traits and disease.
 
-**Topics:** `genomics` · `regulatory genomics` · `complex traits`  
-**Key terms:** massively parallel reporter assays, noncoding regulatory variants, complex traits  
+**Topics:** `genomics` · `regulatory variants` · `complex traits` · `disease`  
+**Key terms:** regulatory variants, complex traits, disease, massively parallel reporter assays  
 
 ---
 
 ### Neanderthal dad, human mum: study reveals ancient procreation pattern
 **Nature** | Freda Kreier  
-*Published: 26 Feb 2026* | 🔴 **High impact**  
+*Published: 26 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00583-z)
 
 
-> A genomic analysis found that interbreeding between female Neanderthals and human males was less common than the opposite combination.
+> Genomic analysis revealed that interbreeding between female Neanderthals and human males was less common than the opposite combination.
 
-**Topics:** `genomics` · `evolutionary biology` · `anthropology`  
-**Key terms:** genomic analysis, Neanderthals, interbreeding, human evolution  
+**Topics:** `genomics` · `evolutionary biology` · `ancient DNA`  
+**Key terms:** Neanderthals, human evolution, interbreeding, genomic analysis  
 
 ---
 
 ## geology
 
-### Earth's oldest crystals suggest an early start for plate tectonics
+### Earth’s oldest crystals suggest an early start for plate tectonics
 **Nature** | Alexandra Witze  
 *Published: 02 Mar 2026* | 🔴 **High impact**  
 [Full paper](https://www.nature.com/articles/d41586-026-00628-3)
 
 
-> Earth's oldest crystals suggest that plate tectonics may have started 3.3 billion years ago, earlier than previously thought.
+> Earth's oldest crystals suggest that plate tectonics may have started 3.3 billion years ago.
 
-**Topics:** `geology` · `plate tectonics` · `Earth's history`  
-**Key terms:** plate tectonics, Earth's crust, crystals  
+**Topics:** `geology` · `plate tectonics`  
+**Key terms:** plate tectonics, crystals, Earth's crust  
 
 ---
 
@@ -620,7 +601,7 @@
 
 > A highly efficient protocol is established to generate PITX2+ embryonic oral epithelium from human pluripotent stem cells, providing a robust platform for studying human oral development and modeling craniofacial disorders.
 
-**Topics:** `human pluripotent stem cells` · `oral development` · `craniofacial disorders`  
+**Topics:** `human pluripotent stem cells` · `oral development` · `regenerative medicine`  
 **Key terms:** PITX2, embryonic oral epithelium, human pluripotent stem cells, Sonic Hedgehog signaling  
 
 ---
@@ -633,23 +614,23 @@
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00110-8?rss=yes)
 
 
-> Pyruvate can suppress interferon signaling by inducing STAT1 protein pyruvylation, a post-translational modification that can modulate immune signaling and host antiviral response.
+> Protein pyruvylation is a post-translational modification that can modulate immune signaling and host antiviral response.
 
-**Topics:** `immunology` · `protein modification` · `cell signaling`  
-**Key terms:** pyruvate, STAT1, pyruvylation, interferon signaling  
+**Topics:** `immunology` · `protein modification` · `post-translational modification`  
+**Key terms:** protein pyruvylation, interferon signaling, STAT1 protein  
 
 ---
 
-### Editorial Expression of&#xa0;Concern: The gene product Murr1 restricts HIV-1 replication in resting CD4+ lymphocytes
-**Nature** | Lakshmanan Ganesh, Ezra Burstein, Anuradha Guha-Niyogi, Mark K. Louder, John R. Mascola et al. (+4 more)  
-*Published: 27 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10308-x)
+### Environmental exposure trains the immune system to dampen allergic responses
+**Nature** | Talal A. Chatila  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/d41586-026-00040-x)
 
 
-> This paper discusses the gene product Murr1's role in restricting HIV-1 replication in resting CD4+ lymphocytes.
+> Environmental exposure to microorganisms can train the immune system to reduce allergic responses.
 
-**Topics:** `immunology` · `virology` · `HIV`  
-**Key terms:** Murr1, HIV-1, CD4+ lymphocytes, gene product  
+**Topics:** `immunology` · `allergy` · `environmental exposure`  
+**Key terms:** allergic responses, immune system, environmental exposure  
 
 ---
 
@@ -661,21 +642,8 @@
 
 > Early-life exposure to allergens triggers a distinct local mode of dendritic cell activation in neonatal skin, shaping responses to allergens in later life.
 
-**Topics:** `immunology` · `allergens` · `dendritic cells`  
-**Key terms:** dendritic cell activation, allergens, neonatal skin, immunology  
-
----
-
-### Environmental exposure trains the immune system to dampen allergic responses
-**Nature** | Talal A. Chatila  
-*Published: 25 Feb 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00040-x)
-
-
-> Reduced exposure to microorganisms in clean living conditions may contribute to an increased risk of allergies, according to mouse data.
-
-**Topics:** `immunology` · `allergy` · `microbiology`  
-**Key terms:** allergic responses, immune system, microbiome  
+**Topics:** `immunology` · `allergy` · `dendritic cells`  
+**Key terms:** dendritic cell activation, allergen exposure, neonatal skin  
 
 ---
 
@@ -687,10 +655,10 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10149-8)
 
 
-> Scientists engineered a type of immune cell to be more effective against solid tumors by optimizing a specific gene.
+> The identification of 'boosters' that drive gene overexpression in CAR constructs was found to be a simple and scalable strategy for developing effective CAR-NK cell therapies for solid tumours.
 
-**Topics:** `immunotherapy` · `cancer treatment` · `gene engineering`  
-**Key terms:** CAR-NK cells, immunotherapy, gene engineering  
+**Topics:** `immunotherapy` · `CAR-NK cell therapy` · `gene engineering`  
+**Key terms:** CAR-NK cell therapy, gene overexpression, boosters  
 
 ---
 
@@ -700,10 +668,10 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00622-9)
 
 
-> Researchers have developed ultra-sensitive CAR T cells that can target and eliminate solid tumors in mice.
+> Researchers developed ultra-sensitive CAR T cells that can eliminate hard-to-treat tumors in mice.
 
 **Topics:** `immunotherapy` · `cancer treatment` · `CAR T cells`  
-**Key terms:** CAR T cells, immunotherapy, cancer treatment  
+**Key terms:** CAR T cells, ultra-sensitive, solid tumors  
 
 ---
 
@@ -722,21 +690,6 @@
 
 ---
 
-## lipid biology
-
-### The protein carriers of hundreds of lipids have been identified
-**Nature** | Unknown authors  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/d41586-026-00570-4)
-
-
-> Researchers have identified over 130 human lipid-transfer proteins that transport hundreds of different lipids around the cell, providing insights into how these transporters work.
-
-**Topics:** `lipid biology` · `cell biology` · `protein structure`  
-**Key terms:** lipid-transfer proteins, lipid biology, cellular transport  
-
----
-
 ## magnetism
 
 ### Field-free full switching of chiral antiferromagnetic order
@@ -745,14 +698,40 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10175-6)
 
 
-> Researchers developed a method to efficiently switch chiral antiferromagnetic order without an external magnetic field, reducing power consumption and advancing magnetic memory devices.
+> A new method for efficiently switching chiral antiferromagnetic order without the need for an external magnetic field has been discovered, paving the way for energy-efficient magnetic memory devices.
 
-**Topics:** `magnetism` · `antiferromagnets` · `energy efficiency`  
-**Key terms:** chiral antiferromagnetic order, Mn3Sn, homo-junction, magnetic memory  
+**Topics:** `magnetism` · `spintronics` · `energy efficiency`  
+**Key terms:** chiral antiferromagnets, field-free switching, magnetic memory  
 
 ---
 
 ## materials science
+
+### Cavity-altered superconductivity
+**Nature** | Itai Keren, Tatiana A. Webb, Shuai Zhang, Jikai Xu, Dihao Sun et al. (+28 more)  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/s41586-025-10062-6)
+
+
+> A new platform using hexagonal boron nitride and a molecular superconductor creates cavity-altered materials.
+
+**Topics:** `materials science` · `superconductivity` · `nanotechnology`  
+**Key terms:** hexagonal boron nitride, superconductor, cavity-altered materials  
+
+---
+
+### Limitations of probing field-induced response with STM
+**Nature** | Christopher Candelora, Ilija Zeljkovic  
+*Published: 25 Feb 2026* | ⚪ Routine  
+[Full paper](https://www.nature.com/articles/s41586-026-10126-1)
+
+
+> Researchers found limitations in using STM to probe field-induced response.
+
+**Topics:** `materials science` · `nanotechnology` · `physics`  
+**Key terms:** STM, field-induced response  
+
+---
 
 ### Reply to: Limitations of probing field-induced response with STM
 **Nature** | Yuqing Xing, Seokjin Bae, Stephen D. Wilson, Ziqiang Wang, Rafael M. Fernandes et al. (+1 more)  
@@ -760,25 +739,25 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10127-0)
 
 
-> This is a reply to a previous paper discussing limitations of probing field-induced response with STM.
+> A reply to a previous paper discussed limitations of using scanning tunneling microscopy (STM) to probe field-induced responses.
 
 **Topics:** `materials science` · `nanotechnology` · `scanning tunneling microscopy`  
-**Key terms:** STM, field-induced response, materials science  
+**Key terms:** STM, field-induced response, materials characterization  
 
 ---
 
 ## microbiology
 
-### Coral microbiomes as reservoirs of unknown genomic and biosynthetic diversity
-**Nature** | Fabienne Wiederkehr, Lucas Paoli, Daniel Richter, Dora Racunica, Hans-Joachim Ruscheweyh et al. (+46 more)  
+### Convergent MurJ flippase inhibition by phage lysis proteins
+**Nature** | Yancheng E. Li, S. Francesca Antillon, Grace F. Baron, Karthik Chamakura, Ry Young et al. (+1 more)  
 *Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10159-6)
+[Full paper](https://www.nature.com/articles/s41586-026-10163-w)
 
 
-> A study of coral microbiomes reveals a vast reservoir of unknown genomic and biosynthetic diversity, highlighting the importance of conserving coral reefs to preserve this molecular diversity.
+> A common mechanism of inhibition of the MurJ flippase by phage-encoded lysis proteins was discovered, providing insights into potential new targets for antimicrobial development.
 
-**Topics:** `microbiology` · `coral reefs` · `genomic diversity`  
-**Key terms:** coral microbiomes, genomic diversity, biosynthetic diversity, coral reefs  
+**Topics:** `microbiology` · `phage biology` · `antimicrobial development`  
+**Key terms:** MurJ flippase, phage-encoded lysis proteins, antimicrobial development  
 
 ---
 
@@ -788,10 +767,10 @@
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00108-X?rss=yes)
 
 
-> The MicrobeAtlas database provides a comprehensive resource for analyzing microbial lineages across diverse environments, conditions, and technologies, offering insights into Earth's microbial ecosystems.
+> The MicrobeAtlas database provides a comprehensive resource for analyzing microbial lineages across diverse environments, conditions, and technologies.
 
-**Topics:** `microbiology` · `ecology` · `bioinformatics`  
-**Key terms:** MicrobeAtlas, microbial lineages, ecosystems, microbiomics  
+**Topics:** `microbiology` · `bioinformatics` · `ecology`  
+**Key terms:** MicrobeAtlas, microbiomics, microbial lineages  
 
 ---
 
@@ -801,10 +780,38 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10320-1)
 
 
-> A correction has been made to a previous study on the role of root microbiota in phosphate stress and immunity.
+> A correction to a previous paper on root microbiota and phosphate stress has been published.
 
 **Topics:** `microbiology` · `plant biology` · `immunology`  
 **Key terms:** root microbiota, phosphate stress, immunity  
+
+---
+
+## molecular biology
+
+### A membrane-bound nuclease directly cleaves phage DNA during genome injection
+**Nature** | Daniel S. Saxton, Peter C. DeWeirdt, Christopher R. Doering, Ian J. Roney, Michael T. Laub  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/s41586-026-10207-1)
+
+
+> A bacterial defence system called SNIPE can identify and cleave the DNA of infecting phage as it is injected into the bacterial cell.
+
+**Topics:** `molecular biology` · `immunology` · `phage biology`  
+**Key terms:** SNIPE, membrane-bound nuclease, phage DNA  
+
+---
+
+### BCDX2–CX3 and DX2–CX3 complexes assemble and stabilize RAD51 filaments
+**Nature** | Christopher W. Koo, Jiaqi Xiao, Sebastien Coassolo, Jie Liu, Christine Yu et al. (+8 more)  
+*Published: 02 Mar 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/s41586-026-10314-z)
+
+
+> BCDX2–CX3 and DX2–CX3 complexes assemble and stabilize RAD51 filaments, a crucial process in DNA repair.
+
+**Topics:** `molecular biology` · `DNA repair` · `protein structure`  
+**Key terms:** RAD51 filaments, DNA repair, protein complexes  
 
 ---
 
@@ -816,9 +823,9 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00292-7)
 
 
-> A species has been found to develop multicellularity through two distinct mechanisms: cell division and individual attachment.
+> A species has been found to develop multicellularity through two distinct mechanisms: cell division and cell attachment.
 
-**Topics:** `multicellularity` · `cell biology` · `evolution`  
+**Topics:** `multicellularity` · `cell biology` · `evolutionary biology`  
 **Key terms:** multicellularity, cell division, cell attachment  
 
 ---
@@ -831,9 +838,9 @@
 [Full paper](https://www.nature.com/articles/s41592-026-03008-x)
 
 
-> A new algorithm called DECODE provides a unified framework for deconvolution of transcriptomic, proteomic, and metabolomic datasets.
+> A new algorithm called DECODE offers a unified framework for deconvolution of transcriptomic, proteomic, and metabolomic datasets.
 
-**Topics:** `multiomics` · `deconvolution` · `bioinformatics`  
+**Topics:** `multiomics` · `deconvolution` · `machine learning`  
 **Key terms:** DECODE, deconvolution, multiomics  
 
 ---
@@ -844,14 +851,14 @@
 [Full paper](https://www.nature.com/articles/s41592-026-03007-y)
 
 
-> DECODE is a universal deconvolution framework for cell types and cell states that can be applied to various omics data.
+> A universal deconvolution framework called DECODE can be applied to various omics data, including transcriptomic, proteomic, and metabolomic data.
 
-**Topics:** `multiomics` · `deconvolution` · `bioinformatics`  
+**Topics:** `multiomics` · `deconvolution` · `machine learning`  
 **Key terms:** DECODE, deconvolution, omics data  
 
 ---
 
-## nanoparticles
+## nanotechnology
 
 ### Pancreatic-targeted lipid nanoparticles based on organ capsule filtration
 **Nature** | Jiaqi Lei, Kai Yang, Wanyue Cao, Shaolong Qi, Xianlong Du et al. (+12 more)  
@@ -859,70 +866,14 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10158-7)
 
 
-> Lipid nanoparticles can be designed to target the pancreas, enabling the precise delivery of nucleic acid therapeutics for the treatment of pancreatic diseases.
+> Lipid nanoparticles can be designed to target the pancreas for the precise delivery of nucleic acid therapeutics, promising potential in treating pancreatic diseases.
 
-**Topics:** `nanoparticles` · `pancreatic disease` · `nucleic acid therapeutics`  
-**Key terms:** lipid nanoparticles, pancreas targeting, nucleic acid therapeutics, pancreatic disease  
-
----
-
-## nanotechnology
-
-### Limitations of probing field-induced response with STM
-**Nature** | Christopher Candelora, Ilija Zeljkovic  
-*Published: 25 Feb 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10126-1)
-
-
-> The study highlights limitations of using scanning tunneling microscopy (STM) to probe field-induced responses.
-
-**Topics:** `nanotechnology` · `scanning tunneling microscopy` · `field-induced response`  
-**Key terms:** STM, scanning tunneling microscopy, field-induced response, limitations  
+**Topics:** `nanotechnology` · `pharmacology` · `organoids`  
+**Key terms:** lipid nanoparticles, pancreatic targeting, nucleic acid therapeutics  
 
 ---
 
 ## neurology
-
-### Parkinson’s disease affects network of brain regions that controls whole-body action
-**Nature** | Unknown authors  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/d41586-026-00573-1)
-
-
-> Parkinson's disease affects a network of brain regions that controls whole-body action, leading to abnormally high connectivity in the somato-cognitive action network.
-
-**Topics:** `neurology` · `Parkinson's disease` · `brain imaging`  
-**Key terms:** somato-cognitive action network, brain regions, Parkinson's disease  
-
----
-
-## neuroscience
-
-### Brains of ‘super agers’ are strong producers of new neurons
-**Nature** | Mariana Lenharo  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/d41586-026-00599-5)
-
-
-> Older individuals with exceptional memory have a higher number of young neurons, suggesting a potential link between brain plasticity and cognitive function.
-
-**Topics:** `neuroscience` · `aging` · `brain development`  
-**Key terms:** neurogenesis, brain plasticity, aging  
-
----
-
-### Compact deep neural network models of the visual cortex
-**Nature** | Benjamin R. Cowley, Patricia L. Stan, Jonathan W. Pillow, Matthew A. Smith  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10150-1)
-
-
-> Deep neural network models can be used to predict visual neuron responses with high accuracy.
-
-**Topics:** `neuroscience` · `machine learning` · `deep learning`  
-**Key terms:** deep neural network, visual cortex, neural network models  
-
----
 
 ### How an exercise-activated enzyme helps to keep the brain young
 **Nature** | Unknown authors  
@@ -930,23 +881,51 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00515-x)
 
 
-> A protein helps to keep the blood–brain barrier healthy, which becomes leaky with age.
+> A protein helps keep the blood-brain barrier strong, which becomes leaky with age.
 
-**Topics:** `neuroscience` · `aging` · `protein structure`  
-**Key terms:** blood–brain barrier, aging, exercise-activated enzyme  
+**Topics:** `neurology` · `protein structure` · `aging`  
+**Key terms:** blood-brain barrier, protein, aging  
 
 ---
 
-### Human hippocampal neurogenesis in adulthood, ageing and Alzheimer’s disease
-**Nature** | Ahmed Disouky, Mark A. Sanborn, K. R. Sabitha, Mostafa M. Mostafa, Ivan Alejandro Ayala et al. (+11 more)  
+### Parkinson’s disease affects network of brain regions that controls whole-body action
+**Nature** | Unknown authors  
+*Published: 25 Feb 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00573-1)
+
+
+> Parkinson's disease affects a network of brain regions that controls whole-body action, and treatment can normalize connectivity in this network.
+
+**Topics:** `neurology` · `Parkinson's disease` · `brain imaging`  
+**Key terms:** Parkinson's disease, somato-cognitive action network, brain imaging  
+
+---
+
+## neuroscience
+
+### Compact deep neural network models of the visual cortex
+**Nature** | Benjamin R. Cowley, Patricia L. Stan, Jonathan W. Pillow, Matthew A. Smith  
 *Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10169-4)
+[Full paper](https://www.nature.com/articles/s41586-026-10150-1)
 
 
-> Multiomic single-cell sequencing revealed distinct signatures of neurogenesis in human hippocampi across ages and different cognitive abilities.
+> Deep neural network models can be used to predict visual neuron responses.
 
-**Topics:** `neuroscience` · `single-cell genomics` · `neurogenesis`  
-**Key terms:** neurogenesis, human hippocampus, single-cell sequencing, cognitive decline  
+**Topics:** `neuroscience` · `machine learning` · `computer vision`  
+**Key terms:** deep neural networks, visual cortex, neuron responses  
+
+---
+
+### This compound enhances long-term memory of mice — but only in females
+**Nature** | Mohana Basu  
+*Published: 26 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/d41586-026-00603-y)
+
+
+> A compound called acetate was found to enhance long-term memory in female mice but not in males.
+
+**Topics:** `neuroscience` · `memory` · `gender differences`  
+**Key terms:** acetate, long-term memory, female mice, male mice  
 
 ---
 
@@ -956,10 +935,10 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10190-7)
 
 
-> Mice learning a brain-computer interface task show neuron-specific teaching signals in cortical dendrites, providing insight into how the brain assigns credit for learning.
+> Learning a neurofeedback brain–computer interface task in mice shows neuron-specific teaching signals in cortical dendrites.
 
-**Topics:** `neuroscience` · `cortical dendrites` · `brain-computer interface`  
-**Key terms:** neuron-specific teaching signals, cortical dendrites, brain-computer interface, credit assignment  
+**Topics:** `neuroscience` · `machine learning` · `neuroplasticity`  
+**Key terms:** neurofeedback, cortical dendrites, vectorized solution  
 
 ---
 
@@ -969,23 +948,23 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00626-5)
 
 
-> Research on people with aphantasia, a condition where individuals lack mental imagery, provides insights into consciousness.
+> People with aphantasia, a condition where they have no mental imagery, offer insights into consciousness and brain function.
 
-**Topics:** `neuroscience` · `cognition` · `consciousness`  
+**Topics:** `neuroscience` · `psychology`  
 **Key terms:** aphantasia, mental imagery, consciousness  
 
 ---
 
-### This compound enhances long-term memory of mice — but only in females
-**Nature** | Mohana Basu  
-*Published: 26 Feb 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00603-y)
+### Brains of ‘super agers’ are strong producers of new neurons
+**Nature** | Mariana Lenharo  
+*Published: 25 Feb 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00599-5)
 
 
-> A compound called acetate enhances long-term memory in female mice but has a lesser effect in males.
+> Older individuals with exceptional memory have a higher number of young neurons in their brains.
 
-**Topics:** `neuroscience` · `memory` · `gender differences`  
-**Key terms:** acetate, long-term memory, gender differences  
+**Topics:** `neuroscience` · `aging` · `neuroplasticity`  
+**Key terms:** young neurons, neurogenesis, exceptional memory  
 
 ---
 
@@ -997,10 +976,25 @@
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00098-X?rss=yes)
 
 
-> Nuclear speckles play a key role in processing RNA from GC-rich regions in the genome. The evolution of core speckle proteins was crucial for the increased GC content seen in amniote genomes. This discovery highlights the importance of nuclear speckles in regulating gene expression.
+> Nuclear speckles play a key role in processing RNA from GC-rich regions in the genome. The evolution of core speckle proteins was crucial for the increased GC content seen in amniote genomes.
 
 **Topics:** `nuclear speckles` · `RNA processing` · `genomics`  
-**Key terms:** nuclear speckles, GC-rich regions, gene expression, amniote genomes  
+**Key terms:** nuclear speckles, GC-rich regions, amniote genomes, RNA processing  
+
+---
+
+## organoids
+
+### The age of animal experiments is waning. Where will science go next?
+**Nature** | Diana Kwon  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/d41586-026-00563-3)
+
+
+> Advances in organ and computer models may reduce the need for animal experiments, but significant hurdles remain.
+
+**Topics:** `organoids` · `machine learning` · `animal models`  
+**Key terms:** organ and computer models, animal experiments, alternatives to animal testing  
 
 ---
 
@@ -1012,79 +1006,51 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10194-3)
 
 
-> A well-preserved fossil of the alvarezsauroid Alnashetri cerropoliciensis provides insights into the evolution of this unusual theropod dinosaur clade, challenging current understanding of its anatomy and miniaturization.
+> A well-preserved skeleton of the alvarezsauroid Alnashetri cerropoliciensis has been discovered, providing new insights into the evolution of this unusual theropod dinosaur clade.
 
-**Topics:** `paleontology` · `dinosaur evolution` · `theropod dinosaurs`  
-**Key terms:** Alnashetri cerropoliciensis, alvarezsauroid, theropod dinosaurs, evolution  
-
----
-
-## phage biology
-
-### Convergent MurJ flippase inhibition by phage lysis proteins
-**Nature** | Yancheng E. Li, S. Francesca Antillon, Grace F. Baron, Karthik Chamakura, Ry Young et al. (+1 more)  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10163-w)
-
-
-> Researchers discovered a common mechanism by which phage-encoded proteins can inhibit a bacterial enzyme, which could lead to new antimicrobial targets.
-
-**Topics:** `phage biology` · `antimicrobial resistance` · `bacterial enzymes`  
-**Key terms:** phage-encoded proteins, antimicrobial resistance, bacterial enzymes  
+**Topics:** `paleontology` · `dinosaur evolution` · `fossil discovery`  
+**Key terms:** Alnashetri cerropoliciensis, alvarezsauroids, theropod dinosaurs  
 
 ---
 
 ## physics
 
-### Amplified X-ray laser pulses achieved using mirror set-up
-**Nature** | Unknown authors  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/d41586-026-00580-2)
-
-
-> A new X-ray laser set-up using highly reflective mirrors has been developed, enabling the generation of high-intensity pulses of narrow-band X-ray radiation.
-
-**Topics:** `physics` · `laser technology` · `X-ray science`  
-**Key terms:** X-ray laser, mirror set-up, high-intensity pulses  
-
----
-
-### How earthquakes and lightning help explain squeaky sneakers
-**Nature** | Nick Petrić Howe, Dan Fox  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/d41586-026-00619-4)
-
-
-> Researchers found that shoe squeaks can be caused by tiny bolts of lightning and that a debated brain phenomenon exists in humans.
-
-**Topics:** `physics` · `earthquakes` · `lightning`  
-**Key terms:** squeaky sneakers, high-speed footage, lightning, brain phenomenon  
-
----
-
 ### Squeaking at soft–rigid frictional interfaces
 **Nature** | Adel Djellouli, Gabriele Albertini, Jackson Wilt, Vincent Tournat, David Weitz et al. (+2 more)  
-*Published: 25 Feb 2026* | 🟡 Medium  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
 [Full paper](https://www.nature.com/articles/s41586-026-10132-3)
 
 
-> The squeak of soft-rigid frictional interfaces, like sneakers on a basketball court, arises from intersonic opening slip pulses that thin ridges on the rubber confine to repeat at a musical frequency.
+> Researchers discovered that the squeak of soft-rigid frictional interfaces, like sneakers on a basketball court, is caused by intersonic opening slip pulses that repeat at a musical frequency.
 
-**Topics:** `physics` · `frictional interfaces` · `material science`  
-**Key terms:** squeak, frictional interfaces, intersonic opening slip pulses, material science  
+**Topics:** `physics` · `materials science` · `friction`  
+**Key terms:** intersonic opening slip pulses, soft-rigid frictional interfaces, high-speed imaging  
 
 ---
 
 ### The squeal of peeling tape, explained
 **Nature** | Unknown authors  
-*Published: 02 Mar 2026* | 🟡 Medium  
+*Published: 02 Mar 2026* | 🔴 **High impact**  
 [Full paper](https://www.nature.com/articles/d41586-026-00516-w)
 
 
 > The sound of peeling tape is caused by weak shock waves triggered by micro-cracks in the adhesive layer.
 
-**Topics:** `physics` · `materials science` · `acoustics`  
-**Key terms:** peeling tape, adhesive layer, shock waves  
+**Topics:** `physics` · `materials science`  
+**Key terms:** adhesive layer, micro-cracks, shock waves  
+
+---
+
+### How earthquakes and lightning help explain squeaky sneakers
+**Nature** | Nick Petrić Howe, Dan Fox  
+*Published: 25 Feb 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00619-4)
+
+
+> High-speed footage shows that shoe squeaks can be caused by tiny lightning bolts and a debated brain phenomenon.
+
+**Topics:** `physics` · `neuroscience` · `materials science`  
+**Key terms:** lightning, shoe squeaks, brain phenomenon  
 
 ---
 
@@ -1094,10 +1060,10 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00295-4)
 
 
-> The pitch of a squeaking shoe depends on the rate at which deformations of the sole are generated when it slides across a floor.
+> The pitch of a squeaking basketball shoe depends on the rate at which the sole deforms when sliding across a floor.
 
-**Topics:** `physics` · `materials science` · `acoustics`  
-**Key terms:** squeaking, shoes, sole deformations  
+**Topics:** `physics` · `acoustics`  
+**Key terms:** squeaking, deformation, acoustics  
 
 ---
 
@@ -1107,14 +1073,14 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00620-x)
 
 
-> Research may have solved the mystery of why soft shoes squeak on hard floors.
+> Research may have solved the mystery of why soft shoes squeak on hard floors, revealing the surprising science behind this phenomenon.
 
 **Topics:** `physics` · `materials science` · `acoustics`  
-**Key terms:** squeaky sneakers, friction, acoustics  
+**Key terms:** squeaky sneakers, friction, acoustic emission  
 
 ---
 
-## plant genetics
+## plant biology
 
 ### Rewiring an E3 ligase enhances cold resilience and phosphate use in maize
 **Nature** | Huan Liao, Xiaoyun Zhao, Keyu Ren, Li Guo, Zhuoyang Li et al. (+13 more)  
@@ -1122,10 +1088,10 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10142-1)
 
 
-> A genetically engineered E3 ubiquitin ligase variant in maize improves cold tolerance and phosphate uptake, leading to increased yield in field trials.
+> A genetically engineered variant of the E3 ubiquitin ligase NLA has been developed, leading to improved cold tolerance and enhanced phosphate uptake in maize, increasing crop yield.
 
-**Topics:** `plant genetics` · `cold tolerance` · `phosphate uptake`  
-**Key terms:** E3 ubiquitin ligase, NLA, maize, cold tolerance, phosphate uptake  
+**Topics:** `plant biology` · `genetic engineering` · `crop improvement`  
+**Key terms:** E3 ubiquitin ligase, cold tolerance, phosphate uptake  
 
 ---
 
@@ -1137,25 +1103,25 @@
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00037-8?rss=yes)
 
 
-> Human primordial germ cell-like cells (hPGCLCs) can be matured in vitro using reconstituted human fetal ovaries (rOvs) or amnion-like cells. SCF is crucial for the survival of hPGCLCs, and hPGCLCs cultured with amnion-like cells acquired migratory fate without dedifferentiation.
+> Human primordial germ cell-like cells can be matured in vitro using reconstituted human fetal ovaries or amnion-like cells. SCF is crucial for the survival of these cells.
 
-**Topics:** `primordial germ cells` · `stem cell culture` · `cellular niche`  
-**Key terms:** primordial germ cell-like cells, reconstituted human fetal ovaries, SCF  
+**Topics:** `primordial germ cells` · `stem cell biology` · `in vitro reconstitution`  
+**Key terms:** primordial germ cell-like cells, SCF, in vitro reconstitution, human fetal ovaries  
 
 ---
 
 ## protein structure
 
-### BCDX2–CX3 and DX2–CX3 complexes assemble and stabilize RAD51 filaments
-**Nature** | Christopher W. Koo, Jiaqi Xiao, Sebastien Coassolo, Jie Liu, Christine Yu et al. (+8 more)  
-*Published: 02 Mar 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-026-10314-z)
+### The protein carriers of hundreds of lipids have been identified
+**Nature** | Unknown authors  
+*Published: 25 Feb 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00570-4)
 
 
-> Two protein complexes, BCDX2–CX3 and DX2–CX3, have been found to assemble and stabilize RAD51 filaments.
+> Researchers have identified hundreds of lipid-transfer proteins that transport different types of lipids around the cell.
 
-**Topics:** `protein structure` · `molecular biology` · `genetics`  
-**Key terms:** RAD51 filaments, protein complexes, DNA repair  
+**Topics:** `protein structure` · `cell biology` · `lipid metabolism`  
+**Key terms:** lipid-transfer proteins, lipid transport, biochemical approaches  
 
 ---
 
@@ -1167,10 +1133,10 @@
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00104-2?rss=yes)
 
 
-> Deep proteome profiling of cerebrospinal fluid samples identified a 22-protein assay that improves the differential diagnosis of multiple sclerosis from other inflammatory conditions.
+> Deep proteome profiling of cerebrospinal fluid samples maps protein alterations across major neurological disorders, resolving key sources of variation and yielding a 22-protein assay for multiple sclerosis diagnosis.
 
-**Topics:** `proteomics` · `neurology` · `diagnosis`  
-**Key terms:** proteome profiling, multiple sclerosis, cerebrospinal fluid, diagnosis  
+**Topics:** `proteomics` · `neurology` · `multiple sclerosis`  
+**Key terms:** proteome profiling, mass spectrometry, multiple sclerosis diagnosis  
 
 ---
 
@@ -1182,29 +1148,29 @@
 [Full paper](https://www.nature.com/articles/s41586-026-10171-w)
 
 
-> Researchers used entangled quantum memories in a quantum network to perform non-local phase measurements.
+> Scientists used entangled quantum memories in a quantum network to experimentally perform non-local phase measurements.
 
-**Topics:** `quantum computing` · `optical interferometry` · `quantum networks`  
-**Key terms:** entanglement, quantum memories, silicon-vacancy centres, diamond nanocavities  
-
----
-
-## science books
-
-### Brain mysteries and Bronze Age diplomacy: Books in brief
-**Nature** | Andrew Robinson  
-*Published: 27 Feb 2026* | ⚪ Routine  
-[Full paper](https://www.nature.com/articles/d41586-026-00621-w)
-
-
-> Andrew Robinson reviews five science books, covering topics from brain mysteries to Bronze Age diplomacy.
-
-**Topics:** `science books` · `book reviews`  
-**Key terms:** brain mysteries, Bronze Age diplomacy, book reviews  
+**Topics:** `quantum computing` · `optics` · `quantum information`  
+**Key terms:** entanglement, quantum memories, silicon-vacancy centres  
 
 ---
 
-## science journalism
+## science ethics
+
+### Scientists face fallout for past associations with Epstein
+**Nature** | Natasha Gilbert  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/d41586-026-00554-4)
+
+
+> Scientists who worked with Jeffrey Epstein are facing backlash due to newly released documents.
+
+**Topics:** `science ethics` · `epstein scandal`  
+**Key terms:** Jeffrey Epstein, science ethics  
+
+---
+
+## science news
 
 ### Briefing chat: Pokémon turns 30 — how Pikachu and pals inspired generations of researchers
 **Nature** | Benjamin Thompson, Nick Petrić Howe, Miryam Naddaf  
@@ -1212,10 +1178,10 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00674-x)
 
 
-> Nature staff discuss the week's top science news, including Pokémon's 30th anniversary.
+> Nature staff discuss the week's top science news, including the 30th anniversary of Pokémon and its impact on generations of researchers.
 
-**Topics:** `science journalism` · `popular science`  
-**Key terms:** Pokémon, science news, popular culture  
+**Topics:** `science news` · `popular culture`  
+**Key terms:** Pokémon, 30th anniversary, science inspiration  
 
 ---
 
@@ -1223,27 +1189,14 @@
 
 ### White House stalls release of approved US science budgets
 **Nature** | Max Kozlov, Alexandra Witze, Dan Garisto  
-*Published: 27 Feb 2026* | 🟡 Medium  
+*Published: 27 Feb 2026* | 🔴 **High impact**  
 [Full paper](https://www.nature.com/articles/d41586-026-00601-0)
 
 
-> The US Congress rejected sweeping cuts to science agencies, but the NIH, NSF, and NASA have had their spending slowed.
+> The US Congress rejected sweeping cuts to science agencies, but the NIH, NSF, and NASA have had their spending slowed, highlighting the challenges of US science funding.
 
 **Topics:** `science policy` · `US politics`  
-**Key terms:** US Congress, science agencies, NIH, NSF, NASA  
-
----
-
-### Scientists face fallout for past associations with Epstein
-**Nature** | Natasha Gilbert  
-*Published: 25 Feb 2026* | ⚪ Routine  
-[Full paper](https://www.nature.com/articles/d41586-026-00554-4)
-
-
-> Researchers whose work or careers were associated with Jeffrey Epstein have faced repercussions due to newly released documents.
-
-**Topics:** `science policy` · `ethics` · `research integrity`  
-**Key terms:** research ethics, science policy, Jeffrey Epstein  
+**Key terms:** US Congress, science funding, NIH, NSF, NASA  
 
 ---
 
@@ -1255,24 +1208,63 @@
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(25)01507-7?rss=yes)
 
 
-> Whole-organ and whole-body 3D atlases enable cellome-wide profiling at single-cell resolution. This technology allows for quantitative analysis across development, physiology, and pathology.
+> Whole-organ and whole-body atlases can be used for cellome-wide profiling at single-cell resolution. This enables quantitative analysis across development, physiology, and pathology.
 
-**Topics:** `single-cell genomics` · `3D atlases` · `cellome-wide profiling`  
-**Key terms:** single-cell resolution, whole-organ atlases, cellome-wide analysis  
+**Topics:** `single-cell genomics` · `whole-organ atlases` · `cellome-wide profiling`  
+**Key terms:** whole-organ atlases, single-cell resolution, cellome-wide profiling, developmental biology  
 
 ---
 
-## social media
+### A disease model resource reveals core principles of tissue-specific cancer evolution
+**Nature** | Sebastian Mueller, Niklas de Andrade Krätzig, Markus Tschurtschenthaler, Miguel G. Silva, Chiara Thordsen et al. (+61 more)  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/s41586-026-10187-2)
+
+
+> A comprehensive resource for cancer research, the Mouse Cancer Cell line Atlas (MCCA), has been developed, providing insights into the evolution of cancer genomes.
+
+**Topics:** `single-cell genomics` · `cancer genomics` · `mouse models`  
+**Key terms:** Mouse Cancer Cell line Atlas, cancer evolution, genomics  
+
+---
+
+### Echinoderm stereom gradient structures enable mechanoelectrical perception
+**Nature** | Annan Chen, Ziqin Wang, Zhizi Guan, Jiajun Wu, Qi Wei Shi et al. (+6 more)  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/s41586-026-10164-9)
+
+
+> Sea urchin spines have a unique structure that allows them to sense mechanical forces and can be replicated in 3D-printed mimics for underwater sensing.
+
+**Topics:** `single-cell genomics` · `mechanics` · `biomimetics`  
+**Key terms:** stereom, mechanoelectrical sensing, 3D printing  
+
+---
+
+### Human hippocampal neurogenesis in adulthood, ageing and Alzheimer’s disease
+**Nature** | Ahmed Disouky, Mark A. Sanborn, K. R. Sabitha, Mostafa M. Mostafa, Ivan Alejandro Ayala et al. (+11 more)  
+*Published: 25 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/s41586-026-10169-4)
+
+
+> Researchers mapped neurogenesis in human hippocampi across different ages and cognitive abilities, revealing distinct signatures between cognitive preservation and decline.
+
+**Topics:** `single-cell genomics` · `neuroscience` · `aging`  
+**Key terms:** neurogenesis, hippocampi, multiomic single-cell sequencing  
+
+---
+
+## sociology
 
 ### The hidden lives behind China’s great Internet firewall
 **Nature** | Chris Stokel-Walker  
-*Published: 02 Mar 2026* | 🟡 Medium  
+*Published: 02 Mar 2026* | ⚪ Routine  
 [Full paper](https://www.nature.com/articles/d41586-026-00664-z)
 
 
-> The digital ecosystem in China is explored, revealing human stories and acts of resistance behind the country's Internet firewall.
+> China's tightly controlled digital ecosystem is filled with human stories and acts of resistance.
 
-**Topics:** `social media` · `digital culture` · `China`  
+**Topics:** `sociology` · `computing`  
 **Key terms:** Internet firewall, digital ecosystem, China  
 
 ---
@@ -1281,7 +1273,7 @@
 
 ### Regenesis: Repair and regeneration reinvented in stem cell therapeutics
 **Stem Cell Reports** | Hitesh Chopra, Yuanyuan Han  
-*Published: 26 Feb 2026* | 🟡 Medium  
+*Published: 26 Feb 2026* | ⚪ Routine  
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00036-6?rss=yes)
 
 
@@ -1300,14 +1292,27 @@
 [Full paper](https://www.cell.com/cell-stem-cell/fulltext/S1934-5909(26)00040-8?rss=yes)
 
 
-> A phase 2 randomized trial of intravenous laromestrocel, a mesenchymal stem cell product, improved the physical condition of patients with age-related clinical frailty after 9 months. Reduced sTIE2 in blood provides a mechanistic link to improved vascular function and inflammaging.
+> A phase 2 randomized trial of intravenous laromestrocel, a mesenchymal stem cell product, showed improved physical condition in patients with age-related clinical frailty after 9 months compared to placebo.
 
-**Topics:** `stem cell therapy` · `aging frailty` · `vascular function`  
-**Key terms:** laromestrocel, mesenchymal stem cells, age-related frailty, sTIE2  
+**Topics:** `stem cell therapy` · `aging frailty` · `mesenchymal stem cells`  
+**Key terms:** laromestrocel, mesenchymal stem cells, age-related clinical frailty, vascular function  
 
 ---
 
 ## stem cells
+
+### Daily briefing: Stem-cell treatment strengthens people with age-related frailty
+**Nature** | Jacob Smith  
+*Published: 26 Feb 2026* | 🔴 **High impact**  
+[Full paper](https://www.nature.com/articles/d41586-026-00672-z)
+
+
+> A single dose of stem cells was found to help older people with frailty build up their endurance.
+
+**Topics:** `stem cells` · `age-related frailty` · `regenerative medicine`  
+**Key terms:** stem cells, frailty, regenerative medicine  
+
+---
 
 ### Stem cells provide a potent treatment for frailty
 **Nature** | Edward Chen  
@@ -1315,23 +1320,10 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00584-y)
 
 
-> Stem cells have been shown to increase endurance in elderly people with frailty.
-
-**Topics:** `stem cells` · `regenerative medicine` · `frailty`  
-**Key terms:** stem cells, frailty, regenerative medicine  
-
----
-
-### Daily briefing: Stem-cell treatment strengthens people with age-related frailty
-**Nature** | Jacob Smith  
-*Published: 26 Feb 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00672-z)
-
-
-> A single dose of stem cells can help older people with frailty build up their endurance.
+> Elderly people with frailty increased their endurance after a single dose of stem cells.
 
 **Topics:** `stem cells` · `regenerative medicine` · `aging`  
-**Key terms:** stem cells, regenerative medicine, aging  
+**Key terms:** stem cells, frailty, regenerative medicine  
 
 ---
 
@@ -1343,25 +1335,12 @@
 
 > A small trial found that applying placenta-derived stem cells to fetal spinal cords was safe for treating spina bifida in the womb.
 
-**Topics:** `stem cells` · `regenerative medicine` · `neurology`  
-**Key terms:** stem cells, spina bifida, fetal treatment, placenta-derived cells  
+**Topics:** `stem cells` · `regenerative medicine` · `fetal development`  
+**Key terms:** stem cell therapy, spina bifida, placenta-derived cells, fetal treatment  
 
 ---
 
 ## superconductivity
-
-### Cavity-altered superconductivity
-**Nature** | Itai Keren, Tatiana A. Webb, Shuai Zhang, Jikai Xu, Dihao Sun et al. (+28 more)  
-*Published: 25 Feb 2026* | 🔴 **High impact**  
-[Full paper](https://www.nature.com/articles/s41586-025-10062-6)
-
-
-> Researchers developed a new platform using hexagonal boron nitride to create cavity-altered superconducting materials.
-
-**Topics:** `superconductivity` · `materials science` · `nanotechnology`  
-**Key terms:** cavity-altered superconductivity, hexagonal boron nitride, superconducting materials  
-
----
 
 ### Uncovering origins of heterogeneous superconductivity in La<sub>3</sub>Ni<sub>2</sub>O<sub>7</sub>
 **Nature** | S. V. Mandyam, E. Wang, Z. Wang, B. Chen, N. C. Jayarama et al. (+5 more)  
@@ -1369,10 +1348,25 @@
 [Full paper](https://www.nature.com/articles/s41586-025-10095-x)
 
 
-> Wide-field quantum sensing revealed inhomogeneous superconductivity in La3Ni2O7, linking local diamagnetic response to stress and stoichiometry.
+> Wide-field quantum sensing showed μm-scale inhomogeneous superconductivity in high-pressure La3Ni2O7, linking local diamagnetic response to stress and stoichiometry.
 
-**Topics:** `superconductivity` · `materials science` · `quantum sensing`  
-**Key terms:** superconductivity, La3Ni2O7, quantum sensing, diamagnetic response  
+**Topics:** `superconductivity` · `quantum sensing` · `materials science`  
+**Key terms:** superconductivity, quantum sensing, La3Ni2O7, diamagnetic response  
+
+---
+
+## telecommunications
+
+### From the first telephone to videoconferencing in 100 years
+**Nature** | Unknown authors  
+*Published: 03 Mar 2026* | ⚪ Routine  
+[Full paper](https://www.nature.com/articles/d41586-026-00641-6)
+
+
+> This article discusses the evolution of telecommunications from the first telephone to videoconferencing over the past 100 years.
+
+**Topics:** `telecommunications` · `history of technology`  
+**Key terms:** telephone, videoconferencing, telecommunications history  
 
 ---
 
@@ -1384,10 +1378,10 @@
 [Full paper](https://www.nature.com/articles/d41586-026-00555-3)
 
 
-> Scientists have found that exposure to a fungicide can have long-lasting health effects that can be passed down through 20 generations in rats.
+> Scientists found that exposure to a fungicide in rats can have health effects that last for 20 generations, serving as a warning about environmental chemical exposure.
 
-**Topics:** `toxicology` · `environmental health` · `epigenetics`  
-**Key terms:** toxicology, environmental health, epigenetics  
+**Topics:** `toxicology` · `environmental science` · `genetics`  
+**Key terms:** fungicide, generations, health effects, environmental exposure  
 
 ---
 
@@ -1395,13 +1389,13 @@
 
 ### ASCL1 promotes nuclear shrinkage in transdifferentiation by suppressing NUP37
 **Stem Cell Reports** | Emily Fisher, Zhongjiao Jiang, Li Li, Gaurav Chhetri, Komal Saleem, Zhen Yan, Jian Feng  
-*Published: 26 Feb 2026* | 🔴 **High impact**  
+*Published: 26 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00034-2?rss=yes)
 
 
 > ASCL1 promotes nuclear shrinkage in transdifferentiation by suppressing NUP37, a critical component of the nuclear pore complex.
 
-**Topics:** `transdifferentiation` · `nuclear dynamics` · `stem cell biology`  
+**Topics:** `transdifferentiation` · `nuclear biology` · `stem cell biology`  
 **Key terms:** ASCL1, NUP37, nuclear shrinkage, transdifferentiation  
 
 ---
@@ -1414,10 +1408,10 @@
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00117-0?rss=yes)
 
 
-> The molecular basis of New World hantavirus glycoprotein architecture, acid-induced membrane fusion, and antibody-mediated neutralization has been unveiled through cryo-EM structures.
+> High-resolution structures of hantavirus glycoprotein tetramers reveal the molecular basis of New World hantavirus glycoprotein architecture, acid-induced membrane fusion, and antibody-mediated neutralization.
 
-**Topics:** `virology` · `structural biology` · `immunology`  
-**Key terms:** hantavirus glycoprotein, cryo-EM structures, antibody-mediated neutralization  
+**Topics:** `virology` · `cryo-EM`  
+**Key terms:** hantavirus, glycoprotein, cryo-EM  
 
 ---
 
@@ -1425,13 +1419,13 @@
 
 ### ‘No one quite like her’: meet the female colleagues who inspire these award-winning women in science
 **Nature** | Amanda Heidt  
-*Published: 02 Mar 2026* | 🟡 Medium  
+*Published: 02 Mar 2026* | ⚪ Routine  
 [Full paper](https://www.nature.com/articles/d41586-026-00666-x)
 
 
-> Women in science nominate colleagues who inspire them, highlighting the importance of female mentorship and support in STEM fields.
+> Nature asked award-winning women in science to nominate a colleague who inspires them, highlighting the importance of female mentorship in STEM fields.
 
 **Topics:** `women in science` · `STEM education` · `mentorship`  
-**Key terms:** women in science, mentorship, STEM education  
+**Key terms:** International Women's Day, Nature awards, female colleagues  
 
 ---
