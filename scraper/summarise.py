@@ -22,6 +22,30 @@ SYSTEM_PROMPT = (
     "and never invent information not present in the abstract."
 )
 
+## token tracking 3/3/26
+
+import csv
+from datetime import datetime, timezone
+
+def _log_token_usage(doi: str, model: str, prompt_tokens: int, completion_tokens: int):
+    """D2 — Append a row to stats/usage.csv after every LLM call."""
+    stats_path = "stats/usage.csv"
+    os.makedirs("stats", exist_ok=True)
+    file_exists = os.path.isfile(stats_path)
+    with open(stats_path, "a", newline="") as f:
+        writer = csv.writer(f)
+        if not file_exists:
+            writer.writerow(["timestamp", "model", "doi", "prompt_tokens",
+                             "completion_tokens", "total_tokens"])
+        writer.writerow([
+            datetime.now(timezone.utc).isoformat(),
+            model,
+            doi or "unknown",
+            prompt_tokens,
+            completion_tokens,
+            prompt_tokens + completion_tokens,
+        ])
+
 def _build_user_prompt(papers):
     papers_text = ""
     for i, p in enumerate(papers, 1):
