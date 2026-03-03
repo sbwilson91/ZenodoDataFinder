@@ -4,7 +4,7 @@ from datetime import datetime
 from .feeds import load_config, fetch_papers
 from .extract_repos import extract_all_repos
 from .summarise import summarise_papers
-from .report import generate_report
+from .report import generate_report update_archive_index
 
 def main():
     config    = load_config()
@@ -29,6 +29,8 @@ def main():
     print(f"\nStep 4/4: Building report → {output_path}")
     os.makedirs("digests", exist_ok=True)
     generate_report(papers, output_path)
+    update_archive_index(output_path, paper_count=len(papers))
+    print(f"  Done. Digest: {digest_path}")
 
     print("\n✓ Done.")
 
