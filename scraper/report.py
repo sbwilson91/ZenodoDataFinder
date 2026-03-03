@@ -1,5 +1,5 @@
 # scraper/report.py
-from datetime import datetime date
+from datetime import datetime, date
 from .feeds import Paper
 from collections import defaultdict
 import re, os
@@ -95,3 +95,4 @@ def update_archive_index(digest_path: str, paper_count: int) -> None:
         f.write(new_row)
 
     print(f"  Archive index updated: {index_path}")
+
