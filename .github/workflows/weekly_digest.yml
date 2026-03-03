@@ -44,8 +44,12 @@ jobs:
         run: |
           DIGEST_FILE=$(ls digests/$(date +%Y-%m-%d)-weekly-digest.md 2>/dev/null || ls digests/*.md | tail -1)
           echo "file=$DIGEST_FILE" >> $GITHUB_OUTPUT
-      
-          # Use a randomised delimiter so it never collides with file content
+
+          # Convert markdown → styled HTML
+          python -m scraper.md_to_html_email "$DIGEST_FILE" /tmp/digest_email.html
+          echo "html_file=/tmp/digest_email.html" >> $GITHUB_OUTPUT
+
+          # Plain text fallback (no EOF collision risk with random delimiter)
           DELIM="DIGEST_EOF_$(date +%s)"
           {
             echo "body<<${DELIM}"
@@ -59,11 +63,11 @@ jobs:
           server_address: smtp.gmail.com
           server_port: 465
           secure: true
-          username: ${{ secrets.EMAIL_SENDER }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
-          to: ${{ secrets.EMAIL_RECEIVER }}
-          from: "Journal Digest <${{ secrets.EMAIL_SENDER }}>"
+          username: ${{ secrets.GMAIL_ADDRESS }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          to: ${{ secrets.RECIPIENT_EMAIL }}
+          from: "Journal Digest <${{ secrets.GMAIL_ADDRESS }}>"
           subject: "📄 Weekly Journal Digest — $(date +%Y-%m-%d)"
+          html_body: file:///tmp/digest_email.html
           body: ${{ steps.digest.outputs.body }}
-          # The .md file is also attached so you have a clean copy
           attachments: ${{ steps.digest.outputs.file }}
