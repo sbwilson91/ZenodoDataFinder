@@ -42,15 +42,15 @@ jobs:
       - name: Read digest for email
         id: digest
         run: |
-          # Find today's digest (fall back to most recent if date mismatch)
           DIGEST_FILE=$(ls digests/$(date +%Y-%m-%d)-weekly-digest.md 2>/dev/null || ls digests/*.md | tail -1)
           echo "file=$DIGEST_FILE" >> $GITHUB_OUTPUT
-
-          # GitHub Actions output vars have a ~64KB limit — truncate just in case
+      
+          # Use a randomised delimiter so it never collides with file content
+          DELIM="DIGEST_EOF_$(date +%s)"
           {
-            echo 'body<<EOF'
+            echo "body<<${DELIM}"
             cat "$DIGEST_FILE" | head -c 50000
-            echo 'EOF'
+            echo "${DELIM}"
           } >> $GITHUB_OUTPUT
 
       - name: Send digest email
