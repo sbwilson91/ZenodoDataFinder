@@ -12,8 +12,8 @@ from typing import Optional
 from .feeds import Paper
 
 HF_CHAT_URL = "https://router.huggingface.co/v1/chat/completions"
-DEFAULT_MODEL  = "meta-llama/Llama-3.1-8B-Instruct:auto"
-FALLBACK_MODEL = "Qwen/Qwen2.5-7B-Instruct:auto"
+DEFAULT_MODEL  = "meta-llama/Llama-3.1-8B-Instruct:cerebras"
+FALLBACK_MODEL = "Qwen/Qwen2.5-7B-Instruct:cerebras"
 MAX_RETRIES    = 3
 
 SYSTEM_PROMPT = (
