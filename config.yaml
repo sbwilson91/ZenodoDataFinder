@@ -39,3 +39,16 @@ include_types:
   - "article"
   - "resource"
 
+# Papers matching any term are promoted to a "Featured" section at the top.
+# Case-insensitive; multi-word phrases supported.
+watchlist:
+  - "organoid"
+  - "kidney"
+  - "assembloid"
+  - "bioprint"
+  - "bioprinting"
+  - "ai"
+  - "artificial intelligence"
+  - "machine learning"
+  - "large language model"
+  - "foundation model"
