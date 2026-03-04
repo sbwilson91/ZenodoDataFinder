@@ -1,9 +1,434 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}body{background:#f4f1ec;font-family:Georgia,serif;font-size:16px;line-height:1.7;color:#1a1a1a;padding:32px 16px 64px}.wrapper{max-width:700px;margin:0 auto}.masthead{border-top:4px solid #1a1a1a;border-bottom:1px solid #1a1a1a;padding:28px 0 20px;margin-bottom:40px}.label{font-family:"Courier New",monospace;font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:#666;margin-bottom:8px}.title{font-family:"Courier New",monospace;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#444}.date{font-family:"Courier New",monospace;font-size:11px;color:#888;margin-top:6px}h1{font-size:28px;font-weight:normal;letter-spacing:-.02em;line-height:1.2;margin:48px 0 16px;padding-bottom:12px;border-bottom:2px solid #1a1a1a}h2{font-size:11px;font-family:"Courier New",monospace;font-weight:normal;letter-spacing:.2em;text-transform:uppercase;color:#fff;background:#1a1a1a;display:inline-block;padding:4px 12px;margin:40px 0 20px}h3{font-size:19px;font-weight:normal;line-height:1.35;color:#1a1a1a;margin:28px 0 10px}p{margin-bottom:10px;color:#2a2a2a}p.meta{font-family:"Courier New",monospace;font-size:12px;color:#555;margin:6px 0}blockquote{border-left:3px solid #c8b89a;margin:14px 0;padding:10px 16px;background:#faf8f5;font-style:italic;color:#3a3a3a;font-size:15px}ul{padding-left:0;list-style:none;margin:8px 0}ul li{font-family:"Courier New",monospace;font-size:12px;color:#444;padding:3px 0 3px 16px;position:relative}ul li::before{content:"\2192";position:absolute;left:0;color:#c8b89a}a{color:#1a1a1a;text-decoration-color:#c8b89a}code{font-family:"Courier New",monospace;font-size:12px;background:#f0ede8;padding:1px 5px;border-radius:2px}hr{border:none;border-top:1px solid #ddd;margin:32px 0}strong{font-weight:600}.footer{margin-top:56px;padding-top:20px;border-top:1px solid #ccc;font-family:"Courier New",monospace;font-size:11px;color:#888}</style></head><body><div class="wrapper"><div class="masthead"><div class="label">Automated Research Intelligence</div><div class="title">Weekly Journal Digest</div><div class="date">Wednesday, 4 March 2026</div></div><h1>Weekly Digest Archive</h1>
-<p class="">| Date | Papers | File |</p>
-<p class="">|------|--------|------|</p>
-<p class="">| 2026-03-04 | 61 | <a href="2026-03-04-weekly-digest.md">2026-03-04-weekly-digest.md</a> |</p>
-<p class="">| 2026-03-04 | 61 | <a href="2026-03-04-weekly-digest.md">2026-03-04-weekly-digest.md</a> |</p>
-<p class="">| 2026-03-04 | 61 | <a href="2026-03-04-weekly-digest.md">2026-03-04-weekly-digest.md</a> |</p>
-<p class="">| 2026-03-04 | 61 | <a href="2026-03-04-weekly-digest.md">2026-03-04-weekly-digest.md</a> |</p>
-<p class="">| 2026-03-04 | 61 | <a href="2026-03-04-weekly-digest.md">2026-03-04-weekly-digest.md</a> |</p>
-<p class="">| 2026-03-04 | 61 | <a href="2026-03-04-weekly-digest.md">2026-03-04-weekly-digest.md</a> |</p><div class="footer">Generated automatically &middot; Nature &middot; Science &middot; Cell &middot; Cell Stem Cell &middot; Stem Cell Reports &middot; Nature Biotechnology &middot; Nature Methods &middot; Bioinformatics</div></div></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}body{background:#f4f1ec;font-family:Georgia,serif;font-size:16px;line-height:1.7;color:#1a1a1a;padding:32px 16px 64px}.wrapper{max-width:700px;margin:0 auto}.masthead{border-top:4px solid #1a1a1a;border-bottom:1px solid #1a1a1a;padding:28px 0 20px;margin-bottom:40px}.label{font-family:"Courier New",monospace;font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:#666;margin-bottom:8px}.title{font-family:"Courier New",monospace;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#444}.date{font-family:"Courier New",monospace;font-size:11px;color:#888;margin-top:6px}h1{font-size:28px;font-weight:normal;letter-spacing:-.02em;line-height:1.2;margin:48px 0 16px;padding-bottom:12px;border-bottom:2px solid #1a1a1a}h2{font-size:11px;font-family:"Courier New",monospace;font-weight:normal;letter-spacing:.2em;text-transform:uppercase;color:#fff;background:#1a1a1a;display:inline-block;padding:4px 12px;margin:40px 0 20px}h3{font-size:19px;font-weight:normal;line-height:1.35;color:#1a1a1a;margin:28px 0 10px}p{margin-bottom:10px;color:#2a2a2a}p.meta{font-family:"Courier New",monospace;font-size:12px;color:#555;margin:6px 0}blockquote{border-left:3px solid #c8b89a;margin:14px 0;padding:10px 16px;background:#faf8f5;font-style:italic;color:#3a3a3a;font-size:15px}ul{padding-left:0;list-style:none;margin:8px 0}ul li{font-family:"Courier New",monospace;font-size:12px;color:#444;padding:3px 0 3px 16px;position:relative}ul li::before{content:"\2192";position:absolute;left:0;color:#c8b89a}a{color:#1a1a1a;text-decoration-color:#c8b89a}code{font-family:"Courier New",monospace;font-size:12px;background:#f0ede8;padding:1px 5px;border-radius:2px}hr{border:none;border-top:1px solid #ddd;margin:32px 0}strong{font-weight:600}.footer{margin-top:56px;padding-top:20px;border-top:1px solid #ccc;font-family:"Courier New",monospace;font-size:11px;color:#888}</style></head><body><div class="wrapper"><div class="masthead"><div class="label">Automated Research Intelligence</div><div class="title">Weekly Journal Digest</div><div class="date">Wednesday, 4 March 2026</div></div><h1>Weekly Journal Digest — 2026-03-04</h1>
+<p class="meta"><strong>61 new papers</strong> across 5 journals.</p>
+<hr>
+<h2>⭐ Featured Papers</h2>
+<blockquote>Matched watchlist terms: <code>organoid</code>, <code>kidney</code>, <code>assembloid</code>, <code>bioprint</code>, <code>bioprinting</code>, <code>ai</code>, <code>artificial intelligence</code>, <code>machine learning</code>, <code>large language model</code>, <code>foundation model</code></blockquote>
+<h3>Cancer blood tests are everywhere. Do they really work?</h3>
+<p class="meta"><strong>Nature</strong> | Nic Fleming</p>
+<p class="">*Published: 4 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00661-2">Full paper</a></p>
+<blockquote>Cancer blood tests claim to detect dozens of cancer types, but some scientists say they could be missing many cancers or delivering the wrong diagnosis.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>cancer</code> · <code>blood tests</code> · <code>diagnosis</code></p>
+<hr>
+<h3>Releasing open-weight AI in steps would alleviate risks</h3>
+<p class="meta"><strong>Nature</strong> | S. M. Nuruzzaman Nobel, Maxine Tan</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00679-6">Full paper</a></p>
+<blockquote>Gradually releasing open-weight AI could mitigate potential risks associated with its development and deployment.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>artificial intelligence</code> · <code>machine learning</code> · <code>risk management</code></p>
+<hr>
+<h3>From the first telephone to videoconferencing in 100 years</h3>
+<p class="meta"><strong>Nature</strong> | Unknown authors</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00641-6">Full paper</a></p>
+<blockquote>A historical article from Nature's archive highlights the evolution of telecommunications from the first telephone to videoconferencing over the past century.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>telecommunications</code> · <code>history of science</code> · <code>technology</code></p>
+<hr>
+<h3>South Korea’s AI framework act focuses on rights and safety</h3>
+<p class="meta"><strong>Nature</strong> | WooJung Jon</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00678-7">Full paper</a></p>
+<blockquote>South Korea's AI framework act prioritizes the rights and safety of individuals in the development and use of artificial intelligence.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>artificial intelligence</code> · <code>policy</code> · <code>ethics</code></p>
+<hr>
+<h3>See raining iguanas and coral from the inside out — February’s best science images</h3>
+<p class="meta"><strong>Nature</strong> | Miryam Naddaf, Fred Schwaller</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00597-7">Full paper</a></p>
+<blockquote>Nature's photo team selects the best science images from February, featuring raining iguanas and coral from the inside out.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>science photography</code> · <code>visual arts</code> · <code>science communication</code></p>
+<hr>
+<h3>Hey ChatGPT, write me a fictional paper: these LLMs are willing to commit academic fraud</h3>
+<p class="meta"><strong>Nature</strong> | Elizabeth Gibney</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00595-9">Full paper</a></p>
+<blockquote>Chatbots, including those used for language models, may be vulnerable to requests for academic fraud, according to a study.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>artificial intelligence</code> · <code>academic integrity</code> · <code>machine learning</code></p>
+<hr>
+<h3>How can fast-evolving DNA retain a fundamental function in cell division?</h3>
+<p class="meta"><strong>Nature</strong> | Adele L. Marston</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00629-2">Full paper</a></p>
+<blockquote>Researchers have discovered how fast-evolving DNA can retain its fundamental function in cell division, particularly in yeast genomes.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>genomics</code> · <code>cell biology</code> · <code>evolutionary biology</code></p>
+<hr>
+<h3>Going ‘beyond GDP’ should not mean sidelining the SDGs</h3>
+<p class="meta"><strong>Nature</strong> | Unknown authors</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00657-y">Full paper</a></p>
+<blockquote>The United Nations' Sustainable Development Goals provide a roadmap for human and planetary prosperity, and should not be replaced by alternative measures such as GDP.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>sustainability</code> · <code>development goals</code> · <code>environmental policy</code></p>
+<hr>
+<h3>The squeal of peeling tape, explained</h3>
+<p class="meta"><strong>Nature</strong> | Unknown authors</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00516-w">Full paper</a></p>
+<blockquote>When peeling tape, the sound is caused by weak shock waves triggered by micro-cracks in the adhesive layer. These shock waves create a screeching noise as the tape is unspooled. This phenomenon is a result of the physical properties of the tape and its adhesive layer.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>physics</code> · <code>materials science</code> · <code>acoustics</code></p>
+<hr>
+<h3>Audio long read: Many people have no mental imagery. What’s going on in their brains?</h3>
+<p class="meta"><strong>Nature</strong> | Elizabeth Quill, Benjamin Thompson</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00626-5">Full paper</a></p>
+<blockquote>People with aphantasia, a condition where they have no mental imagery, offer a unique window into consciousness. Researchers are studying their brains to understand the neural mechanisms behind consciousness. This research could lead to a better understanding of the human brain and its functions.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>neuroscience</code> · <code>consciousness</code> · <code>brain function</code></p>
+<hr>
+<h3>AI agents are ‘aeroplanes for the mind’: five ways to ensure that scientists are responsible pilots</h3>
+<p class="meta"><strong>Nature</strong> | Dashun Wang</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00665-y">Full paper</a></p>
+<blockquote>As AI systems take on more scientific tasks, researchers must ensure that they are designed to preserve creativity, responsibility, and surprise. This requires a shift in focus from complete automation to designing platforms that allow for human creativity and oversight.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>AI</code> · <code>machine learning</code> · <code>scientific workflow</code></p>
+<hr>
+<h3>Brain mysteries and Bronze Age diplomacy: Books in brief</h3>
+<p class="meta"><strong>Nature</strong> | Andrew Robinson</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00621-w">Full paper</a></p>
+<blockquote>Andrew Robinson reviews five science books, covering topics such as brain mysteries and Bronze Age diplomacy.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>book reviews</code> · <code>science books</code> · <code>brain mysteries</code></p>
+<hr>
+<h3>Is a ‘selfish gene’ making a Utah family have twice as many boys as girls?</h3>
+<p class="meta"><strong>Nature</strong> | Ewen Callaway</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00505-z">Full paper</a></p>
+<blockquote>A genealogy study claims the first conclusive case of sex 'distortion' in humans, but not all researchers are convinced.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>genetics</code> · <code>evolution</code> · <code>human biology</code></p>
+<hr>
+<h3>Daily briefing: This Utah family line might be evidence of ‘selfish genes’ in humans</h3>
+<p class="meta"><strong>Nature</strong> | Flora Graham</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00675-w">Full paper</a></p>
+<blockquote>Researchers claim to have found the first conclusive case of sex 'distortion' in people, and discuss potential treatments for spina bifida.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>genetics</code> · <code>human biology</code> · <code>stem cells</code></p>
+<hr>
+<h3>UN creates new scientific AI advisory panel: what will it do?</h3>
+<p class="meta"><strong>Nature</strong> | Elizabeth Gibney</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00542-8">Full paper</a></p>
+<blockquote>The United Nations created a new scientific AI advisory panel to provide guidance on AI research and development.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>artificial intelligence</code> · <code>science policy</code></p>
+<hr>
+<h3>Daily briefing: Stem-cell treatment strengthens people with age-related frailty</h3>
+<p class="meta"><strong>Nature</strong> | Jacob Smith</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00672-z">Full paper</a></p>
+<blockquote>A single dose of stem cells can help older people with frailty build up their endurance.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>stem cells</code> · <code>age-related frailty</code> · <code>endurance</code></p>
+<hr>
+<h3>Citrate clearance is a major function of aconitase 2 in the canonical TCA cycle</h3>
+<p class="meta"><strong>Cell</strong> | Abigail Xie, Julia S. Brunner, Sangita Chakraborty, Angela M. Montero, Anna E. Bridgeman, Katrina I. Paras, Ruobing Cui, Maider Fagoaga-Eugui, Monika Komza, Paige K. Arnold, Benjamin T. Jackson, Santiago Noriega Madrazo, Mohamed I. Atmane, Sebastian E. Carrasco, Lydia W.S. Finley</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.cell.com/cell/fulltext/S0092-8674(26">Full paper</a>00115-7?rss=yes)</p>
+<blockquote>Aconitase 2 plays a crucial role in the TCA cycle by preventing citrate accumulation, which can trigger the integrated stress response and impair cell fitness.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>cell biology</code> · <code>metabolic pathways</code> · <code>mitochondria</code></p>
+<hr>
+<h3>What we thought we knew about TNF—And what we now must re-learn</h3>
+<p class="meta"><strong>Stem Cell Reports</strong> | Alexandra Rundberg Nilsson</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26">Full paper</a>00038-X?rss=yes)</p>
+<blockquote>TNF's effects on hematopoiesis are context-dependent and can be both suppressive and reprogramming, depending on cell type and time.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>immunology</code> · <code>stem cell biology</code> · <code>cell signaling</code></p>
+<hr>
+<h3>Reconstitution of the cellular niche requirements for primordial germ cell-like cell progression in humans</h3>
+<p class="meta"><strong>Stem Cell Reports</strong> | Yolanda W. Chang, Marjolein Trimp, Talia van der Helm, Ioannis Moustakas, Albert Blanch-Asensio, Arend W. Overeem, Susana M. Chuva de Sousa Lopes</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26">Full paper</a>00037-8?rss=yes)</p>
+<blockquote>Human primordial germ cell-like cells can be matured in vitro using reconstituted human fetal ovaries or amnion-like cells, with SCF being crucial for survival.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>stem cell biology</code> · <code>reproductive biology</code> · <code>cell culture</code></p>
+<hr>
+<h3>Regenesis: Repair and regeneration reinvented in stem cell therapeutics</h3>
+<p class="meta"><strong>Stem Cell Reports</strong> | Hitesh Chopra, Yuanyuan Han</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26">Full paper</a>00036-6?rss=yes)</p>
+<blockquote>The repair-regeneration dichotomy in stem cell therapeutics is outdated, and a new framework called 'regenesis' is proposed to describe hybrid tissue outcomes.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>stem cell biology</code> · <code>regenerative medicine</code> · <code>tissue engineering</code></p>
+<hr>
+<h3>Sharing big data for sustainable agri-food innovation</h3>
+<p class="meta"><strong>Nature Biotechnology</strong> | Erik Alexandersson, Thies Marten Heick, Anna Chailyan, Sisse Marquina-Jongberg, Thomas de Bang et al. (+1 more)</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41587-026-03052-0">Full paper</a></p>
+<blockquote>Sharing big data is proposed for sustainable agri-food innovation.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>big data</code> · <code>agri-food innovation</code></p>
+<hr>
+<h3>Considerations for the future of in vitro gametogenesis in fertility care</h3>
+<p class="meta"><strong>Nature Biotechnology</strong> | Hannah L. Landecker, Amander T. Clark</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41587-026-03034-2">Full paper</a></p>
+<blockquote>The authors discuss the growing toolbox for working with pangenomes, which can reveal the spectrum of genome variation within a species.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>pangenomes</code> · <code>genomics</code> · <code>genome variation</code></p>
+<hr>
+<hr>
+<h2>All Papers</h2>
+<h3>Funding from individual donors: lessons from the Epstein case</h3>
+<p class="meta"><strong>Nature</strong> | Unknown authors</p>
+<p class="">*Published: 4 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00658-x">Full paper</a></p>
+<blockquote>Universities need to establish and empower compliance teams to ensure adherence to ethical funding policies.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>ethics</code> · <code>funding</code> · <code>universities</code></p>
+<hr>
+<h3>Climate change and geopolitics threaten water supplies — but disaster is not inevitable</h3>
+<p class="meta"><strong>Nature</strong> | Ali Tauqeer Sheikh</p>
+<p class="">*Published: 4 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00659-w">Full paper</a></p>
+<blockquote>The Indus Waters Treaty has withstood several armed conflicts and a huge loss of glaciers and can serve as a blueprint for other water supply agreements.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>climate change</code> · <code>geopolitics</code> · <code>water supplies</code></p>
+<hr>
+<h3>Author Correction: Healthy forests safeguard traditional wild meat food systems in Amazonia</h3>
+<p class="meta"><strong>Nature</strong> | André Pinassi Antunes, Pedro de Araujo Lima Constantino, Julia E. Fa, Daniel P. Munari, Thais Q. Morcatty et al. (+53 more)</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41586-026-10332-x">Full paper</a></p>
+<blockquote>Author Correction: Healthy forests safeguard traditional wild meat food systems in Amazonia.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>forestry</code> · <code>wildlife</code> · <code>Amazonia</code></p>
+<hr>
+<h3>Genetically encoded assembly recorder temporally resolves cellular history</h3>
+<p class="meta"><strong>Nature</strong> | Yuqing Yan, Jiaxi Lu, Zhe Li, Zuohan Zhao, Timothy F. Shay et al. (+11 more)</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41586-026-10323-y">Full paper</a></p>
+<blockquote>A genetically encoded assembly recorder can temporally resolve cellular history.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>genetics</code> · <code>cellular history</code> · <code>assembly</code></p>
+<hr>
+<h3>Jam-packed star system is most compact of its kind ever found</h3>
+<p class="meta"><strong>Nature</strong> | Unknown authors</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00667-w">Full paper</a></p>
+<blockquote>A newly discovered star system is the most compact of its kind, with four Sun-like stars that could fit inside Jupiter's orbit.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>astronomy</code> · <code>star systems</code> · <code>planetary science</code></p>
+<hr>
+<h3>Climate research is global — risks and responsibilities should also be distributed</h3>
+<p class="meta"><strong>Nature</strong> | Zhenhua Rui, Lu Lin, Hongfang Lu, Y. Frank Cheng</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00680-z">Full paper</a></p>
+<blockquote>Climate research is a global effort, and the associated risks and responsibilities should be distributed equitably among nations.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>climate change</code> · <code>global governance</code> · <code>international cooperation</code></p>
+<hr>
+<h3>Why ‘quantum proteins’ could be the next big thing in biology</h3>
+<p class="meta"><strong>Nature</strong> | Nicola Jones</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00662-1">Full paper</a></p>
+<blockquote>Researchers are developing fluorescent proteins with quantum properties, which could provide new insights into cellular processes.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>biophysics</code> · <code>fluorescent proteins</code> · <code>cell biology</code></p>
+<hr>
+<h3>US climate actions must continue, despite setbacks</h3>
+<p class="meta"><strong>Nature</strong> | David Widawsky</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00660-3">Full paper</a></p>
+<blockquote>Despite setbacks in US climate policy, cities, states, and businesses can continue to work towards reducing greenhouse gas emissions.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>climate change</code> · <code>policy</code> · <code>environmental science</code></p>
+<hr>
+<h3>My relationship with my PhD supervisor has become toxic — what do I do?</h3>
+<p class="meta"><strong>Nature</strong> | Xiaoying You</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-025-04126-w">Full paper</a></p>
+<blockquote>A graduate student in China is experiencing depression due to verbal abuse from their PhD supervisor, highlighting the need for support and resources.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>mental health</code> · <code>academic support</code> · <code>graduate education</code></p>
+<hr>
+<h3>How infighting led the Maya civilization to catastrophic collapse</h3>
+<p class="meta"><strong>Nature</strong> | Andrew Robinson</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00663-0">Full paper</a></p>
+<blockquote>Archaeological evidence suggests that infighting among the Maya civilization may have contributed to its catastrophic collapse.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>archaeology</code> · <code>history</code> · <code>Maya civilization</code></p>
+<hr>
+<h3>Climate shocks, not just warming, threaten malaria control efforts in Africa</h3>
+<p class="meta"><strong>Nature</strong> | Janey Messina, Margaret Carrel</p>
+<p class="">*Published: 3 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00491-2">Full paper</a></p>
+<blockquote>Climate change may have a more immediate impact on malaria control in Africa than previously thought, due to extreme weather events rather than just warming temperatures.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>climate change</code> · <code>malaria</code> · <code>public health</code></p>
+<hr>
+<h3>Author Correction: Root microbiota drive direct integration of phosphate stress and immunity</h3>
+<p class="meta"><strong>Nature</strong> | Gabriel Castrillo, Paulo José Pereira Lima Teixeira, Sur Herrera Paredes, Theresa F. Law, Laura de Lorenzo et al. (+7 more)</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41586-026-10320-1">Full paper</a></p>
+<blockquote>A correction to a previous study has clarified the role of root microbiota in integrating phosphate stress and immunity in plants.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>plant biology</code> · <code>microbiology</code> · <code>immunology</code></p>
+<hr>
+<h3>BCDX2–CX3 and DX2–CX3 complexes assemble and stabilize RAD51 filaments</h3>
+<p class="meta"><strong>Nature</strong> | Christopher W. Koo, Jiaqi Xiao, Sebastien Coassolo, Jie Liu, Christine Yu et al. (+8 more)</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41586-026-10314-z">Full paper</a></p>
+<blockquote>The study found that BCDX2–CX3 and DX2–CX3 complexes assemble and stabilize RAD51 filaments, which is crucial for DNA repair. This discovery provides new insights into the mechanisms of DNA repair and could have implications for cancer treatment. The RAD51 filaments are stabilized by the complexes, allowing for efficient DNA repair. This process is essential for maintaining genome stability.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>DNA repair</code> · <code>RAD51</code> · <code>protein complexes</code></p>
+<hr>
+<h3>The hidden lives behind China’s great Internet firewall</h3>
+<p class="meta"><strong>Nature</strong> | Chris Stokel-Walker</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00664-z">Full paper</a></p>
+<blockquote>China's tightly controlled digital ecosystem is full of human stories and acts of subtle resistance. Despite the strict controls, people find ways to express themselves and resist the government's censorship. This article explores the lives behind the Great Firewall of China.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>social media</code> · <code>censorship</code> · <code>digital rights</code></p>
+<hr>
+<h3>Earth’s oldest crystals suggest an early start for plate tectonics</h3>
+<p class="meta"><strong>Nature</strong> | Alexandra Witze</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00628-3">Full paper</a></p>
+<blockquote>The Earth's oldest crystals suggest that plate tectonics may have started 3.3 billion years ago.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>geology</code> · <code>plate tectonics</code> · <code>crystals</code></p>
+<hr>
+<h3>‘No one quite like her’: meet the female colleagues who inspire these award-winning women in science</h3>
+<p class="meta"><strong>Nature</strong> | Amanda Heidt</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00666-x">Full paper</a></p>
+<blockquote>Women in science are recognizing and celebrating their female colleagues who inspire them.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>women in science</code> · <code>inspiration</code> · <code>colleagues</code></p>
+<hr>
+<h3>Editorial Expression of&#xa0;Concern: The gene product Murr1 restricts HIV-1 replication in resting CD4+ lymphocytes</h3>
+<p class="meta"><strong>Nature</strong> | Lakshmanan Ganesh, Ezra Burstein, Anuradha Guha-Niyogi, Mark K. Louder, John R. Mascola et al. (+4 more)</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41586-026-10308-x">Full paper</a></p>
+<blockquote>The gene product Murr1 restricts HIV-1 replication in resting CD4+ lymphocytes.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>HIV</code> · <code>immunology</code> · <code>gene expression</code></p>
+<hr>
+<h3>Briefing chat: Pokémon turns 30 — how Pikachu and pals inspired generations of researchers</h3>
+<p class="meta"><strong>Nature</strong> | Benjamin Thompson, Nick Petrić Howe, Miryam Naddaf</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00674-x">Full paper</a></p>
+<blockquote>Researchers discuss the week's top science news, including Pokémon's 30th anniversary.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>science news</code> · <code>Pokémon</code> · <code>anniversary</code></p>
+<hr>
+<h3>White House stalls release of approved US science budgets</h3>
+<p class="meta"><strong>Nature</strong> | Max Kozlov, Alexandra Witze, Dan Garisto</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00601-0">Full paper</a></p>
+<blockquote>The US Congress rejected sweeping cuts to science agencies, but the NIH, NSF, and NASA have had their spending slowed.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>science policy</code> · <code>US politics</code> · <code>funding</code></p>
+<hr>
+<h3>I will continue the fight for environmental justice in Black communities</h3>
+<p class="meta"><strong>Nature</strong> | Virginia Gewin</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00538-4">Full paper</a></p>
+<blockquote>Robert Bullard argues that researchers in environmental justice have more reason than ever to back up their work with action.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>environmental justice</code> · <code>social justice</code> · <code>community engagement</code></p>
+<hr>
+<h3>Pokémon turns 30 — how the fictional pocket monsters shaped science</h3>
+<p class="meta"><strong>Nature</strong> | Miryam Naddaf</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00441-y">Full paper</a></p>
+<blockquote>Pokémon has inspired generations of researchers in fields such as evolution, biodiversity, and research integrity.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>evolution</code> · <code>biodiversity</code> · <code>research integrity</code></p>
+<hr>
+<h3>Author Correction: Myocardial reprogramming by HMGN1 underlies heart defects in trisomy 21</h3>
+<p class="meta"><strong>Nature</strong> | Sanjeev S. Ranade, Feiya Li, Sean Whalen, Angelo Pelonero, Lin Ye et al. (+18 more)</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41586-026-10283-3">Full paper</a></p>
+<blockquote>A correction to a previous study found that HMGN1 protein reprogramming in the heart is linked to heart defects in individuals with trisomy 21.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>genetics</code> · <code>cardiology</code> · <code>trisomy 21</code></p>
+<hr>
+<h3>This compound enhances long-term memory of mice — but only in females</h3>
+<p class="meta"><strong>Nature</strong> | Mohana Basu</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00603-y">Full paper</a></p>
+<blockquote>A compound called acetate improved long-term memory in female mice but had less effect on males.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>neuroscience</code> · <code>memory</code> · <code>gender differences</code></p>
+<hr>
+<h3>Why an industry career move is a taboo topic in academia</h3>
+<p class="meta"><strong>Nature</strong> | Adam Levy</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00158-y">Full paper</a></p>
+<blockquote>Researchers are often hesitant to discuss career changes with colleagues due to perceived stigma.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>career development</code> · <code>academic culture</code></p>
+<hr>
+<h3>Ultra-sensitive CAR T cells eliminate hard-to-treat tumours in mice</h3>
+<p class="meta"><strong>Nature</strong> | Felicity Nelson</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00622-9">Full paper</a></p>
+<blockquote>Researchers developed ultra-sensitive CAR T cells that effectively eliminated hard-to-treat tumors in mice.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>immunotherapy</code> · <code>cancer treatment</code></p>
+<hr>
+<h3>Health effects linger 20 generations after rats are exposed to fungicide</h3>
+<p class="meta"><strong>Nature</strong> | Rachel Fieldhouse</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00555-3">Full paper</a></p>
+<blockquote>Scientists found that exposure to fungicide can have long-lasting health effects, even after 20 generations in rats.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>toxicology</code> · <code>fungicide</code> · <code>environmental exposure</code></p>
+<hr>
+<h3>Neanderthal dad, human mum: study reveals ancient procreation pattern</h3>
+<p class="meta"><strong>Nature</strong> | Freda Kreier</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00583-z">Full paper</a></p>
+<blockquote>Genomic analysis revealed that interbreeding between female Neanderthals and human males was less common than the opposite combination.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>genomics</code> · <code>Neanderthals</code> · <code>human evolution</code></p>
+<hr>
+<h3>World-first stem-cell therapy shows promise for treating spina bifida in the womb</h3>
+<p class="meta"><strong>Nature</strong> | Rachel Fieldhouse</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/d41586-026-00602-z">Full paper</a></p>
+<blockquote>A small trial found that applying placenta-derived stem cells to fetal spinal cords was safe for treating spina bifida in the womb.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>stem cells</code> · <code>spina bifida</code> · <code>fetal development</code></p>
+<hr>
+<h3>High-resolution in situ structures of hantavirus glycoprotein tetramers</h3>
+<p class="meta"><strong>Cell</strong> | Luqiang Guo, Elizabeth McFadden, Megan M. Slough, E. Taylor Stone, Jacob Berrigan, Eva Mittler, Kiara Hatzakis, Troy Hinkley, Heather S. Kain, Zunlong Ke, Nikole L. Warner, Jesse H. Erasmus, Kartik Chandran, Jason S. McLellan</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.cell.com/cell/fulltext/S0092-8674(26">Full paper</a>00117-0?rss=yes)</p>
+<blockquote>Researchers determined the high-resolution structures of hantavirus glycoprotein tetramers, providing insights into the molecular basis of hantavirus glycoprotein architecture and antibody-mediated neutralization.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>virology</code> · <code>hantavirus</code> · <code>glycoprotein structure</code></p>
+<hr>
+<h3>Pyruvate is a natural suppressor of interferon signaling by inducing STAT1 protein pyruvylation</h3>
+<p class="meta"><strong>Cell</strong> | Yibo Zuo, Qin Wang, Wanying Tian, Xinhe Wang, Zhijin Zheng, Wei He, Renxia Zhang, Qian Zhao, Ying Miao, Yukang Yuan, Tingting Zhang, Qun Cui, Yuerong Zhang, Chunyan Liu, Haiyan Zhou, Hui Zheng</p>
+<p class="">*Published: 27 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.cell.com/cell/fulltext/S0092-8674(26">Full paper</a>00110-8?rss=yes)</p>
+<blockquote>Pyruvate can modulate immune signaling and host antiviral response by inducing STAT1 protein pyruvylation, a post-translational modification.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>immunology</code> · <code>virology</code> · <code>protein modification</code></p>
+<hr>
+<h3>Shugoshin 2A stabilizes heterochromatin complexes to suppress the 2-cell-like state in embryonic stem cells</h3>
+<p class="meta"><strong>Stem Cell Reports</strong> | Panpan Shi, Kairang Jin, Guoxing Yin, Lin Liu</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26">Full paper</a>00035-4?rss=yes)</p>
+<blockquote>Shugoshin 2A stabilizes heterochromatin complexes to suppress the 2-cell-like state in embryonic stem cells.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>embryonic stem cells</code> · <code>heterochromatin</code> · <code>epigenetics</code></p>
+<hr>
+<h3>ASCL1 promotes nuclear shrinkage in transdifferentiation by suppressing NUP37</h3>
+<p class="meta"><strong>Stem Cell Reports</strong> | Emily Fisher, Zhongjiao Jiang, Li Li, Gaurav Chhetri, Komal Saleem, Zhen Yan, Jian Feng</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26">Full paper</a>00034-2?rss=yes)</p>
+<blockquote>ASCL1 promotes nuclear shrinkage in transdifferentiation by suppressing NUP37.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>transdifferentiation</code> · <code>nuclear size</code> · <code>nuclear pore complex</code></p>
+<hr>
+<h3>Development of a high-efficiency induction system for embryonic oral epithelium from human pluripotent stem cells</h3>
+<p class="meta"><strong>Stem Cell Reports</strong> | Kazuki Nakashima, Junichi Tanaka, Erika Matsuno, Yuri Wada, Shintaro Ohnuma, Tatsuo Shirota, Seigo Ohba, Kenji Mishima</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(25">Full paper</a>00385-6?rss=yes)</p>
+<blockquote>A highly efficient protocol is established to generate PITX2+ embryonic oral epithelium from human pluripotent stem cells.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>human pluripotent stem cells</code> · <code>oral epithelium</code> · <code>Sonic Hedgehog signaling</code></p>
+<hr>
+<h3>Quantification and transcriptome profiling reveal abundant, dynamic and translatable dephospho-CoA-capped RNAs</h3>
+<p class="meta"><strong>Nature Biotechnology</strong> | Hao Hu, Qiyue Zhang, Xuan Ma, Hsu-Feng Chu, Han Wang et al. (+10 more)</p>
+<p class="">*Published: 4 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41587-026-03040-4">Full paper</a></p>
+<blockquote>An enzyme is used to quantify dephospho-CoA-capped RNAs in cells.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>RNA biology</code> · <code>dephospho-CoA-capped RNAs</code></p>
+<hr>
+<h3>Establishing a commercial solution for extremely rare genetic diseases</h3>
+<p class="meta"><strong>Nature Biotechnology</strong> | Stanley T. Crooke, Andrew W. Lo</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41587-026-03056-w">Full paper</a></p>
+<blockquote>The authors discuss the potential of in vitro gametogenesis (IVG) as a reproductive technology, but highlight the need for public engagement and overcoming technical limitations to make it a clinical reality.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>fertility care</code> · <code>in vitro gametogenesis</code> · <code>reproductive technology</code></p>
+<hr>
+<h3>It’s a colorful pangenome world</h3>
+<p class="meta"><strong>Nature Methods</strong> | Vivien Marx</p>
+<p class="">*Published: 4 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41592-026-03021-0">Full paper</a></p>
+<blockquote>The authors present a new algorithm called DECODE that provides a unified framework for deconvolving transcriptomic, proteomic, and metabolomic datasets.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>multiomics deconvolution</code> · <code>omics data</code> · <code>bioinformatics</code></p>
+<hr>
+<h3>A unified framework for multiomics deconvolution</h3>
+<p class="meta"><strong>Nature Methods</strong> | Xiaoyu Wang, Fuyi Li, Robin B. Gasser, Jiangning Song</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41592-026-03008-x">Full paper</a></p>
+<blockquote>The authors present a deep learning-based framework called DECODE that can be applied to various omics data, including transcriptomic, proteomic, and metabolomic data.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>deep learning</code> · <code>omics data</code> · <code>bioinformatics</code></p>
+<hr>
+<h3>DECODE: deep learning-based common deconvolution framework for various omics data</h3>
+<p class="meta"><strong>Nature Methods</strong> | Tianyi Zhao, Renjie Liu, Yuzhi Sun, Bingtian Wang, Liyuan Zhang et al. (+6 more)</p>
+<p class="">*Published: 2 Mar 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41592-026-03007-y">Full paper</a></p>
+<blockquote>The authors discuss the potential of a commercial solution for extremely rare genetic diseases, but no specific details are provided.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>genetic diseases</code> · <code>commercial solution</code> · <code>rare diseases</code></p>
+<hr>
+<h3>Next-generation multicolor indicators for in vivo imaging of norepinephrine</h3>
+<p class="meta"><strong>Nature Methods</strong> | Valentin Lu Rohner, Sebastiano Curreli, Paul J. Lamothe-Molina, Zacharoula Kagiampaki, Andrew G. Yee et al. (+25 more)</p>
+<p class="">*Published: 26 Feb 2026* | 🟡 Medium</p>
+<p class=""><a href="https://www.nature.com/articles/s41592-026-03006-z">Full paper</a></p>
+<blockquote>Researchers developed new indicators for in vivo imaging of norepinephrine, allowing for the detection of its release in awake behaving mice. These indicators can be used in dual-color fiber photometry and two-photon imaging applications. This advancement has the potential to improve our understanding of norepinephrine's role in various physiological processes. The new indicators are characterized and shown to be effective.</blockquote>
+<p class="meta"><strong>Topics:</strong> <code>in vivo imaging</code> · <code>neuroscience</code> · <code>biotechnology</code></p>
+<hr><div class="footer">Generated automatically &middot; Nature &middot; Science &middot; Cell &middot; Cell Stem Cell &middot; Stem Cell Reports &middot; Nature Biotechnology &middot; Nature Methods &middot; Bioinformatics</div></div></body></html>
