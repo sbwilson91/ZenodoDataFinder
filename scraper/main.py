@@ -33,6 +33,7 @@ def main():
     generate_report(papers, config, output_path)
     update_archive_index(output_path, paper_count=len(papers))
     print(f"  Done. Digest: {output_path}")
+    print(f"  File exists: {os.path.isfile(output_path)}")
 
     print("\n✓ Done.")
 
