@@ -5,6 +5,7 @@ from .feeds import load_config, fetch_papers
 from .extract_repos import extract_all_repos
 from .summarise import summarise_papers
 from .report import generate_report, update_archive_index
+from .trends import log_tag_counts, maybe_write_monthly_report
 
 def main():
     config    = load_config()
@@ -32,10 +33,14 @@ def main():
     os.makedirs("digests", exist_ok=True)
     generate_report(papers, config, output_path)
     update_archive_index(output_path, paper_count=len(papers))
+
+    # E2 — trend tracking
+    log_tag_counts(papers, config)
+    maybe_write_monthly_report(config)
+
     print(f"  Done. Digest: {output_path}")
     print(f"  File exists: {os.path.isfile(output_path)}")
-
     print("\n✓ Done.")
-
+    
 if __name__ == "__main__":
     main()
