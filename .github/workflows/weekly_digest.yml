@@ -50,8 +50,8 @@ jobs:
           mkdir -p docs
           cp /tmp/digest_email.html docs/index.html
           cp /tmp/digest_email.html docs/$(date +%Y-%m-%d)-weekly-digest.html
-          # Copy all digest .md files so archive links resolve
           cp digests/*.md docs/
+          # E3 — manifest already written to docs/ by main.py, no copy needed
           git add docs/
           git diff --staged --quiet || git commit -m "Publish digest to Pages $(date +%Y-%m-%d)"
           git push          
