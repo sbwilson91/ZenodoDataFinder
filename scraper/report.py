@@ -88,7 +88,7 @@ def update_archive_index(digest_path: str, paper_count: int) -> None:
         "|------|--------|------|\n"
     )
 
-    new_row = f"| {today} | {paper_count} | [{digest_name}](./{digest_name}) |\n"
+    new_row = f"| {today} | {paper_count} | [{digest_name}]({digest_name}) |\n"
 
     if not os.path.isfile(index_path):
         with open(index_path, "w") as f:
@@ -98,5 +98,6 @@ def update_archive_index(digest_path: str, paper_count: int) -> None:
         f.write(new_row)
 
     print(f"  Archive index updated: {index_path}")
+
 
 
