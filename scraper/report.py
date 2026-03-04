@@ -38,9 +38,15 @@ def generate_report(papers: list[Paper], config: dict, output_path: str) -> None
             lines.append(_format_paper(paper))
 
     # --- Remaining papers by category ---
-    lines.append("---\n## All Papers\n")
+    clusters: dict[str, list[Paper]] = defaultdict(list)
     for paper in rest:
-        lines.append(_format_paper(paper))
+        label = paper.cluster_label or "General"
+        clusters[label].append(paper)
+
+    for label in sorted(clusters.keys()):
+        lines.append(f"---\n## {label}\n")
+        for paper in clusters[label]:
+            lines.append(_format_paper(paper))
 
     content = "\n".join(lines)          # assign content first
     with open(output_path, "w") as f:
@@ -115,6 +121,7 @@ _NON_RESEARCH_PATTERNS = re.compile(
 def _is_research_article(paper: Paper) -> bool:
     """Return False for reviews, corrections, news, editorials etc."""
     return not _NON_RESEARCH_PATTERNS.match(paper.title.strip())
+
 
 
 
