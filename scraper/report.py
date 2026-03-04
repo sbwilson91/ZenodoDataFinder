@@ -9,7 +9,7 @@ def _matches_watchlist(paper: Paper, watchlist: list[str]) -> bool:
     haystack = (paper.title + " " + paper.abstract).lower()
     return any(term.lower() in haystack for term in watchlist)
 
-def generate_report(papers: list[Paper], config: dict) -> str:
+def generate_report(papers: list[Paper], config: dict, output_path: str) -> None:
     """
     Build the markdown digest.
     Watchlist-matching papers appear first under ## ⭐ Featured Papers,
@@ -40,6 +40,9 @@ def generate_report(papers: list[Paper], config: dict) -> str:
         lines.append(_format_paper(paper))
 
     return "\n".join(lines)
+    with open(output_path, "w") as f:
+        f.write(content)
+    print(f"  Report written to {output_path}")
 
 
 def _format_paper(paper: Paper) -> str:
@@ -95,4 +98,5 @@ def update_archive_index(digest_path: str, paper_count: int) -> None:
         f.write(new_row)
 
     print(f"  Archive index updated: {index_path}")
+
 
