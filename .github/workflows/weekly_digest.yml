@@ -37,6 +37,13 @@ jobs:
           git diff --staged --quiet || git commit -m "Weekly digest $(date +%Y-%m-%d)"
           git push
 
+      - name: Read digest for email
+        id: digest
+        run: |
+          DIGEST_FILE=$(ls digests/$(date +%Y-%m-%d)-weekly-digest.md 2>/dev/null || ls digests/*.md | tail -1)
+          echo "file=$DIGEST_FILE" >> $GITHUB_OUTPUT
+          python scraper/md_to_html_email.py "$DIGEST_FILE"
+
       - name: Publish latest digest to GitHub Pages
         run: |
           # C4 — copy latest digest to docs/ for GitHub Pages
@@ -55,14 +62,7 @@ jobs:
           git add docs/
           git diff --staged --quiet || git commit -m "Publish digest to Pages $(date +%Y-%m-%d)"
           git push          
-
-      - name: Read digest for email
-        id: digest
-        run: |
-          DIGEST_FILE=$(ls digests/$(date +%Y-%m-%d)-weekly-digest.md 2>/dev/null || ls digests/*.md | tail -1)
-          echo "file=$DIGEST_FILE" >> $GITHUB_OUTPUT
-          python scraper/md_to_html_email.py "$DIGEST_FILE"
-
+      
       - name: Send digest email
         uses: dawidd6/action-send-mail@v3
         with:
