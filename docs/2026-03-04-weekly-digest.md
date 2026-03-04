@@ -1,6 +1,6 @@
 # Weekly Journal Digest — 2026-03-04
 
-**94 new papers** across 5 journals.
+**106 new papers** across 6 journals.
 
 ---
 ## ⭐ Featured Papers
@@ -12,9 +12,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10176-5)
 
-> Evo 2 is an artificial intelligence-based model that can predict functional properties from genomic sequences and generate new biological models, trained on 9 trillion DNA base pairs.
+> A new artificial intelligence-based model called Evo 2 has been developed that can predict functional properties from genomic sequences and provide a rich generative model for researchers in biology. Evo 2 was trained on 9 trillion DNA base pairs spanning all domains of life.
 
-**Topics:** `genomics` · `artificial intelligence` · `biological modeling`
+**Topics:** `artificial intelligence` · `genomics` · `biological modeling`
 
 ---
 
@@ -23,9 +23,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10181-8)
 
-> A new vision-language foundation model, Merlin, was developed and trained on a large dataset of CT scans and patient records. This model demonstrates strong performance across various tasks and has implications for medical imaging.
+> A new vision-language foundation model called Merlin was developed and trained on a large dataset of paired CT scans and patient record data, demonstrating strong performance across various tasks.
 
-**Topics:** `computer vision` · `natural language processing` · `medical imaging`
+**Topics:** `artificial intelligence` · `computer vision` · `natural language processing`
 
 ---
 
@@ -34,7 +34,7 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10125-2)
 
-> A well-preserved fossil of a tiny, articulated bony fish from the early Silurian period has been discovered, representing the oldest known remains of a bony fish.
+> Fossil discovery in China revealed the oldest known remains of a bony fish, which lived over 420 million years ago.
 
 **Topics:** `paleontology` · `fossil record` · `bony fish`
 
@@ -45,9 +45,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10234-y)
 
-> A machine-learning-driven forecasting system was able to accurately predict aerosol optical components and surface concentrations.
+> A machine-learning-driven forecasting system has been developed to improve operational global aerosol forecasting, enabling more accurate predictions of aerosol optical components and surface concentrations.
 
-**Topics:** `atmospheric science` · `machine learning` · `aerosol science`
+**Topics:** `machine learning` · `aerosol science` · `forecasting`
 
 ---
 
@@ -56,9 +56,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-025-10008-y)
 
-> A new fossil discovery provided previously unseen morphological details of a Silurian stem osteichthyan, shedding light on the origin of osteichthyan characters.
+> A new fossil discovery of the largest Silurian fish, Megamastax amblyodus, provides previously unseen morphological details of a Silurian stem osteichthyan, shedding light on the origin of osteichthyan characters.
 
-**Topics:** `paleontology` · `fossil record` · `evolutionary biology`
+**Topics:** `paleontology` · `evolutionary biology` · `fossil record`
 
 ---
 
@@ -67,9 +67,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00377-3)
 
-> An assessment of thousands of insect species found that rising temperatures pose a significant threat to tropical insects, particularly in lowland areas. This could lead to a loss of biodiversity in these regions.
+> Rising temperatures may lead to a loss of insect biodiversity in tropical lowlands. An assessment of thousands of insect species found that they are sensitive to increasing temperatures.
 
-**Topics:** `ecology` · `biodiversity` · `climate change` · `insects`
+**Topics:** `ecology` · `insects` · `biodiversity` · `climate change`
 
 ---
 
@@ -78,9 +78,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00711-9)
 
-> Researchers claim to have found the strongest evidence yet for the existence of hexagonal diamond, a rare form of carbon. This finding could have significant implications for our understanding of diamond structure.
+> Researchers claim to have found evidence of a rare form of diamond called hexagonal diamond. This form of diamond has been debated for decades.
 
-**Topics:** `materials science` · `diamond` · `carbon`
+**Topics:** `materials science` · `diamonds` · `crystal structure`
 
 ---
 
@@ -89,9 +89,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00681-y)
 
-> A genomic language model called Evo2 can generate short genome sequences, but scientists say further advances are needed to write genomes that will work inside living cells. This raises questions about the potential for creating synthetic life.
+> A computer model can generate short genome sequences, but it is not yet capable of writing genomes that can be used in living cells. Further advances are needed to create synthetic life.
 
-**Topics:** `genomics` · `synthetic biology` · `artificial intelligence`
+**Topics:** `genomics` · `artificial intelligence` · `synthetic biology`
 
 ---
 
@@ -100,9 +100,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00656-z)
 
-> Researchers have identified a genetic switch in male striped mice that can turn off parental behavior and drive infanticide, highlighting the complex relationship between genetics and behavior.
+> Research on African striped mice reveals that male parenting behavior is influenced by the social environment and expression level of the Agouti gene.
 
-**Topics:** `genetics` · `behavioral biology` · `mouse models`
+**Topics:** `genetics` · `behavioural biology` · `mouse models`
 
 ---
 
@@ -111,7 +111,7 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00661-2)
 
-> Researchers question the effectiveness of cancer blood tests, which claim to detect dozens of cancer types, but may be missing many cancers or delivering incorrect diagnoses.
+> Researchers question the effectiveness of cancer blood tests, which claim to detect multiple cancer types, but may be missing many cancers or delivering incorrect diagnoses.
 
 **Topics:** `cancer` · `diagnostics` · `medicine`
 
@@ -122,9 +122,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00299-0)
 
-> A mathematician has developed models of organized crime that could improve public safety in Mexico by providing insights into the structure and behavior of powerful drug cartels.
+> A mathematician has developed models of organized crime that could improve public safety in Mexico by providing a better understanding of the country's powerful drug cartels.
 
-**Topics:** `mathematics` · `crime` · `public safety`
+**Topics:** `mathematics` · `organized crime` · `public safety`
 
 ---
 
@@ -144,7 +144,7 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00652-3)
 
-> A new workflow was developed to capture reactive compounds produced by bacteria, leading to the discovery of two unusual molecules with potential for broad synthetic applications.
+> A new workflow was developed to capture reactive compounds produced by bacteria, leading to the discovery of two unusual molecules that could have broad synthetic applications.
 
 **Topics:** `biochemistry` · `microbiology` · `synthetic biology`
 
@@ -155,7 +155,7 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00679-6)
 
-> A proposal for releasing open-weight AI in steps to alleviate risks associated with its development and deployment.
+> Releasing open-weight AI in steps could alleviate risks associated with its development and deployment.
 
 **Topics:** `artificial intelligence` · `machine learning` · `risk management`
 
@@ -166,7 +166,7 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00641-6)
 
-> This paper is not a scientific study, but rather a historical look at the development of telecommunications.
+> This paper is not a scientific study, but rather a historical look at the development of telecommunications over the past 100 years.
 
 **Topics:** `telecommunications` · `history`
 
@@ -177,7 +177,7 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00678-7)
 
-> South Korea's AI framework act prioritizes rights and safety, focusing on responsible AI development.
+> South Korea has passed an AI framework act that prioritizes rights and safety in the development and use of artificial intelligence.
 
 **Topics:** `AI` · `policy` · `ethics`
 
@@ -188,7 +188,7 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00597-7)
 
-> Nature's photo team selected the month's sharpest science shots, including raining iguanas and coral.
+> Nature's photo team has selected the month's sharpest science shots, including images of raining iguanas and coral. These images showcase the beauty and diversity of scientific research.
 
 **Topics:** `science photography` · `visual arts`
 
@@ -199,9 +199,9 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00595-9)
 
-> Mainstream chatbots presented varying levels of resistance to deliberate requests for fabrication, study finds.
+> A study found that mainstream chatbots presented varying levels of resistance to deliberate requests for fabrication. This raises concerns about the potential for academic fraud using language models.
 
-**Topics:** `artificial intelligence` · `machine learning` · `academic integrity`
+**Topics:** `artificial intelligence` · `academic integrity` · `language models`
 
 ---
 
@@ -210,7 +210,7 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00629-2)
 
-> Researchers studied how centromeres, attachment sites for chromosomes, have evolved in yeast genomes to facilitate cell division.
+> Researchers studied how centromeres, which are crucial for cell division, have evolved in yeast genomes. They found key steps in this process. This discovery can help us understand how cells divide and how this process has changed over time.
 
 **Topics:** `cell biology` · `genomics` · `evolution`
 
@@ -221,9 +221,9 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00657-y)
 
-> The UN Sustainable Development Goals provide a roadmap for future human and planetary prosperity.
+> The UN Sustainable Development Goals are a roadmap for human and planetary prosperity. These goals should not be replaced by alternative measures like GDP.
 
-**Topics:** `sustainability` · `development goals`
+**Topics:** `sustainability` · `economics` · `policy`
 
 ---
 
@@ -232,7 +232,7 @@
 *Published: 2 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00516-w)
 
-> The screeching sound of peeling tape is caused by weak shock waves triggered by micro-cracks in the adhesive layer.
+> The sound of peeling tape is caused by weak shock waves triggered by micro-cracks in the adhesive layer. This discovery can help us understand the physics behind this common phenomenon.
 
 **Topics:** `physics` · `materials science`
 
@@ -243,9 +243,9 @@
 *Published: 2 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00665-y)
 
-> The author argues that AI systems should be designed to preserve creativity, responsibility, and surprise in scientific workflows.
+> The author emphasizes the importance of responsible AI development, suggesting that scientists should focus on designing platforms that preserve creativity and responsibility.
 
-**Topics:** `artificial intelligence` · `scientific workflow` · `responsibility`
+**Topics:** `AI` · `machine learning` · `responsible innovation`
 
 ---
 
@@ -254,9 +254,8 @@
 *Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00621-w)
 
-> This article reviews five of the best science books, covering topics such as brain mysteries and Bronze Age diplomacy.
+> Summary unavailable.
 
-**Topics:** `science books` · `book reviews`
 
 ---
 
@@ -265,9 +264,8 @@
 *Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00505-z)
 
-> A Utah family may have a genetic condition causing them to have twice as many boys as girls, which could be the first conclusive case of sex 'distortion' in humans.
+> Summary unavailable.
 
-**Topics:** `genetics` · `evolution` · `sex determination`
 
 ---
 
@@ -276,9 +274,8 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00163-7?rss=yes)
 
-> Researchers have developed genetically encoded fluorescent reporters to visualize α-synuclein pathology in live brain, enabling the study of the propagation and pathological effects of α-Syn inclusions.
+> Summary unavailable.
 
-**Topics:** `neuroscience` · `genetics` · `molecular biology`
 
 ---
 
@@ -287,9 +284,8 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00162-5?rss=yes)
 
-> Researchers developed SPYTAC, a synthetic peptide that can efficiently degrade amyloid-β in the brain and periphery, leading to improved cognition and reduced neuroinflammation in mice with Alzheimer's disease.
+> Summary unavailable.
 
-**Topics:** `Alzheimer's disease` · `Protein degradation` · `Synthetic peptides`
 
 ---
 
@@ -298,9 +294,8 @@
 *Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00115-7?rss=yes)
 
-> Aconitase 2 plays a crucial role in the canonical TCA cycle by preventing mitochondrial citrate accumulation, which can trigger the integrated stress response and impair cell fitness.
+> Summary unavailable.
 
-**Topics:** `Metabolism` · `Cell biology` · `TCA cycle`
 
 ---
 
@@ -309,9 +304,8 @@
 *Published: 26 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00038-X?rss=yes)
 
-> TNF's effects on hematopoiesis are context-dependent and can be both beneficial and detrimental, depending on the cell type and time.
+> Summary unavailable.
 
-**Topics:** `stem cells` · `hematopoiesis` · `TNF`
 
 ---
 
@@ -320,9 +314,8 @@
 *Published: 26 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00037-8?rss=yes)
 
-> Human primordial germ cell-like cells can mature in vitro when cultured in a reconstituted human fetal ovary or with amnion-like cells, but require SCF for survival.
+> Summary unavailable.
 
-**Topics:** `stem cells` · `primordial germ cells` · `in vitro culture`
 
 ---
 
@@ -331,9 +324,8 @@
 *Published: 26 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00036-6?rss=yes)
 
-> The concept of 'regenesis' is proposed as a framework for describing hybrid tissue outcomes in stem cell therapeutics, aiming to update terminology in the field.
+> Summary unavailable.
 
-**Topics:** `stem cell therapeutics` · `regeneration` · `tissue engineering`
 
 ---
 
@@ -342,9 +334,8 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41587-026-03052-0)
 
-> Researchers discussed the importance of sharing big data for sustainable agri-food innovation.
+> Summary unavailable.
 
-**Topics:** `agriculture` · `food security` · `data sharing`
 
 ---
 
@@ -353,23 +344,58 @@
 *Published: 26 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41587-026-03034-2)
 
-> Researchers discussed the potential and limitations of in vitro gametogenesis (IVG) as a reproductive technology, highlighting the need for public engagement in shaping its future directions.
+> Summary unavailable.
 
-**Topics:** `reproductive biology` · `IVG` · `fertility care`
+
+---
+
+### Texture-dependent all-optical switching in ferromagnetic films via stochastic nucleation of nanoscale domains
+**Nature Materials** | Dinar Khusyainov, Rein Liefferink, MengXing Na, Fabian Kammerbauer, Robert Frömter et al. (+8 more)  
+*Published: 3 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02515-8)
+
+> Researchers have discovered a way to switch magnetic domains in ferromagnetic films using light.
+
+**Topics:** `magnetic materials` · `optical switching` · `domain switching`
+
+---
+
+### Efficient two-photon emission from a quantum dot
+**Nature Materials** | Unknown authors  
+*Published: 2 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02523-8)
+
+> Scientists have developed a way to generate two-photon emission from a quantum dot, which could be useful for quantum photonics.
+
+**Topics:** `quantum photonics` · `quantum dots` · `two-photon emission`
 
 ---
 
 ---
-## Cardiovascular Medicine & Biomedical Engineering
+## Astrophysics & Stellar Evolution
+
+### Jam-packed star system is most compact of its kind ever found
+**Nature** | Unknown authors  
+*Published: 3 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00667-w)
+
+> A star system was discovered that is the most compact of its kind, with all four Sun-like stars fitting within the area of Jupiter's orbit.
+
+**Topics:** `astrophysics` · `stellar evolution` · `exoplanetary science`
+
+---
+
+---
+## Biomedical Engineering & Stroke Prevention
 
 ### Heart surgery with quick-setting magnetic fluid could prevent strokes
 **Nature** | Nick Petrić Howe, Shamini Bundell  
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00742-2)
 
-> Researchers have developed a quick-setting magnetic fluid that can be injected into the heart to prevent strokes, with promising results in animal trials.
+> A quick-setting magnetic fluid has been developed that could potentially prevent strokes by filling the area where blood clots can form. Animal trials showed that the fluid was safe and effective. This technology has the potential to revolutionize stroke prevention.
 
-**Topics:** `cardiovascular medicine` · `materials science` · `biomedical engineering`
+**Topics:** `biomedical engineering` · `stroke prevention` · `magnetic fluid`
 
 ---
 
@@ -378,9 +404,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00740-4)
 
-> A magnetic gel injected into the heart has been shown to be effective in preventing strokes in animal models, by blocking a part of the heart.
+> A magnetic gel has been injected into the heart to block a part of the heart and reduce the risk of stroke. The gel was shown to be effective in animal trials. This technology has the potential to prevent strokes in humans.
 
-**Topics:** `cardiovascular medicine` · `materials science` · `biomedical engineering`
+**Topics:** `biomedical engineering` · `stroke prevention` · `magnetic gel`
 
 ---
 
@@ -389,9 +415,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-025-10091-1)
 
-> A new method for occluding the left atrial appendage using magnetofluids was developed. This method is personalized and complete, and has implications for treating atrial fibrillation.
+> Researchers developed a new method for occluding the left atrial appendage using magnetofluids, which can resist high-speed blood flow in the presence of a magnetic field.
 
-**Topics:** `cardiology` · `magnetofluids` · `biomedical engineering`
+**Topics:** `biomedical engineering` · `magnetofluids` · `cardiovascular disease`
 
 ---
 
@@ -400,9 +426,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00375-5)
 
-> Researchers have developed a magnetic fluid that can be used to close off part of the heart in animals, potentially improving a procedure that prevents stroke in people with irregular heartbeats.
+> An injectable fluid has been used to close off part of the heart in animals, potentially improving a procedure that prevents stroke in people with irregular heartbeats.
 
-**Topics:** `cardiovascular medicine` · `medical devices` · `heart health`
+**Topics:** `cardiovascular medicine` · `medical procedures` · `fluid dynamics`
 
 ---
 
@@ -414,9 +440,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10155-w)
 
-> A study of tropical insects found that they have limited thermal tolerance and that this is due to the properties of their proteins. This has implications for understanding how these insects will adapt to climate change.
+> A study of tropical insects found that species from lowland areas have low thermal tolerance and that this is due to the fundamental properties of protein architecture.
 
-**Topics:** `genomics` · `protein structure` · `climate change`
+**Topics:** `single-cell genomics` · `protein structure` · `thermodynamics`
 
 ---
 
@@ -425,9 +451,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10196-1)
 
-> A new study finds that the global mean sea level is higher than previously thought, which could impact coastal hazard assessments.
+> A new study finds that the global mean sea level is higher than previously assumed in most coastal hazard assessments, which could impact coastal communities and ecosystems.
 
-**Topics:** `coastal geology` · `sea level rise` · `climate change`
+**Topics:** `coastal hazards` · `sea level rise` · `climate change`
 
 ---
 
@@ -436,9 +462,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-025-10045-7)
 
-> Researchers found that wind shear amplifies the impact of soil moisture in triggering rapidly developing thunderstorms.
+> Researchers have found that wind shear amplifies the impact of soil moisture in triggering rapidly developing thunderstorms, which could improve our understanding of thunderstorm dynamics.
 
-**Topics:** `meteorology` · `atmospheric science` · `soil science`
+**Topics:** `meteorology` · `soil science` · `thunderstorms`
 
 ---
 
@@ -447,9 +473,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10218-y)
 
-> A new satellite mission provided observations of river channel geometry and monthly water storage changes for 126,674 river reaches worldwide.
+> A new study used satellite data to map river channel geometry and monthly water storage changes for 126,674 river reaches worldwide, providing insights into global river dynamics.
 
-**Topics:** `hydrology` · `satellite imaging` · `river dynamics`
+**Topics:** `hydrology` · `geography` · `remote sensing`
 
 ---
 
@@ -460,7 +486,7 @@
 
 > Universities need to establish and empower compliance teams to ensure adherence to ethical funding policies, particularly in light of the Epstein case.
 
-**Topics:** `funding` · `ethics` · `university governance`
+**Topics:** `ethics` · `funding` · `compliance`
 
 ---
 
@@ -469,9 +495,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00376-4)
 
-> Satellite data show that wind conditions affect the connection between soil moisture and thunderstorms, which could be used to inform forecasting and improve weather prediction.
+> Wind conditions affect the connection between soil moisture and thunderstorms, according to satellite data, which could be used to inform forecasting.
 
-**Topics:** `meteorology` · `climate science` · `weather forecasting`
+**Topics:** `meteorology` · `soil science` · `forecasting`
 
 ---
 
@@ -480,9 +506,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00659-w)
 
-> The Indus Waters Treaty has withstood several armed conflicts and a huge loss of glaciers, and could serve as a blueprint for other countries to manage water supplies and mitigate the effects of climate change.
+> The Indus Waters Treaty has withstood several challenges, including armed conflicts and glacier loss, and could serve as a blueprint for other water management agreements.
 
-**Topics:** `climate change` · `water management` · `geopolitics`
+**Topics:** `water management` · `climate change` · `geopolitics`
 
 ---
 
@@ -491,20 +517,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00442-x)
 
-> Mexican scientists face unstable conditions, including limited funding and resources, which hinder their ability to conduct research and contribute to the scientific community.
+> Mexican scientists face unstable conditions, including lack of funding and resources, which can hinder their research and impact the country's scientific progress.
 
-**Topics:** `science policy` · `research` · `Mexico`
-
----
-
-### Author Correction: Healthy forests safeguard traditional wild meat food systems in Amazonia
-**Nature** | André Pinassi Antunes, Pedro de Araujo Lima Constantino, Julia E. Fa, Daniel P. Munari, Thais Q. Morcatty et al. (+53 more)  
-*Published: 3 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10332-x)
-
-> A correction to a previous paper on the importance of healthy forests in safeguarding traditional wild meat food systems in Amazonia.
-
-**Topics:** `ecology` · `conservation biology` · `Amazonia`
+**Topics:** `science policy` · `research funding` · `Mexico`
 
 ---
 
@@ -513,9 +528,9 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00680-z)
 
-> Climate research is a global effort, and its risks and responsibilities should be distributed accordingly.
+> Climate research is a global effort, and the risks and responsibilities associated with it should also be distributed globally.
 
-**Topics:** `climate research` · `global cooperation`
+**Topics:** `climate change` · `global cooperation`
 
 ---
 
@@ -524,7 +539,7 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00660-3)
 
-> Despite setbacks in US climate policy, cities, states, and businesses can continue to push for a cleaner environment.
+> Despite setbacks in US climate policy, cities, states, and businesses can continue to push for a cleaner environment through various means.
 
 **Topics:** `climate policy` · `sustainability`
 
@@ -535,9 +550,9 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00663-0)
 
-> Fresh archaeological evidence suggests that infighting led to the catastrophic collapse of the Maya civilization.
+> Fresh archaeological evidence suggests that infighting among the Maya civilization may have led to its catastrophic collapse. This finding provides new insights into the decline of this thriving ancient Mesoamerican culture.
 
-**Topics:** `archaeology` · `anthropology` · `Mesoamerican culture`
+**Topics:** `archaeology` · `anthropology` · `Maya civilization`
 
 ---
 
@@ -546,20 +561,9 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00491-2)
 
-> Climate change may affect mosquito and parasite survival, but extreme weather could be a more immediate danger to malaria control efforts in Africa.
+> Climate change is expected to affect mosquito and parasite survival, reshaping malaria risk in Africa. However, extreme weather events may pose a more immediate danger to disease control efforts.
 
 **Topics:** `climate change` · `malaria` · `public health`
-
----
-
-### Author Correction: Root microbiota drive direct integration of phosphate stress and immunity
-**Nature** | Gabriel Castrillo, Paulo José Pereira Lima Teixeira, Sur Herrera Paredes, Theresa F. Law, Laura de Lorenzo et al. (+7 more)  
-*Published: 2 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10320-1)
-
-> This is a correction to a previous study on root microbiota and phosphate stress.
-
-**Topics:** `microbiology` · `plant biology`
 
 ---
 
@@ -568,7 +572,7 @@
 *Published: 2 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00626-5)
 
-> Research explores the brains of people with aphantasia, a condition where individuals have no mental imagery.
+> Researchers explore the brains of people with aphantasia, a condition where individuals lack mental imagery, providing insights into consciousness.
 
 **Topics:** `neuroscience` · `consciousness` · `brain function`
 
@@ -579,9 +583,9 @@
 *Published: 2 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00664-z)
 
-> The article reveals the human side of China's tightly controlled digital ecosystem, highlighting acts of resistance.
+> The article highlights the human side of China's tightly controlled digital ecosystem, revealing stories of resistance and resilience.
 
-**Topics:** `social media` · `digital rights` · `China`
+**Topics:** `sociology` · `digital culture` · `China`
 
 ---
 
@@ -590,7 +594,7 @@
 *Published: 2 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00666-x)
 
-> The article profiles female colleagues who inspire award-winning women in science, highlighting the importance of mentorship.
+> The article features stories of female colleagues who inspire award-winning women in science, highlighting the importance of mentorship and support.
 
 **Topics:** `women in science` · `mentorship` · `career development`
 
@@ -601,9 +605,8 @@
 *Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00674-x)
 
-> This article is a discussion between Nature staff about the week's top science news, including Pokémon's 30th anniversary.
+> Summary unavailable.
 
-**Topics:** `science news` · `popular science`
 
 ---
 
@@ -612,9 +615,8 @@
 *Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00601-0)
 
-> This article discusses the US Congress's rejection of sweeping cuts to science agencies, but notes that the NIH, NSF, and NASA have had their spending slowed.
+> Summary unavailable.
 
-**Topics:** `science policy` · `US politics`
 
 ---
 
@@ -623,9 +625,8 @@
 *Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00538-4)
 
-> This article features an opinion piece by Robert Bullard, arguing that researchers in environmental justice have a responsibility to back up their work with action.
+> Summary unavailable.
 
-**Topics:** `environmental justice` · `social justice`
 
 ---
 
@@ -634,70 +635,22 @@
 *Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00441-y)
 
-> The Pokémon franchise has inspired generations of researchers in various fields, including evolution, biodiversity, and research integrity.
+> Summary unavailable.
 
-**Topics:** `evolution` · `biodiversity` · `research integrity`
-
----
-
-### Author Correction: Myocardial reprogramming by HMGN1 underlies heart defects in trisomy 21
-**Nature** | Sanjeev S. Ranade, Feiya Li, Sean Whalen, Angelo Pelonero, Lin Ye et al. (+18 more)  
-*Published: 26 Feb 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10283-3)
-
-> A correction to a previous paper on myocardial reprogramming by HMGN1 in trisomy 21, which underlies heart defects in the condition.
-
-**Topics:** `cardiology` · `genetics` · `developmental biology`
-
----
-
-### Establishing a commercial solution for extremely rare genetic diseases
-**Nature Biotechnology** | Stanley T. Crooke, Andrew W. Lo  
-*Published: 2 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41587-026-03056-w)
-
-> Authors proposed a commercial solution for extremely rare genetic diseases.
-
-**Topics:** `genetics` · `rare diseases` · `biotechnology`
 
 ---
 
 ---
-## Genetics & Behavioral Biology
-
-### Shared neural substrates of prosocial and parenting behaviours
-**Nature** | Fangmiao Sun, Kayla Y. Lim, James Dang, Li I. Zhang, Ye Emily Wu et al. (+1 more)  
-*Published: 4 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10327-8)
-
-> This study found that certain neural substrates are shared between prosocial and parenting behaviors, suggesting a common neural basis for these behaviors.
-
-**Topics:** `neuroscience` · `behavioral biology` · `neuroimaging`
-
----
-
-### Daily briefing: This Utah family line might be evidence of ‘selfish genes’ in humans
-**Nature** | Flora Graham  
-*Published: 27 Feb 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00675-w)
-
-> Researchers claim to have found the first conclusive case of sex 'distortion' in humans, and also discuss how stem cells could treat spina bifida and the influence of Pokémon on science.
-
-**Topics:** `genetics` · `evolution` · `stem cells`
-
----
-
----
-## Genomics & Immunology
+## Immunology & Genomics
 
 ### DICER cleavage fidelity is governed by 5′-end binding pockets
 **Nature** | Minh Khoa Ngo, Cong Truc Le, Tuan Anh Nguyen  
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10211-5)
 
-> Researchers have shed light on the mechanism by which the DICER enzyme cleaves RNA at precise locations to produce small RNAs, using cryo-electron microscopy and massively parallel assays.
+> Researchers used cryo-electron microscopy and massively parallel assays to study the mechanism by which DICER, a key enzyme in the RNase III family, cleaves RNA at precise locations to produce small RNAs. The study provides new insights into the mechanism of DICER.
 
-**Topics:** `molecular biology` · `RNA biology` · `structural biology`
+**Topics:** `molecular biology` · `RNA processing` · `DICER`
 
 ---
 
@@ -706,7 +659,7 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10167-6)
 
-> A new alarmin, farnesyl pyrophosphate, was found to enhance the immune system by stimulating keratinocytes to produce IL-6 and CCL20. This has implications for understanding how the immune system works.
+> A metabolic intermediate called farnesyl pyrophosphate acts as an alarmin to enhance the immune system's ability to produce antibodies.
 
 **Topics:** `immunology` · `metabolism` · `alarmins`
 
@@ -717,7 +670,7 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10193-4)
 
-> A study found that lipid metabolism plays a key role in regulating T cell ferroptosis and immunity. This has implications for understanding how diet affects the immune system.
+> The balance of fatty acids in the diet affects the susceptibility of T cells to ferroptosis, a type of cell death, and plays a key role in regulating T cell function.
 
 **Topics:** `immunology` · `lipid metabolism` · `ferroptosis`
 
@@ -728,9 +681,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10205-3)
 
-> A low-protein diet in mice leads to a change in their fat tissue, turning it into brown fat, which is mediated by the gut microbiota.
+> A low-protein diet in mice leads to a change in their fat tissue, with the help of gut bacteria, to burn energy like brown fat.
 
-**Topics:** `microbiota` · `adipose tissue` · `dietary cues`
+**Topics:** `microbiome` · `adipose tissue` · `dietary cues`
 
 ---
 
@@ -739,7 +692,7 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10189-0)
 
-> Researchers have discovered the molecular mechanism of how the influenza virus steals RNA caps from host cells to replicate its own genome.
+> Researchers discovered how the influenza virus takes a piece of the host's RNA to help it replicate, a key step in the virus's life cycle.
 
 **Topics:** `influenza` · `virology` · `RNA-dependent RNA polymerase`
 
@@ -750,9 +703,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10224-0)
 
-> A new method called cf-EpiTracing allows researchers to identify the cells of origin and diagnose diseases by analyzing histone modifications in cell-free DNA from human plasma.
+> Scientists developed a new method to analyze DNA in the blood to identify the source of diseases and track how well treatments are working.
 
-**Topics:** `single-cell genomics` · `epigenetics` · `liquid biopsies`
+**Topics:** `epigenetics` · `single-cell genomics` · `liquid biopsy`
 
 ---
 
@@ -761,9 +714,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10222-2)
 
-> Researchers discovered a key driver of resistance to cancer treatment, which involves the activation of a glucocorticoid receptor.
+> Researchers have identified a key driver of resistance to cancer treatment in triple-negative breast cancer, which could lead to new therapeutic strategies.
 
-**Topics:** `cancer biology` · `immunology` · `molecular biology`
+**Topics:** `cancer biology` · `immunology` · `metastasis`
 
 ---
 
@@ -772,9 +725,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10178-3)
 
-> A study used cryogenic electron microscopy to reveal how a dCas12f protein recruits RNA polymerase to targeted DNA, initiating transcription at a fixed downstream distance.
+> A study reveals the structural basis of RNA-guided transcription by a dCas12f–σ<sup>E</sup>–RNAP complex, which initiates transcription at a fixed downstream distance without recognizing canonical promoter elements.
 
-**Topics:** `RNA-guided transcription` · `CRISPR` · `protein structure`
+**Topics:** `single-cell genomics` · `CRISPR` · `transcription`
 
 ---
 
@@ -783,9 +736,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10197-0)
 
-> Researchers identified actionable genomic patterns driving acquired therapy resistance in breast cancer, which can be targeted for treatment.
+> Researchers identified actionable genomic patterns driving acquired therapy resistance in breast cancer, which are defined by germline and somatic interactions.
 
-**Topics:** `breast cancer` · `genomics` · `therapy resistance`
+**Topics:** `cancer genomics` · `breast cancer` · `therapy resistance`
 
 ---
 
@@ -794,9 +747,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10166-7)
 
-> A study found that CRISPR-Cas12f proteins can be used to form potent, RNA-guided gene activation systems that function independently of fixed promoter motifs.
+> A study found that specialized σ factors interact with nuclease-dead, CRISPR–Cas12f proteins to form potent, RNA-guided gene activation systems that function independently of fixed promoter motifs.
 
-**Topics:** `CRISPR` · `gene activation` · `RNA-guided transcription`
+**Topics:** `CRISPR` · `gene regulation` · `transcription`
 
 ---
 
@@ -805,9 +758,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10157-8)
 
-> A study found that a specific type of niche in the upper gastrointestinal tract of mice supports the survival of nascent tumours. This niche is created by fibroblasts remodelling the stroma in response to tumour stress. The study suggests that this niche plays a crucial role in tumour persistence.
+> A study found that a specific type of niche in the stomach can support the growth of tumors. This niche is created by fibroblasts that remodel the underlying tissue in response to tumor stress.
 
-**Topics:** `cancer` · `tumours` · `stroma` · `fibroblasts`
+**Topics:** `cancer` · `tumors` · `fibroblasts` · `stroma`
 
 ---
 
@@ -816,9 +769,9 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00650-5)
 
-> Cancer cells that spread to other organs can evade the immune system by harnessing stress-hormone signalling. This finding suggests a potential therapeutic target for preventing metastasis.
+> Cancer cells can evade the immune system by using stress-hormone signalling. This signalling pathway may be a potential target for preventing metastasis.
 
-**Topics:** `cancer` · `immunology` · `metastasis` · `stress-hormone signalling`
+**Topics:** `cancer` · `immunology` · `metastasis`
 
 ---
 
@@ -827,9 +780,20 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00379-1)
 
-> Scientists have discovered a pathway in skin cells that boosts the production of antibodies to protect the whole body, enhancing immune defenses.
+> Scientists have discovered a pathway in skin cells that boosts the production of antibodies to protect the whole body, providing new insights into immune defenses.
 
 **Topics:** `immunology` · `skin cells` · `antibodies`
+
+---
+
+### Author Correction: Healthy forests safeguard traditional wild meat food systems in Amazonia
+**Nature** | André Pinassi Antunes, Pedro de Araujo Lima Constantino, Julia E. Fa, Daniel P. Munari, Thais Q. Morcatty et al. (+53 more)  
+*Published: 3 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10332-x)
+
+> A correction was made to a previous study on the importance of healthy forests in safeguarding traditional wild meat food systems in Amazonia.
+
+**Topics:** `ecology` · `conservation biology` · `Amazonia`
 
 ---
 
@@ -838,20 +802,20 @@
 *Published: 3 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10323-y)
 
-> A genetically encoded assembly recorder was developed to temporally resolve cellular history, providing new insights into cellular processes.
+> A genetically encoded assembly recorder was developed to temporally resolve cellular history, allowing for a deeper understanding of cellular processes.
 
-**Topics:** `genomics` · `cell biology` · `single-cell analysis`
+**Topics:** `genetics` · `cell biology` · `single-cell genomics`
 
 ---
 
-### Why ‘quantum proteins’ could be the next big thing in biology
-**Nature** | Nicola Jones  
-*Published: 3 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00662-1)
+### Author Correction: Root microbiota drive direct integration of phosphate stress and immunity
+**Nature** | Gabriel Castrillo, Paulo José Pereira Lima Teixeira, Sur Herrera Paredes, Theresa F. Law, Laura de Lorenzo et al. (+7 more)  
+*Published: 2 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10320-1)
 
-> Researchers are exploring the potential of 'quantum proteins' to offer new insights into cellular biology.
+> This is a correction to a previous paper on root microbiota and phosphate stress. The correction does not provide new information.
 
-**Topics:** `biology` · `quantum computing`
+**Topics:** `microbiology` · `plant biology` · `immunology`
 
 ---
 
@@ -860,9 +824,18 @@
 *Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10308-x)
 
-> This paper discusses the gene product Murr1 and its role in restricting HIV-1 replication in resting CD4+ lymphocytes.
+> Summary unavailable.
 
-**Topics:** `immunology` · `HIV` · `virology`
+
+---
+
+### Author Correction: Myocardial reprogramming by HMGN1 underlies heart defects in trisomy 21
+**Nature** | Sanjeev S. Ranade, Feiya Li, Sean Whalen, Angelo Pelonero, Lin Ye et al. (+18 more)  
+*Published: 26 Feb 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10283-3)
+
+> Summary unavailable.
+
 
 ---
 
@@ -871,9 +844,8 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00103-0?rss=yes)
 
-> Enhancing circadian rhythms in the hypothalamic paraventricular nucleus of mice using 3′-deoxyadenosine treatment reversed aging biomarkers and extended lifespan.
+> Summary unavailable.
 
-**Topics:** `Circadian rhythms` · `Aging` · `Neurology`
 
 ---
 
@@ -882,9 +854,8 @@
 *Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00117-0?rss=yes)
 
-> Researchers determined the high-resolution structures of hantavirus glycoprotein tetramers using cryo-EM, revealing the molecular basis of glycoprotein architecture, acid-induced membrane fusion, and antibody-mediated neutralization.
+> Summary unavailable.
 
-**Topics:** `Virology` · `Structural biology` · `Cryo-EM`
 
 ---
 
@@ -893,9 +864,8 @@
 *Published: 27 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00110-8?rss=yes)
 
-> Researchers discovered that pyruvate can suppress interferon signaling by inducing STAT1 protein pyruvylation, a post-translational modification that can modulate immune signaling and host antiviral response.
+> Summary unavailable.
 
-**Topics:** `Immunology` · `Virology` · `Post-translational modification`
 
 ---
 
@@ -904,9 +874,8 @@
 *Published: 26 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00035-4?rss=yes)
 
-> Shugoshin 2A stabilizes heterochromatin complexes to suppress the 2-cell-like state in embryonic stem cells by regulating the stability of KAP1.
+> Summary unavailable.
 
-**Topics:** `embryonic stem cells` · `heterochromatin` · `KAP1`
 
 ---
 
@@ -915,9 +884,8 @@
 *Published: 26 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00034-2?rss=yes)
 
-> ASCL1 promotes nuclear shrinkage in transdifferentiation by suppressing NUP37, a critical component of the nuclear pore complex.
+> Summary unavailable.
 
-**Topics:** `transdifferentiation` · `nuclear shrinkage` · `ASCL1`
 
 ---
 
@@ -926,9 +894,8 @@
 *Published: 26 Feb 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(25)00385-6?rss=yes)
 
-> Researchers developed a highly efficient method to generate embryonic oral epithelium from human pluripotent stem cells, which can be used to study human oral development and model craniofacial disorders.
+> Summary unavailable.
 
-**Topics:** `stem cells` · `oral development` · `human biology`
 
 ---
 
@@ -937,9 +904,18 @@
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41587-026-03040-4)
 
-> Scientists discovered a new type of RNA capped with dephospho-CoA, which can be quantified and profiled using a specific enzyme.
+> Summary unavailable.
 
-**Topics:** `RNA biology` · `molecular biology` · `genomics`
+
+---
+
+### Establishing a commercial solution for extremely rare genetic diseases
+**Nature Biotechnology** | Stanley T. Crooke, Andrew W. Lo  
+*Published: 2 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41587-026-03056-w)
+
+> Summary unavailable.
+
 
 ---
 
@@ -973,56 +949,83 @@
 
 ---
 
+### In situ-generated vaccine-like pyroptosome for personalized cancer immunotherapy
+**Nature Materials** | Binlong Chen, Fangjie Wan, Heming Xia, Xingquan Pan, Letong Wang et al. (+14 more)  
+*Published: 3 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02506-9)
+
+> A new vaccine-like treatment for cancer uses pyroptosis to induce a strong immune response.
+
+**Topics:** `cancer immunotherapy` · `pyroptosis` · `nanotechnology`
+
 ---
-## Materials Science & Diamond Synthesis
+
+### A unified framework for multiomics deconvolution
+**Nature Methods** | Xiaoyu Wang, Fuyi Li, Robin B. Gasser, Jiangning Song  
+*Published: 2 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41592-026-03008-x)
+
+> A new algorithm called DECODE has been developed to deconvolute multiomics data, which could lead to a better understanding of complex biological systems.
+
+**Topics:** `multiomics` · `bioinformatics` · `machine learning`
+
+---
+
+### DECODE: deep learning-based common deconvolution framework for various omics data
+**Nature Methods** | Tianyi Zhao, Renjie Liu, Yuzhi Sun, Bingtian Wang, Liyuan Zhang et al. (+6 more)  
+*Published: 2 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41592-026-03007-y)
+
+> A deep learning-based framework called DECODE has been developed to deconvolute various types of omics data, which could lead to a better understanding of complex biological systems.
+
+**Topics:** `deep learning` · `multiomics` · `bioinformatics`
+
+---
+
+### Next-generation multicolor indicators for in vivo imaging of norepinephrine
+**Nature Methods** | Valentin Lu Rohner, Sebastiano Curreli, Paul J. Lamothe-Molina, Zacharoula Kagiampaki, Andrew G. Yee et al. (+25 more)  
+*Published: 26 Feb 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41592-026-03006-z)
+
+> Researchers developed improved red and green indicators for detecting norepinephrine release in mice. These indicators can be used in dual-color fiber photometry and two-photon imaging applications to study norepinephrine release in awake behaving mice.
+
+**Topics:** `in vivo imaging` · `neuroscience` · `bioluminescence` · `optogenetics`
+
+---
+
+---
+## Materials Science & Molecular Biology
 
 ### Bulk hexagonal diamond
 **Nature** | Shoulong Lai, Xigui Yang, Jiuyang Shi, Shijie Liu, Ying Guo et al. (+7 more)  
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10212-4)
 
-> Researchers have successfully synthesized millimetre-sized phase-pure hexagonal diamond, a new polymorph of cubic diamond, by compressing highly oriented pyrolytic graphite under high pressures and temperatures.
+> Researchers successfully synthesized a new form of diamond, called hexagonal diamond, by compressing graphite under high pressure and temperature.
 
 **Topics:** `materials science` · `diamond synthesis` · `high-pressure physics`
 
 ---
-
-### Jam-packed star system is most compact of its kind ever found
-**Nature** | Unknown authors  
-*Published: 3 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00667-w)
-
-> A star system consisting of four Sun-like stars was discovered to be the most compact of its kind, with all four stars fitting within the area of Jupiter's orbit.
-
-**Topics:** `astrophysics` · `stellar systems` · `exoplanets`
-
----
-
----
-## Mental Health & Academic Misconduct
-
-### My relationship with my PhD supervisor has become toxic — what do I do?
-**Nature** | Xiaoying You  
-*Published: 3 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-025-04126-w)
-
-> A graduate student in China has become seriously depressed after facing frequent verbal abuse from their PhD supervisor.
-
-**Topics:** `mental health` · `academic misconduct`
-
----
-
----
-## Molecular Biology & Ion Channels
 
 ### The molecular basis of force selectivity by PIEZO2
 **Nature** | Eric M. Mulhall, Oleg Yarishkin, Rose Z. Hill, Anna K. Koster, Ardem Patapoutian  
 *Published: 4 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10182-7)
 
-> A new study found that the molecular basis of force selectivity by the PIEZO2 channel is due to its intrinsic rigidity.
+> Scientists have discovered the molecular basis of force selectivity by PIEZO2, a channel that plays a crucial role in mechanosensation.
 
-**Topics:** `molecular biology` · `ion channels` · `mechanical biology`
+**Topics:** `molecular biology` · `mechanosensation` · `ion channels`
+
+---
+
+### Why ‘quantum proteins’ could be the next big thing in biology
+**Nature** | Nicola Jones  
+*Published: 3 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00662-1)
+
+> Scientists have developed fluorescent proteins with quantum properties, which could offer new insights into cellular biology.
+
+**Topics:** `biotechnology` · `quantum biology`
 
 ---
 
@@ -1031,9 +1034,101 @@
 *Published: 2 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10314-z)
 
-> Researchers discovered that BCDX2–CX3 and DX2–CX3 complexes assemble and stabilize RAD51 filaments.
+> Researchers discovered that BCDX2–CX3 and DX2–CX3 complexes help stabilize RAD51 filaments. This is important for DNA repair and replication.
 
-**Topics:** `molecular biology` · `genetics`
+**Topics:** `molecular biology` · `DNA repair`
+
+---
+
+### Heterogeneity by design
+**Nature Materials** | Unknown authors  
+*Published: 4 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02545-2)
+
+> Summary unavailable.
+
+
+---
+
+### Dynamical stability by spin transfer in nearly isotropic magnets
+**Nature Materials** | Hidekazu Kurebayashi, Joseph Barker, Takumi Yamazaki, Varun K. Kushwaha, Kilian D. Stenning et al. (+7 more)  
+*Published: 4 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02510-z)
+
+> Spin torques can stabilize magnetization in a high-energy state, which could be useful for unconventional computing.
+
+**Topics:** `magnets` · `spin dynamics` · `unconventional computing`
+
+---
+
+### Stability in the dilute limit
+**Nature Materials** | Haisong Feng, Xin Zhang, Min Wei  
+*Published: 2 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02527-4)
+
+> Metal dopants can stabilize nanoparticles by electronically stabilizing surface atoms, which could be useful for catalyst engineering.
+
+**Topics:** `nanoparticles` · `catalyst stability` · `surface science`
+
+---
+
+### Metal hybridization in dilute-alloy catalysts promotes sintering resistance by decreasing surface mobility
+**Nature Materials** | Jordan Finzel, Audrey Dannar, Shoutian Sun, Adam S. Hoffman, Yogita Soni et al. (+4 more)  
+*Published: 2 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02489-7)
+
+> Researchers found that adding a small amount of platinum to copper nanoparticles makes them more resistant to sintering, a process that can cause catalysts to lose their effectiveness.
+
+**Topics:** `catalysts` · `materials science` · `nanoparticles` · `surface chemistry`
+
+---
+
+### Charge-triggered switching mechanism in selenium selector enabling ultralow leakage current
+**Nature Materials** | Yuting Sun, Tamihiro Gotoh, Jiayi Zhao, Mengfei Zhang, Shucheng Shi et al. (+7 more)  
+*Published: 2 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02499-5)
+
+> Scientists discovered a new mechanism for switching off current in phase-change memories, which could lead to more efficient and reliable storage devices.
+
+**Topics:** `phase-change memories` · `materials science` · `semiconductor devices`
+
+---
+
+---
+## Mental Health & Academic Environment
+
+### My relationship with my PhD supervisor has become toxic — what do I do?
+**Nature** | Xiaoying You  
+*Published: 3 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-025-04126-w)
+
+> A graduate student in China has become seriously depressed after facing frequent verbal abuse from their PhD supervisor. This situation highlights the importance of maintaining a healthy and respectful relationship between students and supervisors.
+
+**Topics:** `mental health` · `academic environment` · `supervision`
+
+---
+
+---
+## Neuroscience & Behavioral Biology
+
+### Shared neural substrates of prosocial and parenting behaviours
+**Nature** | Fangmiao Sun, Kayla Y. Lim, James Dang, Li I. Zhang, Ye Emily Wu et al. (+1 more)  
+*Published: 4 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10327-8)
+
+> Researchers identified shared neural substrates in the brain that are associated with prosocial and parenting behaviors. This study suggests that these behaviors may be linked to specific neural mechanisms. The findings have implications for understanding the neural basis of social behavior and may inform the development of interventions for social disorders.
+
+**Topics:** `neuroscience` · `behavioral biology` · `neural substrates` · `prosocial behavior`
+
+---
+
+### Daily briefing: This Utah family line might be evidence of ‘selfish genes’ in humans
+**Nature** | Flora Graham  
+*Published: 27 Feb 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00675-w)
+
+> Summary unavailable.
+
 
 ---
 
@@ -1045,9 +1140,9 @@
 *Published: 2 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00628-3)
 
-> Research suggests that Earth's crust may have been churning 3.3 billion years ago, marking an early start for plate tectonics.
+> Researchers found evidence of early plate tectonics on Earth, suggesting that the planet's crust may have been churning 3.3 billion years ago.
 
-**Topics:** `geology` · `plate tectonics` · `Earth's crust`
+**Topics:** `geology` · `plate tectonics` · `Earth's history`
 
 ---
 
@@ -1058,5 +1153,16 @@
 
 > Summary unavailable.
 
+
+---
+
+### It’s a colorful pangenome world
+**Nature Methods** | Vivien Marx  
+*Published: 4 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41592-026-03021-0)
+
+> The concept of pangenomes is gaining attention, and researchers are developing new tools to work with them, which could lead to a better understanding of genome variation within species.
+
+**Topics:** `genomics` · `pangenomes` · `bioinformatics`
 
 ---
