@@ -49,6 +49,7 @@ jobs:
         run: |
           mkdir -p docs
           cp /tmp/digest_email.html docs/index.html
+          cp /tmp/digest_email.html docs/$(date +%Y-%m-%d)-weekly-digest.html
           # Copy all digest .md files so archive links resolve
           cp digests/*.md docs/
           git add docs/
