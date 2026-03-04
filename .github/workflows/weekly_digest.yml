@@ -41,11 +41,13 @@ jobs:
         run: |
           # C4 — copy latest digest to docs/ for GitHub Pages
           mkdir -p docs
-          DIGEST_HTML=$(ls digests/*.html 2>/dev/null | sort | tail -1)
-          if [ -n "$DIGEST_HTML" ]; then
-            cp "$DIGEST_HTML" docs/index.html
-            echo "Copied $DIGEST_HTML → docs/index.html"
-          fi
+          #DIGEST_HTML=$(ls digests/*.html 2>/dev/null | sort | tail -1)
+          #if [ -n "$DIGEST_HTML" ]; then
+          #  cp "$DIGEST_HTML" docs/index.html
+          #  echo "Copied $DIGEST_HTML → docs/index.html"
+          #fi
+
+          cp /tmp/digest_email.html docs/index.html
 
           # Also copy archive index if it exists
           [ -f digests/index.md ] && cp digests/index.md docs/archive.md
