@@ -6,6 +6,8 @@ from .extract_repos import extract_all_repos
 from .summarise import summarise_papers
 from .report import generate_report, update_archive_index
 from .trends import log_tag_counts, maybe_write_monthly_report
+from .manifest import update_manifest
+
 
 def main():
     config    = load_config()
@@ -36,6 +38,10 @@ def main():
 
     # E2 — trend tracking
     log_tag_counts(papers, config)
+    # E3 — update dashboard manifest
+    digest_html_name = f"{date_str}-weekly-digest.html"
+    update_manifest(papers, digest_html_name, config)
+    
     maybe_write_monthly_report(config)
 
     print(f"  Done. Digest: {output_path}")
