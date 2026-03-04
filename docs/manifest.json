@@ -14,11 +14,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "This study found shared neural substrates in the brain for prosocial and parenting behaviors, suggesting a common neural basis for these behaviors.",
+        "summary": "This study found that certain neural substrates are shared between prosocial and parenting behaviors, suggesting a common neural basis for these behaviors.",
         "categories": [
           "neuroscience",
-          "behavioral genetics",
-          "neural substrates"
+          "behavioral biology",
+          "neuroimaging"
         ],
         "watchlist_match": false
       },
@@ -30,11 +30,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have developed a quick-setting magnetic fluid that could prevent strokes by filling the area where blood clots form, and have also created a form of diamond in the lab.",
+        "summary": "Researchers have developed a quick-setting magnetic fluid that can be injected into the heart to prevent strokes, with promising results in animal trials.",
         "categories": [
+          "cardiovascular medicine",
           "materials science",
-          "biomedical engineering",
-          "stroke prevention"
+          "biomedical engineering"
         ],
         "watchlist_match": false
       },
@@ -46,11 +46,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A hydrogel-based plug injected into the heart has been shown to be effective in reducing the risk of stroke in animal trials.",
+        "summary": "A magnetic gel injected into the heart has been shown to be effective in preventing strokes in animal models, by blocking a part of the heart.",
         "categories": [
-          "cardiovascular disease",
-          "biomedical engineering",
-          "hydrogel"
+          "cardiovascular medicine",
+          "materials science",
+          "biomedical engineering"
         ],
         "watchlist_match": false
       },
@@ -62,10 +62,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Evo 2 is an artificial intelligence-based model that predicts functional properties from genomic sequences and provides a rich generative model for researchers in biology.",
+        "summary": "Evo 2 is an artificial intelligence-based model that can predict functional properties from genomic sequences and generate new biological models, trained on 9 trillion DNA base pairs.",
         "categories": [
-          "artificial intelligence",
           "genomics",
+          "artificial intelligence",
           "biological modeling"
         ],
         "watchlist_match": true
@@ -78,11 +78,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have used cryo-electron microscopy and massively parallel assays to shed light on the mechanism by which the DICER enzyme cleaves RNA at precise locations to produce small RNAs.",
+        "summary": "Researchers have shed light on the mechanism by which the DICER enzyme cleaves RNA at precise locations to produce small RNAs, using cryo-electron microscopy and massively parallel assays.",
         "categories": [
+          "molecular biology",
           "RNA biology",
-          "enzymology",
-          "cryo-electron microscopy"
+          "structural biology"
         ],
         "watchlist_match": false
       },
@@ -94,12 +94,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A study of tropical insects found that they have limited thermal tolerance, meaning they can't survive high temperatures. This is due to the fundamental properties of their protein architecture. This has significant implications for understanding how insects adapt to changing environments.",
+        "summary": "A study of tropical insects found that they have limited thermal tolerance and that this is due to the properties of their proteins. This has implications for understanding how these insects will adapt to climate change.",
         "categories": [
-          "single-cell genomics",
+          "genomics",
           "protein structure",
-          "ecology",
-          "evolutionary biology"
+          "climate change"
         ],
         "watchlist_match": false
       },
@@ -111,11 +110,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers discovered a new metabolic alarmin, farnesyl pyrophosphate, that enhances the immune system by stimulating the production of antibodies. This alarmin is produced by keratinocytes and has significant implications for understanding how the immune system is regulated.",
+        "summary": "A new alarmin, farnesyl pyrophosphate, was found to enhance the immune system by stimulating keratinocytes to produce IL-6 and CCL20. This has implications for understanding how the immune system works.",
         "categories": [
           "immunology",
           "metabolism",
-          "cell biology"
+          "alarmins"
         ],
         "watchlist_match": false
       },
@@ -127,11 +126,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Scientists developed a new method for occluding the left atrial appendage using magnetofluids, which can resist high-speed blood flow. This method has the potential to be personalized and complete, offering a new strategy for left atrial appendage occlusion.",
+        "summary": "A new method for occluding the left atrial appendage using magnetofluids was developed. This method is personalized and complete, and has implications for treating atrial fibrillation.",
         "categories": [
-          "cardiovascular disease",
-          "biomedical engineering",
-          "magnetism"
+          "cardiology",
+          "magnetofluids",
+          "biomedical engineering"
         ],
         "watchlist_match": false
       },
@@ -143,11 +142,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A study found that lipid metabolism plays a crucial role in regulating T cell ferroptosis and immunity. The balance of systemic polyunsaturated and monounsaturated fatty acids determines the susceptibility of T cells to ferroptosis, highlighting the importance of dietary composition in regulating T cell function.",
+        "summary": "A study found that lipid metabolism plays a key role in regulating T cell ferroptosis and immunity. This has implications for understanding how diet affects the immune system.",
         "categories": [
           "immunology",
-          "metabolism",
-          "cell biology"
+          "lipid metabolism",
+          "ferroptosis"
         ],
         "watchlist_match": false
       },
@@ -159,11 +158,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers developed Merlin, a computed tomography vision\u2013language foundation model and dataset, which demonstrates strong performance across various tasks and external sites. Merlin was trained on a large dataset of paired CT scans, patient record data, and radiology reports.",
+        "summary": "A new vision-language foundation model, Merlin, was developed and trained on a large dataset of CT scans and patient records. This model demonstrates strong performance across various tasks and has implications for medical imaging.",
         "categories": [
-          "artificial intelligence",
           "computer vision",
-          "natural language processing"
+          "natural language processing",
+          "medical imaging"
         ],
         "watchlist_match": true
       },
@@ -175,9 +174,9 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A low-protein diet in mice leads to a change in their fat tissue, with the help of gut bacteria, to burn energy like brown fat.",
+        "summary": "A low-protein diet in mice leads to a change in their fat tissue, turning it into brown fat, which is mediated by the gut microbiota.",
         "categories": [
-          "microbiome",
+          "microbiota",
           "adipose tissue",
           "dietary cues"
         ],
@@ -191,7 +190,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have discovered how the influenza virus takes a piece of the host's RNA to help it replicate.",
+        "summary": "Researchers have discovered the molecular mechanism of how the influenza virus steals RNA caps from host cells to replicate its own genome.",
         "categories": [
           "influenza",
           "virology",
@@ -207,11 +206,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A new method for analyzing DNA in the blood can help diagnose diseases and understand where they come from.",
+        "summary": "A new method called cf-EpiTracing allows researchers to identify the cells of origin and diagnose diseases by analyzing histone modifications in cell-free DNA from human plasma.",
         "categories": [
+          "single-cell genomics",
           "epigenetics",
-          "single-cell analysis",
-          "liquid biopsy"
+          "liquid biopsies"
         ],
         "watchlist_match": false
       },
@@ -223,11 +222,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Fossil discovery of the oldest known bony fish, dating back to the early Silurian period, provides new insights into the evolution of fish.",
+        "summary": "A well-preserved fossil of a tiny, articulated bony fish from the early Silurian period has been discovered, representing the oldest known remains of a bony fish.",
         "categories": [
           "paleontology",
           "fossil record",
-          "evolutionary biology"
+          "bony fish"
         ],
         "watchlist_match": true
       },
@@ -239,7 +238,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have successfully synthesized millimeter-sized hexagonal diamond, a new form of diamond, by compressing graphite under high pressure and temperature.",
+        "summary": "Researchers have successfully synthesized millimetre-sized phase-pure hexagonal diamond, a new polymorph of cubic diamond, by compressing highly oriented pyrolytic graphite under high pressures and temperatures.",
         "categories": [
           "materials science",
           "diamond synthesis",
@@ -255,7 +254,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A new study found that sea levels are higher than previously assumed in most coastal hazard assessments, which could impact coastal communities and infrastructure.",
+        "summary": "A new study finds that the global mean sea level is higher than previously thought, which could impact coastal hazard assessments.",
         "categories": [
           "coastal geology",
           "sea level rise",
@@ -271,7 +270,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers discovered a key driver of resistance to cancer treatment, which could lead to new therapeutic strategies for triple-negative breast cancer.",
+        "summary": "Researchers discovered a key driver of resistance to cancer treatment, which involves the activation of a glucocorticoid receptor.",
         "categories": [
           "cancer biology",
           "immunology",
@@ -287,11 +286,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Scientists uncovered the molecular basis of force selectivity by PIEZO2, a protein that senses mechanical stimuli, which could lead to new treatments for various diseases.",
+        "summary": "A new study found that the molecular basis of force selectivity by the PIEZO2 channel is due to its intrinsic rigidity.",
         "categories": [
           "molecular biology",
-          "protein structure",
-          "mechanotransduction"
+          "ion channels",
+          "mechanical biology"
         ],
         "watchlist_match": false
       },
@@ -303,10 +302,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A new machine-learning-driven forecasting system was developed to improve operational global aerosol forecasting, which could lead to better air quality predictions.",
+        "summary": "A machine-learning-driven forecasting system was able to accurately predict aerosol optical components and surface concentrations.",
         "categories": [
-          "machine learning",
           "atmospheric science",
+          "machine learning",
           "aerosol science"
         ],
         "watchlist_match": true
@@ -319,7 +318,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers found that wind shear amplifies the impact of soil moisture on triggering rapidly developing thunderstorms, which could improve weather forecasting models.",
+        "summary": "Researchers found that wind shear amplifies the impact of soil moisture in triggering rapidly developing thunderstorms.",
         "categories": [
           "meteorology",
           "atmospheric science",
@@ -335,11 +334,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers used cryogenic electron microscopy to study how a dCas12f protein recruits RNA polymerase to targeted DNA, initiating transcription. This process bypasses traditional recognition elements and stabilizes the transcription start site. The study provides insights into RNA-guided transcription.",
+        "summary": "A study used cryogenic electron microscopy to reveal how a dCas12f protein recruits RNA polymerase to targeted DNA, initiating transcription at a fixed downstream distance.",
         "categories": [
-          "single-cell genomics",
+          "RNA-guided transcription",
           "CRISPR",
-          "transcription"
+          "protein structure"
         ],
         "watchlist_match": false
       },
@@ -351,10 +350,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers identified genomic patterns that drive resistance to therapy in breast cancer. Germline and somatic interactions play a key role in defining actionable genomic patterns. This study provides insights into acquired therapy resistance in breast cancer.",
+        "summary": "Researchers identified actionable genomic patterns driving acquired therapy resistance in breast cancer, which can be targeted for treatment.",
         "categories": [
-          "cancer genomics",
           "breast cancer",
+          "genomics",
           "therapy resistance"
         ],
         "watchlist_match": false
@@ -367,11 +366,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers discovered that CRISPR-Cas12f homologues can drive RNA-guided transcription. Specialized \u03c3 factors interact with nuclease-dead CRISPR-Cas12f proteins to form potent gene activation systems. This study provides insights into RNA-guided gene activation.",
+        "summary": "A study found that CRISPR-Cas12f proteins can be used to form potent, RNA-guided gene activation systems that function independently of fixed promoter motifs.",
         "categories": [
           "CRISPR",
-          "RNA-guided transcription",
-          "gene regulation"
+          "gene activation",
+          "RNA-guided transcription"
         ],
         "watchlist_match": false
       },
@@ -383,10 +382,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers used satellite data to map river channel geometry and water storage changes worldwide. The study provides insights into global river dynamics and water storage changes.",
+        "summary": "A new satellite mission provided observations of river channel geometry and monthly water storage changes for 126,674 river reaches worldwide.",
         "categories": [
           "hydrology",
-          "remote sensing",
+          "satellite imaging",
           "river dynamics"
         ],
         "watchlist_match": false
@@ -399,11 +398,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers discovered a new Silurian fish species that provides insights into the origin of osteichthyan characters. The study provides new morphological details of a stem osteichthyan.",
+        "summary": "A new fossil discovery provided previously unseen morphological details of a Silurian stem osteichthyan, shedding light on the origin of osteichthyan characters.",
         "categories": [
           "paleontology",
-          "evolutionary biology",
-          "fish evolution"
+          "fossil record",
+          "evolutionary biology"
         ],
         "watchlist_match": true
       },
@@ -415,12 +414,12 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A study found that a specific type of niche in the stomach can support the survival of nascent tumors. This niche is created by fibroblasts remodeling the stroma in response to tumor stress. The researchers suggest that this could be a key factor in the development of certain types of cancer.",
+        "summary": "A study found that a specific type of niche in the upper gastrointestinal tract of mice supports the survival of nascent tumours. This niche is created by fibroblasts remodelling the stroma in response to tumour stress. The study suggests that this niche plays a crucial role in tumour persistence.",
         "categories": [
           "cancer",
-          "tumors",
-          "fibroblasts",
-          "stroma"
+          "tumours",
+          "stroma",
+          "fibroblasts"
         ],
         "watchlist_match": false
       },
@@ -432,12 +431,12 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "An assessment of insect species in mountainous terrain found that rising temperatures pose a threat to tropical insects, potentially leading to biodiversity loss in lowland areas.",
+        "summary": "An assessment of thousands of insect species found that rising temperatures pose a significant threat to tropical insects, particularly in lowland areas. This could lead to a loss of biodiversity in these regions.",
         "categories": [
           "ecology",
-          "insects",
           "biodiversity",
-          "climate change"
+          "climate change",
+          "insects"
         ],
         "watchlist_match": true
       },
@@ -449,10 +448,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers claim to have found evidence of the existence of 'hexagonal' diamond, a rare form of carbon that has been debated for decades.",
+        "summary": "Researchers claim to have found the strongest evidence yet for the existence of hexagonal diamond, a rare form of carbon. This finding could have significant implications for our understanding of diamond structure.",
         "categories": [
           "materials science",
-          "diamonds",
+          "diamond",
           "carbon"
         ],
         "watchlist_match": true
@@ -465,11 +464,12 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Analysis revealed that cancer cells can resist killing by the immune system by harnessing stress-hormone signalling through the glucocorticoid receptor. This could be a potential therapeutic target for preventing metastasis.",
+        "summary": "Cancer cells that spread to other organs can evade the immune system by harnessing stress-hormone signalling. This finding suggests a potential therapeutic target for preventing metastasis.",
         "categories": [
           "cancer",
           "immunology",
-          "metastasis"
+          "metastasis",
+          "stress-hormone signalling"
         ],
         "watchlist_match": false
       },
@@ -481,11 +481,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A genomic language model called Evo2 can generate short genome sequences, but scientists say further advances are needed to write genomes that will work inside living cells.",
+        "summary": "A genomic language model called Evo2 can generate short genome sequences, but scientists say further advances are needed to write genomes that will work inside living cells. This raises questions about the potential for creating synthetic life.",
         "categories": [
           "genomics",
-          "artificial intelligence",
-          "synthetic biology"
+          "synthetic biology",
+          "artificial intelligence"
         ],
         "watchlist_match": true
       },
@@ -497,7 +497,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have developed an injectable fluid that can be used to close off part of the heart in animals, potentially improving a procedure that prevents stroke in people with irregular heartbeats.",
+        "summary": "Researchers have developed a magnetic fluid that can be used to close off part of the heart in animals, potentially improving a procedure that prevents stroke in people with irregular heartbeats.",
         "categories": [
           "cardiovascular medicine",
           "medical devices",
@@ -515,8 +515,8 @@
         "significance": "Medium",
         "summary": "Universities need to establish and empower compliance teams to ensure adherence to ethical funding policies, particularly in light of the Epstein case.",
         "categories": [
-          "ethics",
           "funding",
+          "ethics",
           "university governance"
         ],
         "watchlist_match": false
@@ -529,7 +529,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have identified a genetic switch in male striped mice that affects their behavior towards pups, with high expression of the Agouti gene leading to hostility.",
+        "summary": "Researchers have identified a genetic switch in male striped mice that can turn off parental behavior and drive infanticide, highlighting the complex relationship between genetics and behavior.",
         "categories": [
           "genetics",
           "behavioral biology",
@@ -545,11 +545,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Satellite data show that wind conditions affect the connection between soil moisture and thunderstorms, which could be used to inform forecasting.",
+        "summary": "Satellite data show that wind conditions affect the connection between soil moisture and thunderstorms, which could be used to inform forecasting and improve weather prediction.",
         "categories": [
           "meteorology",
           "climate science",
-          "satellite imaging"
+          "weather forecasting"
         ],
         "watchlist_match": false
       },
@@ -561,10 +561,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The Indus Waters Treaty has withstood several challenges, including armed conflicts and glacier loss, and could serve as a blueprint for other water management agreements.",
+        "summary": "The Indus Waters Treaty has withstood several armed conflicts and a huge loss of glaciers, and could serve as a blueprint for other countries to manage water supplies and mitigate the effects of climate change.",
         "categories": [
-          "water management",
           "climate change",
+          "water management",
           "geopolitics"
         ],
         "watchlist_match": false
@@ -577,7 +577,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A review of cancer blood tests raises concerns about their effectiveness in detecting cancer types and delivering accurate diagnoses.",
+        "summary": "Researchers question the effectiveness of cancer blood tests, which claim to detect dozens of cancer types, but may be missing many cancers or delivering incorrect diagnoses.",
         "categories": [
           "cancer",
           "diagnostics",
@@ -593,7 +593,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have discovered a pathway in skin cells that boosts the production of antibodies to protect the body from infection.",
+        "summary": "Scientists have discovered a pathway in skin cells that boosts the production of antibodies to protect the whole body, enhancing immune defenses.",
         "categories": [
           "immunology",
           "skin cells",
@@ -609,7 +609,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A mathematician has developed models to help combat organized crime in Mexico, which could improve public safety.",
+        "summary": "A mathematician has developed models of organized crime that could improve public safety in Mexico by providing insights into the structure and behavior of powerful drug cartels.",
         "categories": [
           "mathematics",
           "crime",
@@ -625,11 +625,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A researcher speaks out about the unstable conditions faced by Mexican scientists and proposes solutions to improve their situation.",
+        "summary": "Mexican scientists face unstable conditions, including limited funding and resources, which hinder their ability to conduct research and contribute to the scientific community.",
         "categories": [
           "science policy",
-          "Mexico",
-          "research"
+          "research",
+          "Mexico"
         ],
         "watchlist_match": false
       },
@@ -641,7 +641,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A 3D vision-language model called Merlin has been trained to make consistent diagnoses using radiology images from different health centers.",
+        "summary": "A 3D vision-language model called Merlin has been trained to make consistent diagnoses using 3D images from different health centers, demonstrating its potential for broader clinical adoption.",
         "categories": [
           "artificial intelligence",
           "radiology",
@@ -657,7 +657,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A new method was developed to capture and identify reactive compounds produced by a human pathogen, leading to the discovery of two unusual molecules with potential for broad synthetic applications.",
+        "summary": "A new workflow was developed to capture reactive compounds produced by bacteria, leading to the discovery of two unusual molecules with potential for broad synthetic applications.",
         "categories": [
           "biochemistry",
           "microbiology",
@@ -673,11 +673,11 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A correction was made to a previous study on the importance of healthy forests in safeguarding traditional wild meat food systems in Amazonia.",
+        "summary": "A correction to a previous paper on the importance of healthy forests in safeguarding traditional wild meat food systems in Amazonia.",
         "categories": [
           "ecology",
           "conservation biology",
-          "agriculture"
+          "Amazonia"
         ],
         "watchlist_match": false
       },
@@ -689,11 +689,11 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A genetically encoded assembly recorder was developed to temporally resolve cellular history, allowing for a deeper understanding of cellular processes.",
+        "summary": "A genetically encoded assembly recorder was developed to temporally resolve cellular history, providing new insights into cellular processes.",
         "categories": [
           "genomics",
           "cell biology",
-          "synthetic biology"
+          "single-cell analysis"
         ],
         "watchlist_match": false
       },
@@ -708,8 +708,8 @@
         "summary": "A star system consisting of four Sun-like stars was discovered to be the most compact of its kind, with all four stars fitting within the area of Jupiter's orbit.",
         "categories": [
           "astrophysics",
-          "stellar evolution",
-          "exoplanetary science"
+          "stellar systems",
+          "exoplanets"
         ],
         "watchlist_match": false
       },
@@ -721,7 +721,7 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A step-by-step approach to releasing open-weight AI was proposed to alleviate risks associated with its development and deployment.",
+        "summary": "A proposal for releasing open-weight AI in steps to alleviate risks associated with its development and deployment.",
         "categories": [
           "artificial intelligence",
           "machine learning",
@@ -737,7 +737,7 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "This paper is not a scientific study, but rather a historical and future-focused article on telecommunications.",
+        "summary": "This paper is not a scientific study, but rather a historical look at the development of telecommunications.",
         "categories": [
           "telecommunications",
           "history"
@@ -752,10 +752,11 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "South Korea's AI framework act prioritizes rights and safety, but details of the act are not provided.",
+        "summary": "South Korea's AI framework act prioritizes rights and safety, focusing on responsible AI development.",
         "categories": [
           "AI",
-          "policy"
+          "policy",
+          "ethics"
         ],
         "watchlist_match": true
       },
@@ -767,7 +768,7 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Climate research is a global effort, and risks and responsibilities should be distributed accordingly.",
+        "summary": "Climate research is a global effort, and its risks and responsibilities should be distributed accordingly.",
         "categories": [
           "climate research",
           "global cooperation"
@@ -782,10 +783,10 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Fluorescent proteins with quantum upgrades could offer unprecedented views inside cells, potentially revolutionizing biology.",
+        "summary": "Researchers are exploring the potential of 'quantum proteins' to offer new insights into cellular biology.",
         "categories": [
           "biology",
-          "quantum biology"
+          "quantum computing"
         ],
         "watchlist_match": false
       },
@@ -797,10 +798,10 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Despite setbacks, US climate actions must continue, with cities, states, and businesses taking the lead.",
+        "summary": "Despite setbacks in US climate policy, cities, states, and businesses can continue to push for a cleaner environment.",
         "categories": [
-          "climate action",
-          "policy"
+          "climate policy",
+          "sustainability"
         ],
         "watchlist_match": false
       },
@@ -815,8 +816,7 @@
         "summary": "A graduate student in China has become seriously depressed after facing frequent verbal abuse from their PhD supervisor.",
         "categories": [
           "mental health",
-          "academic misconduct",
-          "supervision"
+          "academic misconduct"
         ],
         "watchlist_match": false
       },
@@ -831,8 +831,8 @@
         "summary": "Fresh archaeological evidence suggests that infighting led to the catastrophic collapse of the Maya civilization.",
         "categories": [
           "archaeology",
-          "civilization collapse",
-          "Mesoamerica"
+          "anthropology",
+          "Mesoamerican culture"
         ],
         "watchlist_match": false
       },
@@ -844,7 +844,7 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Nature's photo team selects the month's sharpest science shots, including images of raining iguanas and coral.",
+        "summary": "Nature's photo team selected the month's sharpest science shots, including raining iguanas and coral.",
         "categories": [
           "science photography",
           "visual arts"
@@ -859,7 +859,7 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Climate change may affect malaria control efforts in Africa by reshaping malaria risk, but extreme weather could be a more immediate danger.",
+        "summary": "Climate change may affect mosquito and parasite survival, but extreme weather could be a more immediate danger to malaria control efforts in Africa.",
         "categories": [
           "climate change",
           "malaria",
@@ -875,11 +875,11 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Mainstream chatbots presented varying levels of resistance to deliberate requests for academic fabrication, a study finds.",
+        "summary": "Mainstream chatbots presented varying levels of resistance to deliberate requests for fabrication, study finds.",
         "categories": [
           "artificial intelligence",
-          "academic integrity",
-          "natural language processing"
+          "machine learning",
+          "academic integrity"
         ],
         "watchlist_match": true
       },
@@ -891,11 +891,11 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers studied how centromeres, attachment sites for chromosome pairs, have evolved in yeast genomes to facilitate cell division.",
+        "summary": "Researchers studied how centromeres, attachment sites for chromosomes, have evolved in yeast genomes to facilitate cell division.",
         "categories": [
           "cell biology",
           "genomics",
-          "evolutionary biology"
+          "evolution"
         ],
         "watchlist_match": true
       },
@@ -907,10 +907,10 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The UN Sustainable Development Goals provide a roadmap for human and planetary prosperity, and should not be replaced by alternative measures.",
+        "summary": "The UN Sustainable Development Goals provide a roadmap for future human and planetary prosperity.",
         "categories": [
           "sustainability",
-          "developmental economics"
+          "development goals"
         ],
         "watchlist_match": true
       },
@@ -922,7 +922,7 @@
         "doi": null,
         "published": "2026-03-02T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "This is a correction to a previous paper on the role of root microbiota in integrating phosphate stress and immunity.",
+        "summary": "This is a correction to a previous study on root microbiota and phosphate stress.",
         "categories": [
           "microbiology",
           "plant biology"
@@ -937,10 +937,10 @@
         "doi": null,
         "published": "2026-03-02T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers discovered that BCDX2\u2013CX3 and DX2\u2013CX3 complexes assemble and stabilize RAD51 filaments, which are involved in DNA repair.",
+        "summary": "Researchers discovered that BCDX2\u2013CX3 and DX2\u2013CX3 complexes assemble and stabilize RAD51 filaments.",
         "categories": [
           "molecular biology",
-          "DNA repair"
+          "genetics"
         ],
         "watchlist_match": false
       },
@@ -952,7 +952,7 @@
         "doi": null,
         "published": "2026-03-02T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The sound of peeling tape is caused by weak shock waves triggered by micro-cracks in the adhesive layer.",
+        "summary": "The screeching sound of peeling tape is caused by weak shock waves triggered by micro-cracks in the adhesive layer.",
         "categories": [
           "physics",
           "materials science"
@@ -967,7 +967,7 @@
         "doi": null,
         "published": "2026-03-02T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Aphantasia is a condition where people have no mental imagery. Researchers are studying the brains of people with aphantasia to understand consciousness.",
+        "summary": "Research explores the brains of people with aphantasia, a condition where individuals have no mental imagery.",
         "categories": [
           "neuroscience",
           "consciousness",
@@ -983,11 +983,11 @@
         "doi": null,
         "published": "2026-03-02T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The digital ecosystem in China is tightly controlled, but there are human stories and acts of resistance behind the scenes.",
+        "summary": "The article reveals the human side of China's tightly controlled digital ecosystem, highlighting acts of resistance.",
         "categories": [
           "social media",
-          "censorship",
-          "digital rights"
+          "digital rights",
+          "China"
         ],
         "watchlist_match": false
       },
@@ -999,11 +999,11 @@
         "doi": null,
         "published": "2026-03-02T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "As AI systems take on more scientific tasks, researchers should focus on designing platforms that preserve creativity and responsibility.",
+        "summary": "The author argues that AI systems should be designed to preserve creativity, responsibility, and surprise in scientific workflows.",
         "categories": [
-          "AI",
-          "machine learning",
-          "scientific workflow"
+          "artificial intelligence",
+          "scientific workflow",
+          "responsibility"
         ],
         "watchlist_match": true
       },
@@ -1015,11 +1015,11 @@
         "doi": null,
         "published": "2026-03-02T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Earth's oldest crystals suggest that plate tectonics may have started 3.3 billion years ago.",
+        "summary": "Research suggests that Earth's crust may have been churning 3.3 billion years ago, marking an early start for plate tectonics.",
         "categories": [
           "geology",
           "plate tectonics",
-          "crystallography"
+          "Earth's crust"
         ],
         "watchlist_match": false
       },
@@ -1031,7 +1031,7 @@
         "doi": null,
         "published": "2026-03-02T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Women in science are nominating their female colleagues who inspire them, highlighting the importance of female mentorship and support.",
+        "summary": "The article profiles female colleagues who inspire award-winning women in science, highlighting the importance of mentorship.",
         "categories": [
           "women in science",
           "mentorship",
@@ -1047,11 +1047,11 @@
         "doi": null,
         "published": "2026-02-27T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A gene product called Murr1 was found to restrict HIV-1 replication in resting CD4+ lymphocytes.",
+        "summary": "This paper discusses the gene product Murr1 and its role in restricting HIV-1 replication in resting CD4+ lymphocytes.",
         "categories": [
           "immunology",
-          "virology",
-          "HIV"
+          "HIV",
+          "virology"
         ],
         "watchlist_match": false
       },
@@ -1063,10 +1063,10 @@
         "doi": null,
         "published": "2026-02-27T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Nature staff discuss the week's top science news, including Pok\u00e9mon's 30th anniversary.",
+        "summary": "This article is a discussion between Nature staff about the week's top science news, including Pok\u00e9mon's 30th anniversary.",
         "categories": [
           "science news",
-          "popular culture"
+          "popular science"
         ],
         "watchlist_match": false
       },
@@ -1078,10 +1078,10 @@
         "doi": null,
         "published": "2026-02-27T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Andrew Robinson reviews five science books, covering topics such as brain mysteries and Bronze Age diplomacy.",
+        "summary": "This article reviews five of the best science books, covering topics such as brain mysteries and Bronze Age diplomacy.",
         "categories": [
-          "book reviews",
-          "science books"
+          "science books",
+          "book reviews"
         ],
         "watchlist_match": true
       },
@@ -1093,7 +1093,7 @@
         "doi": null,
         "published": "2026-02-27T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The US Congress rejected sweeping cuts to science agencies, but the NIH, NSF, and NASA have had their spending slowed.",
+        "summary": "This article discusses the US Congress's rejection of sweeping cuts to science agencies, but notes that the NIH, NSF, and NASA have had their spending slowed.",
         "categories": [
           "science policy",
           "US politics"
@@ -1108,7 +1108,7 @@
         "doi": null,
         "published": "2026-02-27T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Robert Bullard argues that researchers in environmental justice have a responsibility to back up their work with action.",
+        "summary": "This article features an opinion piece by Robert Bullard, arguing that researchers in environmental justice have a responsibility to back up their work with action.",
         "categories": [
           "environmental justice",
           "social justice"
@@ -1139,11 +1139,11 @@
         "doi": null,
         "published": "2026-02-27T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A Utah family may have a genetic condition that causes them to have twice as many boys as girls, which could be the first conclusive case of sex 'distortion' in humans.",
+        "summary": "A Utah family may have a genetic condition causing them to have twice as many boys as girls, which could be the first conclusive case of sex 'distortion' in humans.",
         "categories": [
           "genetics",
-          "sex determination",
-          "human biology"
+          "evolution",
+          "sex determination"
         ],
         "watchlist_match": true
       },
@@ -1158,7 +1158,7 @@
         "summary": "Researchers claim to have found the first conclusive case of sex 'distortion' in humans, and also discuss how stem cells could treat spina bifida and the influence of Pok\u00e9mon on science.",
         "categories": [
           "genetics",
-          "sex determination",
+          "evolution",
           "stem cells"
         ],
         "watchlist_match": true
@@ -1171,11 +1171,11 @@
         "doi": null,
         "published": "2026-02-26T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "An author correction was made to a previous study on myocardial reprogramming by HMGN1, which underlies heart defects in trisomy 21.",
+        "summary": "A correction to a previous paper on myocardial reprogramming by HMGN1 in trisomy 21, which underlies heart defects in the condition.",
         "categories": [
           "cardiology",
           "genetics",
-          "trisomy 21"
+          "developmental biology"
         ],
         "watchlist_match": false
       },
@@ -1187,11 +1187,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Genetically encoded fluorescent reporters were developed to visualize \u03b1-synuclein pathology in live brain, enabling diverse applications in studying the propagation and pathological effects of \u03b1-Syn inclusions.",
+        "summary": "Researchers have developed genetically encoded fluorescent reporters to visualize \u03b1-synuclein pathology in live brain, enabling the study of the propagation and pathological effects of \u03b1-Syn inclusions.",
         "categories": [
           "neuroscience",
           "genetics",
-          "fluorescent reporters"
+          "molecular biology"
         ],
         "watchlist_match": true
       },
@@ -1203,7 +1203,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers developed a synthetic peptide platform called SPYTAC that efficiently degrades amyloid-\u03b2 in the brain and periphery, improving cognition and reducing neuroinflammation in Alzheimer's disease models.",
+        "summary": "Researchers developed SPYTAC, a synthetic peptide that can efficiently degrade amyloid-\u03b2 in the brain and periphery, leading to improved cognition and reduced neuroinflammation in mice with Alzheimer's disease.",
         "categories": [
           "Alzheimer's disease",
           "Protein degradation",
@@ -1219,7 +1219,7 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Enhancing circadian rhythms in the hypothalamic paraventricular nucleus using a 3\u2032-deoxyadenosine treatment alleviates age-related pathologies and extends lifespan in male mice.",
+        "summary": "Enhancing circadian rhythms in the hypothalamic paraventricular nucleus of mice using 3\u2032-deoxyadenosine treatment reversed aging biomarkers and extended lifespan.",
         "categories": [
           "Circadian rhythms",
           "Aging",
@@ -1235,7 +1235,7 @@
         "doi": null,
         "published": "2026-02-27T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers determined the high-resolution structures of hantavirus glycoprotein tetramers using cryo-EM, revealing the molecular basis of glycoprotein architecture, membrane fusion, and antibody-mediated neutralization.",
+        "summary": "Researchers determined the high-resolution structures of hantavirus glycoprotein tetramers using cryo-EM, revealing the molecular basis of glycoprotein architecture, acid-induced membrane fusion, and antibody-mediated neutralization.",
         "categories": [
           "Virology",
           "Structural biology",
@@ -1267,7 +1267,7 @@
         "doi": null,
         "published": "2026-02-27T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Pyruvate was found to suppress interferon signaling by inducing STAT1 protein pyruvylation, a post-translational modification that can modulate immune signaling and host antiviral response.",
+        "summary": "Researchers discovered that pyruvate can suppress interferon signaling by inducing STAT1 protein pyruvylation, a post-translational modification that can modulate immune signaling and host antiviral response.",
         "categories": [
           "Immunology",
           "Virology",
@@ -1283,7 +1283,7 @@
         "doi": null,
         "published": "2026-02-26T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "TNF's effects on hematopoiesis are more complex than previously thought, and it can have both positive and negative effects depending on the cell type, context, and time.",
+        "summary": "TNF's effects on hematopoiesis are context-dependent and can be both beneficial and detrimental, depending on the cell type and time.",
         "categories": [
           "stem cells",
           "hematopoiesis",
@@ -1299,11 +1299,11 @@
         "doi": null,
         "published": "2026-02-26T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have successfully reconstituted the cellular niche required for primordial germ cell-like cells to mature in humans, but these cells are prone to dedifferentiation.",
+        "summary": "Human primordial germ cell-like cells can mature in vitro when cultured in a reconstituted human fetal ovary or with amnion-like cells, but require SCF for survival.",
         "categories": [
           "stem cells",
           "primordial germ cells",
-          "cellular niche"
+          "in vitro culture"
         ],
         "watchlist_match": true
       },
@@ -1315,10 +1315,10 @@
         "doi": null,
         "published": "2026-02-26T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The concept of 'regenesis' is proposed as a new framework for describing hybrid tissue outcomes in stem cell therapeutics, aiming to update terminology in the field.",
+        "summary": "The concept of 'regenesis' is proposed as a framework for describing hybrid tissue outcomes in stem cell therapeutics, aiming to update terminology in the field.",
         "categories": [
           "stem cell therapeutics",
-          "regenesis",
+          "regeneration",
           "tissue engineering"
         ],
         "watchlist_match": true
@@ -1331,11 +1331,11 @@
         "doi": null,
         "published": "2026-02-26T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Shugoshin 2A stabilizes heterochromatin complexes to suppress the 2-cell-like state in embryonic stem cells, promoting the enrichment of H3K9me3 on Dux and Zscan4 gene cluster.",
+        "summary": "Shugoshin 2A stabilizes heterochromatin complexes to suppress the 2-cell-like state in embryonic stem cells by regulating the stability of KAP1.",
         "categories": [
           "embryonic stem cells",
           "heterochromatin",
-          "Shugoshin 2A"
+          "KAP1"
         ],
         "watchlist_match": false
       },
@@ -1347,7 +1347,7 @@
         "doi": null,
         "published": "2026-02-26T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "ASCL1 promotes nuclear shrinkage in transdifferentiation by suppressing NUP37, a critical component of the nuclear pore complex, and knockdown of NUP37 enhances ASCL1-mediated transdifferentiation.",
+        "summary": "ASCL1 promotes nuclear shrinkage in transdifferentiation by suppressing NUP37, a critical component of the nuclear pore complex.",
         "categories": [
           "transdifferentiation",
           "nuclear shrinkage",
@@ -1366,8 +1366,8 @@
         "summary": "Researchers developed a highly efficient method to generate embryonic oral epithelium from human pluripotent stem cells, which can be used to study human oral development and model craniofacial disorders.",
         "categories": [
           "stem cells",
-          "embryonic development",
-          "oral health"
+          "oral development",
+          "human biology"
         ],
         "watchlist_match": false
       },
@@ -1383,7 +1383,7 @@
         "categories": [
           "RNA biology",
           "molecular biology",
-          "transcriptomics"
+          "genomics"
         ],
         "watchlist_match": false
       },
@@ -1398,8 +1398,8 @@
         "summary": "Researchers discussed the importance of sharing big data for sustainable agri-food innovation.",
         "categories": [
           "agriculture",
-          "data sharing",
-          "sustainability"
+          "food security",
+          "data sharing"
         ],
         "watchlist_match": true
       },
@@ -1415,7 +1415,7 @@
         "categories": [
           "genetics",
           "rare diseases",
-          "commercial solutions"
+          "biotechnology"
         ],
         "watchlist_match": false
       },
@@ -1430,7 +1430,7 @@
         "summary": "Researchers discussed the potential and limitations of in vitro gametogenesis (IVG) as a reproductive technology, highlighting the need for public engagement in shaping its future directions.",
         "categories": [
           "reproductive biology",
-          "in vitro gametogenesis",
+          "IVG",
           "fertility care"
         ],
         "watchlist_match": true
