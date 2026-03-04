@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journal Digest Archive</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    header h1 { font-size: 1.4rem; flex: 1; }
+
+    .controls {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    input[type="text"], select {
+      padding: 0.45rem 0.75rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      background: #fff;
+      color: #222;
+      min-width: 160px;
+    }
+
+    .layout {
+      display: flex;
+      height: calc(100vh - 80px);
+    }
+
+    /* ── Left sidebar: digest list ── */
+    .sidebar {
+      width: 300px;
+      min-width: 220px;
+      background: #fff;
+      border-right: 1px solid #e0e0e0;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+
+    .digest-item {
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid #f0f0f0;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .digest-item:hover  { background: #f0f4ff; }
+    .digest-item.active { background: #e8eeff; border-left: 3px solid #4a6cf7; }
+
+    .digest-date   { font-weight: 600; font-size: 0.95rem; }
+    .digest-meta   { font-size: 0.78rem; color: #666; margin-top: 0.2rem; }
+    .digest-badges { margin-top: 0.35rem; display: flex; gap: 0.4rem; flex-wrap: wrap; }
+
+    .badge {
+      font-size: 0.7rem;
+      padding: 0.15rem 0.45rem;
+      border-radius: 10px;
+      font-weight: 500;
+    }
+
+    .badge-high     { background: #ffe0e0; color: #c00; }
+    .badge-featured { background: #fff3cd; color: #856404; }
+    .badge-total    { background: #e8f4fd; color: #0366d6; }
+
+    /* ── Right panel: paper list + digest iframe ── */
+    .main-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .paper-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem 1.5rem;
+    }
+
+    .paper-card {
+      background: #fff;
+      border: 1px solid #e8e8e8;
+      border-radius: 8px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 0.75rem;
+      transition: box-shadow 0.15s;
+    }
+
+    .paper-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+
+    .paper-card.featured { border-left: 3px solid #f0a500; }
+    .paper-card.hidden   { display: none; }
+
+    .paper-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+    }
+
+    .paper-title a { color: #1a1a2e; text-decoration: none; }
+    .paper-title a:hover { text-decoration: underline; }
+
+    .paper-meta {
+      font-size: 0.78rem;
+      color: #555;
+      margin-bottom: 0.4rem;
+    }
+
+    .paper-summary {
+      font-size: 0.85rem;
+      color: #333;
+      line-height: 1.5;
+    }
+
+    .sig-high    { color: #c00;  font-weight: 600; }
+    .sig-medium  { color: #856404; }
+    .sig-routine { color: #666; }
+
+    .featured-star { margin-right: 0.3rem; }
+
+    /* ── View toggle ── */
+    .view-toggle {
+      display: flex;
+      gap: 0.5rem;
+      padding: 0.6rem 1.5rem;
+      background: #f9f9f9;
+      border-bottom: 1px solid #e8e8e8;
+      align-items: center;
+    }
+
+    .view-toggle button {
+      padding: 0.3rem 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 0.82rem;
+    }
+
+    .view-toggle button.active {
+      background: #1a1a2e;
+      color: #fff;
+      border-color: #1a1a2e;
+    }
+
+    .result-count { font-size: 0.82rem; color: #666; margin-left: auto; }
+
+    iframe#digest-frame {
+      flex: 1;
+      border: none;
+      width: 100%;
+      display: none;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 3rem;
+      color: #999;
+      font-size: 0.95rem;
+    }
+
+    #loading {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📄 Journal Digest Archive</h1>
+  <div class="controls">
+    <input type="text" id="search"
+           placeholder="Search papers…" oninput="filterPapers()">
+    <select id="sig-filter" onchange="filterPapers()">
+      <option value="">All significance</option>
+      <option value="High">🔴 High impact</option>
+      <option value="Medium">🟡 Medium</option>
+      <option value="Routine">⚪ Routine</option>
+    </select>
+    <select id="featured-filter" onchange="filterPapers()">
+      <option value="">All papers</option>
+      <option value="featured">⭐ Featured only</option>
+    </select>
+  </div>
+</header>
+
+<div class="layout">
+  <div class="sidebar" id="sidebar">
+    <div id="loading">Loading digests…</div>
+  </div>
+
+  <div class="main-panel">
+    <div class="view-toggle">
+      <button id="btn-papers" class="active" onclick="setView('papers')">Papers</button>
+      <button id="btn-digest" onclick="setView('digest')">Full Digest</button>
+      <span class="result-count" id="result-count"></span>
+    </div>
+    <div class="paper-list" id="paper-list">
+      <div class="empty-state">← Select a digest to view papers</div>
+    </div>
+    <iframe id="digest-frame" title="Digest"></iframe>
+  </div>
+</div>
+
+<script>
+  let manifest     = [];
+  let activeIndex  = null;
+  let currentView  = "papers";
+
+  // ── Load manifest ──────────────────────────────────────────────────────────
+  async function init() {
+    try {
+      const resp = await fetch("manifest.json");
+      manifest   = await resp.json();
+      renderSidebar();
+      if (manifest.length > 0) selectDigest(0);
+    } catch (e) {
+      document.getElementById("loading").textContent =
+        "Could not load manifest.json — run the workflow first.";
+    }
+  }
+
+  // ── Sidebar ────────────────────────────────────────────────────────────────
+  function renderSidebar() {
+    const sidebar = document.getElementById("sidebar");
+    if (manifest.length === 0) {
+      sidebar.innerHTML = '<div class="empty-state">No digests yet.</div>';
+      return;
+    }
+    sidebar.innerHTML = manifest.map((d, i) => `
+      <div class="digest-item" id="item-${i}" onclick="selectDigest(${i})">
+        <div class="digest-date">${formatDate(d.date)}</div>
+        <div class="digest-meta">${d.paper_count} papers · ${d.high_count} high impact</div>
+        <div class="digest-badges">
+          <span class="badge badge-total">${d.paper_count} papers</span>
+          ${d.high_count    > 0 ? `<span class="badge badge-high">🔴 ${d.high_count} high</span>` : ""}
+          ${d.featured_count > 0 ? `<span class="badge badge-featured">⭐ ${d.featured_count} featured</span>` : ""}
+        </div>
+      </div>
+    `).join("");
+  }
+
+  // ── Select a digest ────────────────────────────────────────────────────────
+  function selectDigest(index) {
+    // Update sidebar highlight
+    if (activeIndex !== null) {
+      document.getElementById(`item-${activeIndex}`)?.classList.remove("active");
+    }
+    activeIndex = index;
+    document.getElementById(`item-${index}`)?.classList.add("active");
+
+    // Update iframe src
+    const d = manifest[index];
+    document.getElementById("digest-frame").src = d.html_file;
+
+    // Render papers
+    renderPapers(d.papers);
+    setView(currentView);
+  }
+
+  // ── Paper list ─────────────────────────────────────────────────────────────
+  function renderPapers(papers) {
+    const list = document.getElementById("paper-list");
+    if (!papers || papers.length === 0) {
+      list.innerHTML = '<div class="empty-state">No papers in this digest.</div>';
+      return;
+    }
+    list.innerHTML = papers.map((p, i) => {
+      const sigClass = p.significance === "High"   ? "sig-high"
+                     : p.significance === "Medium" ? "sig-medium"
+                     : "sig-routine";
+      const sigIcon  = p.significance === "High"   ? "🔴"
+                     : p.significance === "Medium" ? "🟡"
+                     : "⚪";
+      const featured = p.watchlist_match
+        ? 'featured' : '';
+      const star     = p.watchlist_match
+        ? '<span class="featured-star">⭐</span>' : '';
+      const cats     = (p.categories || []).slice(0, 4)
+        .map(c => `<span style="font-size:0.72rem;background:#f0f0f0;
+                   border-radius:4px;padding:0.1rem 0.4rem;">${c}</span>`)
+        .join(" ");
+      return `
+        <div class="paper-card ${featured}" data-index="${i}"
+             data-title="${esc(p.title)}"
+             data-summary="${esc(p.summary)}"
+             data-sig="${p.significance || 'Medium'}"
+             data-featured="${p.watchlist_match ? '1' : '0'}">
+          <div class="paper-title">
+            ${star}<a href="${p.url}" target="_blank">${p.title}</a>
+          </div>
+          <div class="paper-meta">
+            <strong>${p.journal}</strong> · ${p.authors?.split(",")[0] || ""}
+            · <span class="${sigClass}">${sigIcon} ${p.significance || "Medium"}</span>
+          </div>
+          ${p.summary ? `<div class="paper-summary">${p.summary}</div>` : ""}
+          <div style="margin-top:0.4rem;">${cats}</div>
+        </div>`;
+    }).join("");
+
+    updateCount();
+  }
+
+  // ── Filters ────────────────────────────────────────────────────────────────
+  function filterPapers() {
+    const query    = document.getElementById("search").value.toLowerCase();
+    const sigVal   = document.getElementById("sig-filter").value;
+    const featVal  = document.getElementById("featured-filter").value;
+
+    document.querySelectorAll(".paper-card").forEach(card => {
+      const title    = card.dataset.title.toLowerCase();
+      const summary  = card.dataset.summary.toLowerCase();
+      const sig      = card.dataset.sig;
+      const featured = card.dataset.featured === "1";
+
+      const matchSearch   = !query   || title.includes(query) || summary.includes(query);
+      const matchSig      = !sigVal  || sig === sigVal;
+      const matchFeatured = !featVal || (featVal === "featured" && featured);
+
+      card.classList.toggle("hidden", !(matchSearch && matchSig && matchFeatured));
+    });
+
+    updateCount();
+  }
+
+  function updateCount() {
+    const total   = document.querySelectorAll(".paper-card").length;
+    const visible = document.querySelectorAll(".paper-card:not(.hidden)").length;
+    document.getElementById("result-count").textContent =
+      total === visible ? `${total} papers` : `${visible} of ${total} papers`;
+  }
+
+  // ── View toggle ────────────────────────────────────────────────────────────
+  function setView(view) {
+    currentView = view;
+    const paperList   = document.getElementById("paper-list");
+    const frame       = document.getElementById("digest-frame");
+    const btnPapers   = document.getElementById("btn-papers");
+    const btnDigest   = document.getElementById("btn-digest");
+
+    if (view === "papers") {
+      paperList.style.display = "block";
+      frame.style.display     = "none";
+      btnPapers.classList.add("active");
+      btnDigest.classList.remove("active");
+    } else {
+      paperList.style.display = "none";
+      frame.style.display     = "block";
+      btnPapers.classList.remove("active");
+      btnDigest.classList.add("active");
+    }
+  }
+
+  // ── Utilities ──────────────────────────────────────────────────────────────
+  function formatDate(iso) {
+    return new Date(iso + "T00:00:00").toLocaleDateString("en-GB", {
+      day: "numeric", month: "long", year: "numeric"
+    });
+  }
+
+  function esc(str) {
+    return (str || "").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+  }
+
+  init();
+</script>
+</body>
+</html>
