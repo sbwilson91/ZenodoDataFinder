@@ -13,13 +13,9 @@ from .feeds import Paper
 # ── helpers ──────────────────────────────────────────────────────────────────
 
 def _get_tag_counts(papers: list[Paper], watchlist: list[str]) -> Counter:
-    """
-    Count every category tag emitted by the LLM plus any watchlist
-    keyword hits, across all papers in this run.
-    """
     counts: Counter = Counter()
     for paper in papers:
-        # LLM-assigned categories (already on the Paper object)
+        # LLM-assigned categories
         for tag in paper.categories:
             if tag:
                 counts[tag.lower().strip()] += 1
@@ -28,6 +24,10 @@ def _get_tag_counts(papers: list[Paper], watchlist: list[str]) -> Counter:
         for term in watchlist:
             if term.lower() in haystack:
                 counts[term.lower()] += 1
+        # E1 — cluster labels
+        if getattr(paper, "cluster_label", None):
+            counts[f"cluster:{paper.cluster_label.lower()}"] += 1
+
     return counts
 
 
