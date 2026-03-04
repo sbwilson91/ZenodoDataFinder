@@ -16,8 +16,11 @@ def generate_report(papers: list[Paper], config: dict, output_path: str) -> None
     then the rest follow in their usual category sections.
     """
     watchlist = config.get("watchlist", [])
-    featured = [p for p in papers if _matches_watchlist(p, watchlist)]
-    rest     = [p for p in papers if not _matches_watchlist(p, watchlist)]
+    featured = [
+        p for p in papers
+        if _matches_watchlist(p, watchlist) and _is_research_article(p)
+    ]
+    rest = [p for p in papers if p not in featured]
 
     today = date.today().isoformat()
     lines = [f"# Weekly Journal Digest — {today}\n",
@@ -112,6 +115,7 @@ _NON_RESEARCH_PATTERNS = re.compile(
 def _is_research_article(paper: Paper) -> bool:
     """Return False for reviews, corrections, news, editorials etc."""
     return not _NON_RESEARCH_PATTERNS.match(paper.title.strip())
+
 
 
 
