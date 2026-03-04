@@ -20,6 +20,9 @@ class Paper:
     summary: Optional[str] = None
     categories: list[str] = field(default_factory=list)
     repos: list[str] = field(default_factory=list)
+    # E1 — filled in by cluster.py after summarisation
+    cluster_id:    Optional[int] = None
+    cluster_label: Optional[str] = None
 
 def load_config(path="config.yaml") -> dict:
     with open(path) as f:
@@ -117,4 +120,5 @@ def format_authors(entry) -> str:
     result = ", ".join(n for n in names if n)
     if len(authors) > 5:
         result += f" et al. (+{len(authors)-5} more)"
+
     return result or "Unknown authors"
