@@ -7,6 +7,7 @@ from .summarise import summarise_papers
 from .report import generate_report, update_archive_index
 from .trends import log_tag_counts, maybe_write_monthly_report
 from .manifest import update_manifest
+from .cluster import cluster_papers
 
 
 def main():
@@ -26,10 +27,12 @@ def main():
     print("\nStep 3/4: Generating summaries via HuggingFace Inference API...")
     papers = summarise_papers(papers, hf_token=hf_token)
 
+    # E1 — semantic clustering
+    print("\nStep 3b: Clustering papers by topic...")
+    papers = cluster_papers(papers)
+
     date_str     = datetime.now().strftime("%Y-%m-%d")
     output_path  = f"digests/{date_str}-weekly-digest.md"
-
-    
 
     print(f"\nStep 4/4: Building report → {output_path}")
     os.makedirs("digests", exist_ok=True)
