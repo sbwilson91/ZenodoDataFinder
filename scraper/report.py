@@ -39,7 +39,7 @@ def generate_report(papers: list[Paper], config: dict, output_path: str) -> None
     for paper in rest:
         lines.append(_format_paper(paper))
 
-    return "\n".join(lines)
+    content = "\n".join(lines)          # assign content first
     with open(output_path, "w") as f:
         f.write(content)
     print(f"  Report written to {output_path}")
@@ -98,6 +98,7 @@ def update_archive_index(digest_path: str, paper_count: int) -> None:
         f.write(new_row)
 
     print(f"  Archive index updated: {index_path}")
+
 
 
 
