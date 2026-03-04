@@ -28,7 +28,7 @@ def main():
 
     print(f"\nStep 4/4: Building report → {output_path}")
     os.makedirs("digests", exist_ok=True)
-    generate_report(papers, output_path)
+    generate_report(papers, config, output_path)
     update_archive_index(output_path, paper_count=len(papers))
     print(f"  Done. Digest: {digest_path}")
 
