@@ -32,6 +32,7 @@ def update_manifest(papers: list[Paper], digest_html_name: str, config: dict) ->
             "summary":        p.summary or "",
             "categories":     p.categories,
             "watchlist_match": watchlist_match,
+            "cluster_label": getattr(p, "cluster_label", None),
         })
 
     entry = {
