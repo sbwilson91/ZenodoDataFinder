@@ -44,21 +44,12 @@ jobs:
           echo "file=$DIGEST_FILE" >> $GITHUB_OUTPUT
           python scraper/md_to_html_email.py "$DIGEST_FILE"
 
-      - name: Publish latest digest to GitHub Pages
+      - name: Publish digest to GitHub Pages
         run: |
-          # C4 — copy latest digest to docs/ for GitHub Pages
           mkdir -p docs
-          #DIGEST_HTML=$(ls digests/*.html 2>/dev/null | sort | tail -1)
-          #if [ -n "$DIGEST_HTML" ]; then
-          #  cp "$DIGEST_HTML" docs/index.html
-          #  echo "Copied $DIGEST_HTML → docs/index.html"
-          #fi
-
           cp /tmp/digest_email.html docs/index.html
-
-          # Also copy archive index if it exists
-          [ -f digests/index.md ] && cp digests/index.md docs/archive.md
-
+          # Copy all digest .md files so archive links resolve
+          cp digests/*.md docs/
           git add docs/
           git diff --staged --quiet || git commit -m "Publish digest to Pages $(date +%Y-%m-%d)"
           git push          
