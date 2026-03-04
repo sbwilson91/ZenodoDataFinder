@@ -47,40 +47,51 @@
       height: calc(100vh - 80px);
     }
 
-    /* ── Left sidebar: digest list ── */
+    /* ── Left sidebar ── */
     .sidebar {
-      width: 300px;
+      width: 220px;
       min-width: 220px;
       background: #fff;
       border-right: 1px solid #e0e0e0;
       overflow-y: auto;
       flex-shrink: 0;
+      transition: width 0.25s ease, min-width 0.25s ease;
     }
 
-    .digest-item {
-      padding: 0.9rem 1rem;
-      border-bottom: 1px solid #f0f0f0;
+    .sidebar.collapsed {
+      width: 0;
+      min-width: 0;
+      overflow: hidden;
+    }
+
+    .toggle-sidebar {
+      background: #1a1a2e;
+      color: white;
+      border: none;
+      padding: 0.35rem 0.7rem;
+      border-radius: 5px;
       cursor: pointer;
-      transition: background 0.15s;
+      font-size: 1rem;
+      line-height: 1;
     }
 
-    .digest-item:hover  { background: #f0f4ff; }
-    .digest-item.active { background: #e8eeff; border-left: 3px solid #4a6cf7; }
+    /* ── Mobile ── */
+    @media (max-width: 600px) {
+      .sidebar {
+        position: absolute;
+        z-index: 100;
+        height: calc(100vh - 80px);
+        box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+        width: 85vw;
+        min-width: 0;
+      }
 
-    .digest-date   { font-weight: 600; font-size: 0.95rem; }
-    .digest-meta   { font-size: 0.78rem; color: #666; margin-top: 0.2rem; }
-    .digest-badges { margin-top: 0.35rem; display: flex; gap: 0.4rem; flex-wrap: wrap; }
+      .sidebar.collapsed {
+        width: 0;
+      }
 
-    .badge {
-      font-size: 0.7rem;
-      padding: 0.15rem 0.45rem;
-      border-radius: 10px;
-      font-weight: 500;
+      header h1 { font-size: 1rem; }
     }
-
-    .badge-high     { background: #ffe0e0; color: #c00; }
-    .badge-featured { background: #fff3cd; color: #856404; }
-    .badge-total    { background: #e8f4fd; color: #0366d6; }
 
     /* ── Right panel: paper list + digest iframe ── */
     .main-panel {
@@ -189,6 +200,7 @@
 
 <header>
   <h1>📄 Journal Digest Archive</h1>
+  <button class="toggle-sidebar" onclick="toggleSidebar()" title="Toggle sidebar">☰</button>
   <div class="controls">
     <input type="text" id="search"
            placeholder="Search papers…" oninput="filterPapers()">
@@ -227,6 +239,7 @@
   let manifest     = [];
   let activeIndex  = null;
   let currentView  = "papers";
+  
 
   // ── Load manifest ──────────────────────────────────────────────────────────
   async function init() {
@@ -259,6 +272,10 @@
         </div>
       </div>
     `).join("");
+  }
+
+  function toggleSidebar() {
+    document.getElementById("sidebar").classList.toggle("collapsed");
   }
 
   // ── Select a digest ────────────────────────────────────────────────────────
