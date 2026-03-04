@@ -31,6 +31,16 @@ journals:
     rss: "https://pubmed.ncbi.nlm.nih.gov/rss/journals/101232071/?limit=50&name=Bioinformatics&utm_campaign=journals"
     category: "Computational Biology"
 
+  - name: "Nature Materials"
+    rss: "https://www.nature.com/nmat.rss"
+    category: "Biotechnology"
+
+  - name: "Nature Methods"
+    rss: "http://www.nature.com/nmeth/current_issue/rss"
+    category: "Methods"
+
+    
+
 lookback_days: 7
 
 include_types:
@@ -52,3 +62,4 @@ watchlist:
   - "machine learning"
   - "large language model"
   - "foundation model"
+
