@@ -100,6 +100,20 @@ def update_archive_index(digest_path: str, paper_count: int) -> None:
 
     print(f"  Archive index updated: {index_path}")
 
+# Patterns that indicate non-original-research content
+_NON_RESEARCH_PATTERNS = re.compile(
+    r"^(author correction|editorial|correction:|retraction|review:|"
+    r"daily briefing|books in brief|news|comment|correspondence|"
+    r"matters arising|research highlight|reply to|expression of concern|"
+    r"briefing chat|audio long read|opinion|perspective)",
+    re.IGNORECASE
+)
+
+def _is_research_article(paper: Paper) -> bool:
+    """Return False for reviews, corrections, news, editorials etc."""
+    return not _NON_RESEARCH_PATTERNS.match(paper.title.strip())
+
+
 
 
 
