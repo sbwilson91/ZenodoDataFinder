@@ -1,0 +1,1488 @@
+[
+  {
+    "date": "2026-03-04",
+    "html_file": "2026-03-04-weekly-digest.html",
+    "paper_count": 94,
+    "high_count": 0,
+    "featured_count": 34,
+    "papers": [
+      {
+        "title": "Shared neural substrates of prosocial and parenting behaviours",
+        "journal": "Nature",
+        "authors": "Fangmiao Sun, Kayla Y. Lim, James Dang, Li I. Zhang, Ye Emily Wu et al. (+1 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10327-8",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "This study found shared neural substrates in the brain for prosocial and parenting behaviors, suggesting a common neural basis for these behaviors.",
+        "categories": [
+          "neuroscience",
+          "behavioral genetics",
+          "neural substrates"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Heart surgery with quick-setting magnetic fluid could prevent strokes",
+        "journal": "Nature",
+        "authors": "Nick Petri\u0107 Howe, Shamini Bundell",
+        "url": "https://www.nature.com/articles/d41586-026-00742-2",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have developed a quick-setting magnetic fluid that could prevent strokes by filling the area where blood clots form, and have also created a form of diamond in the lab.",
+        "categories": [
+          "materials science",
+          "biomedical engineering",
+          "stroke prevention"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Magnetic gel injected into the heart could stop strokes",
+        "journal": "Nature",
+        "authors": "Nick Petri\u0107 Howe",
+        "url": "https://www.nature.com/articles/d41586-026-00740-4",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A hydrogel-based plug injected into the heart has been shown to be effective in reducing the risk of stroke in animal trials.",
+        "categories": [
+          "cardiovascular disease",
+          "biomedical engineering",
+          "hydrogel"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Genome modelling and design across all domains of life with Evo 2",
+        "journal": "Nature",
+        "authors": "Garyk Brixi, Matthew G. Durrant, Jerome Ku, Mohsen Naghipourfar, Michael Poli et al. (+57 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10176-5",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Evo 2 is an artificial intelligence-based model that predicts functional properties from genomic sequences and provides a rich generative model for researchers in biology.",
+        "categories": [
+          "artificial intelligence",
+          "genomics",
+          "biological modeling"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "DICER cleavage fidelity is governed by 5\u2032-end binding pockets",
+        "journal": "Nature",
+        "authors": "Minh Khoa Ngo, Cong Truc Le, Tuan Anh Nguyen",
+        "url": "https://www.nature.com/articles/s41586-026-10211-5",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have used cryo-electron microscopy and massively parallel assays to shed light on the mechanism by which the DICER enzyme cleaves RNA at precise locations to produce small RNAs.",
+        "categories": [
+          "RNA biology",
+          "enzymology",
+          "cryo-electron microscopy"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Limited thermal tolerance in tropical insects and its genomic signature",
+        "journal": "Nature",
+        "authors": "Kim L. Holzmann, Thomas Schmitzer, Antonia Abels, Marko \u010corkalo, Oliver Mitesser et al. (+13 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10155-w",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A study of tropical insects found that they have limited thermal tolerance, meaning they can't survive high temperatures. This is due to the fundamental properties of their protein architecture. This has significant implications for understanding how insects adapt to changing environments.",
+        "categories": [
+          "single-cell genomics",
+          "protein structure",
+          "ecology",
+          "evolutionary biology"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "A metabolic alarmin from keratinocytes potentiates systemic humoral immunity",
+        "journal": "Nature",
+        "authors": "Zhenglin Ji, Ji Gao, Shaocun Zhang, Jiajie Li, Haijing Wu et al. (+39 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10167-6",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers discovered a new metabolic alarmin, farnesyl pyrophosphate, that enhances the immune system by stimulating the production of antibodies. This alarmin is produced by keratinocytes and has significant implications for understanding how the immune system is regulated.",
+        "categories": [
+          "immunology",
+          "metabolism",
+          "cell biology"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Long-term thrombus-free left atrial appendage occlusion via magnetofluids",
+        "journal": "Nature",
+        "authors": "Shu Wang, Wenhao Ju, Donglin Zhuang, Zhecheng Chen, Dongliang Zhao et al. (+11 more)",
+        "url": "https://www.nature.com/articles/s41586-025-10091-1",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Scientists developed a new method for occluding the left atrial appendage using magnetofluids, which can resist high-speed blood flow. This method has the potential to be personalized and complete, offering a new strategy for left atrial appendage occlusion.",
+        "categories": [
+          "cardiovascular disease",
+          "biomedical engineering",
+          "magnetism"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Lipid metabolism drives dietary effects on T cell ferroptosis and immunity",
+        "journal": "Nature",
+        "authors": "Naiqi Wang, Zhian Chen, Yin Yao, Chenglong Sun, Wei Wei et al. (+35 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10193-4",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A study found that lipid metabolism plays a crucial role in regulating T cell ferroptosis and immunity. The balance of systemic polyunsaturated and monounsaturated fatty acids determines the susceptibility of T cells to ferroptosis, highlighting the importance of dietary composition in regulating T cell function.",
+        "categories": [
+          "immunology",
+          "metabolism",
+          "cell biology"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Merlin: a computed tomography vision\u2013language foundation model and dataset",
+        "journal": "Nature",
+        "authors": "Louis Blankemeier, Ashwin Kumar, Joseph Paul Cohen, Jiaming Liu, Longchao Liu et al. (+35 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10181-8",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers developed Merlin, a computed tomography vision\u2013language foundation model and dataset, which demonstrates strong performance across various tasks and external sites. Merlin was trained on a large dataset of paired CT scans, patient record data, and radiology reports.",
+        "categories": [
+          "artificial intelligence",
+          "computer vision",
+          "natural language processing"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Microbiota-mediated induction of beige adipocytes in response to dietary cues",
+        "journal": "Nature",
+        "authors": "Takeshi Tanoue, Manabu Nagayama, Ayumi J. A. Roochana, Samuel Zimmerman, Orr Ashenberg et al. (+28 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10205-3",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A low-protein diet in mice leads to a change in their fat tissue, with the help of gut bacteria, to burn energy like brown fat.",
+        "categories": [
+          "microbiome",
+          "adipose tissue",
+          "dietary cues"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Mechanism of co-transcriptional cap snatching by influenza polymerase",
+        "journal": "Nature",
+        "authors": "Alexander Helmut Rotsch, Delong Li, Maud Dupont, Tim Krischuns, Ute Neef et al. (+9 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10189-0",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have discovered how the influenza virus takes a piece of the host's RNA to help it replicate.",
+        "categories": [
+          "influenza",
+          "virology",
+          "RNA-dependent RNA polymerase"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Cell-free chromatin state tracing reveals disease origin and therapy responses",
+        "journal": "Nature",
+        "authors": "Xubin Chen, Xiaoxuan Meng, Weilong Zhang, Xiawei Zhang, Yaping Zhang et al. (+26 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10224-0",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new method for analyzing DNA in the blood can help diagnose diseases and understand where they come from.",
+        "categories": [
+          "epigenetics",
+          "single-cell analysis",
+          "liquid biopsy"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "The oldest articulated bony fish from the early Silurian period",
+        "journal": "Nature",
+        "authors": "You-An Zhu, Yang Chen, Qiang Li, Wen-Jin Zhao, Zheng-Da Zhou et al. (+7 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10125-2",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Fossil discovery of the oldest known bony fish, dating back to the early Silurian period, provides new insights into the evolution of fish.",
+        "categories": [
+          "paleontology",
+          "fossil record",
+          "evolutionary biology"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Bulk hexagonal diamond",
+        "journal": "Nature",
+        "authors": "Shoulong Lai, Xigui Yang, Jiuyang Shi, Shijie Liu, Ying Guo et al. (+7 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10212-4",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have successfully synthesized millimeter-sized hexagonal diamond, a new form of diamond, by compressing graphite under high pressure and temperature.",
+        "categories": [
+          "materials science",
+          "diamond synthesis",
+          "high-pressure physics"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Sea level much higher than assumed in most coastal hazard assessments",
+        "journal": "Nature",
+        "authors": "Katharina Seeger, Philip S. J. Minderhoud",
+        "url": "https://www.nature.com/articles/s41586-026-10196-1",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new study found that sea levels are higher than previously assumed in most coastal hazard assessments, which could impact coastal communities and infrastructure.",
+        "categories": [
+          "coastal geology",
+          "sea level rise",
+          "climate change"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "A glucocorticoid\u2013FAS axis controls immune evasion during metastatic seeding",
+        "journal": "Nature",
+        "authors": "Monica Cassandras, Xavier Sanchez, Lauren Hsu, Yu Huang, Adam J. Getzler et al. (+17 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10222-2",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers discovered a key driver of resistance to cancer treatment, which could lead to new therapeutic strategies for triple-negative breast cancer.",
+        "categories": [
+          "cancer biology",
+          "immunology",
+          "molecular biology"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "The molecular basis of force selectivity by PIEZO2",
+        "journal": "Nature",
+        "authors": "Eric M. Mulhall, Oleg Yarishkin, Rose Z. Hill, Anna K. Koster, Ardem Patapoutian",
+        "url": "https://www.nature.com/articles/s41586-026-10182-7",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Scientists uncovered the molecular basis of force selectivity by PIEZO2, a protein that senses mechanical stimuli, which could lead to new treatments for various diseases.",
+        "categories": [
+          "molecular biology",
+          "protein structure",
+          "mechanotransduction"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Advancing operational global aerosol forecasting with machine learning",
+        "journal": "Nature",
+        "authors": "Ke Gui, Xutao Zhang, Huizheng Che, Lei Li, Yu Zheng et al. (+17 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10234-y",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new machine-learning-driven forecasting system was developed to improve operational global aerosol forecasting, which could lead to better air quality predictions.",
+        "categories": [
+          "machine learning",
+          "atmospheric science",
+          "aerosol science"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Wind shear enhances soil moisture influence on rapid thunderstorm growth",
+        "journal": "Nature",
+        "authors": "Christopher M. Taylor, Cornelia Klein, Emma J. Barton, Sebastian Hahn, Wolfgang Wagner",
+        "url": "https://www.nature.com/articles/s41586-025-10045-7",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers found that wind shear amplifies the impact of soil moisture on triggering rapidly developing thunderstorms, which could improve weather forecasting models.",
+        "categories": [
+          "meteorology",
+          "atmospheric science",
+          "soil science"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Structural basis of RNA-guided transcription by a dCas12f\u2013\u03c3<sup>E</sup>\u2013RNAP complex",
+        "journal": "Nature",
+        "authors": "Renjian Xiao, Florian T. Hoffmann, Dan Xie, Tanner Wiegand, Adriana I. Palmieri et al. (+2 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10178-3",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers used cryogenic electron microscopy to study how a dCas12f protein recruits RNA polymerase to targeted DNA, initiating transcription. This process bypasses traditional recognition elements and stabilizes the transcription start site. The study provides insights into RNA-guided transcription.",
+        "categories": [
+          "single-cell genomics",
+          "CRISPR",
+          "transcription"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Homologous recombination deficiency and hemizygosity&#xa0;drive resistance in breast cancer",
+        "journal": "Nature",
+        "authors": "Anton Safonov, Minna Lee, David N. Brown, Luca Boscolo Bielo, Miika Mehine et al. (+52 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10197-0",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers identified genomic patterns that drive resistance to therapy in breast cancer. Germline and somatic interactions play a key role in defining actionable genomic patterns. This study provides insights into acquired therapy resistance in breast cancer.",
+        "categories": [
+          "cancer genomics",
+          "breast cancer",
+          "therapy resistance"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Exapted CRISPR\u2013Cas12f homologues drive RNA-guided transcription",
+        "journal": "Nature",
+        "authors": "Florian T. Hoffmann, Tanner Wiegand, Adriana I. Palmieri, Juniper Glass-Klaiber, Renjian Xiao et al. (+6 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10166-7",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers discovered that CRISPR-Cas12f homologues can drive RNA-guided transcription. Specialized \u03c3 factors interact with nuclease-dead CRISPR-Cas12f proteins to form potent gene activation systems. This study provides insights into RNA-guided gene activation.",
+        "categories": [
+          "CRISPR",
+          "RNA-guided transcription",
+          "gene regulation"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Wide-swath altimetry maps bank shapes and storage changes in global rivers",
+        "journal": "Nature",
+        "authors": "A. Cerbelaud, J. Wade, C. H. David, M. Durand, R. P. M. Frasson et al. (+2 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10218-y",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers used satellite data to map river channel geometry and water storage changes worldwide. The study provides insights into global river dynamics and water storage changes.",
+        "categories": [
+          "hydrology",
+          "remote sensing",
+          "river dynamics"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Largest Silurian fish illuminates the origin of osteichthyan characters",
+        "journal": "Nature",
+        "authors": "Jing Lu, Brian Choo, Wenjin Zhao, You-an Zhu, Xindong Cui et al. (+9 more)",
+        "url": "https://www.nature.com/articles/s41586-025-10008-y",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers discovered a new Silurian fish species that provides insights into the origin of osteichthyan characters. The study provides new morphological details of a stem osteichthyan.",
+        "categories": [
+          "paleontology",
+          "evolutionary biology",
+          "fish evolution"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Precancerous niche remodelling dictates nascent tumour persistence",
+        "journal": "Nature",
+        "authors": "G. Skrupskelyte, J. E. Rojo Arias, H. Ajith, Y. Dang, D. Rossetti et al. (+16 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10157-8",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A study found that a specific type of niche in the stomach can support the survival of nascent tumors. This niche is created by fibroblasts remodeling the stroma in response to tumor stress. The researchers suggest that this could be a key factor in the development of certain types of cancer.",
+        "categories": [
+          "cancer",
+          "tumors",
+          "fibroblasts",
+          "stroma"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Rising temperatures pose a threat to tropical insects",
+        "journal": "Nature",
+        "authors": "Vojtech Novotny",
+        "url": "https://www.nature.com/articles/d41586-026-00377-3",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "An assessment of insect species in mountainous terrain found that rising temperatures pose a threat to tropical insects, potentially leading to biodiversity loss in lowland areas.",
+        "categories": [
+          "ecology",
+          "insects",
+          "biodiversity",
+          "climate change"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Fresh claim of making elusive \u2018hexagonal\u2019 diamond is the strongest yet",
+        "journal": "Nature",
+        "authors": "Mark Peplow",
+        "url": "https://www.nature.com/articles/d41586-026-00711-9",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers claim to have found evidence of the existence of 'hexagonal' diamond, a rare form of carbon that has been debated for decades.",
+        "categories": [
+          "materials science",
+          "diamonds",
+          "carbon"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Stress-hormone signalling protects spreading cancer cells from immune system",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00650-5",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Analysis revealed that cancer cells can resist killing by the immune system by harnessing stress-hormone signalling through the glucocorticoid receptor. This could be a potential therapeutic target for preventing metastasis.",
+        "categories": [
+          "cancer",
+          "immunology",
+          "metastasis"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "AI can write genomes \u2014 how long until it creates synthetic life?",
+        "journal": "Nature",
+        "authors": "Ewen Callaway",
+        "url": "https://www.nature.com/articles/d41586-026-00681-y",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A genomic language model called Evo2 can generate short genome sequences, but scientists say further advances are needed to write genomes that will work inside living cells.",
+        "categories": [
+          "genomics",
+          "artificial intelligence",
+          "synthetic biology"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Magnetic fluid offers better seal in heart-plugging medical procedure",
+        "journal": "Nature",
+        "authors": "Yu Shrike Zhang",
+        "url": "https://www.nature.com/articles/d41586-026-00375-5",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have developed an injectable fluid that can be used to close off part of the heart in animals, potentially improving a procedure that prevents stroke in people with irregular heartbeats.",
+        "categories": [
+          "cardiovascular medicine",
+          "medical devices",
+          "heart health"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Funding from individual donors: lessons from the Epstein case",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00658-x",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Universities need to establish and empower compliance teams to ensure adherence to ethical funding policies, particularly in light of the Epstein case.",
+        "categories": [
+          "ethics",
+          "funding",
+          "university governance"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "A genetic switch turns off parental behaviour and drives infanticide in male striped mice",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00656-z",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have identified a genetic switch in male striped mice that affects their behavior towards pups, with high expression of the Agouti gene leading to hostility.",
+        "categories": [
+          "genetics",
+          "behavioral biology",
+          "mouse models"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Do wet or dry soils trigger thunderstorms? It depends on how the wind blows",
+        "journal": "Nature",
+        "authors": "Craig R. Ferguson",
+        "url": "https://www.nature.com/articles/d41586-026-00376-4",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Satellite data show that wind conditions affect the connection between soil moisture and thunderstorms, which could be used to inform forecasting.",
+        "categories": [
+          "meteorology",
+          "climate science",
+          "satellite imaging"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Climate change and geopolitics threaten water supplies \u2014 but disaster is not inevitable",
+        "journal": "Nature",
+        "authors": "Ali Tauqeer Sheikh",
+        "url": "https://www.nature.com/articles/d41586-026-00659-w",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The Indus Waters Treaty has withstood several challenges, including armed conflicts and glacier loss, and could serve as a blueprint for other water management agreements.",
+        "categories": [
+          "water management",
+          "climate change",
+          "geopolitics"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Cancer blood tests are everywhere. Do they really work?",
+        "journal": "Nature",
+        "authors": "Nic Fleming",
+        "url": "https://www.nature.com/articles/d41586-026-00661-2",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A review of cancer blood tests raises concerns about their effectiveness in detecting cancer types and delivering accurate diagnoses.",
+        "categories": [
+          "cancer",
+          "diagnostics",
+          "medicine"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Skin cells boost distant antibody responses",
+        "journal": "Nature",
+        "authors": "Xueping Zhu, Caroline L. Sokol",
+        "url": "https://www.nature.com/articles/d41586-026-00379-1",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have discovered a pathway in skin cells that boosts the production of antibodies to protect the body from infection.",
+        "categories": [
+          "immunology",
+          "skin cells",
+          "antibodies"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "How a mathematician is cracking open Mexico\u2019s powerful drug cartels",
+        "journal": "Nature",
+        "authors": "Gemma Conroy",
+        "url": "https://www.nature.com/articles/d41586-026-00299-0",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A mathematician has developed models to help combat organized crime in Mexico, which could improve public safety.",
+        "categories": [
+          "mathematics",
+          "crime",
+          "public safety"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Under pressure: the reality of Mexico\u2019s research system",
+        "journal": "Nature",
+        "authors": "Oscar Xavier Guerrero Guti\u00e9rrez",
+        "url": "https://www.nature.com/articles/d41586-026-00442-x",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A researcher speaks out about the unstable conditions faced by Mexican scientists and proposes solutions to improve their situation.",
+        "categories": [
+          "science policy",
+          "Mexico",
+          "research"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Radiology AI makes consistent diagnoses using 3D images from different health centres",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00645-2",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A 3D vision-language model called Merlin has been trained to make consistent diagnoses using radiology images from different health centers.",
+        "categories": [
+          "artificial intelligence",
+          "radiology",
+          "medicine"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Hunt for reactive metabolites uncovers unusual chemistry in a human pathogen",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00652-3",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new method was developed to capture and identify reactive compounds produced by a human pathogen, leading to the discovery of two unusual molecules with potential for broad synthetic applications.",
+        "categories": [
+          "biochemistry",
+          "microbiology",
+          "synthetic biology"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Author Correction: Healthy forests safeguard traditional wild meat food systems in Amazonia",
+        "journal": "Nature",
+        "authors": "Andr\u00e9 Pinassi Antunes, Pedro de Araujo Lima Constantino, Julia E. Fa, Daniel P. Munari, Thais Q. Morcatty et al. (+53 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10332-x",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A correction was made to a previous study on the importance of healthy forests in safeguarding traditional wild meat food systems in Amazonia.",
+        "categories": [
+          "ecology",
+          "conservation biology",
+          "agriculture"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Genetically encoded assembly recorder temporally resolves cellular history",
+        "journal": "Nature",
+        "authors": "Yuqing Yan, Jiaxi Lu, Zhe Li, Zuohan Zhao, Timothy F. Shay et al. (+11 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10323-y",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A genetically encoded assembly recorder was developed to temporally resolve cellular history, allowing for a deeper understanding of cellular processes.",
+        "categories": [
+          "genomics",
+          "cell biology",
+          "synthetic biology"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Jam-packed star system is most compact of its kind ever found",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00667-w",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A star system consisting of four Sun-like stars was discovered to be the most compact of its kind, with all four stars fitting within the area of Jupiter's orbit.",
+        "categories": [
+          "astrophysics",
+          "stellar evolution",
+          "exoplanetary science"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Releasing open-weight AI in steps would alleviate risks",
+        "journal": "Nature",
+        "authors": "S. M. Nuruzzaman Nobel, Maxine Tan",
+        "url": "https://www.nature.com/articles/d41586-026-00679-6",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A step-by-step approach to releasing open-weight AI was proposed to alleviate risks associated with its development and deployment.",
+        "categories": [
+          "artificial intelligence",
+          "machine learning",
+          "risk management"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "From the first telephone to videoconferencing in 100 years",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00641-6",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "This paper is not a scientific study, but rather a historical and future-focused article on telecommunications.",
+        "categories": [
+          "telecommunications",
+          "history"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "South Korea\u2019s AI framework act focuses on rights and safety",
+        "journal": "Nature",
+        "authors": "WooJung Jon",
+        "url": "https://www.nature.com/articles/d41586-026-00678-7",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "South Korea's AI framework act prioritizes rights and safety, but details of the act are not provided.",
+        "categories": [
+          "AI",
+          "policy"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Climate research is global \u2014 risks and responsibilities should also be distributed",
+        "journal": "Nature",
+        "authors": "Zhenhua Rui, Lu Lin, Hongfang Lu, Y. Frank Cheng",
+        "url": "https://www.nature.com/articles/d41586-026-00680-z",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Climate research is a global effort, and risks and responsibilities should be distributed accordingly.",
+        "categories": [
+          "climate research",
+          "global cooperation"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Why \u2018quantum proteins\u2019 could be the next big thing in biology",
+        "journal": "Nature",
+        "authors": "Nicola Jones",
+        "url": "https://www.nature.com/articles/d41586-026-00662-1",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Fluorescent proteins with quantum upgrades could offer unprecedented views inside cells, potentially revolutionizing biology.",
+        "categories": [
+          "biology",
+          "quantum biology"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "US climate actions must continue, despite setbacks",
+        "journal": "Nature",
+        "authors": "David Widawsky",
+        "url": "https://www.nature.com/articles/d41586-026-00660-3",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Despite setbacks, US climate actions must continue, with cities, states, and businesses taking the lead.",
+        "categories": [
+          "climate action",
+          "policy"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "My relationship with my PhD supervisor has become toxic \u2014 what do I do?",
+        "journal": "Nature",
+        "authors": "Xiaoying You",
+        "url": "https://www.nature.com/articles/d41586-025-04126-w",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A graduate student in China has become seriously depressed after facing frequent verbal abuse from their PhD supervisor.",
+        "categories": [
+          "mental health",
+          "academic misconduct",
+          "supervision"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "How infighting led the Maya civilization to catastrophic collapse",
+        "journal": "Nature",
+        "authors": "Andrew Robinson",
+        "url": "https://www.nature.com/articles/d41586-026-00663-0",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Fresh archaeological evidence suggests that infighting led to the catastrophic collapse of the Maya civilization.",
+        "categories": [
+          "archaeology",
+          "civilization collapse",
+          "Mesoamerica"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "See raining iguanas and coral from the inside out \u2014 February\u2019s best science images",
+        "journal": "Nature",
+        "authors": "Miryam Naddaf, Fred Schwaller",
+        "url": "https://www.nature.com/articles/d41586-026-00597-7",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Nature's photo team selects the month's sharpest science shots, including images of raining iguanas and coral.",
+        "categories": [
+          "science photography",
+          "visual arts"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Climate shocks, not just warming, threaten malaria control efforts in Africa",
+        "journal": "Nature",
+        "authors": "Janey Messina, Margaret Carrel",
+        "url": "https://www.nature.com/articles/d41586-026-00491-2",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Climate change may affect malaria control efforts in Africa by reshaping malaria risk, but extreme weather could be a more immediate danger.",
+        "categories": [
+          "climate change",
+          "malaria",
+          "public health"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Hey ChatGPT, write me a fictional paper: these LLMs are willing to commit academic fraud",
+        "journal": "Nature",
+        "authors": "Elizabeth Gibney",
+        "url": "https://www.nature.com/articles/d41586-026-00595-9",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Mainstream chatbots presented varying levels of resistance to deliberate requests for academic fabrication, a study finds.",
+        "categories": [
+          "artificial intelligence",
+          "academic integrity",
+          "natural language processing"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "How can fast-evolving DNA retain a fundamental function in cell division?",
+        "journal": "Nature",
+        "authors": "Adele L. Marston",
+        "url": "https://www.nature.com/articles/d41586-026-00629-2",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers studied how centromeres, attachment sites for chromosome pairs, have evolved in yeast genomes to facilitate cell division.",
+        "categories": [
+          "cell biology",
+          "genomics",
+          "evolutionary biology"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Going \u2018beyond GDP\u2019 should not mean sidelining the SDGs",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00657-y",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The UN Sustainable Development Goals provide a roadmap for human and planetary prosperity, and should not be replaced by alternative measures.",
+        "categories": [
+          "sustainability",
+          "developmental economics"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Author Correction: Root microbiota drive direct integration of phosphate stress and immunity",
+        "journal": "Nature",
+        "authors": "Gabriel Castrillo, Paulo Jos\u00e9 Pereira Lima Teixeira, Sur Herrera Paredes, Theresa F. Law, Laura de Lorenzo et al. (+7 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10320-1",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "This is a correction to a previous paper on the role of root microbiota in integrating phosphate stress and immunity.",
+        "categories": [
+          "microbiology",
+          "plant biology"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "BCDX2\u2013CX3 and DX2\u2013CX3 complexes assemble and stabilize RAD51 filaments",
+        "journal": "Nature",
+        "authors": "Christopher W. Koo, Jiaqi Xiao, Sebastien Coassolo, Jie Liu, Christine Yu et al. (+8 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10314-z",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers discovered that BCDX2\u2013CX3 and DX2\u2013CX3 complexes assemble and stabilize RAD51 filaments, which are involved in DNA repair.",
+        "categories": [
+          "molecular biology",
+          "DNA repair"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "The squeal of peeling tape, explained",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00516-w",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The sound of peeling tape is caused by weak shock waves triggered by micro-cracks in the adhesive layer.",
+        "categories": [
+          "physics",
+          "materials science"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Audio long read: Many people have no mental imagery. What\u2019s going on in their brains?",
+        "journal": "Nature",
+        "authors": "Elizabeth Quill, Benjamin Thompson",
+        "url": "https://www.nature.com/articles/d41586-026-00626-5",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Aphantasia is a condition where people have no mental imagery. Researchers are studying the brains of people with aphantasia to understand consciousness.",
+        "categories": [
+          "neuroscience",
+          "consciousness",
+          "brain function"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "The hidden lives behind China\u2019s great Internet firewall",
+        "journal": "Nature",
+        "authors": "Chris Stokel-Walker",
+        "url": "https://www.nature.com/articles/d41586-026-00664-z",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The digital ecosystem in China is tightly controlled, but there are human stories and acts of resistance behind the scenes.",
+        "categories": [
+          "social media",
+          "censorship",
+          "digital rights"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "AI agents are \u2018aeroplanes for the mind\u2019: five ways to ensure that scientists are responsible pilots",
+        "journal": "Nature",
+        "authors": "Dashun Wang",
+        "url": "https://www.nature.com/articles/d41586-026-00665-y",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "As AI systems take on more scientific tasks, researchers should focus on designing platforms that preserve creativity and responsibility.",
+        "categories": [
+          "AI",
+          "machine learning",
+          "scientific workflow"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Earth\u2019s oldest crystals suggest an early start for plate tectonics",
+        "journal": "Nature",
+        "authors": "Alexandra Witze",
+        "url": "https://www.nature.com/articles/d41586-026-00628-3",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Earth's oldest crystals suggest that plate tectonics may have started 3.3 billion years ago.",
+        "categories": [
+          "geology",
+          "plate tectonics",
+          "crystallography"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "\u2018No one quite like her\u2019: meet the female colleagues who inspire these award-winning women in science",
+        "journal": "Nature",
+        "authors": "Amanda Heidt",
+        "url": "https://www.nature.com/articles/d41586-026-00666-x",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Women in science are nominating their female colleagues who inspire them, highlighting the importance of female mentorship and support.",
+        "categories": [
+          "women in science",
+          "mentorship",
+          "career development"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Editorial Expression of&#xa0;Concern: The gene product Murr1 restricts HIV-1 replication in resting CD4+ lymphocytes",
+        "journal": "Nature",
+        "authors": "Lakshmanan Ganesh, Ezra Burstein, Anuradha Guha-Niyogi, Mark K. Louder, John R. Mascola et al. (+4 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10308-x",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A gene product called Murr1 was found to restrict HIV-1 replication in resting CD4+ lymphocytes.",
+        "categories": [
+          "immunology",
+          "virology",
+          "HIV"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Briefing chat: Pok\u00e9mon turns 30 \u2014 how Pikachu and pals inspired generations of researchers",
+        "journal": "Nature",
+        "authors": "Benjamin Thompson, Nick Petri\u0107 Howe, Miryam Naddaf",
+        "url": "https://www.nature.com/articles/d41586-026-00674-x",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Nature staff discuss the week's top science news, including Pok\u00e9mon's 30th anniversary.",
+        "categories": [
+          "science news",
+          "popular culture"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Brain mysteries and Bronze Age diplomacy: Books in brief",
+        "journal": "Nature",
+        "authors": "Andrew Robinson",
+        "url": "https://www.nature.com/articles/d41586-026-00621-w",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Andrew Robinson reviews five science books, covering topics such as brain mysteries and Bronze Age diplomacy.",
+        "categories": [
+          "book reviews",
+          "science books"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "White House stalls release of approved US science budgets",
+        "journal": "Nature",
+        "authors": "Max Kozlov, Alexandra Witze, Dan Garisto",
+        "url": "https://www.nature.com/articles/d41586-026-00601-0",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The US Congress rejected sweeping cuts to science agencies, but the NIH, NSF, and NASA have had their spending slowed.",
+        "categories": [
+          "science policy",
+          "US politics"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "I will continue the fight for environmental justice in Black communities",
+        "journal": "Nature",
+        "authors": "Virginia Gewin",
+        "url": "https://www.nature.com/articles/d41586-026-00538-4",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Robert Bullard argues that researchers in environmental justice have a responsibility to back up their work with action.",
+        "categories": [
+          "environmental justice",
+          "social justice"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Pok\u00e9mon turns 30 \u2014 how the fictional pocket monsters shaped science",
+        "journal": "Nature",
+        "authors": "Miryam Naddaf",
+        "url": "https://www.nature.com/articles/d41586-026-00441-y",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The Pok\u00e9mon franchise has inspired generations of researchers in various fields, including evolution, biodiversity, and research integrity.",
+        "categories": [
+          "evolution",
+          "biodiversity",
+          "research integrity"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Is a \u2018selfish gene\u2019 making a Utah family have twice as many boys as girls?",
+        "journal": "Nature",
+        "authors": "Ewen Callaway",
+        "url": "https://www.nature.com/articles/d41586-026-00505-z",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A Utah family may have a genetic condition that causes them to have twice as many boys as girls, which could be the first conclusive case of sex 'distortion' in humans.",
+        "categories": [
+          "genetics",
+          "sex determination",
+          "human biology"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Daily briefing: This Utah family line might be evidence of \u2018selfish genes\u2019 in humans",
+        "journal": "Nature",
+        "authors": "Flora Graham",
+        "url": "https://www.nature.com/articles/d41586-026-00675-w",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers claim to have found the first conclusive case of sex 'distortion' in humans, and also discuss how stem cells could treat spina bifida and the influence of Pok\u00e9mon on science.",
+        "categories": [
+          "genetics",
+          "sex determination",
+          "stem cells"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Author Correction: Myocardial reprogramming by HMGN1 underlies heart defects in trisomy 21",
+        "journal": "Nature",
+        "authors": "Sanjeev S. Ranade, Feiya Li, Sean Whalen, Angelo Pelonero, Lin Ye et al. (+18 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10283-3",
+        "doi": null,
+        "published": "2026-02-26T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "An author correction was made to a previous study on myocardial reprogramming by HMGN1, which underlies heart defects in trisomy 21.",
+        "categories": [
+          "cardiology",
+          "genetics",
+          "trisomy 21"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Genetically encoded fluorescent reporters to visualize \u03b1-synuclein pathology in live brain",
+        "journal": "Cell",
+        "authors": "Li Zhang, Minhui Yu, Guoqing Chen, Siyuan Ge, Mengdi Wang, Xianying Zhang, Miao Zhao, Huating Gu, Meizhu Huang, Aixue Liu, Gengxin Ran, Zeyuan Liu, Tiepeng Liao, Qi Chen, Chenjian Miao, Yao Lu, Yibing Wang, Fengchao Wang, Zhihui Liu, Hongying Zhu, Qian Wu, Zhuan Zhou, Wei Xiong, Xiaoqun Wang, Peng Cao",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00163-7?rss=yes",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Genetically encoded fluorescent reporters were developed to visualize \u03b1-synuclein pathology in live brain, enabling diverse applications in studying the propagation and pathological effects of \u03b1-Syn inclusions.",
+        "categories": [
+          "neuroscience",
+          "genetics",
+          "fluorescent reporters"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Efficient amyloid-\u03b2 degradation in Alzheimer\u2019s disease using SPYTACs",
+        "journal": "Cell",
+        "authors": "Fei Teng, Jing Liu, Tongtong Cui, Xiangtian Tan, Kailun Liu, Zongren Hou, Li Zhou, Yuanzhi Xie, Rongqi Li, Da Li, Bojin Li, Dongmei Wang, Qi Zhou, Baoyang Hu, Wei Li",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00162-5?rss=yes",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers developed a synthetic peptide platform called SPYTAC that efficiently degrades amyloid-\u03b2 in the brain and periphery, improving cognition and reducing neuroinflammation in Alzheimer's disease models.",
+        "categories": [
+          "Alzheimer's disease",
+          "Protein degradation",
+          "Synthetic peptides"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Restoring circadian rhythms in the hypothalamic paraventricular nucleus reverses aging biomarkers and extends lifespan in male mice",
+        "journal": "Cell",
+        "authors": "Haijiao Zhao, Meimei Liao, Ran Huo, Ting He, Hongni Tian, Zeqi Li, Chen Chen, Ziqing Yu, Juan Chai, Xiaocui Song, Ruichao Shao, Shuhua Ying, Wen Gao, Ling Liu, Di Sang, Qi Li, Haohong Li, Fengchao Wang, Dapeng Ju, Eric Erquan Zhang",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00103-0?rss=yes",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Enhancing circadian rhythms in the hypothalamic paraventricular nucleus using a 3\u2032-deoxyadenosine treatment alleviates age-related pathologies and extends lifespan in male mice.",
+        "categories": [
+          "Circadian rhythms",
+          "Aging",
+          "Neurology"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "High-resolution in situ structures of hantavirus glycoprotein tetramers",
+        "journal": "Cell",
+        "authors": "Luqiang Guo, Elizabeth McFadden, Megan M. Slough, E. Taylor Stone, Jacob Berrigan, Eva Mittler, Kiara Hatzakis, Troy Hinkley, Heather S. Kain, Zunlong Ke, Nikole L. Warner, Jesse H. Erasmus, Kartik Chandran, Jason S. McLellan",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00117-0?rss=yes",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers determined the high-resolution structures of hantavirus glycoprotein tetramers using cryo-EM, revealing the molecular basis of glycoprotein architecture, membrane fusion, and antibody-mediated neutralization.",
+        "categories": [
+          "Virology",
+          "Structural biology",
+          "Cryo-EM"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Citrate clearance is a major function of aconitase 2 in the canonical TCA cycle",
+        "journal": "Cell",
+        "authors": "Abigail Xie, Julia S. Brunner, Sangita Chakraborty, Angela M. Montero, Anna E. Bridgeman, Katrina I. Paras, Ruobing Cui, Maider Fagoaga-Eugui, Monika Komza, Paige K. Arnold, Benjamin T. Jackson, Santiago Noriega Madrazo, Mohamed I. Atmane, Sebastian E. Carrasco, Lydia W.S. Finley",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00115-7?rss=yes",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Aconitase 2 plays a crucial role in the canonical TCA cycle by preventing mitochondrial citrate accumulation, which can trigger the integrated stress response and impair cell fitness.",
+        "categories": [
+          "Metabolism",
+          "Cell biology",
+          "TCA cycle"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Pyruvate is a natural suppressor of interferon signaling by inducing STAT1 protein pyruvylation",
+        "journal": "Cell",
+        "authors": "Yibo Zuo, Qin Wang, Wanying Tian, Xinhe Wang, Zhijin Zheng, Wei He, Renxia Zhang, Qian Zhao, Ying Miao, Yukang Yuan, Tingting Zhang, Qun Cui, Yuerong Zhang, Chunyan Liu, Haiyan Zhou, Hui Zheng",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00110-8?rss=yes",
+        "doi": null,
+        "published": "2026-02-27T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Pyruvate was found to suppress interferon signaling by inducing STAT1 protein pyruvylation, a post-translational modification that can modulate immune signaling and host antiviral response.",
+        "categories": [
+          "Immunology",
+          "Virology",
+          "Post-translational modification"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "What we thought we knew about TNF\u2014And what we now must re-learn",
+        "journal": "Stem Cell Reports",
+        "authors": "Alexandra Rundberg Nilsson",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00038-X?rss=yes",
+        "doi": null,
+        "published": "2026-02-26T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "TNF's effects on hematopoiesis are more complex than previously thought, and it can have both positive and negative effects depending on the cell type, context, and time.",
+        "categories": [
+          "stem cells",
+          "hematopoiesis",
+          "TNF"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Reconstitution of the cellular niche requirements for primordial germ cell-like cell progression in humans",
+        "journal": "Stem Cell Reports",
+        "authors": "Yolanda W. Chang, Marjolein Trimp, Talia van der Helm, Ioannis Moustakas, Albert Blanch-Asensio, Arend W. Overeem, Susana M. Chuva de Sousa Lopes",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00037-8?rss=yes",
+        "doi": null,
+        "published": "2026-02-26T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have successfully reconstituted the cellular niche required for primordial germ cell-like cells to mature in humans, but these cells are prone to dedifferentiation.",
+        "categories": [
+          "stem cells",
+          "primordial germ cells",
+          "cellular niche"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Regenesis: Repair and regeneration reinvented in stem cell therapeutics",
+        "journal": "Stem Cell Reports",
+        "authors": "Hitesh Chopra, Yuanyuan Han",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00036-6?rss=yes",
+        "doi": null,
+        "published": "2026-02-26T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The concept of 'regenesis' is proposed as a new framework for describing hybrid tissue outcomes in stem cell therapeutics, aiming to update terminology in the field.",
+        "categories": [
+          "stem cell therapeutics",
+          "regenesis",
+          "tissue engineering"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Shugoshin 2A stabilizes heterochromatin complexes to suppress the 2-cell-like state in embryonic stem cells",
+        "journal": "Stem Cell Reports",
+        "authors": "Panpan Shi, Kairang Jin, Guoxing Yin, Lin Liu",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00035-4?rss=yes",
+        "doi": null,
+        "published": "2026-02-26T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Shugoshin 2A stabilizes heterochromatin complexes to suppress the 2-cell-like state in embryonic stem cells, promoting the enrichment of H3K9me3 on Dux and Zscan4 gene cluster.",
+        "categories": [
+          "embryonic stem cells",
+          "heterochromatin",
+          "Shugoshin 2A"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "ASCL1 promotes nuclear shrinkage in transdifferentiation by suppressing NUP37",
+        "journal": "Stem Cell Reports",
+        "authors": "Emily Fisher, Zhongjiao Jiang, Li Li, Gaurav Chhetri, Komal Saleem, Zhen Yan, Jian Feng",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00034-2?rss=yes",
+        "doi": null,
+        "published": "2026-02-26T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "ASCL1 promotes nuclear shrinkage in transdifferentiation by suppressing NUP37, a critical component of the nuclear pore complex, and knockdown of NUP37 enhances ASCL1-mediated transdifferentiation.",
+        "categories": [
+          "transdifferentiation",
+          "nuclear shrinkage",
+          "ASCL1"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Development of a high-efficiency induction system for embryonic oral epithelium from human pluripotent stem cells",
+        "journal": "Stem Cell Reports",
+        "authors": "Kazuki Nakashima, Junichi Tanaka, Erika Matsuno, Yuri Wada, Shintaro Ohnuma, Tatsuo Shirota, Seigo Ohba, Kenji Mishima",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(25)00385-6?rss=yes",
+        "doi": null,
+        "published": "2026-02-26T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers developed a highly efficient method to generate embryonic oral epithelium from human pluripotent stem cells, which can be used to study human oral development and model craniofacial disorders.",
+        "categories": [
+          "stem cells",
+          "embryonic development",
+          "oral health"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Quantification and transcriptome profiling reveal abundant, dynamic and translatable dephospho-CoA-capped RNAs",
+        "journal": "Nature Biotechnology",
+        "authors": "Hao Hu, Qiyue Zhang, Xuan Ma, Hsu-Feng Chu, Han Wang et al. (+10 more)",
+        "url": "https://www.nature.com/articles/s41587-026-03040-4",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Scientists discovered a new type of RNA capped with dephospho-CoA, which can be quantified and profiled using a specific enzyme.",
+        "categories": [
+          "RNA biology",
+          "molecular biology",
+          "transcriptomics"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Sharing big data for sustainable agri-food innovation",
+        "journal": "Nature Biotechnology",
+        "authors": "Erik Alexandersson, Thies Marten Heick, Anna Chailyan, Sisse Marquina-Jongberg, Thomas de Bang et al. (+1 more)",
+        "url": "https://www.nature.com/articles/s41587-026-03052-0",
+        "doi": null,
+        "published": "2026-03-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers discussed the importance of sharing big data for sustainable agri-food innovation.",
+        "categories": [
+          "agriculture",
+          "data sharing",
+          "sustainability"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "Establishing a commercial solution for extremely rare genetic diseases",
+        "journal": "Nature Biotechnology",
+        "authors": "Stanley T. Crooke, Andrew W. Lo",
+        "url": "https://www.nature.com/articles/s41587-026-03056-w",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Authors proposed a commercial solution for extremely rare genetic diseases.",
+        "categories": [
+          "genetics",
+          "rare diseases",
+          "commercial solutions"
+        ],
+        "watchlist_match": false
+      },
+      {
+        "title": "Considerations for the future of in vitro gametogenesis in fertility care",
+        "journal": "Nature Biotechnology",
+        "authors": "Hannah L. Landecker, Amander T. Clark",
+        "url": "https://www.nature.com/articles/s41587-026-03034-2",
+        "doi": null,
+        "published": "2026-02-26T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers discussed the potential and limitations of in vitro gametogenesis (IVG) as a reproductive technology, highlighting the need for public engagement in shaping its future directions.",
+        "categories": [
+          "reproductive biology",
+          "in vitro gametogenesis",
+          "fertility care"
+        ],
+        "watchlist_match": true
+      },
+      {
+        "title": "It\u2019s a colorful pangenome world",
+        "journal": "Nature Methods",
+        "authors": "Vivien Marx",
+        "url": "https://www.nature.com/articles/s41592-026-03021-0",
+        "doi": null,
+        "published": "2026-03-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Summary unavailable.",
+        "categories": [],
+        "watchlist_match": false
+      },
+      {
+        "title": "A unified framework for multiomics deconvolution",
+        "journal": "Nature Methods",
+        "authors": "Xiaoyu Wang, Fuyi Li, Robin B. Gasser, Jiangning Song",
+        "url": "https://www.nature.com/articles/s41592-026-03008-x",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Summary unavailable.",
+        "categories": [],
+        "watchlist_match": false
+      },
+      {
+        "title": "DECODE: deep learning-based common deconvolution framework for various omics data",
+        "journal": "Nature Methods",
+        "authors": "Tianyi Zhao, Renjie Liu, Yuzhi Sun, Bingtian Wang, Liyuan Zhang et al. (+6 more)",
+        "url": "https://www.nature.com/articles/s41592-026-03007-y",
+        "doi": null,
+        "published": "2026-03-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Summary unavailable.",
+        "categories": [],
+        "watchlist_match": false
+      },
+      {
+        "title": "Next-generation multicolor indicators for in vivo imaging of norepinephrine",
+        "journal": "Nature Methods",
+        "authors": "Valentin Lu Rohner, Sebastiano Curreli, Paul J. Lamothe-Molina, Zacharoula Kagiampaki, Andrew G. Yee et al. (+25 more)",
+        "url": "https://www.nature.com/articles/s41592-026-03006-z",
+        "doi": null,
+        "published": "2026-02-26T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Summary unavailable.",
+        "categories": [],
+        "watchlist_match": false
+      }
+    ]
+  }
+]
