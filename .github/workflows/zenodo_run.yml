@@ -1,22 +1,27 @@
-name: Weekly Zenodo Scraper
+name: Zenodo scRNA-seq Bot
+
 on:
   schedule:
     - cron: '0 5 * * 1' # Every Monday at 5 AM UTC
-  workflow_dispatch: # Allows manual run for testing
+  workflow_dispatch:
 
 jobs:
-  build:
+  zenodo-bot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'
+
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Run script
+
+      - name: Run Zenodo bot
         env:
+          PYTHONPATH: .
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}

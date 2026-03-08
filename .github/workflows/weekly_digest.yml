@@ -1,0 +1,85 @@
+# .github/workflows/weekly_digest.yml
+name: Weekly Journal Digest
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+jobs:
+  scrape-and-summarise:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper and summariser
+        env:
+          HF_API_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python -m scraper.main
+
+      - name: Commit digest to repository
+        run: |
+          ls -la digests/          # add this line
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add digests/ trends/ || true
+          git add stats/ || true
+          git diff --staged --quiet || git commit -m "Weekly digest $(date +%Y-%m-%d)"
+          git push
+
+      - name: Read digest for email
+        id: digest
+        run: |
+          DIGEST_FILE=$(ls digests/$(date +%Y-%m-%d)-weekly-digest.md 2>/dev/null || ls digests/*.md | tail -1)
+          echo "file=$DIGEST_FILE" >> $GITHUB_OUTPUT
+          python scraper/md_to_html_email.py "$DIGEST_FILE"
+
+      - name: Publish digest to GitHub Pages
+        run: |
+          mkdir -p docs
+          cp /tmp/digest_email.html docs/index.html
+          cp /tmp/digest_email.html docs/$(date +%Y-%m-%d)-weekly-digest.html
+          cp digests/*.md docs/
+          # E3 — manifest already written to docs/ by main.py, no copy needed
+          git add docs/
+          git diff --staged --quiet || git commit -m "Publish digest to Pages $(date +%Y-%m-%d)"
+          git push          
+
+      - name: Get date
+        id: date
+        run: echo "today=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+      
+      - name: Send digest email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_SENDER}}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          to: ${{ secrets.EMAIL_RECEIVER }}
+          from: "Journal Digest <${{ secrets.EMAIL_SENDER }}>"
+          subject: "📄 Weekly Journal Digest — ${{ steps.date.outputs.today }}"
+          html_body: file:///tmp/digest_email.html
+          body: file:///tmp/digest_plain.txt
+          attachments: ${{ steps.digest.outputs.file }}

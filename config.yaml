@@ -1,0 +1,65 @@
+journals:
+  - name: "Nature"
+    rss: "https://www.nature.com/nature.rss"
+    category: "Multidisciplinary"
+
+  - name: "Science"
+    rss: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"
+    category: "Multidisciplinary"
+
+  - name: "Cell"
+    rss: "https://www.cell.com/cell/inpress.rss"
+    category: "Life Sciences"
+
+  - name: "Cell Stem Cell"
+    rss: "https://www.cell.com/cell-stem-cell/inpress.rss"
+    category: "Stem Cell Biology"
+
+  - name: "Stem Cell Reports"
+    rss: "https://www.cell.com/stem-cell-reports/inpress.rss"
+    category: "Stem Cell Biology"
+
+  - name: "Nature Biotechnology"
+    rss: "https://www.nature.com/nbt.rss"
+    category: "Biotechnology"
+
+  - name: "Nature Methods"
+    rss: "https://www.nature.com/nmeth.rss"
+    category: "Methods & Tools"
+
+  - name: "Bioinformatics"
+    rss: "https://pubmed.ncbi.nlm.nih.gov/rss/journals/101232071/?limit=50&name=Bioinformatics&utm_campaign=journals"
+    category: "Computational Biology"
+
+  - name: "Nature Materials"
+    rss: "https://www.nature.com/nmat.rss"
+    category: "Biotechnology"
+
+  - name: "Nature Methods"
+    rss: "http://www.nature.com/nmeth/current_issue/rss"
+    category: "Methods"
+
+    
+
+lookback_days: 7
+
+include_types:
+  - "research-article"
+  - "letter"
+  - "article"
+  - "resource"
+
+# Papers matching any term are promoted to a "Featured" section at the top.
+# Case-insensitive; multi-word phrases supported.
+watchlist:
+  - "organoid"
+  - "kidney"
+  - "assembloid"
+  - "bioprint"
+  - "bioprinting"
+  - "ai"
+  - "artificial intelligence"
+  - "machine learning"
+  - "large language model"
+  - "foundation model"
+
