@@ -1,69 +1,124 @@
-# ResearchAssistants
+# ResearchAssistants_SBW
 
-Automated bots that monitor scientific data repositories and citation networks,
-sending weekly email digests.
+Automated bots that monitor scientific data repositories, citation networks, and journal feeds —
+sending weekly email digests and publishing a GitHub Pages digest site.
 
 ## Architecture
 
+Each bot lives in its own self-contained folder alongside everything it needs to run.
+GitHub Actions workflows trigger each bot on a Monday morning schedule.
+
 ```
-ResearchAssistants/
-├── utils/               # Shared utilities (email, AI summarization)
-│   ├── __init__.py
-│   ├── email_logic.py   # Gmail SMTP email sending
-│   └── ai_logic.py      # HuggingFace BART summarization
-├── bots/                # Individual bot scripts
-│   ├── zenodo_bot.py    # scRNA-seq dataset discovery on Zenodo
-│   └── citation_bot.py  # Citation tracking via OpenAlex
-├── .github/workflows/   # GitHub Actions schedules
-│   ├── zenodo_run.yml
-│   └── citation_run.yml
+ResearchAssistants_SBW/
+├── zenodo_bot/                  # Bot 1 — Zenodo scRNA-seq dataset discovery
+│   ├── zenodo_bot.py
+│   └── utils/
+│       ├── email_logic.py       # Gmail SMTP sending
+│       └── ai_logic.py          # HuggingFace BART summarisation
+│
+├── citation_bot/                # Bot 2 — Citation tracking via OpenAlex
+│   ├── citation_bot.py
+│   └── utils/
+│       ├── email_logic.py
+│       └── ai_logic.py
+│
+├── journal_digest/              # Bot 3 — Weekly journal RSS digest
+│   ├── scraper/
+│   │   ├── main.py              # Orchestrator
+│   │   ├── feeds.py             # RSS feed parsing
+│   │   ├── extract_repos.py     # Code/data repo link extraction
+│   │   ├── summarise.py         # AI summarisation (HuggingFace)
+│   │   ├── cluster.py           # Semantic clustering by topic
+│   │   ├── report.py            # Markdown digest generation
+│   │   ├── trends.py            # Tag frequency trend tracking
+│   │   ├── manifest.py          # JSON metadata manifest
+│   │   └── md_to_html_email.py  # Markdown → styled HTML email
+│   ├── config.yaml              # Journal RSS feeds + watchlist terms
+│   ├── digests/                 # Output: weekly markdown digests (committed)
+│   └── trends/                  # Output: tag_counts.csv + monthly reports (committed)
+│
+├── docs/                        # GitHub Pages output (committed by workflow)
+├── .github/workflows/
+│   ├── zenodo_run.yml           # Mon 05:00 UTC
+│   ├── citation_run.yml         # Mon 06:00 UTC
+│   └── weekly_digest.yml        # Mon 07:00 UTC
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
 ## Active Bots
 
-**Zenodo Bot** (`bots/zenodo_bot.py`) - Discovers new scRNA-seq datasets on Zenodo, extracts metadata (species, tissue, cell counts), generates AI summaries, and emails a weekly report.
+### Zenodo Bot (`zenodo_bot/`)
+Queries the Zenodo API for new single-cell RNA-seq datasets published in the past week.
+Extracts metadata (species, tissue, cell counts), generates AI summaries via HuggingFace,
+and emails a formatted HTML report.
 
-**Citation Bot** (`bots/citation_bot.py`) - Uses the OpenAlex API to find papers citing your research (ORCID: 0000-0002-8994-0781), summarizes their abstracts, tags them as Microscopy/Transcriptomics, and sends a Citation Intelligence Report.
+### Citation Bot (`citation_bot/`)
+Uses the OpenAlex API to find papers citing your research (ORCID: 0000-0002-8994-0781).
+Summarises abstracts, tags papers as Microscopy/Transcriptomics, and sends a
+Citation Intelligence Report.
+
+### Journal Digest (`journal_digest/`)
+Fetches papers from RSS feeds across Nature, Science, Cell, and related journals.
+Extracts repository links, generates AI summaries, clusters papers by topic, tracks keyword
+trends over time, and publishes a styled weekly digest via email and GitHub Pages.
+
+Configured via `journal_digest/config.yaml` — edit journals and watchlist terms there.
+
+## Schedule
+
+| Bot | Workflow | Time (UTC) |
+|---|---|---|
+| Zenodo Bot | `zenodo_run.yml` | Monday 05:00 |
+| Citation Bot | `citation_run.yml` | Monday 06:00 |
+| Journal Digest | `weekly_digest.yml` | Monday 07:00 |
+
+All workflows can also be triggered manually via **Actions → workflow → Run workflow**.
 
 ## Running Locally
 
 ```bash
-# Set environment variables
+pip install -r requirements.txt
+
+# Zenodo Bot
+export PYTHONPATH=zenodo_bot
 export EMAIL_SENDER="you@gmail.com"
 export EMAIL_RECEIVER="you@gmail.com"
 export EMAIL_PASSWORD="your-app-password"
 export HF_TOKEN="hf_your_token"
-export PYTHONPATH=.
+python zenodo_bot/zenodo_bot.py
 
-pip install -r requirements.txt
+# Citation Bot
+export PYTHONPATH=citation_bot
+python citation_bot/citation_bot.py
 
-# Run a bot
-python bots/zenodo_bot.py
-python bots/citation_bot.py
+# Journal Digest (runs from journal_digest/ as working directory)
+cd journal_digest
+export HF_API_TOKEN="hf_your_token"
+python -m scraper.main
 ```
 
-On Windows, use `set` instead of `export`:
-```cmd
-set PYTHONPATH=.
-set EMAIL_SENDER=you@gmail.com
-python bots/zenodo_bot.py
-```
+On Windows, use `set` instead of `export`.
 
 ## Environment Variables
 
-| Variable         | Required | Description                                |
-|------------------|----------|--------------------------------------------|
-| EMAIL_SENDER     | Yes      | Gmail address for sending reports          |
-| EMAIL_RECEIVER   | Yes      | Recipient email address                    |
-| EMAIL_PASSWORD   | Yes      | Gmail App Password                         |
-| HF_TOKEN         | Yes      | HuggingFace API token                      |
-| LOOKBACK_PERIOD  | No       | "week" (default), "month", or "6months"    |
+| Variable | Used By | Description |
+|---|---|---|
+| `EMAIL_SENDER` | zenodo, citation | Gmail address for sending |
+| `EMAIL_RECEIVER` | zenodo, citation, digest | Recipient email address |
+| `EMAIL_PASSWORD` | zenodo, citation, digest | Gmail App Password |
+| `HF_TOKEN` | zenodo, citation | HuggingFace API token |
+| `HF_API_TOKEN` | journal digest | HuggingFace API token (mapped from `HF_TOKEN` in workflow) |
+| `LOOKBACK_PERIOD` | zenodo, citation | `week` (default), `month`, or `6months` |
 
-## How to Add a New Bot
+All secrets are stored in **GitHub repo Settings → Secrets and variables → Actions**.
 
-1. **Create the bot script** at `bots/your_bot.py`:
+## Adding a New Bot
+
+1. **Create a folder** at the repo root: `your_bot/`
+
+2. **Add the bot script** `your_bot/your_bot.py`:
 
    ```python
    """Description of what your bot does."""
@@ -77,22 +132,27 @@ python bots/zenodo_bot.py
        # 1. Query your data source API
        # 2. Process each result (optionally use get_ai_summary())
        # 3. Build HTML content string
-       # 4. Send the email
+       # 4. Call send_email()
        html_content = "<h2>Your Report</h2>"
-       # ... build html_content ...
        send_email(f"Your Report: {datetime.date.today()}", html_content)
 
    if __name__ == "__main__":
        run()
    ```
 
-2. **Create a workflow file** at `.github/workflows/your_bot_run.yml`:
+3. **Copy `utils/`** from an existing bot into `your_bot/utils/`:
+
+   ```bash
+   cp -r zenodo_bot/utils/ your_bot/utils/
+   ```
+
+4. **Create a workflow** at `.github/workflows/your_bot_run.yml`:
 
    ```yaml
    name: Your Bot Name
    on:
      schedule:
-       - cron: '0 7 * * 1'    # Pick a time that doesn't overlap
+       - cron: '0 8 * * 1'    # Pick a time that doesn't overlap
      workflow_dispatch:
    jobs:
      your-bot:
@@ -105,14 +165,12 @@ python bots/zenodo_bot.py
          - run: pip install -r requirements.txt
          - name: Run bot
            env:
-             PYTHONPATH: .
+             PYTHONPATH: your_bot
              EMAIL_SENDER:   ${{ secrets.EMAIL_SENDER }}
              EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
              EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
              HF_TOKEN:       ${{ secrets.HF_TOKEN }}
-           run: python bots/your_bot.py
+           run: python your_bot/your_bot.py
    ```
 
-3. **Update `requirements.txt`** if your bot needs additional packages.
-
-4. **Commit and push.** The workflow will run on schedule or via manual dispatch.
+5. **Update `requirements.txt`** if your bot needs additional packages, then commit and push.
