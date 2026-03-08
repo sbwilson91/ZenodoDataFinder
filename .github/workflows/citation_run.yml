@@ -21,10 +21,10 @@ jobs:
 
       - name: Run Citation bot
         env:
-          PYTHONPATH: .
+          PYTHONPATH: citation_bot
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           LOOKBACK_PERIOD: 'week'
-        run: python citation_bot.py
+        run: python citation_bot/citation_bot.py

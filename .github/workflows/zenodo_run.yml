@@ -21,10 +21,10 @@ jobs:
 
       - name: Run Zenodo bot
         env:
-          PYTHONPATH: .
+          PYTHONPATH: zenodo_bot
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           LOOKBACK_PERIOD: 'week'
-        run: python zenodo_bot.py
+        run: python zenodo_bot/zenodo_bot.py
