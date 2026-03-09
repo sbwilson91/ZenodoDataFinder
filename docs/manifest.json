@@ -1,11 +1,28 @@
 [
   {
-    "date": "2026-03-08",
-    "html_file": "2026-03-08-weekly-digest.html",
-    "paper_count": 113,
+    "date": "2026-03-09",
+    "html_file": "2026-03-09-weekly-digest.html",
+    "paper_count": 105,
     "high_count": 0,
     "featured_count": 39,
     "papers": [
+      {
+        "title": "Monthly HIV-drug injections offer potent alternative to daily tablets",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00669-8",
+        "doi": null,
+        "published": "2026-03-08T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have developed a long-lasting HIV treatment that can be administered through monthly injections, providing an alternative to daily tablets for people with mental illness or other conditions that make it hard to adhere to standard treatments.",
+        "categories": [
+          "HIV",
+          "virology",
+          "treatment"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Hiv & Virology"
+      },
       {
         "title": "Briefing chat: What Galileo\u2019s scribbled margin notes reveal about his scientific journey",
         "journal": "Nature",
@@ -14,13 +31,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "This article discusses Galileo's handwritten notes and their significance in understanding his scientific journey.",
+        "summary": "A recent Nature briefing chat discusses Galileo's scientific journey based on his margin notes, revealing insights into his thought process and contributions to science.",
         "categories": [
           "history of science",
-          "Galileo"
+          "Galileo",
+          "scientific method"
         ],
         "watchlist_match": false,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Electric-vehicle batteries toughen up to beat the heat",
@@ -30,14 +48,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have developed electric-vehicle batteries that can withstand rising temperatures, improving their lifespan.",
+        "summary": "Electric-vehicle batteries are improving to withstand rising temperatures, which can shorten battery life, and are expected to keep up with the pace of climate change.",
         "categories": [
+          "sustainability",
           "electric vehicles",
-          "batteries",
-          "climate change"
+          "battery technology"
         ],
         "watchlist_match": false,
-        "cluster_label": "Climate Change & Ecology"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "Peanut-processing microbes ward off dangerous allergic shock",
@@ -47,14 +65,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Scientists have identified bacteria that can break down allergy-triggering compounds in peanuts, potentially reducing allergic reactions.",
+        "summary": "Scientists have identified bacteria that can digest allergy-triggering compounds in peanuts, potentially leading to a new treatment for peanut allergies.",
         "categories": [
           "microbiology",
           "allergies",
-          "peanuts"
+          "food safety"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Modelling the cosmos and imagining a future without meat: Books in brief",
@@ -64,13 +82,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "This article reviews five science books, including one about modelling the cosmos and another about a future without meat.",
+        "summary": "Andrew Robinson reviews five science books, including one about modelling the cosmos and another about a future without meat.",
         "categories": [
-          "books",
-          "science"
+          "book reviews",
+          "science books",
+          "cosmology"
         ],
         "watchlist_match": false,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "The missing pieces of menopause science",
@@ -80,13 +99,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The article discusses the current state of menopause science, highlighting evidence gaps in treating perimenopause.",
+        "summary": "A recent article discusses the return of hormone therapy for treating perimenopause, but notes that there are still gaps in the evidence for its effectiveness.",
         "categories": [
           "menopause",
-          "hormone therapy"
+          "hormone therapy",
+          "perimenopause"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "What a viral TikTok taught me about personal storytelling in science",
@@ -96,13 +116,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A viral TikTok video about personal storytelling in science made the author rethink the role of technology in teaching.",
+        "summary": "A researcher reflects on the power of personal storytelling in science, inspired by a viral TikTok video that showcased a student's educational video.",
         "categories": [
-          "education",
-          "science communication"
+          "science education",
+          "personal storytelling",
+          "technology"
         ],
         "watchlist_match": false,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Celebrate women in research and the networks that sustain them",
@@ -112,13 +133,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Nature celebrates women in research and the networks that support them on International Women's Day.",
+        "summary": "A Nature article celebrates women in research and the networks that support them, highlighting the importance of mentorship on International Women's Day.",
         "categories": [
           "women in science",
-          "mentorship"
+          "mentorship",
+          "International Women's Day"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Climate change is speeding up \u2014 the pace nearly doubled in ten years",
@@ -128,13 +150,13 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Climate change is accelerating at a rate of 0.35\u00b0C per decade, according to fresh analysis.",
+        "summary": "A recent analysis finds that the pace of climate change has nearly doubled in the past decade, with the Earth warming at a rate of around 0.35 \u00baC per decade.",
         "categories": [
           "climate change",
           "global warming"
         ],
         "watchlist_match": false,
-        "cluster_label": "Climate Change & Ecology"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "Genetically modified pig liver keeps man alive until human organ transplant",
@@ -144,13 +166,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A genetically modified pig liver was used to keep a man alive until a human organ transplant could be performed.",
+        "summary": "A genetically modified pig liver was used to keep a man alive until a human organ transplant could be performed, marking the first time this procedure has been done on a living person.",
         "categories": [
           "organ transplantation",
-          "genetic engineering"
+          "genetic modification",
+          "pig liver"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Uncharted: Understanding women\u2019s health across the body",
@@ -160,13 +183,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Disaggregating health data by sex can help develop better diagnostics and treatments for women, but this is not being done enough.",
+        "summary": "A study highlights the importance of disaggregating data by sex to improve diagnostics and treatments for women.",
         "categories": [
           "women's health",
-          "data analysis"
+          "data analysis",
+          "biomedicine"
         ],
         "watchlist_match": false,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Cracked, but still there: the glass ceiling persists for senior women in science",
@@ -176,14 +200,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A study highlights the persistence of gender-based bias in science, even for senior women.",
+        "summary": "A commentary reminds junior colleagues that career success does not protect against gender-based bias in science.",
         "categories": [
-          "science careers",
           "gender bias",
+          "science careers",
           "women in science"
         ],
         "watchlist_match": false,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Author Correction: Programmable 200 GOPS Hopfield-inspired photonic Ising machine",
@@ -193,14 +217,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A correction to a previous paper on a Hopfield-inspired photonic Ising machine.",
+        "summary": "An author correction is made for a previous study on a Hopfield-inspired photonic Ising machine.",
         "categories": [
           "photonic Ising machine",
-          "Hopfield network",
-          "quantum computing"
+          "quantum computing",
+          "machine learning"
         ],
         "watchlist_match": false,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "The first \u2018AI societies\u2019 are taking shape: how human-like are they?",
@@ -210,14 +234,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Scientists are studying 'social' interactions between artificial-intelligence agents.",
+        "summary": "Scientists are studying 'social' interactions between artificial-intelligence agents to understand their human-like behavior.",
         "categories": [
           "artificial intelligence",
           "machine learning",
-          "social interactions"
+          "sociology"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "These brain cells clear proteins that contribute to Alzheimer\u2019s",
@@ -227,14 +251,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Specialized brain cells called tanycytes clear proteins that contribute to Alzheimer's disease.",
+        "summary": "Specialized brain cells called tanycytes help clear proteins that contribute to Alzheimer's disease.",
         "categories": [
-          "neuroscience",
           "Alzheimer's disease",
+          "neuroscience",
           "brain cells"
         ],
         "watchlist_match": true,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Daily briefing: How DNA testing can tell identical twins apart",
@@ -244,14 +268,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Emerging forensic methods can differentiate between identical twin suspects in criminal cases.",
+        "summary": "A new forensic method can differentiate between identical twins in criminal cases.",
         "categories": [
           "forensic science",
           "genetics",
-          "identical twins"
+          "law enforcement"
         ],
         "watchlist_match": true,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "The Epstein scandal is a wake-up call \u2014 new rules are needed on links with rich donors",
@@ -261,14 +285,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A scandal involving Jeffrey Epstein highlights the need for stronger governance in academia to prevent similar situations.",
+        "summary": "A systemic failure of oversight allowed Jeffrey Epstein to curry favor with academia, highlighting the need for stronger governance.",
         "categories": [
           "ethics",
           "governance",
           "academia"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Identical twins on trial: can DNA testing tell them apart?",
@@ -278,14 +302,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "New DNA analysis methods can help distinguish between identical twins in criminal trials.",
+        "summary": "Emerging scientific methods can help distinguish between identical twins in criminal cases, where conventional DNA analysis may fail.",
         "categories": [
           "forensic science",
-          "DNA analysis",
-          "twins"
+          "genetics",
+          "law enforcement"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Inside Mexico\u2019s stem-cell industry",
@@ -295,14 +319,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers in Mexico are calling for stronger regulation of stem-cell treatments due to concerns over their safety and efficacy.",
+        "summary": "Researchers in Mexico are calling for stronger regulation of stem-cell treatments, which many people travel long distances to receive.",
         "categories": [
           "stem cells",
           "regulation",
-          "Mexico"
+          "medicine"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "How AI is shaping the war in Iran \u2014 and what\u2019s next for future conflicts",
@@ -312,14 +336,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The conflict in Iran is highlighting the use of artificial intelligence in warfare, with potential implications for future conflicts.",
+        "summary": "The conflict in Iran is highlighting the use of artificial intelligence in warfare, with implications for future conflicts.",
         "categories": [
           "AI",
           "warfare",
-          "Iran"
+          "conflict"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Do obesity drugs treat addiction? Huge study hints at their promise",
@@ -329,14 +353,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A large study of US military veterans suggests that anti-obesity medications may also help treat addiction.",
+        "summary": "A large study of 600,000 US military veterans found that those who took anti-obesity medications were less likely to develop complications related to substance-use disorders.",
         "categories": [
+          "epidemiology",
           "obesity",
-          "addiction",
-          "medications"
+          "addiction"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Hiv & Virology"
       },
       {
         "title": "First \u2018half M\u00f6bius\u2019 carbon chain wows chemists",
@@ -346,13 +370,13 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Scientists have created a unique 'half M\u00f6bius' carbon chain with a looped shape, which could lead to new physical properties.",
+        "summary": "Scientists have created a unique 'half M\u00f6bius' carbon chain molecule with an unusual looped shape, which could unlock new physical properties.",
         "categories": [
-          "chemistry",
-          "materials science"
+          "organic chemistry",
+          "molecular structure"
         ],
         "watchlist_match": true,
-        "cluster_label": "Materials Science & Chemistry"
+        "cluster_label": "Materials Science & Organic Chemistry"
       },
       {
         "title": "High-rise transistors can be used to build space-saving circuits",
@@ -362,13 +386,13 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have developed high-rise transistors that can be used to build compact electronic circuits, potentially leading to faster and more efficient devices.",
+        "summary": "Researchers have developed a new method to build compact and fast electronic devices using high-rise transistors made from nanosheet stacks.",
         "categories": [
           "nanotechnology",
-          "electronics"
+          "electronic devices"
         ],
         "watchlist_match": false,
-        "cluster_label": "Nanotechnology & Electronics"
+        "cluster_label": "Cardiovascular Disease & Stroke Prevention"
       },
       {
         "title": "How these koalas bounced back from the brink of extinction",
@@ -378,13 +402,13 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A study on koalas that were on the brink of extinction has found that tracking DNA recombination can help other species recover lost genetic diversity.",
+        "summary": "A study of koalas that were on the brink of extinction found that tracking DNA recombination offers hope for other species that have lost genetic diversity.",
         "categories": [
           "conservation biology",
           "genetics"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "Women in science are not a \u2018problem to be fixed\u2019",
@@ -394,13 +418,13 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A book review argues that women in science are not a 'problem to be fixed' and challenges false visions of gender equality in the workforce.",
+        "summary": "A book review challenges two false visions of gender equality at work and offers a fairer future for the female workforce.",
         "categories": [
-          "science policy",
-          "gender studies"
+          "social sciences",
+          "gender equality"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Shared neural substrates of prosocial and parenting behaviours",
@@ -410,13 +434,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have identified shared neural substrates of prosocial and parenting behaviors, which could have implications for understanding human behavior and development.",
+        "summary": "This study identified shared neural substrates in the brain associated with prosocial and parenting behaviors. These findings suggest a common neural basis for behaviors that promote social bonding and care for others. The study's results have implications for understanding the neural mechanisms underlying social behavior and may inform the development of interventions for social and emotional development.",
         "categories": [
           "neuroscience",
-          "psychology"
+          "social behavior",
+          "neural substrates"
         ],
         "watchlist_match": false,
-        "cluster_label": "Neuroscience & Psychology"
+        "cluster_label": "Neuroscience & Social Behavior"
       },
       {
         "title": "Heart surgery with quick-setting magnetic fluid could prevent strokes",
@@ -426,14 +451,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have developed a quick-setting magnetic fluid that can be injected into the heart to prevent strokes. Animal trials showed that the fluid safely fills the area where blood clots can form. This method could potentially reduce the risk of stroke.",
+        "summary": "Researchers have developed a quick-setting magnetic fluid that can be injected into the heart to prevent strokes. The fluid safely fills the area where blood clots can form, and animal trials have shown strong evidence of its effectiveness. This breakthrough has the potential to revolutionize stroke prevention and treatment.",
         "categories": [
-          "cardiovascular medicine",
-          "magnetic fluids",
-          "stroke prevention"
+          "cardiovascular disease",
+          "stroke prevention",
+          "magnetic fluid"
         ],
         "watchlist_match": false,
-        "cluster_label": "Cardiovascular Medicine & Stroke Prevention"
+        "cluster_label": "Cardiovascular Disease & Stroke Prevention"
       },
       {
         "title": "Magnetic gel injected into the heart could stop strokes",
@@ -443,14 +468,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A hydrogel-based plug injected into the heart has been shown to be effective in reducing the risk of stroke in rats and a pig. The plug blocks a part of the heart to prevent blood clots from forming.",
+        "summary": "A new magnetic gel has been developed that can be injected into the heart to stop strokes. The gel-based plug blocks a part of the heart, reducing the risk of stroke, and has been shown to be effective in animal trials. This innovation has the potential to save lives and improve stroke treatment outcomes.",
         "categories": [
-          "cardiovascular medicine",
-          "hydrogel",
-          "stroke prevention"
+          "cardiovascular disease",
+          "stroke prevention",
+          "magnetic gel"
         ],
         "watchlist_match": false,
-        "cluster_label": "Cardiovascular Medicine & Stroke Prevention"
+        "cluster_label": "Cardiovascular Disease & Stroke Prevention"
       },
       {
         "title": "Genome modelling and design across all domains of life with Evo 2",
@@ -460,14 +485,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Evo 2 is an artificial intelligence-based biological foundation model that can predict functional properties from genomic sequences and provide a rich generative model for researchers in biology. It was trained on 9 trillion DNA base pairs spanning all domains of life.",
+        "summary": "Evo 2 is a new artificial intelligence-based biological foundation model that predicts functional properties from genomic sequences and provides a rich generative model for researchers in biology. The model was trained on 9 trillion DNA base pairs spanning all domains of life and has the potential to revolutionize genome modeling and design.",
         "categories": [
-          "artificial intelligence",
           "genomics",
+          "artificial intelligence",
           "biological modeling"
         ],
         "watchlist_match": true,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "DICER cleavage fidelity is governed by 5\u2032-end binding pockets",
@@ -477,14 +502,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have shed light on the mechanism by which DICER, a key enzyme in the RNase III family, cleaves RNA at precise locations to produce small RNAs. Cryo-electron microscopy and massively parallel assays were used to study this process.",
+        "summary": "Researchers have shed light on the mechanism by which DICER, a key enzyme in the RNase III family, cleaves RNA at precise locations to produce small RNAs. Cryo-electron microscopy and massively parallel assays revealed that DICER's 5'-end binding pockets play a crucial role in its cleavage fidelity.",
         "categories": [
           "RNA biology",
           "enzymology",
           "cryo-electron microscopy"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Limited thermal tolerance in tropical insects and its genomic signature",
@@ -494,14 +519,15 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A survey of tropical insect populations found that species from lowland areas have low capacity to survive increased temperatures. Thermal tolerance is limited by fundamental properties of protein architecture.",
+        "summary": "A study of tropical insects found that species from lowland areas have low thermal tolerance and that this is due to the fundamental properties of protein architecture.",
         "categories": [
-          "ecology",
-          "evolutionary biology",
-          "protein structure"
+          "single-cell genomics",
+          "protein structure",
+          "epigenetics",
+          "thermodynamics"
         ],
         "watchlist_match": false,
-        "cluster_label": "Climate Change & Ecology"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "A metabolic alarmin from keratinocytes potentiates systemic humoral immunity",
@@ -511,14 +537,15 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A metabolic intermediate called farnesyl pyrophosphate acts as an alarm signal to enhance the body's immune response by stimulating the production of certain proteins in skin cells.",
+        "summary": "A metabolic intermediate called farnesyl pyrophosphate acts as an alarmin to enhance the immune system's antibody responses.",
         "categories": [
           "immunology",
-          "metabolism",
-          "cell biology"
+          "metabolic pathways",
+          "alarmins",
+          "humoral immunity"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Long-term thrombus-free left atrial appendage occlusion via magnetofluids",
@@ -528,13 +555,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers have developed a new method for blocking blood clots in the heart using magnetized fluids that can withstand high-speed blood flow.",
+        "summary": "Researchers developed a method using magnetofluids to occlude the left atrial appendage without forming a thrombus, offering a personalized strategy.",
         "categories": [
-          "cardiology",
-          "biomedical engineering"
+          "cardiovascular medicine",
+          "magnetofluids",
+          "left atrial appendage occlusion"
         ],
         "watchlist_match": false,
-        "cluster_label": "Cardiovascular Medicine & Stroke Prevention"
+        "cluster_label": "Cardiovascular Disease & Stroke Prevention"
       },
       {
         "title": "Lipid metabolism drives dietary effects on T cell ferroptosis and immunity",
@@ -544,14 +572,15 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Dietary composition affects the function of immune cells called T cells by influencing the balance of fatty acids in the body, which can lead to cell death.",
+        "summary": "The balance of fatty acids in the diet affects the susceptibility of T cells to ferroptosis and their function in the immune system.",
         "categories": [
           "immunology",
-          "nutrition",
-          "cell biology"
+          "lipid metabolism",
+          "ferroptosis",
+          "T cell function"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Merlin: a computed tomography vision\u2013language foundation model and dataset",
@@ -561,14 +590,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A new AI model called Merlin has been developed to analyze medical images and patient data, demonstrating strong performance in various medical tasks.",
+        "summary": "A new vision-language foundation model called Merlin was developed and trained on a large dataset of CT scans and patient records, demonstrating strong performance across various tasks.",
         "categories": [
           "artificial intelligence",
-          "medical imaging",
-          "machine learning"
+          "vision-language models",
+          "computed tomography"
         ],
         "watchlist_match": true,
-        "cluster_label": "Artificial Intelligence & Machine Learning"
+        "cluster_label": "Artificial Intelligence & Vision-Language Models"
       },
       {
         "title": "Microbiota-mediated induction of beige adipocytes in response to dietary cues",
@@ -578,14 +607,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A low-protein diet can trigger the growth of brown fat cells in mice by altering the balance of gut microorganisms, which can help the body respond to dietary cues.",
+        "summary": "A low-protein diet in mice leads to a change in their fat tissue, with the help of their gut bacteria, to burn more energy like brown fat.",
         "categories": [
-          "microbiology",
-          "nutrition",
-          "cell biology"
+          "microbiome",
+          "adipose tissue",
+          "dietary cues"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Mechanism of co-transcriptional cap snatching by influenza polymerase",
@@ -595,14 +624,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers studied how the influenza virus polymerase snatches RNA caps from host cells during transcription, revealing the molecular mechanisms behind this process.",
+        "summary": "Researchers have discovered how the influenza virus uses the host cell's machinery to make copies of its genetic material.",
         "categories": [
+          "influenza",
           "virology",
-          "molecular biology",
-          "structural biology"
+          "RNA-dependent RNA polymerase"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "Cell-free chromatin state tracing reveals disease origin and therapy responses",
@@ -612,14 +641,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Scientists developed a method to track chromatin states in cell-free DNA from human plasma, enabling the identification of disease origins and therapy responses.",
+        "summary": "Scientists have developed a new method to analyze DNA in the blood to identify the source of diseases and track their progression.",
         "categories": [
           "epigenetics",
           "single-cell genomics",
           "liquid biopsies"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "The oldest articulated bony fish from the early Silurian period",
@@ -629,11 +658,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Fossil discovery reveals the oldest articulated bony fish from the early Silurian period, providing new insights into the evolution of fish.",
+        "summary": "Fossil evidence has revealed the oldest known remains of a bony fish, dating back to the early Silurian period.",
         "categories": [
           "paleontology",
-          "evolutionary biology",
-          "fossil record"
+          "fossil record",
+          "evolutionary biology"
         ],
         "watchlist_match": true,
         "cluster_label": "Paleontology & Fossil Record"
@@ -646,14 +675,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers synthesized millimetre-sized phase-pure hexagonal diamond, a new polymorph of cubic diamond, by compressing graphite under high pressures and temperatures.",
+        "summary": "Researchers have successfully synthesized millimeter-sized hexagonal diamond, a new form of diamond, by compressing graphite under high pressure and temperature.",
         "categories": [
           "materials science",
-          "nanotechnology",
-          "diamond synthesis"
+          "diamond synthesis",
+          "high-pressure physics"
         ],
         "watchlist_match": false,
-        "cluster_label": "Materials Science & Chemistry"
+        "cluster_label": "Materials Science & Organic Chemistry"
       },
       {
         "title": "Sea level much higher than assumed in most coastal hazard assessments",
@@ -663,14 +692,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A global meta-analysis shows that measured coastal mean sea level is higher than assumed in most coastal hazard assessments, with implications for coastal hazard planning.",
+        "summary": "A meta-analysis of global coastal mean sea level measurements reveals that the actual level is higher than previously assumed in most coastal hazard assessments.",
         "categories": [
-          "climate science",
-          "coastal engineering",
-          "sea level rise"
+          "coastal hazards",
+          "sea level rise",
+          "climate change"
         ],
         "watchlist_match": false,
-        "cluster_label": "Climate Change & Ecology"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "A glucocorticoid\u2013FAS axis controls immune evasion during metastatic seeding",
@@ -680,14 +709,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers found that the glucocorticoid receptor plays a key role in helping triple-negative breast cancer cells evade the immune system during the initial stages of metastasis.",
+        "summary": "Glucocorticoid receptor activation is a key driver of resistance to immune cells in triple-negative breast cancer during initial metastatic seeding.",
         "categories": [
-          "immunology",
           "cancer biology",
+          "immunology",
           "metastasis"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "The molecular basis of force selectivity by PIEZO2",
@@ -697,14 +726,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The study reveals that PIEZO2 channels respond differently to mechanical stimuli compared to PIEZO1 channels, and that PIEZO2 is more rigid than PIEZO1.",
+        "summary": "Research reveals the molecular basis of force selectivity by the PIEZO2 channel, which is intrinsically more rigid than PIEZO1.",
         "categories": [
           "ion channels",
           "mechanotransduction",
-          "single-molecule biophysics"
+          "molecular biology"
         ],
         "watchlist_match": false,
-        "cluster_label": "Nanotechnology & Electronics"
+        "cluster_label": "Materials Science & Organic Chemistry"
       },
       {
         "title": "Advancing operational global aerosol forecasting with machine learning",
@@ -714,14 +743,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A machine-learning-driven forecasting system was able to produce reliable 5-day forecasts of aerosol optical components and surface concentrations in just 1 minute.",
+        "summary": "A machine-learning-driven forecasting system achieves reliable 5-day, 3-hourly forecasts of aerosol optical components and surface concentrations.",
         "categories": [
           "machine learning",
           "atmospheric science",
-          "aerosol physics"
+          "aerosol forecasting"
         ],
         "watchlist_match": true,
-        "cluster_label": "Climate Change & Ecology"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "Wind shear enhances soil moisture influence on rapid thunderstorm growth",
@@ -731,14 +760,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers found that wind shear amplifies the impact of soil moisture in triggering rapidly developing thunderstorms in sub-Saharan Africa.",
+        "summary": "Analysis of millions of events shows that wind shear amplifies the impact of soil moisture in triggering rapidly developing thunderstorms.",
         "categories": [
           "meteorology",
           "atmospheric science",
           "soil moisture"
         ],
         "watchlist_match": false,
-        "cluster_label": "Climate Change & Ecology"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "Structural basis of RNA-guided transcription by a dCas12f\u2013\u03c3<sup>E</sup>\u2013RNAP complex",
@@ -748,14 +777,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The study reveals the structural basis of RNA-guided transcription by a dCas12f\u2013\u03c3E\u2013RNAP complex, which involves the recruitment of RNAP to targeted DNA and the stabilization of the \u221210 element.",
+        "summary": "A study of the dCas12f\u2013\u03c3E\u2013RNAP complex reveals how it recruits RNAP to targeted DNA, initiating transcription at a fixed downstream distance, bypassing canonical \u221235 recognition and stabilizing the \u221210 element.",
         "categories": [
-          "molecular biology",
-          "transcriptional regulation",
-          "RNA-guided transcription"
+          "single-cell genomics",
+          "CRISPR",
+          "transcription"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Homologous recombination deficiency and hemizygosity&#xa0;drive resistance in breast cancer",
@@ -765,14 +794,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers identified genomic patterns in breast cancer that drive resistance to therapy. These patterns are caused by interactions between germline and somatic mutations. This finding could lead to new treatments for breast cancer.",
+        "summary": "Germline and somatic interactions define actionable genomic patterns driving acquired therapy resistance in breast cancer, providing insights into breast cancer treatment.",
         "categories": [
-          "breast cancer",
+          "cancer",
           "genomics",
           "therapy resistance"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Exapted CRISPR\u2013Cas12f homologues drive RNA-guided transcription",
@@ -782,14 +811,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Scientists discovered a new way to control gene expression using CRISPR-Cas12f. This system uses specialized proteins to activate genes without needing specific promoter motifs.",
+        "summary": "Specialized \u03c3 factors interact with nuclease-dead, CRISPR\u2013Cas12f proteins to form potent, RNA-guided gene activation systems that function independently of fixed promoter motifs.",
         "categories": [
           "CRISPR",
-          "gene expression",
-          "genomics"
+          "gene activation",
+          "RNA-guided transcription"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Wide-swath altimetry maps bank shapes and storage changes in global rivers",
@@ -799,14 +828,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers used satellite data to map the shapes and storage changes of rivers worldwide. This study provides new insights into river dynamics and water storage.",
+        "summary": "A new satellite mission provides observations of river channel geometry and monthly water storage changes for 126,674 river reaches worldwide, offering insights into global river dynamics.",
         "categories": [
           "hydrology",
-          "remote sensing",
+          "satellite imaging",
           "river dynamics"
         ],
         "watchlist_match": false,
-        "cluster_label": "Climate Change & Ecology"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "Largest Silurian fish illuminates the origin of osteichthyan characters",
@@ -816,11 +845,11 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A new fossil discovery sheds light on the evolution of osteichthyan characters. The fossil, Megamastax amblyodus, provides new information about the morphology of ancient fish.",
+        "summary": "New findings from an articulated Silurian fish reveal previously unseen morphological details of a stem osteichthyan, providing insights into the origin of osteichthyan characters.",
         "categories": [
           "paleontology",
-          "evolution",
-          "fossil record"
+          "fish evolution",
+          "osteichthyan"
         ],
         "watchlist_match": true,
         "cluster_label": "Paleontology & Fossil Record"
@@ -833,14 +862,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers found that a specific niche in the body can support the persistence of nascent tumors. This study provides new insights into the early stages of cancer development.",
-        "categories": [
-          "cancer biology",
-          "tumor microenvironment",
-          "stem cell biology"
-        ],
+        "summary": "Summary unavailable.",
+        "categories": [],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Rising temperatures pose a threat to tropical insects",
@@ -850,14 +875,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A study found that rising temperatures pose a threat to tropical insects, potentially leading to biodiversity loss in lowland areas.",
-        "categories": [
-          "ecology",
-          "climate change",
-          "insect biology"
-        ],
+        "summary": "Summary unavailable.",
+        "categories": [],
         "watchlist_match": true,
-        "cluster_label": "Climate Change & Ecology"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "Fresh claim of making elusive \u2018hexagonal\u2019 diamond is the strongest yet",
@@ -867,14 +888,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers claim to have found evidence of a rare form of diamond, sparking debate and further research.",
-        "categories": [
-          "materials science",
-          "chemistry",
-          "crystallography"
-        ],
+        "summary": "Summary unavailable.",
+        "categories": [],
         "watchlist_match": true,
-        "cluster_label": "Materials Science & Chemistry"
+        "cluster_label": "Materials Science & Organic Chemistry"
       },
       {
         "title": "Stress-hormone signalling protects spreading cancer cells from immune system",
@@ -884,14 +901,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Cancer cells can evade the immune system by harnessing stress-hormone signaling, suggesting a potential therapeutic target for preventing metastasis.",
-        "categories": [
-          "cancer biology",
-          "immunology",
-          "signal transduction"
-        ],
+        "summary": "Summary unavailable.",
+        "categories": [],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "AI can write genomes \u2014 how long until it creates synthetic life?",
@@ -901,14 +914,10 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "An AI model can generate short genome sequences, but further advances are needed to create synthetic life.",
-        "categories": [
-          "artificial intelligence",
-          "genomics",
-          "synthetic biology"
-        ],
+        "summary": "Summary unavailable.",
+        "categories": [],
         "watchlist_match": true,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Magnetic fluid offers better seal in heart-plugging medical procedure",
@@ -918,14 +927,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A magnetic fluid has been used to close off part of the heart in animals, potentially improving a procedure that prevents stroke in people with irregular heartbeats.",
+        "summary": "Researchers have developed an injectable fluid that can be used to close off part of the heart in animals, potentially improving a procedure that prevents stroke in people with irregular heartbeats.",
         "categories": [
-          "biomedical engineering",
           "cardiovascular medicine",
-          "magnetic materials"
+          "medical procedures",
+          "heart health"
         ],
         "watchlist_match": false,
-        "cluster_label": "Cardiovascular Medicine & Stroke Prevention"
+        "cluster_label": "Cardiovascular Disease & Stroke Prevention"
       },
       {
         "title": "Funding from individual donors: lessons from the Epstein case",
@@ -935,14 +944,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Universities need to establish and empower compliance teams to ensure adherence to ethical funding policies.",
+        "summary": "Universities need to establish and empower compliance teams to ensure adherence to ethical funding policies, particularly in light of the Epstein case.",
         "categories": [
           "ethics",
           "funding",
-          "universities"
+          "university governance"
         ],
         "watchlist_match": false,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "A genetic switch turns off parental behaviour and drives infanticide in male striped mice",
@@ -952,14 +961,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The brain and behavior of the African striped mouse reveal that social environment and gene expression affect male parenting.",
+        "summary": "Research on African striped mice has found that male parenting behavior is influenced by the social environment and expression level of the Agouti gene, with some males exhibiting hostile behavior towards pups.",
         "categories": [
           "genetics",
           "behavioral biology",
           "mouse models"
         ],
         "watchlist_match": true,
-        "cluster_label": "Neuroscience & Psychology"
+        "cluster_label": "Neuroscience & Social Behavior"
       },
       {
         "title": "Do wet or dry soils trigger thunderstorms? It depends on how the wind blows",
@@ -969,14 +978,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Wind conditions affect the connection between soil moisture and thunderstorms, which could be used to inform forecasting.",
+        "summary": "Satellite data have shown that wind conditions play a crucial role in the connection between soil moisture and thunderstorms, which could be used to inform forecasting.",
         "categories": [
           "meteorology",
           "climate science",
-          "forecasting"
+          "soil moisture"
         ],
         "watchlist_match": false,
-        "cluster_label": "Climate Change & Ecology"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "Climate change and geopolitics threaten water supplies \u2014 but disaster is not inevitable",
@@ -986,14 +995,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "The Indus Waters Treaty withstood several armed conflicts and a huge loss of glaciers, and could serve as a blueprint for others.",
+        "summary": "The Indus Waters Treaty has withstood several challenges, including armed conflicts and glacier loss, and could serve as a blueprint for other regions facing water supply threats.",
         "categories": [
+          "water resources",
           "climate change",
-          "geopolitics",
-          "water management"
+          "geopolitics"
         ],
         "watchlist_match": false,
-        "cluster_label": "Climate Change & Ecology"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "Cancer blood tests are everywhere. Do they really work?",
@@ -1003,14 +1012,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Cancer blood tests claim to detect dozens of cancer types, but some scientists say they could be missing many cancers or delivering the wrong diagnosis.",
+        "summary": "A review of cancer blood tests raises concerns about their accuracy and potential to miss or misdiagnose cancers.",
         "categories": [
-          "cancer research",
+          "cancer",
           "diagnostics",
-          "medical testing"
+          "medicine"
         ],
         "watchlist_match": true,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Skin cells boost distant antibody responses",
@@ -1020,14 +1029,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Skin cells have been found to play a key role in boosting the production of antibodies to protect the whole body.",
+        "summary": "Researchers discovered a pathway in skin cells that boosts the production of antibodies to protect the whole body.",
         "categories": [
           "immunology",
-          "skin biology",
-          "antibody responses"
+          "skin cells",
+          "antibodies"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "How a mathematician is cracking open Mexico\u2019s powerful drug cartels",
@@ -1037,14 +1046,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A mathematician has developed models of organized crime that could improve public safety in Mexico.",
+        "summary": "A mathematician developed models to help combat organized crime in Mexico, potentially improving public safety.",
         "categories": [
           "mathematics",
-          "crime analysis",
+          "crime prevention",
           "public safety"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Under pressure: the reality of Mexico\u2019s research system",
@@ -1054,14 +1063,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Mexican scientists face unstable conditions, including limited funding and resources, which can hinder their research.",
+        "summary": "Mexican scientists face unstable research conditions, and efforts are needed to support them.",
         "categories": [
           "science policy",
-          "research funding",
+          "research conditions",
           "Mexico"
         ],
         "watchlist_match": false,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Radiology AI makes consistent diagnoses using 3D images from different health centres",
@@ -1071,14 +1080,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A 3D vision-language model called Merlin has been trained to make consistent diagnoses using 3D images from different health centers.",
+        "summary": "A 3D vision-language model called Merlin demonstrated strong performance in radiology diagnoses across different hospitals.",
         "categories": [
           "artificial intelligence",
           "radiology",
           "machine learning"
         ],
         "watchlist_match": true,
-        "cluster_label": "Artificial Intelligence & Machine Learning"
+        "cluster_label": "Artificial Intelligence & Vision-Language Models"
       },
       {
         "title": "Daily briefing: The return of the snail \u2014 the month\u2019s best science images",
@@ -1088,14 +1097,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "This article features a collection of science images from February, including a snail, and discusses the potential of cancer blood tests and the impact of losing visibility of the stars.",
+        "summary": "This paper is a collection of science images from February, including a snail, cancer blood tests, and a starry night sky.",
         "categories": [
-          "science communication",
           "science images",
+          "cancer",
           "astronomy"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Hunt for reactive metabolites uncovers unusual chemistry in a human pathogen",
@@ -1105,14 +1114,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A new workflow was developed to capture reactive compounds produced by a bacterium that causes lung disease, leading to the discovery of two unusual molecules with potential broad synthetic applications.",
+        "summary": "Researchers developed a method to capture reactive metabolites from a human pathogen, discovering two unusual molecules with potential synthetic applications.",
         "categories": [
-          "single-cell genomics",
-          "biochemistry",
+          "metabolomics",
+          "pathogens",
           "synthetic biology"
         ],
         "watchlist_match": true,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Author Correction: Healthy forests safeguard traditional wild meat food systems in Amazonia",
@@ -1122,14 +1131,14 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A correction to a previous paper on the importance of healthy forests in safeguarding traditional wild meat food systems in Amazonia.",
+        "summary": "This is an author correction for a previous paper on the importance of healthy forests for traditional wild meat food systems in Amazonia.",
         "categories": [
           "ecology",
-          "conservation biology",
-          "food systems"
+          "conservation",
+          "Amazonia"
         ],
         "watchlist_match": false,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "Genetically encoded assembly recorder temporally resolves cellular history",
@@ -1139,14 +1148,14 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A genetically encoded assembly recorder was developed to temporally resolve cellular history, providing new insights into cellular processes.",
+        "summary": "Scientists developed a genetically encoded assembly recorder that can temporally resolve cellular history, providing new insights into cellular processes.",
         "categories": [
-          "genomics",
+          "genetics",
           "cell biology",
           "single-cell analysis"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Jam-packed star system is most compact of its kind ever found",
@@ -1156,14 +1165,14 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A star system consisting of four Sun-like stars was found to be the most compact of its kind, with all four stars fitting within the area of Jupiter's orbit.",
+        "summary": "Astronomers discovered a compact star system with four Sun-like stars that would fit within Jupiter's orbit, providing new insights into star formation and planetary systems.",
         "categories": [
-          "astrophysics",
-          "stellar evolution",
-          "exoplanetary science"
+          "astronomy",
+          "star formation",
+          "planetary systems"
         ],
         "watchlist_match": false,
-        "cluster_label": "Materials Science & Chemistry"
+        "cluster_label": "Materials Science & Organic Chemistry"
       },
       {
         "title": "Releasing open-weight AI in steps would alleviate risks",
@@ -1173,14 +1182,13 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Releasing open-weight AI in steps could alleviate risks associated with its development and deployment.",
+        "summary": "Releasing open-weight AI in steps could reduce risks associated with its development and deployment.",
         "categories": [
-          "artificial intelligence",
-          "machine learning",
-          "risk assessment"
+          "AI",
+          "Machine Learning"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "From the first telephone to videoconferencing in 100 years",
@@ -1190,13 +1198,13 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "This paper discusses the history of telecommunications, from the first telephone to videoconferencing, highlighting the rapid progress made in the past 100 years.",
+        "summary": "A historical article highlighting the progress of telecommunications over the past 100 years.",
         "categories": [
-          "telecommunications",
-          "history of science"
+          "Telecommunications",
+          "History of Science"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "South Korea\u2019s AI framework act focuses on rights and safety",
@@ -1206,14 +1214,13 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "South Korea's AI framework act prioritizes rights and safety, focusing on responsible AI development.",
+        "summary": "South Korea's AI framework act prioritizes rights and safety in AI development and deployment.",
         "categories": [
           "AI",
-          "policy",
-          "ethics"
+          "Policy"
         ],
         "watchlist_match": true,
-        "cluster_label": "Ethics & History Of Science"
+        "cluster_label": "Ai & Women In Science"
       },
       {
         "title": "Climate research is global \u2014 risks and responsibilities should also be distributed",
@@ -1223,30 +1230,13 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Climate research is a global effort, and risks and responsibilities should be distributed accordingly, rather than being concentrated in a few countries.",
+        "summary": "Climate research should be a global effort, with risks and responsibilities distributed accordingly.",
         "categories": [
-          "climate change",
-          "global cooperation"
+          "Climate Research",
+          "Global Cooperation"
         ],
         "watchlist_match": false,
-        "cluster_label": "Climate Change & Ecology"
-      },
-      {
-        "title": "Why \u2018quantum proteins\u2019 could be the next big thing in biology",
-        "journal": "Nature",
-        "authors": "Nicola Jones",
-        "url": "https://www.nature.com/articles/d41586-026-00662-1",
-        "doi": null,
-        "published": "2026-03-03T00:00:00+00:00",
-        "significance": "Medium",
-        "summary": "Researchers propose the development of 'quantum proteins' that could offer unprecedented views inside cells, potentially revolutionizing biology.",
-        "categories": [
-          "biology",
-          "quantum mechanics",
-          "proteins"
-        ],
-        "watchlist_match": false,
-        "cluster_label": "Nanotechnology & Electronics"
+        "cluster_label": "Climate Change & Atmospheric Science"
       },
       {
         "title": "Dynamics of natural selection preceding human viral epidemics and pandemics",
@@ -1256,14 +1246,13 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A study of viral evolution reveals that adaptation in the host reservoir is not necessary for novel zoonotic virus epidemics and pandemics, including SARS-CoV-2.",
+        "summary": "Viral adaptation in the host reservoir is not a necessary precursor to novel zoonotic virus epidemics and pandemics.",
         "categories": [
-          "virology",
-          "epidemiology",
-          "evolutionary biology"
+          "Virology",
+          "Epidemiology"
         ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "\u03b2-hydroxybutyrate enhances the metabolic fitness of CAR T cells in cancer",
@@ -1273,14 +1262,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "\u03b2-hydroxybutyrate (BHB) supplementation enhances the metabolic fitness of CAR T cells, leading to improved proliferation, cytokine production, and tumor control.",
+        "summary": "\u03b2-hydroxybutyrate (BHB) enhances the metabolic fitness of CAR T cells in cancer, making them more effective at fighting tumors.",
         "categories": [
           "immunotherapy",
-          "CAR T cells",
+          "cancer",
           "metabolism"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Light-directed evolution of dynamic, multi-state, and computational protein functionalities",
@@ -1290,14 +1279,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Optovolution is a method that leverages optogenetics and yeast cell cycles to evolve complex protein behaviors, such as light-responsive regulators and logic gates.",
+        "summary": "A new method called optovolution uses light to evolve complex protein behaviors, such as logic gates, that were previously difficult to achieve.",
         "categories": [
           "protein engineering",
           "optogenetics",
           "evolutionary biology"
         ],
         "watchlist_match": false,
-        "cluster_label": "Nanotechnology & Electronics"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Selective targeting of endothelial and perivascular angiocrine ROCK2 treats liver fibrosis",
@@ -1307,14 +1296,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Targeting ROCK2 in endothelial and perivascular cells with a selective inhibitor, TDI01, shows promise in treating liver fibrosis in preclinical models and human patients.",
+        "summary": "Targeting a specific protein called ROCK2 in endothelial and perivascular cells can treat liver fibrosis by reducing fibrogenic vascular dysfunction.",
         "categories": [
           "liver disease",
-          "fibrosis",
-          "vascular biology"
+          "vascular biology",
+          "drug development"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Deltaviruses spread through a viral Trojan Horse",
@@ -1324,14 +1313,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Satellite viruses, or deltaviruses, can spread by hiding within helper virus particles, acting as a 'Trojan Horse' to infect new species and organs, including the human brain.",
+        "summary": "Some satellite viruses can spread by hiding inside helper virus particles, allowing them to reach new animal species and organs they couldn't reach alone.",
         "categories": [
           "virology",
-          "satellite viruses",
-          "viral spread"
+          "virus evolution",
+          "satellite viruses"
         ],
         "watchlist_match": true,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "Metabolite-gated vascular contractility switch: OXGR1 activation mechanism enables agonist therapy for rosacea erythema",
@@ -1341,14 +1330,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A metabolite, \u03b1-KG, activates the OXGR1-Gq-MYL9 axis in vascular smooth muscle cells, leading to a contractility switch that alleviates erythema in rosacea-like models.",
+        "summary": "A new metabolite called \u03b1-KG is identified as a key player in rosacea, and a selective agonist called A-1 is developed to alleviate erythema in rosacea-like models.",
         "categories": [
           "metabolomics",
           "vascular biology",
           "rosacea"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Genetically encoded fluorescent reporters to visualize \u03b1-synuclein pathology in live brain",
@@ -1358,15 +1347,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers developed genetically encoded fluorescent reporters to visualize \u03b1-synuclein pathology in live brain cells. This allows for the study of the propagation and pathological effects of \u03b1-synuclein inclusions. The reporters were created by introducing specific genes into mouse lines, enabling diverse applications in studying \u03b1-synuclein.",
+        "summary": "Researchers developed genetically encoded fluorescent reporters to visualize \u03b1-synuclein pathology in live brain cells, enabling the study of the propagation and pathological effects of \u03b1-synuclein inclusions.",
         "categories": [
           "single-cell genomics",
-          "fluorescent reporters",
-          "\u03b1-synuclein",
-          "neurodegenerative disease"
+          "CRISPR",
+          "fluorescent reporters"
         ],
         "watchlist_match": true,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Efficient amyloid-\u03b2 degradation in Alzheimer\u2019s disease using SPYTACs",
@@ -1376,15 +1364,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "A synthetic peptide-programmed targeted protein degradation platform called SPYTAC was used to efficiently degrade amyloid-\u03b2 in the brain and periphery. This led to improved cognition, reduced neuroinflammation, and microhemorrhage in mice with Alzheimer's disease.",
+        "summary": "A synthetic peptide-programmed targeted protein degradation platform called SPYTAC efficiently degrades amyloid-\u03b2 in the brain and periphery, preserving neurons and improving cognition in mice with Alzheimer's disease.",
         "categories": [
-          "protein degradation",
           "Alzheimer's disease",
-          "synthetic peptides",
-          "targeted therapy"
+          "protein degradation",
+          "synthetic peptides"
         ],
         "watchlist_match": true,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Restoring circadian rhythms in the hypothalamic paraventricular nucleus reverses aging biomarkers and extends lifespan in male mice",
@@ -1394,15 +1381,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers found that enhancing circadian amplitude in the hypothalamic paraventricular nucleus neurons of mice alleviated age-related pathologies and extended lifespan. This was achieved through treatment with 3\u2032-deoxyadenosine.",
+        "summary": "Enhancing circadian rhythms in the hypothalamic paraventricular nucleus neurons of mice using 3\u2032-deoxyadenosine treatment alleviates age-related pathologies and extends lifespan.",
         "categories": [
           "circadian rhythms",
           "aging",
-          "hypothalamic paraventricular nucleus",
-          "neuroregeneration"
+          "neurology"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Mettl3 promotes reprogramming and axonogenesis of induced retinal ganglion cells",
@@ -1412,15 +1398,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Mettl3 was found to promote reprogramming and axonogenesis of induced retinal ganglion cells through m6A modification. This modification drives the degradation of modified transcripts, accelerating neural fate reprogramming and axonogenesis.",
+        "summary": "Researchers discovered that Mettl3 promotes reprogramming and axonogenesis of induced retinal ganglion cells by driving m6A modification and accelerating modified transcript degradation.",
         "categories": [
-          "epitranscriptomics",
-          "m6A modification",
+          "epigenetics",
           "neural reprogramming",
           "retinal ganglion cells"
         ],
         "watchlist_match": true,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Genome-edited safe and immune-evasive human pluripotent cells: Potential solution for allogeneic therapies",
@@ -1430,15 +1415,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers created immune-evasive human pluripotent cells using combined SafeCell and AlloAccept engineered technologies. These cells were shown to be accepted by the immune system in humanized mice, even in pre-sensitized allogeneic recipients, promising a safe and universal source of cells for therapeutic applications.",
+        "summary": "Scientists created immune-evasive human pluripotent cells using combined SafeCell and AlloAccept engineered technologies, which can be used for allogeneic therapies without the need for immunosuppression.",
         "categories": [
-          "immunology",
           "stem cells",
-          "allogeneic therapies",
-          "cell engineering"
+          "immunology",
+          "allogeneic therapies"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Delayed forebrain excitatory and inhibitory neurogenesis in STRADA-related megalencephaly via mTOR hyperactivity",
@@ -1448,15 +1432,15 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers found that STRADA loss leads to mTOR hyperactivity, causing delayed neurogenesis in human forebrain organoids. This was associated with altered interneuron development and metabolic pathways. mTOR inhibition rescued most changes, suggesting potential therapeutic strategies for STRADA-related disease.",
+        "summary": "STRADA loss leads to mTOR hyperactivity, increasing neural stem cell renewal and delaying neurogenesis in human forebrain organoids. This is associated with altered interneuron development and metabolic pathways. mTOR inhibition rescues most changes, suggesting a potential therapeutic strategy for STRADA-related disease.",
         "categories": [
           "single-cell genomics",
           "organoids",
-          "neurogenesis",
-          "mTOR"
+          "mTOR",
+          "neurogenesis"
         ],
         "watchlist_match": true,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Establishing mouse forebrain organoids as models of intrinsic cortical network assembly",
@@ -1466,14 +1450,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Mouse forebrain organoids were used to model intrinsic cortical network assembly. The organoids self-organized into small-world neural networks, with dorsal organoids showing progressive synchronization and ventral organoids developing enhanced clustering and modularity.",
+        "summary": "Mouse forebrain organoids self-organize into small-world neural networks, with dorsal organoids showing progressive synchronization and ventral organoids developing enhanced clustering and modularity. This reveals how cellular composition shapes cortical network topology.",
         "categories": [
           "organoids",
           "neural networks",
           "cortical development"
         ],
         "watchlist_match": true,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Genomic characterization of sub-populations in human pluripotent stem cell-derived retinal progenitor cells driving retinal lamination",
@@ -1483,14 +1467,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers characterized sub-populations in human pluripotent stem cell-derived retinal progenitor cells driving retinal lamination. Prolonged proliferation with sequential canonical and non-canonical WNT signaling was associated with retinal laminar structures.",
+        "summary": "Prolonged proliferation with sequential WNT signaling is associated with retinal laminar structures in human embryonic stem cell-derived retinal spheroids. Despite distinct in vitro architectures, both well-layered and non-layered spheroids generate aligned photoreceptors with potential functional integration after transplantation.",
         "categories": [
+          "stem cell biology",
           "retinal development",
-          "pluripotent stem cells",
           "WNT signaling"
         ],
         "watchlist_match": true,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Selective Cav1.3 inhibition promotes survival of transplanted dopaminergic neurons via the CaMKII-p65-p53 pathway",
@@ -1500,14 +1484,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Inhibiting the calcium channel Cav1.3 in stem cell-derived dopamine neurons protected them from inflammatory and toxic damage by blocking the CaMKII-p65-p53 pathway. This strategy significantly improved transplanted mDAN survival.",
+        "summary": "Inhibiting the calcium channel Cav1.3 in stem cell-derived dopamine neurons protects them from inflammatory and toxic damage by blocking the CaMKII-p65-p53 pathway. This strategy significantly improves transplanted mDAN survival, offering a promising approach to enhance cell therapy for Parkinson\u2019s disease.",
         "categories": [
-          "stem cell therapy",
-          "Parkinson's disease",
+          "stem cell biology",
+          "Parkinson\u2019s disease",
           "calcium channels"
         ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Messenger RNA delivery into Sertoli cells restores fertility to congenitally infertile male mice",
@@ -1517,14 +1501,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Researchers developed a method to deliver mRNA into Sertoli cells, restoring fertility to congenitally infertile male mice. Delivery of wild-type Cldn11 mRNA restored haploid round spermatids, allowing offspring to be obtained by spermatid microinjection.",
+        "summary": "A method to deliver mRNA into Sertoli cells with minimal innate immune activation was developed. Delivery of wild-type Cldn11 mRNA restored haploid round spermatids in congenitally infertile Cldn11-deficient mice, demonstrating the therapeutic potential of mRNA-based infertility treatment.",
         "categories": [
           "mRNA delivery",
-          "Sertoli cells",
-          "infertility treatment"
+          "infertility treatment",
+          "Sertoli cells"
         ],
         "watchlist_match": true,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "CD133/CD49a discriminate between human pluripotent stem cell-derived pancreatic beta and alpha cells",
@@ -1534,10 +1518,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Researchers identified CD133 as a surface marker that can distinguish between pancreatic beta and alpha cells derived from human pluripotent stem cells.",
+        "categories": [
+          "single-cell genomics",
+          "stem cells",
+          "pancreatic cells"
+        ],
         "watchlist_match": true,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Re-evaluating the site-directed nuclease classification as a regulatory trigger for genome-edited plant products",
@@ -1547,10 +1535,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "The current site-directed nuclease classification system for regulating genome-edited plant products is inadequate and should be replaced with a science-based, outcome-focused approach.",
+        "categories": [
+          "genome editing",
+          "plant breeding",
+          "regulatory policy"
+        ],
         "watchlist_match": true,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "Quantification and transcriptome profiling reveal abundant, dynamic and translatable dephospho-CoA-capped RNAs",
@@ -1560,10 +1552,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Researchers developed a method to quantify and analyze dephospho-CoA-capped RNAs in cells using an enzyme that specifically recognizes these RNAs.",
+        "categories": [
+          "RNA biology",
+          "molecular biology",
+          "cell biology"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Sharing big data for sustainable agri-food innovation",
@@ -1573,23 +1569,14 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "The article discusses the importance of sharing big data for sustainable agri-food innovation, but no specific findings or methods are presented.",
+        "categories": [
+          "big data",
+          "agriculture",
+          "sustainability"
+        ],
         "watchlist_match": true,
-        "cluster_label": "Genomics & Virology"
-      },
-      {
-        "title": "Establishing a commercial solution for extremely rare genetic diseases",
-        "journal": "Nature Biotechnology",
-        "authors": "Stanley T. Crooke, Andrew W. Lo",
-        "url": "https://www.nature.com/articles/s41587-026-03056-w",
-        "doi": null,
-        "published": "2026-03-02T00:00:00+00:00",
-        "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
-        "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "Large-scale library of 3D ant images captured with synchrotron X-ray microtomography",
@@ -1599,10 +1586,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Researchers created a large-scale library of 3D images of ants using synchrotron X-ray microtomography, providing a valuable resource for studying ant diversity.",
+        "categories": [
+          "synchrotron X-ray microtomography",
+          "insect biology",
+          "3D imaging"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "High-throughput phenomics of global ant biodiversity",
@@ -1612,10 +1603,15 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "A database called Antscan has been created to store X-ray CT images of ants from almost 800 species, which will be coordinated with genome sequencing projects for integrative analyses.",
+        "categories": [
+          "single-cell genomics",
+          "epigenetics",
+          "machine learning",
+          "organoids"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "It\u2019s a colorful pangenome world",
@@ -1625,36 +1621,15 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Pangenomes can reveal the spectrum of genome variation within a species, and tools for working with them are becoming more available.",
+        "categories": [
+          "single-cell genomics",
+          "epigenetics",
+          "machine learning",
+          "organoids"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
-      },
-      {
-        "title": "A unified framework for multiomics deconvolution",
-        "journal": "Nature Methods",
-        "authors": "Xiaoyu Wang, Fuyi Li, Robin B. Gasser, Jiangning Song",
-        "url": "https://www.nature.com/articles/s41592-026-03008-x",
-        "doi": null,
-        "published": "2026-03-02T00:00:00+00:00",
-        "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
-        "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
-      },
-      {
-        "title": "DECODE: deep learning-based common deconvolution framework for various omics data",
-        "journal": "Nature Methods",
-        "authors": "Tianyi Zhao, Renjie Liu, Yuzhi Sun, Bingtian Wang, Liyuan Zhang et al. (+6 more)",
-        "url": "https://www.nature.com/articles/s41592-026-03007-y",
-        "doi": null,
-        "published": "2026-03-02T00:00:00+00:00",
-        "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
-        "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "Magnon confinement in epitaxial antiferromagnetic oxide heterostructures",
@@ -1664,10 +1639,14 @@
         "doi": null,
         "published": "2026-03-06T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Researchers have found a way to confine magnon transport to a plane by sandwiching BiFeO3 between layers of non-polar antiferromagnetic LaFeO3, which could be used for electric-field-controlled spin-based memory and logic elements.",
+        "categories": [
+          "magnetism",
+          "spintronics",
+          "materials science"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Cardiovascular Medicine & Stroke Prevention"
+        "cluster_label": "Cardiovascular Disease & Stroke Prevention"
       },
       {
         "title": "Heterogeneity by design",
@@ -1677,10 +1656,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Heterogeneous microstructure engineering has become a powerful strategy for optimizing properties and performance of metallic alloys.",
+        "categories": [
+          "materials science",
+          "nanotechnology",
+          "metallurgy"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Materials Science & Chemistry"
+        "cluster_label": "Materials Science & Organic Chemistry"
       },
       {
         "title": "Dynamical stability by spin transfer in nearly isotropic magnets",
@@ -1690,10 +1673,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Researchers have found that spin torques generated via the spin-Hall effect in CoFeB/W/MgO can stabilize magnetization in a high-energy anti-parallel state relative to an applied magnetic field, which holds promise for realizing unconventional computing paradigms.",
+        "categories": [
+          "magnetism",
+          "spintronics",
+          "materials science"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Cardiovascular Medicine & Stroke Prevention"
+        "cluster_label": "Cardiovascular Disease & Stroke Prevention"
       },
       {
         "title": "In situ-generated vaccine-like pyroptosome for personalized cancer immunotherapy",
@@ -1703,10 +1690,14 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Researchers developed a new injectable nanoadjuvant that induces pyroptosis in tumors, leading to a strong vaccine-like response that can eradicate cancer.",
+        "categories": [
+          "cancer immunotherapy",
+          "nanotechnology",
+          "pyroptosis"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Immunology & Cell Biology"
+        "cluster_label": "Immunology & Single-Cell Genomics"
       },
       {
         "title": "Texture-dependent all-optical switching in ferromagnetic films via stochastic nucleation of nanoscale domains",
@@ -1716,49 +1707,14 @@
         "doi": null,
         "published": "2026-03-03T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Scientists discovered a new method for all-optical switching in ferromagnetic films using circularly polarized picosecond optical pulses.",
+        "categories": [
+          "ferromagnetism",
+          "optical switching",
+          "nanoscale domains"
+        ],
         "watchlist_match": true,
-        "cluster_label": "Cardiovascular Medicine & Stroke Prevention"
-      },
-      {
-        "title": "Efficient two-photon emission from a quantum dot",
-        "journal": "Nature Materials",
-        "authors": "Unknown authors",
-        "url": "https://www.nature.com/articles/s41563-026-02523-8",
-        "doi": null,
-        "published": "2026-03-02T00:00:00+00:00",
-        "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
-        "watchlist_match": true,
-        "cluster_label": "Nanotechnology & Electronics"
-      },
-      {
-        "title": "Stability in the dilute limit",
-        "journal": "Nature Materials",
-        "authors": "Haisong Feng, Xin Zhang, Min Wei",
-        "url": "https://www.nature.com/articles/s41563-026-02527-4",
-        "doi": null,
-        "published": "2026-03-02T00:00:00+00:00",
-        "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
-        "watchlist_match": false,
-        "cluster_label": "Materials Science & Chemistry"
-      },
-      {
-        "title": "Metal hybridization in dilute-alloy catalysts promotes sintering resistance by decreasing surface mobility",
-        "journal": "Nature Materials",
-        "authors": "Jordan Finzel, Audrey Dannar, Shoutian Sun, Adam S. Hoffman, Yogita Soni et al. (+4 more)",
-        "url": "https://www.nature.com/articles/s41563-026-02489-7",
-        "doi": null,
-        "published": "2026-03-02T00:00:00+00:00",
-        "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
-        "watchlist_match": false,
-        "cluster_label": "Materials Science & Chemistry"
+        "cluster_label": "Cardiovascular Disease & Stroke Prevention"
       },
       {
         "title": "Large-scale library of 3D ant images captured with synchrotron X-ray microtomography",
@@ -1768,10 +1724,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Researchers created a large-scale library of 3D images of ants using synchrotron X-ray microtomography, providing a valuable resource for studying ant diversity.",
+        "categories": [
+          "synchrotron X-ray microtomography",
+          "ant biology",
+          "3D imaging"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "High-throughput phenomics of global ant biodiversity",
@@ -1781,10 +1741,14 @@
         "doi": null,
         "published": "2026-03-05T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Scientists developed a publicly accessible database, Antscan, containing synchrotron X-ray CT images of almost 800 ant species, enabling integrative analyses with genome sequencing projects.",
+        "categories": [
+          "ant biology",
+          "synchrotron X-ray CT",
+          "genomics"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       },
       {
         "title": "It\u2019s a colorful pangenome world",
@@ -1794,36 +1758,14 @@
         "doi": null,
         "published": "2026-03-04T00:00:00+00:00",
         "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
+        "summary": "Researchers highlighted the growing toolbox for working with pangenomes, which can reveal the spectrum of genome variation within a species.",
+        "categories": [
+          "pangenomics",
+          "genomics",
+          "genome variation"
+        ],
         "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
-      },
-      {
-        "title": "A unified framework for multiomics deconvolution",
-        "journal": "Nature Methods",
-        "authors": "Xiaoyu Wang, Fuyi Li, Robin B. Gasser, Jiangning Song",
-        "url": "https://www.nature.com/articles/s41592-026-03008-x",
-        "doi": null,
-        "published": "2026-03-02T00:00:00+00:00",
-        "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
-        "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
-      },
-      {
-        "title": "DECODE: deep learning-based common deconvolution framework for various omics data",
-        "journal": "Nature Methods",
-        "authors": "Tianyi Zhao, Renjie Liu, Yuzhi Sun, Bingtian Wang, Liyuan Zhang et al. (+6 more)",
-        "url": "https://www.nature.com/articles/s41592-026-03007-y",
-        "doi": null,
-        "published": "2026-03-02T00:00:00+00:00",
-        "significance": "Medium",
-        "summary": "Summary unavailable.",
-        "categories": [],
-        "watchlist_match": false,
-        "cluster_label": "Genomics & Virology"
+        "cluster_label": "Machine Learning & Virology"
       }
     ]
   }
