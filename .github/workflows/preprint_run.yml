@@ -1,0 +1,68 @@
+# .github/workflows/preprint_run.yml
+name: Preprint Digest
+
+on:
+  schedule:
+    - cron: '0 6 * * 4'   # Thursday 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  preprint-digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run preprint digest
+        working-directory: preprint_digest
+        env:
+          PYTHONPATH: .
+          HF_TOKEN:        ${{ secrets.HF_TOKEN }}
+          EMAIL_RECEIVER:  ${{ secrets.EMAIL_RECEIVER }}
+        run: python preprint_digest.py
+
+      - name: Commit digest to repository
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add preprint_digest/digests/ || true
+          git diff --staged --quiet || git commit -m "Preprint digest $(date +%Y-%m-%d)"
+          git push
+
+      - name: Get date
+        id: date
+        run: echo "today=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+
+      - name: Send digest email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_SENDER }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          to: ${{ secrets.EMAIL_RECEIVER }}
+          from: "Preprint Digest <${{ secrets.EMAIL_SENDER }}>"
+          subject: "bioRxiv Preprint Digest — ${{ steps.date.outputs.today }}"
+          html_body: file:///tmp/digest_email.html
+          body: file:///tmp/digest_plain.txt
+          attachments: preprint_digest/digests/${{ steps.date.outputs.today }}-preprint-digest.md

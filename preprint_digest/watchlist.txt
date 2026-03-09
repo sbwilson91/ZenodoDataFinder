@@ -1,0 +1,14 @@
+# bioRxiv Preprint Watchlist
+# One topic per line. Lines starting with # are ignored.
+# Edit this file to change what the bot monitors — no code changes needed.
+
+organoid
+kidney organoid
+assembloid
+single cell RNA-seq
+scRNA
+spatial transcriptomics
+CRISPR
+foundation model biology
+large language model
+epigenetics
