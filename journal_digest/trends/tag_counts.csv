@@ -199,3 +199,228 @@ date,tag,count,total_papers
 2026-03-08,women in science,2,113
 2026-03-08,women's health,1,113
 2026-03-08,α-synuclein,1,113
+2026-03-09,3d imaging,2,105
+2026-03-09,academia,1,105
+2026-03-09,addiction,1,105
+2026-03-09,adipose tissue,1,105
+2026-03-09,aerosol forecasting,1,105
+2026-03-09,aging,1,105
+2026-03-09,agriculture,1,105
+2026-03-09,ai,42,105
+2026-03-09,alarmins,1,105
+2026-03-09,allergies,1,105
+2026-03-09,allogeneic therapies,1,105
+2026-03-09,alzheimer's disease,2,105
+2026-03-09,amazonia,1,105
+2026-03-09,ant biology,2,105
+2026-03-09,antibodies,1,105
+2026-03-09,artificial intelligence,6,105
+2026-03-09,astronomy,2,105
+2026-03-09,atmospheric science,2,105
+2026-03-09,battery technology,1,105
+2026-03-09,behavioral biology,1,105
+2026-03-09,big data,1,105
+2026-03-09,biological modeling,1,105
+2026-03-09,biomedicine,1,105
+2026-03-09,book reviews,1,105
+2026-03-09,brain cells,1,105
+2026-03-09,calcium channels,1,105
+2026-03-09,cancer,4,105
+2026-03-09,cancer biology,1,105
+2026-03-09,cancer immunotherapy,1,105
+2026-03-09,cardiovascular disease,2,105
+2026-03-09,cardiovascular medicine,2,105
+2026-03-09,cell biology,2,105
+2026-03-09,circadian rhythms,1,105
+2026-03-09,climate change,3,105
+2026-03-09,climate research,1,105
+2026-03-09,climate science,1,105
+2026-03-09,cluster:ai & women in science,19,105
+2026-03-09,cluster:artificial intelligence & vision-language models,2,105
+2026-03-09,cluster:cardiovascular disease & stroke prevention,8,105
+2026-03-09,cluster:climate change & atmospheric science,11,105
+2026-03-09,cluster:hiv & virology,2,105
+2026-03-09,cluster:immunology & single-cell genomics,39,105
+2026-03-09,cluster:machine learning & virology,14,105
+2026-03-09,cluster:materials science & organic chemistry,6,105
+2026-03-09,cluster:neuroscience & social behavior,2,105
+2026-03-09,cluster:paleontology & fossil record,2,105
+2026-03-09,coastal hazards,1,105
+2026-03-09,computed tomography,1,105
+2026-03-09,conflict,1,105
+2026-03-09,conservation,1,105
+2026-03-09,conservation biology,1,105
+2026-03-09,cortical development,1,105
+2026-03-09,cosmology,1,105
+2026-03-09,crime prevention,1,105
+2026-03-09,crispr,3,105
+2026-03-09,cryo-electron microscopy,1,105
+2026-03-09,data analysis,1,105
+2026-03-09,diagnostics,1,105
+2026-03-09,diamond synthesis,1,105
+2026-03-09,dietary cues,1,105
+2026-03-09,drug development,1,105
+2026-03-09,ecology,1,105
+2026-03-09,electric vehicles,1,105
+2026-03-09,electronic devices,1,105
+2026-03-09,enzymology,1,105
+2026-03-09,epidemiology,2,105
+2026-03-09,epigenetics,5,105
+2026-03-09,ethics,2,105
+2026-03-09,evolutionary biology,2,105
+2026-03-09,ferromagnetism,1,105
+2026-03-09,ferroptosis,1,105
+2026-03-09,fish evolution,1,105
+2026-03-09,fluorescent reporters,1,105
+2026-03-09,food safety,1,105
+2026-03-09,forensic science,2,105
+2026-03-09,fossil record,1,105
+2026-03-09,foundation model,2,105
+2026-03-09,funding,1,105
+2026-03-09,galileo,1,105
+2026-03-09,gender bias,1,105
+2026-03-09,gender equality,1,105
+2026-03-09,gene activation,1,105
+2026-03-09,genetic modification,1,105
+2026-03-09,genetics,5,105
+2026-03-09,genome editing,1,105
+2026-03-09,genome variation,1,105
+2026-03-09,genomics,4,105
+2026-03-09,geopolitics,1,105
+2026-03-09,global cooperation,1,105
+2026-03-09,global warming,1,105
+2026-03-09,governance,1,105
+2026-03-09,heart health,1,105
+2026-03-09,high-pressure physics,1,105
+2026-03-09,history of science,2,105
+2026-03-09,hiv,1,105
+2026-03-09,hormone therapy,1,105
+2026-03-09,humoral immunity,1,105
+2026-03-09,hydrology,1,105
+2026-03-09,immunology,5,105
+2026-03-09,immunotherapy,1,105
+2026-03-09,infertility treatment,1,105
+2026-03-09,influenza,1,105
+2026-03-09,insect biology,1,105
+2026-03-09,international women's day,1,105
+2026-03-09,ion channels,1,105
+2026-03-09,law enforcement,2,105
+2026-03-09,left atrial appendage occlusion,1,105
+2026-03-09,lipid metabolism,1,105
+2026-03-09,liquid biopsies,1,105
+2026-03-09,liver disease,1,105
+2026-03-09,machine learning,8,105
+2026-03-09,magnetic fluid,1,105
+2026-03-09,magnetic gel,1,105
+2026-03-09,magnetism,2,105
+2026-03-09,magnetofluids,1,105
+2026-03-09,materials science,4,105
+2026-03-09,mathematics,1,105
+2026-03-09,mechanotransduction,1,105
+2026-03-09,medical procedures,1,105
+2026-03-09,medicine,2,105
+2026-03-09,menopause,1,105
+2026-03-09,mentorship,1,105
+2026-03-09,metabolic pathways,1,105
+2026-03-09,metabolism,1,105
+2026-03-09,metabolomics,2,105
+2026-03-09,metallurgy,1,105
+2026-03-09,metastasis,1,105
+2026-03-09,meteorology,2,105
+2026-03-09,mexico,1,105
+2026-03-09,microbiology,1,105
+2026-03-09,microbiome,1,105
+2026-03-09,molecular biology,2,105
+2026-03-09,molecular structure,1,105
+2026-03-09,mouse models,1,105
+2026-03-09,mrna delivery,1,105
+2026-03-09,mtor,1,105
+2026-03-09,nanoscale domains,1,105
+2026-03-09,nanotechnology,3,105
+2026-03-09,neural networks,1,105
+2026-03-09,neural reprogramming,1,105
+2026-03-09,neural substrates,1,105
+2026-03-09,neurogenesis,1,105
+2026-03-09,neurology,1,105
+2026-03-09,neuroscience,2,105
+2026-03-09,obesity,1,105
+2026-03-09,optical switching,1,105
+2026-03-09,optogenetics,1,105
+2026-03-09,organ transplantation,1,105
+2026-03-09,organic chemistry,1,105
+2026-03-09,organoid,2,105
+2026-03-09,organoids,4,105
+2026-03-09,osteichthyan,1,105
+2026-03-09,paleontology,2,105
+2026-03-09,pancreatic cells,1,105
+2026-03-09,pangenomics,1,105
+2026-03-09,parkinson’s disease,1,105
+2026-03-09,pathogens,1,105
+2026-03-09,perimenopause,1,105
+2026-03-09,personal storytelling,1,105
+2026-03-09,photonic ising machine,1,105
+2026-03-09,pig liver,1,105
+2026-03-09,planetary systems,1,105
+2026-03-09,plant breeding,1,105
+2026-03-09,policy,1,105
+2026-03-09,protein degradation,1,105
+2026-03-09,protein engineering,1,105
+2026-03-09,protein structure,1,105
+2026-03-09,public safety,1,105
+2026-03-09,pyroptosis,1,105
+2026-03-09,quantum computing,1,105
+2026-03-09,radiology,1,105
+2026-03-09,regulation,1,105
+2026-03-09,regulatory policy,1,105
+2026-03-09,research conditions,1,105
+2026-03-09,retinal development,1,105
+2026-03-09,retinal ganglion cells,1,105
+2026-03-09,river dynamics,1,105
+2026-03-09,rna biology,2,105
+2026-03-09,rna-dependent rna polymerase,1,105
+2026-03-09,rna-guided transcription,1,105
+2026-03-09,rosacea,1,105
+2026-03-09,satellite imaging,1,105
+2026-03-09,satellite viruses,1,105
+2026-03-09,science books,1,105
+2026-03-09,science careers,1,105
+2026-03-09,science education,1,105
+2026-03-09,science images,1,105
+2026-03-09,science policy,1,105
+2026-03-09,scientific method,1,105
+2026-03-09,sea level rise,1,105
+2026-03-09,sertoli cells,1,105
+2026-03-09,single-cell analysis,1,105
+2026-03-09,single-cell genomics,8,105
+2026-03-09,skin cells,1,105
+2026-03-09,social behavior,1,105
+2026-03-09,social sciences,1,105
+2026-03-09,sociology,1,105
+2026-03-09,soil moisture,2,105
+2026-03-09,spintronics,2,105
+2026-03-09,star formation,1,105
+2026-03-09,stem cell biology,2,105
+2026-03-09,stem cells,3,105
+2026-03-09,stroke prevention,2,105
+2026-03-09,sustainability,2,105
+2026-03-09,synchrotron x-ray ct,1,105
+2026-03-09,synchrotron x-ray microtomography,2,105
+2026-03-09,synthetic biology,1,105
+2026-03-09,synthetic peptides,1,105
+2026-03-09,t cell function,1,105
+2026-03-09,technology,1,105
+2026-03-09,telecommunications,1,105
+2026-03-09,therapy resistance,1,105
+2026-03-09,thermodynamics,1,105
+2026-03-09,transcription,1,105
+2026-03-09,treatment,1,105
+2026-03-09,university governance,1,105
+2026-03-09,vascular biology,2,105
+2026-03-09,virology,4,105
+2026-03-09,virus evolution,1,105
+2026-03-09,vision-language models,1,105
+2026-03-09,warfare,1,105
+2026-03-09,water resources,1,105
+2026-03-09,wnt signaling,1,105
+2026-03-09,women in science,2,105
+2026-03-09,women's health,1,105
