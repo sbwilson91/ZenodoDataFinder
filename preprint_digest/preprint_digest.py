@@ -1,8 +1,8 @@
 """bioRxiv preprint digest bot.
 
 Fetches recent bioRxiv preprints, filters by a user-defined watchlist,
-generates AI summaries, writes a Markdown digest, and converts it to HTML
-for email delivery via GitHub Actions.
+generates AI summaries, groups papers by primary organ/tissue system,
+writes a Markdown digest, and converts it to HTML for email delivery.
 """
 import os
 import subprocess
@@ -11,11 +11,12 @@ from datetime import date
 from pathlib import Path
 
 from fetcher import fetch_recent, filter_by_watchlist
+from organ_classifier import ORGAN_KEYWORDS, classify_organ
 from utils.ai_logic import get_ai_summary
 
-DIGESTS_DIR  = Path("digests")
-WATCHLIST    = Path("watchlist.txt")
-DAYS_BACK    = int(os.environ.get("DAYS_BACK", 7))
+DIGESTS_DIR = Path("digests")
+WATCHLIST   = Path("watchlist.txt")
+DAYS_BACK   = int(os.environ.get("DAYS_BACK", 7))
 
 
 def load_watchlist(path=WATCHLIST) -> list:
@@ -33,36 +34,50 @@ def load_watchlist(path=WATCHLIST) -> list:
 
 def _format_paper(p) -> str:
     """Format a single Preprint as a Markdown paper card."""
-    date_str = p.date.strftime("%Y-%m-%d") if p.date.year > 1970 else "Date unknown"
+    date_str   = p.date.strftime("%Y-%m-%d") if p.date.year > 1970 else "Date unknown"
     title_link = f"[{p.title}]({p.url})" if p.url else p.title
     authors_short = p.authors[:120] + "..." if len(p.authors) > 120 else p.authors
-    category = p.category.title() if p.category else "Preprint"
-    summary = p.summary if p.summary else "Summary unavailable."
+    category   = p.category.title() if p.category else "Preprint"
+    summary    = p.summary if p.summary else "Summary unavailable."
+    topic_tag  = f" | `{p.matched_topic}`" if p.matched_topic else ""
 
     return (
         f"### {title_link}\n"
-        f"**{authors_short}** | {category} | {date_str}\n\n"
+        f"**{authors_short}** | {category} | {date_str}{topic_tag}\n\n"
         f"> {summary}\n"
     )
 
 
-def build_digest(matched: dict, today: str, total_fetched: int) -> str:
-    """Build a full Markdown digest string from matched preprints."""
-    total_matched = sum(len(ps) for ps in matched.values())
-    topic_count = len(matched)
+def build_digest(all_papers: list, today: str, total_fetched: int) -> str:
+    """Build a Markdown digest grouped by organ/tissue system."""
+    # Group papers by organ
+    by_organ: dict = {}
+    for p in all_papers:
+        by_organ.setdefault(p.organ, []).append(p)
+
+    # Sort within each organ newest-first
+    for papers in by_organ.values():
+        papers.sort(key=lambda p: p.date, reverse=True)
+
+    # Render organs in ORGAN_KEYWORDS order, "General" last
+    organ_order = list(ORGAN_KEYWORDS.keys()) + ["General"]
+    organ_count = len(by_organ)
 
     lines = [
         f"# Preprint Digest — {today}",
-        f"_{total_matched} paper{'s' if total_matched != 1 else ''} matched "
-        f"across {topic_count} topic{'s' if topic_count != 1 else ''} "
+        f"_{len(all_papers)} paper{'s' if len(all_papers) != 1 else ''} across "
+        f"{organ_count} organ system{'s' if organ_count != 1 else ''} "
         f"({total_fetched} preprints scanned)_",
         "",
         "---",
         "",
     ]
 
-    for topic, papers in matched.items():
-        lines.append(f"## {topic}")
+    for organ in organ_order:
+        if organ not in by_organ:
+            continue
+        papers = by_organ[organ]
+        lines.append(f"## {organ}")
         lines.append("")
         for p in papers:
             lines.append(_format_paper(p))
@@ -85,30 +100,43 @@ def run():
     preprints = fetch_recent(days_back=DAYS_BACK)
     matched   = filter_by_watchlist(preprints, topics)
 
+    DIGESTS_DIR.mkdir(exist_ok=True)
+    today = date.today().isoformat()
+
     if not matched:
         print("No preprints matched any watchlist topic.")
-        # Write a brief digest so the commit step doesn't fail silently
-        today = date.today().isoformat()
         content = (
             f"# Preprint Digest — {today}\n\n"
             f"_No preprints matched any watchlist topic this week "
             f"({len(preprints)} scanned)._\n"
         )
     else:
-        total_matched = sum(len(ps) for ps in matched.values())
-        print(f"Matched {total_matched} preprints across {len(matched)} topics. Summarising...")
-
-        hf_token = os.environ.get("HF_TOKEN")
+        # Flatten {topic: [papers]} → flat list, tagging each paper's matched_topic
+        all_papers = []
         for topic, papers in matched.items():
             for p in papers:
-                if len(p.abstract) >= 50:
-                    p.summary = get_ai_summary(p.abstract, hf_token=hf_token)
+                p.matched_topic = topic
+                all_papers.append(p)
 
-        today   = date.today().isoformat()
-        content = build_digest(matched, today, len(preprints))
+        print(f"Matched {len(all_papers)} preprints. Summarising...")
+
+        # AI summarise
+        hf_token = os.environ.get("HF_TOKEN")
+        for p in all_papers:
+            if len(p.abstract) >= 50:
+                p.summary = get_ai_summary(p.abstract, hf_token=hf_token)
+
+        # Classify organ/tissue
+        for p in all_papers:
+            p.organ = classify_organ(p.title, p.abstract)
+
+        from collections import Counter
+        organ_dist = Counter(p.organ for p in all_papers)
+        print(f"Organ distribution: {dict(organ_dist)}")
+
+        content = build_digest(all_papers, today, len(preprints))
 
     # Save Markdown digest
-    DIGESTS_DIR.mkdir(exist_ok=True)
     digest_path = DIGESTS_DIR / f"{today}-preprint-digest.md"
     digest_path.write_text(content, encoding="utf-8")
     print(f"Digest saved → {digest_path}")

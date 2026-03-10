@@ -21,7 +21,9 @@ class Preprint:
     abstract: str
     date:     datetime
     category: str
-    summary:  str = ""
+    summary:       str = ""
+    organ:         str = "General"
+    matched_topic: str = ""
 
 
 def fetch_recent(days_back=7) -> list:
