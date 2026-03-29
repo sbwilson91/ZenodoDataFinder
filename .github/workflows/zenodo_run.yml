@@ -8,11 +8,14 @@ on:
 jobs:
   zenodo-bot:
     runs-on: self-hosted
+    env:
+      VIRTUAL_ENV: /home/swilson/actions-runner-env
+      PATH: /home/swilson/actions-runner-env/bin:$PATH
     steps:
       - uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -q -r requirements.txt
 
       - name: Run Zenodo bot
         env:
