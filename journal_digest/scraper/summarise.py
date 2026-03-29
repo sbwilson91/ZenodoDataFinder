@@ -7,14 +7,14 @@ import re
 import json
 import time
 import requests
-from typing import Optional
+import csv
+from datetime import datetime, timezone
 
 from .feeds import Paper
 
-HF_CHAT_URL = "https://router.huggingface.co/v1/chat/completions"
-DEFAULT_MODEL  = "meta-llama/Llama-3.1-8B-Instruct:cerebras"
-FALLBACK_MODEL = "Qwen/Qwen2.5-7B-Instruct:cerebras"
-MAX_RETRIES    = 3
+OLLAMA_URL    = "http://localhost:11434/v1/chat/completions"
+DEFAULT_MODEL = "llama3.1"
+MAX_RETRIES   = 3
 
 SYSTEM_PROMPT = (
     "You are a scientific literature analyst helping researchers stay current "
@@ -22,13 +22,9 @@ SYSTEM_PROMPT = (
     "and never invent information not present in the abstract."
 )
 
-## token tracking 3/3/26
-
-import csv
-from datetime import datetime, timezone
 
 def _log_token_usage(doi: str, model: str, prompt_tokens: int, completion_tokens: int):
-    """D2 — Append a row to stats/usage.csv after every LLM call."""
+    """Append a row to stats/usage.csv after every LLM call."""
     stats_path = "stats/usage.csv"
     os.makedirs("stats", exist_ok=True)
     file_exists = os.path.isfile(stats_path)
@@ -45,6 +41,7 @@ def _log_token_usage(doi: str, model: str, prompt_tokens: int, completion_tokens
             completion_tokens,
             prompt_tokens + completion_tokens,
         ])
+
 
 def _build_user_prompt(papers):
     papers_text = ""
@@ -73,11 +70,9 @@ def _build_user_prompt(papers):
         f"{papers_text}"
     )
 
-def _call_hf_chat(user_prompt, model_id, token):
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json",
-    }
+
+def _call_ollama(user_prompt, model_id):
+    headers = {"Content-Type": "application/json"}
     payload = {
         "model": model_id,
         "messages": [
@@ -88,22 +83,25 @@ def _call_hf_chat(user_prompt, model_id, token):
         "temperature": 0.2,
     }
     for attempt in range(1, MAX_RETRIES + 1):
-        resp = requests.post(HF_CHAT_URL, headers=headers, json=payload, timeout=120)
+        try:
+            resp = requests.post(OLLAMA_URL, headers=headers, json=payload, timeout=300)
+        except requests.exceptions.ConnectionError:
+            raise RuntimeError("Ollama is not running — start it with: ollama serve")
         if resp.status_code == 200:
-            return resp.json()["choices"][0]["message"]["content"]
-        elif resp.status_code == 503:
-            wait = 25 * attempt
-            print(f"    Model loading — waiting {wait}s (attempt {attempt}/{MAX_RETRIES})...")
-            time.sleep(wait)
+            data = resp.json()
+            content = data["choices"][0]["message"]["content"]
+            usage = data.get("usage", {})
+            return content, usage.get("prompt_tokens", 0), usage.get("completion_tokens", 0)
         elif resp.status_code == 429:
-            wait = 60 * attempt
-            print(f"    Rate limited — waiting {wait}s...")
+            wait = 30 * attempt
+            print(f"    Ollama busy — waiting {wait}s (attempt {attempt}/{MAX_RETRIES})...")
             time.sleep(wait)
         else:
             raise RuntimeError(
-                f"HF API error {resp.status_code} for model '{model_id}': {resp.text[:300]}"
+                f"Ollama error {resp.status_code} for model '{model_id}': {resp.text[:300]}"
             )
-    raise RuntimeError(f"HF API failed after {MAX_RETRIES} attempts.")
+    raise RuntimeError(f"Ollama failed after {MAX_RETRIES} attempts.")
+
 
 def _extract_json(raw):
     raw = re.sub(r"```(?:json)?", "", raw).strip()
@@ -112,6 +110,7 @@ def _extract_json(raw):
     if start == -1 or end == -1:
         raise ValueError(f"No JSON array in response. Got: {raw[:200]}")
     return json.loads(raw[start:end + 1])
+
 
 def _empty_result():
     return {
@@ -122,9 +121,10 @@ def _empty_result():
         "repos": [],
     }
 
-def summarise_papers(papers, hf_token, model_id=None, batch_size=5):
-    model = model_id or os.environ.get("HF_MODEL", DEFAULT_MODEL)
-    print(f"  Using model: {model}")
+
+def summarise_papers(papers, hf_token=None, model_id=None, batch_size=5):
+    model = model_id or os.environ.get("OLLAMA_MODEL", DEFAULT_MODEL)
+    print(f"  Using model: {model} (local Ollama)")
 
     for batch_start in range(0, len(papers), batch_size):
         batch = papers[batch_start:batch_start + batch_size]
@@ -134,20 +134,16 @@ def summarise_papers(papers, hf_token, model_id=None, batch_size=5):
         user_prompt = _build_user_prompt(batch)
         results = None
 
-        for attempt_model in [model, FALLBACK_MODEL]:
-            try:
-                raw     = _call_hf_chat(user_prompt, attempt_model, hf_token)
-                results = _extract_json(raw)
-                while len(results) < len(batch):
-                    results.append(_empty_result())
-                results = results[:len(batch)]
-                break
-            except (RuntimeError, ValueError, json.JSONDecodeError) as e:
-                print(f"    Error with {attempt_model}: {e}")
-                if attempt_model == FALLBACK_MODEL:
-                    results = [_empty_result() for _ in batch]
-                else:
-                    print(f"    Retrying with fallback: {FALLBACK_MODEL}...")
+        try:
+            raw, prompt_tok, completion_tok = _call_ollama(user_prompt, model)
+            results = _extract_json(raw)
+            while len(results) < len(batch):
+                results.append(_empty_result())
+            results = results[:len(batch)]
+            _log_token_usage("batch", model, prompt_tok, completion_tok)
+        except (RuntimeError, ValueError, json.JSONDecodeError) as e:
+            print(f"    Ollama error: {e}")
+            results = [_empty_result() for _ in batch]
 
         for paper, result in zip(batch, results):
             paper.summary       = result.get("summary", "")
@@ -157,6 +153,6 @@ def summarise_papers(papers, hf_token, model_id=None, batch_size=5):
             paper._significance = result.get("significance", "Medium")
 
         if batch_start + batch_size < len(papers):
-            time.sleep(3)
+            time.sleep(2)
 
     return papers

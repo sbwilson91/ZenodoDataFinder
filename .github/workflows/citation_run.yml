@@ -7,14 +7,9 @@ on:
 
 jobs:
   citation-bot:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -25,6 +20,5 @@ jobs:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
           LOOKBACK_PERIOD: 'week'
         run: python citation_bot/citation_bot.py
