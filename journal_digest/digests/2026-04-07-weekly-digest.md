@@ -12,9 +12,20 @@
 *Published: 6 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-01026-5)
 
-> An economist proposes a path to a more efficient, prosperous and sustainable world by transitioning to a clean economy.
+> An economist proposes a path to a more efficient, prosperous, and sustainable world by transitioning away from oil and gas markets.
 
-**Topics:** `sustainability` · `economics` · `energy policy`
+**Topics:** `sustainability` · `energy policy`
+
+---
+
+### Moon fly-by live coverage: Artemis crew enter ‘nail-biting’ phase as they lose comms
+**Nature** | Alexandra Witze  
+*Published: 6 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00989-9)
+
+> Astronauts on the Artemis mission are flying by the Moon's far side and setting records, with scientists monitoring their progress.
+
+**Topics:** `space exploration` · `astronomy`
 
 ---
 
@@ -23,9 +34,9 @@
 *Published: 3 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-01105-7)
 
-> The Trump administration has proposed significant budget cuts for US science, which would also impact federal funding for scientific publishing.
+> The Trump administration has proposed massive budget cuts for US science, which would also curb federal payments for scientific publishing.
 
-**Topics:** `US policy` · `science funding`
+**Topics:** `science policy` · `funding`
 
 ---
 
@@ -34,7 +45,7 @@
 *Published: 2 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-01060-3)
 
-> The Artemis II mission aims to send humans back to the Moon after a half-century absence, with various scientific experiments planned for the journey.
+> The Artemis II mission will send humans to the Moon for the first time in over half a century, with a focus on scientific research and exploration.
 
 **Topics:** `space exploration` · `astronautics`
 
@@ -45,7 +56,7 @@
 *Published: 2 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-01011-y)
 
-> Researchers have identified a 'treasure trove' of antiviral proteins in bacteria, which could inspire the development of powerful molecular tools.
+> Researchers have identified a 'treasure trove' of antiviral proteins in bacteria, which could inspire powerful molecular tools and biotechnologies.
 
 **Topics:** `molecular biology` · `antiviral research`
 
@@ -56,9 +67,9 @@
 *Published: 2 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00551-7)
 
-> This paper discusses how procrastination can negatively impact career fulfillment in science.
+> This paper discusses how procrastination can hinder career fulfillment in science, suggesting that fear of failure or success may be underlying causes.
 
-**Topics:** `career development` · `productivity`
+**Topics:** `career development` · `productivity` · `science`
 
 ---
 
@@ -67,9 +78,9 @@
 *Published: 2 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-01050-5)
 
-> A new computer chip technology uses giant mirrors to produce tiny transistors and circuits, potentially meeting the demand driven by AI.
+> A new computer chip technology uses giant mirrors to produce tiny transistors and circuits, which could help meet the demand driven by AI.
 
-**Topics:** `microelectronics` · `nanotechnology` · `artificial intelligence`
+**Topics:** `computer hardware` · `microelectronics` · `artificial intelligence`
 
 ---
 
@@ -78,9 +89,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10446-2)
 
-> Scientists engineered bilayer nickelate thin films and found structural modifications that can be made to improve their properties.
+> Scientists engineered bilayer nickelate thin films and observed structural modifications. This research could lead to advancements in materials science.
 
-**Topics:** `materials science` · `thin film technology`
+**Topics:** `materials science` · `thin film technology` · `nanotechnology`
 
 ---
 
@@ -89,9 +100,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-01052-3)
 
-> Researchers conducted an in-flight experiment to study contrails and found that reducing soot emissions may not necessarily reduce their formation.
+> Researchers conducted an in-flight experiment to study contrails and found that reducing soot emissions may not necessarily decrease their formation. This suggests the importance of considering multiple factors when addressing environmental issues.
 
-**Topics:** `atmospheric science` · `aviation`
+**Topics:** `atmospheric science` · `aviation` · `environmental impact`
 
 ---
 
@@ -100,9 +111,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10310-3)
 
-> Researchers found that DNA damage burden and inadequate repair contribute to selective vulnerability in neuroinflammatory injury, specifically in CUX2+ cortical neurons.
+> Researchers found that DNA damage burden and inadequate repair contribute to selective vulnerability in neuroinflammatory injury, specifically affecting CUX2+ cortical layer 2/3 excitatory neurons.
 
-**Topics:** `neuroscience` · `genetics`
+**Topics:** `neuroscience` · `epigenetics` · `DNA damage`
 
 ---
 
@@ -111,7 +122,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10230-2)
 
-> Researchers used attosecond laser pulses to study the dissociative ionization of H2 molecules. They found that entanglement between ions and photoelectrons influences electronic coherence, allowing control over this process.
+> A study on attosecond molecular photoionization shows that entanglement influences electronic coherence in H2+ molecules.
 
 **Topics:** `quantum mechanics` · `molecular physics` · `attosecond science`
 
@@ -122,9 +133,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10313-0)
 
-> Researchers found that neural crest fate bias predominantly emerges within the neural tube, and only a minor subset of delaminated progenitors retain multipotency to generate both sensory and sympathetic derivatives.
+> A study on neural crest fate bias found that it predominantly emerges within the neural tube.
 
-**Topics:** `neurodevelopment` · `embryology` · `neural crest`
+**Topics:** `neurodevelopment` · `neural crest cells` · `embryonic development`
 
 ---
 
@@ -133,7 +144,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10325-w)
 
-> Researchers created a moiré superlattice in Sb2Te3/FeTe bilayers, producing spatially modulated superconducting gaps that can be tuned by replacing Sb2Te3 with Bi2Te3.
+> Researchers have engineered a moiré superlattice in Sb2Te3/FeTe bilayers, creating spatially modulated superconducting gaps that can be tuned by replacing Sb2Te3 with Bi2Te3.
 
 **Topics:** `superconductivity` · `materials science` · `nanotechnology`
 
@@ -157,7 +168,7 @@
 
 > The transcription factor ATF4 regulates double-stranded DNA repair within vulnerable CUX2+ upper-layer 2/3 cortical neurons, enabling their survival during development.
 
-**Topics:** `neuroscience` · `DNA repair` · `transcription factors`
+**Topics:** `neuroscience` · `developmental biology` · `DNA repair`
 
 ---
 
@@ -166,9 +177,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10295-z)
 
-> Researchers found that inhibiting a protein called AhR promotes axon regeneration, which is the growth of nerve fibers. This discovery could lead to new treatments for nerve damage and paralysis.
+> Researchers found that inhibiting a protein called AhR promotes axon regeneration by switching from stress adaptation to repair. This discovery could lead to new treatments for nerve damage and paralysis.
 
-**Topics:** `neuroscience` · `axon regeneration` · `protein inhibition`
+**Topics:** `neuroscience` · `regenerative medicine` · `protein function`
 
 ---
 
@@ -177,9 +188,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10286-0)
 
-> Contrails, or clouds formed by airplane exhaust, can still form even when soot emissions are low. This challenges the idea that reducing soot emissions will automatically reduce contrail formation.
+> Contrails, or ice crystals formed by aircraft emissions, can still occur even when soot levels are low. This finding challenges current understanding of contrail formation and may impact climate modeling.
 
-**Topics:** `climate science` · `aviation` · `contrails`
+**Topics:** `atmospheric science` · `aviation` · `climate change`
 
 ---
 
@@ -188,9 +199,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-025-10078-y)
 
-> A large-scale study found that about half of the results from social and behavioral science journals can be replicated, which challenges the idea that many studies in this field are not replicable.
+> A large-scale study found that about half of results from social and behavioral science journals can be replicated, highlighting the importance of rigorous testing and validation.
 
-**Topics:** `social science` · `replicability`
+**Topics:** `social science` · `behavioral science` · `replicability`
 
 ---
 
@@ -199,9 +210,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10312-1)
 
-> Researchers discovered that axons can be ensheathed to enable myelination of complex CNS networks, which is crucial for neural function.
+> Researchers discovered that the rate of axon ensheathment varies within individual myelinating processes, resulting in chains of myelin sheaths connected by bridges.
 
-**Topics:** `neuroscience` · `cell biology` · `myelin`
+**Topics:** `neuroscience` · `cell biology`
 
 ---
 
@@ -210,9 +221,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-025-09844-9)
 
-> An investigation found that social and behavioural science claims have limited robustness, with only 34% of reanalyses closely matching the original results.
+> Researchers investigated the analytical robustness of social and behavioural science claims, finding that only 34% of reanalyses closely matched the original results.
 
-**Topics:** `social sciences` · `behavioural sciences` · `methodology`
+**Topics:** `social sciences` · `methodology`
 
 ---
 
@@ -221,7 +232,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10284-2)
 
-> A new arthropod species, Megachelicerax cousteaui, has been discovered in the Cambrian period. It features massive chelicerae and provides evidence for the origin of chelicerates.
+> A new arthropod species, Megachelicerax cousteaui, is discovered with massive chelicerae and other unique features, revealing the Cambrian origin of chelicerates.
 
 **Topics:** `paleontology` · `evolutionary biology`
 
@@ -232,7 +243,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10296-y)
 
-> A circuit between the spinal cord and brain has been identified as a key driver of chronic pain in mice. The circuit involves spinal-cord-projecting neurons in the rostral ventromedial medulla.
+> A circuit between the spinal cord and brain regions drives chronic pain in mice, with a key role for spinal-cord-projecting neurons.
 
 **Topics:** `neuroscience` · `pain research`
 
@@ -243,7 +254,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10303-2)
 
-> A new methodology has been developed for evaluating the capabilities of AI systems. The approach uses rubrics to capture cognitive and intellectual demands, providing explanatory and predictive power.
+> A new methodology, General Scales, evaluates AI systems' capabilities and predicts their performance using rubrics capturing cognitive and intellectual demands.
 
 **Topics:** `artificial intelligence` · `machine learning`
 
@@ -254,9 +265,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10204-4)
 
-> A new catalyst made from cobalt oxides and hydroxy promoters improves syngas to light olefins conversion using Fischer–Tropsch synthesis.
+> A new catalyst made from cobalt oxides and hydroxy promoters improves the efficiency and sustainability of converting syngas to light olefins.
 
-**Topics:** `catalysis` · `chemical engineering`
+**Topics:** `catalysis` · `chemical engineering` · `sustainability`
 
 ---
 
@@ -265,9 +276,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10331-y)
 
-> A brain–machine interface study in monkeys reveals the biophysical underpinnings of cortical high gamma-band activity.
+> A brain-machine interface study in monkeys reveals the biophysical underpinnings of cortical high gamma-band activity.
 
-**Topics:** `neuroscience` · `brain-machine interfaces`
+**Topics:** `neuroscience` · `brain-computer interfaces` · `signal processing`
 
 ---
 
@@ -276,9 +287,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10251-x)
 
-> A study of economics and political science research finds high levels of robustness and reproducibility, despite data availability and author characteristics.
+> A study of economics and political science research finds high levels of robustness and reproducibility, with data and code-sharing requirements improving results.
 
-**Topics:** `economics` · `political science` · `data sharing`
+**Topics:** `economics` · `political science` · `data sharing` · `reproducibility`
 
 ---
 
@@ -287,9 +298,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00803-6)
 
-> A new catalyst with two cobalt components could lead to sustainable processes for manufacturing light olefins.
+> A new catalyst with two cobalt components could lead to sustainable processes for manufacturing light olefins, key ingredients in plastics and detergents.
 
-**Topics:** `catalysis` · `chemical engineering`
+**Topics:** `catalysis` · `chemical engineering` · `sustainability`
 
 ---
 
@@ -298,9 +309,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00806-3)
 
-> Researchers found that modified nitazenes, a type of opioid 1,000 times stronger than morphine, had remarkably few adverse effects in rodents. This could potentially make them safer alternatives to conventional painkillers.
+> Researchers found that modified nitazenes, which are 1,000 times stronger than morphine, may be safer alternatives to conventional painkillers. These super-potent opioids showed few adverse effects in rodents, renewing their potential for pain relief.
 
-**Topics:** `opioids` · `pain relief`
+**Topics:** `opioids` · `pain management`
 
 ---
 
@@ -309,9 +320,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00969-z)
 
-> Tens of thousands of publications from 2025 may include invalid references generated by AI, according to a Nature analysis.
+> An analysis suggests that tens of thousands of publications from 2025 may include invalid references generated by AI, polluting the scientific literature.
 
-**Topics:** `AI-generated content` · `scientific literature`
+**Topics:** `artificial intelligence` · `scientific publishing`
 
 ---
 
@@ -331,7 +342,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00955-5)
 
-> A massive project to replicate social-science studies found that half of them failed the replication test. However, this also raised hope for solutions to improve the credibility of science.
+> A massive project to replicate social-science studies found that half of them failed the replication test. This reinforces concerns about science credibility but raises hope for solutions.
 
 **Topics:** `social sciences` · `science reproducibility`
 
@@ -342,7 +353,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00684-9)
 
-> A large-scale assessment of social-science studies found that most were computationally reproducible, but about a quarter contained non-trivial coding errors.
+> A large-scale assessment of social-science studies found that most were computationally reproducible, but about a quarter contained coding errors. The study highlights the importance of robustness checks.
 
 **Topics:** `social sciences` · `science reproducibility`
 
@@ -353,7 +364,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00972-4)
 
-> A meta-research project examined the reproducibility and replicability of published results in social sciences, highlighting lessons learned from a large-scale dissection.
+> A large-scale study examines the reproducibility and replicability of published results in social sciences, highlighting lessons learned from this meta-research project.
 
 **Topics:** `meta-research` · `social sciences` · `reproducibility`
 
@@ -364,9 +375,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00805-4)
 
-> A huge meta-research project put claims in social-science papers to the test, discussing lessons learned from a large-scale dissection of published results.
+> A historical review discusses the development and impact of synthetic fuels, specifically the Fischer–Tropsch synthesis, which has shaped history by providing a way to make liquid fuels from coal.
 
-**Topics:** `meta-research` · `social sciences` · `reproducibility`
+**Topics:** `chemical engineering` · `sustainable energy`
 
 ---
 
@@ -375,9 +386,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00808-1)
 
-> The Fischer–Tropsch synthesis, a method for making liquid fuels from coal, has been revisited as a route to sustainable fuels.
+> An author correction is made to a previous paper on ambient pressure superconductivity in thin film La3Ni2O7, correcting signatures of this phenomenon.
 
-**Topics:** `sustainable energy` · `fuels` · `synthetic fuels`
+**Topics:** `superconductivity` · `materials science`
 
 ---
 
@@ -397,7 +408,7 @@
 *Published: 31 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00966-2)
 
-> Even when AI tools aid decision-making, they can quietly de-skill whole professions by narrowing how uncertainties and values are debated.
+> Even when AI tools aid decision-making, they can quietly de-skill whole professions by limiting how uncertainties and values are debated.
 
 **Topics:** `AI` · `Decision-Making` · `Professions`
 
@@ -421,7 +432,7 @@
 
 > A new sequencing-based method maps synaptic connections in the brain by capturing paired neuronal barcodes from intact fragments, enabling comprehensive connectivity maps.
 
-**Topics:** `neuroscience` · `sequencing` · `connectomics`
+**Topics:** `neuroscience` · `synaptic biology` · `sequencing`
 
 ---
 
@@ -430,7 +441,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41592-026-03027-8)
 
-> A model-agnostic measure quantifies the reliability of language model-inferred protein, gene, and genome representations.
+> A model-agnostic measure is proposed to quantify the reliability of language model-inferred protein, gene, and genome representations.
 
 **Topics:** `protein structure` · `machine learning` · `bioinformatics`
 
@@ -441,7 +452,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41592-026-03028-7)
 
-> A model-agnostic framework measures uncertainty in protein embeddings and assesses their biological relevance to improve model reliability.
+> A model-agnostic framework is proposed to measure uncertainty in protein embeddings and assess their biological relevance, improving model reliability.
 
 **Topics:** `protein structure` · `machine learning` · `bioinformatics`
 
@@ -452,9 +463,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41592-026-03047-4)
 
-> A new method called ROCKET improves experimental structure determination by combining information from a pre-trained neural network with X-ray crystallography and cryo-electron microscopy experiments.
+> A new method called ROCKET improves experimental structure determination by combining machine learning with X-ray crystallography and cryo-electron microscopy. This method uses a pretrained neural network to provide implicit structural knowledge, which is then integrated with experimental data.
 
-**Topics:** `protein structure` · `machine learning`
+**Topics:** `single-cell genomics` · `machine learning`
 
 ---
 
@@ -463,7 +474,7 @@
 *Published: 3 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41563-026-02572-z)
 
-> Hydrogels containing C=O groups and calcium cations exhibit an unexpected paramagnetic effect with potential biomedical applications.
+> Hydrogels containing C=O groups and calcium cations show an unexpected paramagnetic effect, which may have biomedical applications. This finding could lead to new uses for hydrogels in medicine.
 
 **Topics:** `materials science` · `biomedical engineering`
 
@@ -474,9 +485,9 @@
 *Published: 3 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41563-026-02575-w)
 
-> Researchers demonstrated static magnetization switching using voltage-controlled magnetic anisotropy without pulse width sensitivity.
+> Researchers demonstrated static magnetization switching using voltage-controlled magnetic anisotropy without being sensitive to pulse widths. This method could improve data storage devices.
 
-**Topics:** `magnetism` · `materials science`
+**Topics:** `magnetism` · `spintronics` · `materials science`
 
 ---
 
@@ -487,7 +498,7 @@
 
 > A new sequencing-based method maps synaptic connections by capturing paired neuronal barcodes from intact fragments, enabling comprehensive brain connectivity maps.
 
-**Topics:** `neuroscience` · `synaptic biology` · `sequencing technologies`
+**Topics:** `neuroscience` · `connectomics` · `sequencing`
 
 ---
 
@@ -507,7 +518,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41592-026-03028-7)
 
-> A model-agnostic framework measures uncertainty in protein embeddings and assesses their biological relevance to improve model reliability.
+> A model-agnostic framework measures uncertainty in protein embeddings and assesses biological relevance to improve model reliability.
 
 **Topics:** `protein structure` · `machine learning` · `bioinformatics`
 
@@ -518,185 +529,291 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41592-026-03047-4)
 
-> Researchers developed a method called ROCKET that uses a neural network to improve the accuracy of determining protein structures through experimental methods like X-ray crystallography and cryo-electron microscopy.
+> A new method called ROCKET combines machine learning models with experimental data to improve the accuracy of protein structure determination. This approach uses implicit structural knowledge from a pre-trained neural network to enhance experimental results. The study shows that ROCKET can improve the quality of protein structures determined by X-ray crystallography and cryo-electron microscopy. This could have significant implications for understanding protein function and behavior.
 
-**Topics:** `protein structure` · `machine learning`
-
----
-
----
-## Addiction
-
-### Is social media addictive? Why a formal diagnosis is still out of reach
-**Nature** | Dar Meshi  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-01023-8)
-
-> Due to limited methods and a lack of guidance around diagnostic criteria, scientists are reluctant to use the term addiction when referring to social media.
-
-**Topics:** `addiction` · `social media`
+**Topics:** `machine learning` · `protein structure` · `structural biology`
 
 ---
 
 ---
-## Astronomy
+## Astrophysics & Gravitational Waves
 
 ### A solar system is born
 **Nature** | Unknown authors  
 *Published: 31 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-01002-z)
 
-> Astronomers have discovered a second planet forming from the material orbiting a young star, only the second such example known.
+> Astronomers have discovered a second planet forming around a young star, providing new insights into planetary formation.
 
-**Topics:** `astronomy` · `exoplanets`
-
----
-
----
-## Authorship
-
-### A responsible authorship culture is needed — it is a collective responsibility
-**Nature** | Véronique Kiermer, Kirsten Bibbins-Domingo, Magdalena Skipper  
-*Published: 31 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00997-9)
-
-> The authors argue that a responsible authorship culture is needed, and it is a collective responsibility.
-
-**Topics:** `authorship` · `academic publishing`
+**Topics:** `astronomy` · `planetary science`
 
 ---
 
 ---
-## Bioinformatics
-
-### Scalable homology detection with ERAST
-**Nature Biotechnology** | Yinuo Jiang, Bing He, Zihan Wu, Fang Wang, Tianxu Lv et al. (+6 more)  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41587-026-03051-1)
-
-> A new method called ERAST speeds up homology search and provides a vector database for 1 billion biological sequences.
-
-**Topics:** `bioinformatics` · `machine learning` · `homology detection`
-
----
-
-### A toolkit for modeling <i>cis</i>-regulatory logic of enhancers at large scale
-**Nature Methods** | Unknown authors  
-*Published: 4 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41592-026-03058-1)
-
-> A new software package called CREsted provides data-driven insights into the regulatory elements driving enhancer function in cell types from single-cell chromatin accessibility atlases.
-
-**Topics:** `bioinformatics` · `regulatory genomics` · `enhancers`
-
----
-
-### A toolkit for modeling <i>cis</i>-regulatory logic of enhancers at large scale
-**Nature Methods** | Unknown authors  
-*Published: 4 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41592-026-03058-1)
-
-> A software package called CREsted was developed to model and analyze enhancer regulatory logic at a large scale, using single-cell chromatin accessibility data.
-
-**Topics:** `bioinformatics` · `genomics`
-
----
-
----
-## Cancer Biology
-
-### A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer
-**Cell** | Robin Caire, Roberta Bordo, Francesca Zanconato, Tito Panciera, Estelle Audoux, Paolo Contessotto, Michaela Fakiola, Ramona Bason, Oriana Romano, Ambela Suli, Giusy Battilana, Matteo Marchionni, Mattia Forcato, Sara Donzelli, Maria Vittoria Dieci, Gaia Griguolo, Mariantonia Carosi, Matteo Fassan, Vincenza Guzzardo, Angelo Paolo Dei Tos, Silvia Marsoni, Pei-Hsun Wu, Denis Wirtz, Shanshan He, Cecilia Casali, Francesco Volpin, Giovanni Blandino, Claudio Tripodo, Silvio Bicciato, Valentina Guarneri, Massimiliano Pagani, Michelangelo Cordenonsi, Stefano Piccolo  
-*Published: 31 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00276-X?rss=yes)
-
-> A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer has been identified, revealing a fractal lattice of epithelial cords.
-
-**Topics:** `cancer biology` · `metastasis` · `tissue engineering`
-
----
-
----
-## Cancer Research
-
-### Senescence in cancer: Hallmarks, paradoxes, and therapeutic promise
-**Cell** | Clemens Hinterleitner, Hailey V. Goldberg, Domhnall McHugh, Valentin J.A. Barthet, Aveline Filliol, Scott W. Lowe  
-*Published: 3 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00272-2?rss=yes)
-
-> Cellular senescence is a program that halts cell division and rewires chromatin, metabolism, microenvironment sensing, and immune interactions to suppress or promote cancer.
-
-**Topics:** `Cancer Research` · `Cell Biology` · `Senescence`
-
----
-
----
-## Cell Biology
-
-### Structure of the mouse cytoplasmic lattice
-**Nature** | Pengliang Chi, Xiang Wang, Jialu Li, Jingrui Huang, Sicheng Ju et al. (+13 more)  
-*Published: 31 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10442-6)
-
-> The structure of the mouse cytoplasmic lattice was determined, providing insights into cellular organization.
-
-**Topics:** `cell biology` · `structural biology`
-
----
-
----
-## Climate Change
+## Atmospheric Science & Aviation
 
 ### Schrödinger’s carbon’: The misclassification of carbon capture and storage as standard mitigation
 **Nature** | Rosalie Arendt  
 *Published: 31 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-01009-6)
 
-> The paper argues that carbon capture and storage is not a standard mitigation strategy for climate change, but rather a complex issue.
+> The paper argues that carbon capture and storage is not a standard mitigation strategy for climate change, challenging current assumptions.
 
 **Topics:** `climate change` · `carbon capture and storage`
 
 ---
 
 ---
-## Electrophysiology
+## Materials Science & Machine Learning
 
-### A semi-automated MEA spike sorting method for high-throughput assessment of cultured neurons
-**Stem Cell Reports** | Xiaoxuan Ren, Carissa L. Sirois, Raymond Doudlah, Ethan E. Dayley, Natasha M. Méndez-Albelo, Aviad Hai, Ari Rosenberg, Xinyu Zhao  
+### Mix-and-match synthesis of 3D small molecules
+**Nature** | Huyen N. Nguyen, Daniel J. Blair  
 *Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00083-4?rss=yes)
+[Full paper](https://www.nature.com/articles/d41586-026-00809-0)
 
-> A semi-automated MEA spike sorting method (SAMS) improves efficiency and accuracy for analyzing cultured neurons.
+> A new chemistry method enables the modular synthesis of 3D organic molecules, which could be useful for drug discovery and materials design.
 
-**Topics:** `electrophysiology` · `neuroscience` · `stem cell biology`
-
----
+**Topics:** `organic chemistry` · `materials science` · `drug discovery`
 
 ---
-## Epidemiology
 
-### Evolution of pandemic cholera at its global source
-**Nature** | Amber Barton, Mokibul Hassan Afrad, Alyce Taylor-Brown, Nisha Singh, Chetan Thakur et al. (+9 more)  
+### Dual-symmetry-guided assembly of complex lattices
+**Nature** | Huang Fang, Xiaotian Li, Wensi Sun, Chengxin Wang, Nuo Chen et al. (+5 more)  
 *Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10340-x)
+[Full paper](https://www.nature.com/articles/s41586-026-10364-3)
 
-> A study found that the seventh cholera pandemic evolved separately in Bangladesh and India, with the Ganges Basin acting as the global source.
+> A dual-symmetry-guided strategy assembles complex Archimedean lattices and quasicrystalline structures, providing a general route to complex-symmetry materials.
 
-**Topics:** `epidemiology` · `microbiology` · `evolutionary biology`
+**Topics:** `materials science` · `crystallography`
+
+---
+
+### Structure of the mouse cytoplasmic lattice
+**Nature** | Pengliang Chi, Xiang Wang, Jialu Li, Jingrui Huang, Sicheng Ju et al. (+13 more)  
+*Published: 31 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10442-6)
+
+> A commentary discusses the credibility problem in science, highlighting the need for improved research practices and transparency.
+
+**Topics:** `science policy` · `research ethics`
+
+---
+
+### Complete biosynthesis of nicotine
+**Cell** | Lijing Chang, Zhen Xu, Purong Deng, Ning Zhang, Tingrui He, Xinying Liu, Wenqi He, Anqi Zheng, Wenjun Hu, Mingjun Pan, Wenjuan Li, Rayko Halitschke, Ran Li, Minrui Fan, Ian T. Baldwin, Yu Zhang, Dapeng Li  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00335-1?rss=yes)
+
+> Researchers have developed a method to biosynthesize nicotine from scratch using a vacuolar membrane metabolon.
+
+**Topics:** `plant biology` · `metabolic engineering`
+
+---
+
+### A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer
+**Cell** | Robin Caire, Roberta Bordo, Francesca Zanconato, Tito Panciera, Estelle Audoux, Paolo Contessotto, Michaela Fakiola, Ramona Bason, Oriana Romano, Ambela Suli, Giusy Battilana, Matteo Marchionni, Mattia Forcato, Sara Donzelli, Maria Vittoria Dieci, Gaia Griguolo, Mariantonia Carosi, Matteo Fassan, Vincenza Guzzardo, Angelo Paolo Dei Tos, Silvia Marsoni, Pei-Hsun Wu, Denis Wirtz, Shanshan He, Cecilia Casali, Francesco Volpin, Giovanni Blandino, Claudio Tripodo, Silvio Bicciato, Valentina Guarneri, Massimiliano Pagani, Michelangelo Cordenonsi, Stefano Piccolo  
+*Published: 31 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00276-X?rss=yes)
+
+> A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer has been identified.
+
+**Topics:** `cancer biology` · `cellular morphology`
+
+---
+
+### Mirror-enhanced 4Pi-SMLM with one objective enables isotropic nanoscale imaging
+**Nature Biotechnology** | Zijing Yu, Bei Zheng, Yajing Zhan, Shuxin Li, Xulong Wang et al. (+12 more)  
+*Published: 31 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41587-026-03083-7)
+
+> A new microscopy technique simplifies and makes accessible single-molecule 4Pi imaging using a single objective.
+
+**Topics:** `microscopy` · `single-molecule imaging` · `nanoscale imaging`
 
 ---
 
 ---
-## Genomics
+## Materials Science & Metallurgy
+
+### Removing aluminium impurities in primary magnesium at an ultra-low cost
+**Nature Materials** | Rui Zheng, Bo Yang, Yue-Cun Wang, Bo-Yu Liu, Wei-Yi Yang et al. (+1 more)  
+*Published: 3 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02561-2)
+
+> A new method to remove aluminum impurities from magnesium at a low cost was discovered. This could enable large-scale production of high-purity magnesium.
+
+**Topics:** `materials science` · `metallurgy` · `alloys`
+
+---
+
+---
+## Materials Science & Nanotechnology
+
+### These advanced solar cells have an antique source: old bullets
+**Nature** | Unknown authors  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-01001-0)
+
+> Scientists discovered that old bullets can be recycled to create raw materials for advanced solar cells, specifically perovskite solar cells.
+
+**Topics:** `solar energy` · `recycling` · `materials science`
+
+---
+
+### Stoichiometric FeTe is a superconductor
+**Nature** | Zi-Jie Yan, Zihao Wang, Bing Xia, Stephen Paolini, Ying-Ting Chan et al. (+11 more)  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10321-0)
+
+> Researchers discovered that stoichiometric FeTe is a superconductor, contradicting previous assumptions about its properties. This finding could lead to new materials with unique electrical properties.
+
+**Topics:** `materials science` · `superconductivity`
+
+---
+
+### Angle evolution of the superconducting phase diagram in twisted bilayer WSe<sub>2</sub>
+**Nature** | Yinjie Guo, John Cenker, Ammon Fischer, Daniel Muñoz-Segovia, Jordan Pack et al. (+11 more)  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10357-2)
+
+> A study found that superconductivity in twisted bilayer WSe2 evolves smoothly with twist angle and emerges near Fermi surface reconstruction, linking previously distinct phase diagrams.
+
+**Topics:** `superconductivity` · `materials science` · `condensed matter physics`
+
+---
+
+### Author Correction: Signatures of ambient pressure superconductivity in thin film La<sub>3</sub>Ni<sub>2</sub>O<sub>7</sub>
+**Nature** | Eun Kyo Ko, Yijun Yu, Yidi Liu, Lopa Bhatt, Jiarui Li et al. (+9 more)  
+*Published: 31 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10335-8)
+
+> A study examines the structure of the mouse cytoplasmic lattice, providing new insights into cellular organization and function.
+
+**Topics:** `cell biology` · `structural biology`
+
+---
+
+### Two-dimensional materials for integrated sensing
+**Nature Materials** | Hangyu Xu, Zhihao Xu, Qinqi Ren, Yuan Meng, Sangmoon Han et al. (+4 more)  
+*Published: 6 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02551-4)
+
+> Two-dimensional materials have the potential to be used for in situ encoding and optoelectronic sensing in computing technologies. This review discusses the current state of integrated optoelectronic sensing based on 2D materials and future challenges.
+
+**Topics:** `materials science` · `optoelectronics`
+
+---
+
+### Bulk nano-heterointerface secures molecular contacts in perovskite solar cells
+**Nature Materials** | Yixin Luo, Jiahui Shen, Ke Zhao, Shenglong Chu, Yuan Tian et al. (+25 more)  
+*Published: 6 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02546-1)
+
+> A new design for perovskite solar cells improves their operational stability by strengthening the binding force between molecules and spherical silicon oxide nanoparticles. This is achieved through a bulk nano-heterointerface that increases the interfacial contact area.
+
+**Topics:** `materials science` · `solar cells`
+
+---
+
+### Nanophotonic chip-space interfaces for multidimensional nonlinear optics
+**Nature Materials** | Dunzhao Wei, Bo Chen, Shuai Wan, Yixuan Wang, Jiantao Ma et al. (+13 more)  
+*Published: 3 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02570-1)
+
+> A new type of nanophotonic chip-space interface can generate on-demand nonlinear structured light, including tunable optical vortices and spatiotemporal vortex pulses. This is achieved through the use of thin-film lithium niobate microrings.
+
+**Topics:** `nanotechnology` · `nonlinear optics`
+
+---
+
+### Tuning phonon transmission via single-atom substituents
+**Nature Materials** | Yuxuan Luan, Matthias Blaschke, Yuji Isshiki, Jian Guan, Fabian Pauly et al. (+2 more)  
+*Published: 2 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02568-9)
+
+> Researchers found that single-atom substituents can tune phonon transmission in molecular junctions, controlling thermal conductance by a factor of two.
+
+**Topics:** `nanoscience` · `molecular electronics` · `phonon transport`
+
+---
+
+---
+## Neuroscience & Bioinformatics
+
+### Why some cancer-fighting immune cells lose their strength inside tumours
+**Nature** | Edward Chen  
+*Published: 2 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-01015-8)
+
+> Researchers found that mitochondria play a crucial role in powering dendritic cells, which are immune defenders. However, these cells can lose their strength when inside tumors.
+
+**Topics:** `immunology` · `cancer biology` · `cellular biology`
+
+---
 
 ### The 1000 Chinese Pangenome empowers medical and population genetics
 **Nature** | Yifei Wang, Zhongqu Duan, Dan Chen, Dandan Shi, Yi Ding et al. (+16 more)  
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10315-y)
 
-> A team of researchers developed a pangenome-informed genome assembly workflow, enabling the creation of 1,116 diploid genome assemblies representing medically relevant genic variations.
+> The 1000 Chinese Pangenome project generated a comprehensive resource of medically relevant genic variations.
 
 **Topics:** `genomics` · `population genetics` · `medical genetics`
+
+---
+
+### Gene regulatory landscape dissected by single-cell four-omics sequencing
+**Nature** | Yujie Chen, Zhiyuan Liu, Heming Xu, Jiayu Liu, Mengxuan Wang et al. (+6 more)  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10322-z)
+
+> A single-cell four-omics sequencing study revealed dynamics and spatial clustering of epigenome profiles across cell types and tissues.
+
+**Topics:** `single-cell genomics` · `epigenetics` · `chromatin accessibility`
+
+---
+
+### Dopaminergic mechanisms of dynamical social specialization
+**Nature** | C. Solié, A. Nicolson, R. Justo, Y. Layadi, B. Morin et al. (+19 more)  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10301-4)
+
+> A study on dopaminergic mechanisms found that they drive sex-divergent patterns of social specialization in mice.
+
+**Topics:** `neuroscience` · `social behavior` · `dopamine signaling`
+
+---
+
+### A µ-opioid receptor superagonist analgesic with minimal adverse effects
+**Nature** | Juan L. Gomez, Emilya N. Ventriglia, Zachary J. Frangos, Agnieszka Sulima, Michael J. Robertson et al. (+39 more)  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10299-9)
+
+> A new opioid receptor superagonist has been developed with minimal adverse effects. This compound, N-desethyl-fluornitrazene, is derived from nitazenes and shows supramaximal intrinsic efficacy in rodent models.
+
+**Topics:** `opioid receptors` · `analgesics` · `pharmacology`
+
+---
+
+### Electric dipole moment drives the dynamics of the&#xa0;TNFR1 complex I signalosome
+**Nature** | Jianping Liu, Jing Zhao, Jiayang Gao, Kun Zhao, Yaoyao Han et al. (+13 more)  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10304-1)
+
+> Electric dipole moments play a key role in driving the assembly and disassembly of super-signalling complex I for promoting NF-κB signalling.
+
+**Topics:** `protein structure` · `signal transduction` · `immunology`
+
+---
+
+### An enteric neuron ionotropic receptor regulates salt stress resistance
+**Nature** | Jihye Yeon, Jinmahn Kim, Koji Sato, Stephen Nurrish, Laurie Chen et al. (+8 more)  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10348-3)
+
+> The I3 pharyngeal enteric neuron in Caenorhabditis elegans detects high-salt conditions and regulates genes related to salt stress resistance.
+
+**Topics:** `neuroscience` · `genetics`
 
 ---
 
@@ -705,9 +822,119 @@
 *Published: 31 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10389-8)
 
-> This paper corrects an error in the original publication of a study analyzing copy number variants in 470,727 UK Biobank genomes.
+> This paper corrects an error in the original publication of a large-scale analysis of copy number variants in UK Biobank genomes.
 
 **Topics:** `genomics` · `copy number variants`
+
+---
+
+### Senescence in cancer: Hallmarks, paradoxes, and therapeutic promise
+**Cell** | Clemens Hinterleitner, Hailey V. Goldberg, Domhnall McHugh, Valentin J.A. Barthet, Aveline Filliol, Scott W. Lowe  
+*Published: 3 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00272-2?rss=yes)
+
+> Cellular senescence is a program that halts cell division and rewires cellular processes to either suppress or promote cancer, offering exciting therapeutic opportunities.
+
+**Topics:** `Cancer Research` · `Cell Biology`
+
+---
+
+### Sulfur partitioning from cysteine controls T cell proliferation and effector function
+**Cell** | Beth Kelly, Minsun Cha, Tatjana Gremelspacher, Jacob L. Martin, Massimo Andreis, Isha Maloo, Gustavo E. Carrizo, Mia Gidley, Michal A. Stanczak, Petya Apostolova, Joseph Longo, Lisa M. DeCamp, Eric H. Ma, Ryan D. Sheldon, Russell G. Jones, David E. Sanin, Ananya Majumdar, Erika L. Pearce  
+*Published: 31 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00279-5?rss=yes)
+
+> The sulfur partitioning from cysteine has been found to control T cell proliferation and effector function.
+
+**Topics:** `immunology` · `metabolic regulation`
+
+---
+
+### Rational discovery of therapeutic PAK1 allosteric activators
+**Cell** | Yu He, James S.H. Bae, Elżbieta Nowak, Carlos Outeiral, Daniel A. Nissley, Anthony Tumber, Georgina Berridge, Eidarus Salah, Yi Wang, Wenqi He, Hongyuan Zhang, Tangting Chen, Samuel Tusk, Sebastian Mathea, Ying-Jie Wang, Alexander Grassam-Rowe, Philipp Kukura, Christopher J. Schofield, Darragh P. O’Brien, Andrea Pierangelini, Grant C. Churchill, Thomas Lanyon-Hogg, Yunbo Ke, Chao Xu, Tao Ye, Hugh Watkins, Liming Ying, Andreas Koschinski, R. John Solaro, Xiaoqiu Tan, Jani R. Bolla, Xin Wang, Stefan Knapp, Charlotte M. Deane, Manuela Zaccolo, Marcin Nowotny, Ming Lei  
+*Published: 31 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00275-8?rss=yes)
+
+> A rational strategy has been developed to discover therapeutic PAK1 allosteric activators.
+
+**Topics:** `signal transduction` · `therapeutics`
+
+---
+
+### A semi-automated MEA spike sorting method for high-throughput assessment of cultured neurons
+**Stem Cell Reports** | Xiaoxuan Ren, Carissa L. Sirois, Raymond Doudlah, Ethan E. Dayley, Natasha M. Méndez-Albelo, Aviad Hai, Ari Rosenberg, Xinyu Zhao  
+*Published: 2 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00083-4?rss=yes)
+
+> A semi-automated MEA spike sorting method, SAMS, efficiently and accurately sorts electrophysiological data of cultured neurons.
+
+**Topics:** `electrophysiology` · `neuroscience` · `stem cell biology`
+
+---
+
+### Rheostats, not switches: Nuclear receptor dosage tunes somatic-to-iPSC reprogramming
+**Stem Cell Reports** | Constantinos Chronis  
+*Published: 2 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00082-2?rss=yes)
+
+> Nuclear receptor dosage, specifically Rora expression level, controls somatic-to-iPSC reprogramming.
+
+**Topics:** `stem cell biology` · `reprogramming` · `transcriptional regulation`
+
+---
+
+### Dose-resolved control of somatic reprogramming by Rora
+**Stem Cell Reports** | Haiyun Wang, Yusha Li, Chunkou Yin, Zhen Zhang, Yixuan Wang, Yi Li, Chuang Li, Runxia Lin, Xiaoli Zhang, Jing Guo, Rongping Luo, Shumin Li, Lv Zhang, Yingting Zhuang, Anchun Xu, Jiani Wan, Lizhan Xiao, Bailing Chen, Shengyong Yu, Manish Kumar, Jing Liu  
+*Published: 2 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00081-0?rss=yes)
+
+> Rora's impact on reprogramming is dose sensitive, with low doses enhancing and high doses inhibiting reprogramming.
+
+**Topics:** `stem cell biology` · `reprogramming` · `transcriptional regulation`
+
+---
+
+### Dietary restriction mitigates 5-fluorouracil-induced thrombocytopenia in aged mice via mitochondrial potentiation in hematopoietic stem cells and megakaryocyte progenitors
+**Stem Cell Reports** | Xingxing Qiu, Duozhuang Tang, Jiahao Lin, Zhiyang Chen, Rongrong Qiu, Qiao Wang, Siyao He, Shaotong Zhang, Qiang Zhan, Zhendong Tao, Liu Zhang, Si Tao  
+*Published: 2 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00080-9?rss=yes)
+
+> Dietary restriction mitigates chemotherapy-induced thrombocytopenia in aged mice by improving mitochondrial homeostasis in hematopoietic stem cells.
+
+**Topics:** `gerontology` · `hematology` · `stem cell biology`
+
+---
+
+### Scalable homology detection with ERAST
+**Nature Biotechnology** | Yinuo Jiang, Bing He, Zihan Wu, Fang Wang, Tianxu Lv et al. (+6 more)  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41587-026-03051-1)
+
+> The ERAST method speeds up homology search and provides a vector database for 1 billion biological sequences.
+
+**Topics:** `bioinformatics` · `machine learning` · `homology detection`
+
+---
+
+### Scalable single-cell total RNA sequencing unifies coding and noncoding transcriptomics
+**Nature Biotechnology** | Alina Isakova, Daniel Dan Liu, Ivana Cvijović, Rahul Sinha, Anna E. Eastman et al. (+6 more)  
+*Published: 31 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41587-026-03068-6)
+
+> A new method for simultaneous profiling of adenylated and non-adenylated RNAs reveals regulatory programs across diverse cell types.
+
+**Topics:** `single-cell genomics` · `RNA sequencing` · `regulatory genomics`
+
+---
+
+### A toolkit for modeling <i>cis</i>-regulatory logic of enhancers at large scale
+**Nature Methods** | Unknown authors  
+*Published: 4 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41592-026-03058-1)
+
+> A software package, CREsted, provides data-driven insights into the regulatory elements driving enhancer function in cell types from single-cell chromatin accessibility atlases.
+
+**Topics:** `regulatory genomics` · `enhancers` · `single-cell analysis`
 
 ---
 
@@ -722,6 +949,17 @@
 
 ---
 
+### A toolkit for modeling <i>cis</i>-regulatory logic of enhancers at large scale
+**Nature Methods** | Unknown authors  
+*Published: 4 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41592-026-03058-1)
+
+> A new software package, CREsted, was developed to model the regulatory logic of enhancers at a large scale. This could help decipher the genomic regulatory code.
+
+**Topics:** `bioinformatics` · `genomics` · `regulatory genomics`
+
+---
+
 ### CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species
 **Nature Methods** | Niklas Kempynck, Seppe De Winter, Casper H. Blaauw, Vasileios Konstantakos, Eren Can Ekşi et al. (+10 more)  
 *Published: 2 Apr 2026* | 🟡 Medium  
@@ -729,266 +967,53 @@
 
 > CREsted is a toolbox for analyzing, modeling, and designing cell-type-specific enhancers across various species. It's efficient and user-friendly.
 
-**Topics:** `genomics` · `computational biology`
+**Topics:** `genomics` · `bioinformatics` · `computational biology`
 
 ---
 
 ---
-## Healthcare Policy
+## Paleontology & Evolutionary Biology
 
-### Why the US needs a unified, mission-based strategy for health innovation
-**Nature** | Victor J. Dzau, Melissa H. Laitner, Emily L. Shambaugh, Alex M. Helman  
-*Published: 6 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-01027-4)
-
-> A unified, mission-based strategy for health innovation is needed in the US to address unmet medical needs and improve treatment reach.
-
-**Topics:** `healthcare policy` · `medical research` · `innovation`
-
----
-
----
-## Immunology
-
-### Why some cancer-fighting immune cells lose their strength inside tumours
-**Nature** | Edward Chen  
-*Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-01015-8)
-
-> Researchers found that some cancer-fighting immune cells called dendritic cells lose their strength when inside tumors due to a lack of mitochondria.
-
-**Topics:** `immunology` · `cancer biology`
-
----
-
-### Sulfur partitioning from cysteine controls T cell proliferation and effector function
-**Cell** | Beth Kelly, Minsun Cha, Tatjana Gremelspacher, Jacob L. Martin, Massimo Andreis, Isha Maloo, Gustavo E. Carrizo, Mia Gidley, Michal A. Stanczak, Petya Apostolova, Joseph Longo, Lisa M. DeCamp, Eric H. Ma, Ryan D. Sheldon, Russell G. Jones, David E. Sanin, Ananya Majumdar, Erika L. Pearce  
-*Published: 31 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00279-5?rss=yes)
-
-> Cysteine's sulfur is a key determinant of CD8+ T cell immune function, controlling proliferation and effector function.
-
-**Topics:** `immunology` · `metabolic regulation` · `T cell biology`
-
----
-
----
-## Kinase Biology
-
-### Rational discovery of therapeutic PAK1 allosteric activators
-**Cell** | Yu He, James S.H. Bae, Elżbieta Nowak, Carlos Outeiral, Daniel A. Nissley, Anthony Tumber, Georgina Berridge, Eidarus Salah, Yi Wang, Wenqi He, Hongyuan Zhang, Tangting Chen, Samuel Tusk, Sebastian Mathea, Ying-Jie Wang, Alexander Grassam-Rowe, Philipp Kukura, Christopher J. Schofield, Darragh P. O’Brien, Andrea Pierangelini, Grant C. Churchill, Thomas Lanyon-Hogg, Yunbo Ke, Chao Xu, Tao Ye, Hugh Watkins, Liming Ying, Andreas Koschinski, R. John Solaro, Xiaoqiu Tan, Jani R. Bolla, Xin Wang, Stefan Knapp, Charlotte M. Deane, Manuela Zaccolo, Marcin Nowotny, Ming Lei  
-*Published: 31 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00275-8?rss=yes)
-
-> A rational strategy has been developed to discover therapeutic PAK1 allosteric activators, which exhibit efficacy in hypertrophic cardiomyopathy.
-
-**Topics:** `kinase biology` · `allosteric activation` · `cardiovascular disease`
-
----
-
----
-## Materials Science
-
-### Stoichiometric FeTe is a superconductor
-**Nature** | Zi-Jie Yan, Zihao Wang, Bing Xia, Stephen Paolini, Ying-Ting Chan et al. (+11 more)  
+### Evolution of pandemic cholera at its global source
+**Nature** | Amber Barton, Mokibul Hassan Afrad, Alyce Taylor-Brown, Nisha Singh, Chetan Thakur et al. (+9 more)  
 *Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10321-0)
+[Full paper](https://www.nature.com/articles/s41586-026-10340-x)
 
-> Researchers discovered that stoichiometric FeTe, a material previously thought to be an antiferromagnetic metal, is actually a superconductor. This finding challenges our current understanding of this material.
+> A study found that the seventh cholera pandemic, driven by El Tor Vibrio cholerae, evolved separately in Bangladesh and India, with the Ganges Basin acting as the global source.
 
-**Topics:** `materials science` · `superconductivity`
-
----
-
-### Dual-symmetry-guided assembly of complex lattices
-**Nature** | Huang Fang, Xiaotian Li, Wensi Sun, Chengxin Wang, Nuo Chen et al. (+5 more)  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10364-3)
-
-> A dual-symmetry-guided strategy has been developed for assembling complex lattices and quasicrystalline structures. This method provides a general and experimentally accessible route to complex-symmetry materials.
-
-**Topics:** `materials science` · `crystallography`
+**Topics:** `microbiology` · `epidemiology`
 
 ---
-
-### Two-dimensional materials for integrated sensing
-**Nature Materials** | Hangyu Xu, Zhihao Xu, Qinqi Ren, Yuan Meng, Sangmoon Han et al. (+4 more)  
-*Published: 6 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41563-026-02551-4)
-
-> Two-dimensional materials have potential for in situ encoding and optoelectronic sensing in computing technologies, but challenges remain for integrated sensing.
-
-**Topics:** `materials science` · `optoelectronics`
-
----
-
-### Bulk nano-heterointerface secures molecular contacts in perovskite solar cells
-**Nature Materials** | Yixin Luo, Jiahui Shen, Ke Zhao, Shenglong Chu, Yuan Tian et al. (+25 more)  
-*Published: 6 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41563-026-02546-1)
-
-> A bulk nano-heterointerface design improves the operational stability of perovskite solar cells by strengthening molecular contacts.
-
-**Topics:** `materials science` · `solar energy`
-
----
-
-### Removing aluminium impurities in primary magnesium at an ultra-low cost
-**Nature Materials** | Rui Zheng, Bo Yang, Yue-Cun Wang, Bo-Yu Liu, Wei-Yi Yang et al. (+1 more)  
-*Published: 3 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41563-026-02561-2)
-
-> A cost-effective method to remove aluminum impurities from primary magnesium was developed, enabling large-scale production of high-purity magnesium.
-
-**Topics:** `materials science` · `metallurgy`
-
----
-
----
-## Mental Health
-
-### Struggling to focus on research when the world is ‘on fire’? Some ways to cope
-**Nature** | Diana Kwon  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00264-x)
-
-> Researchers are struggling with the impact of distressing news on their mental health and scientific work.
-
-**Topics:** `mental health` · `scientific productivity`
-
----
-
----
-## Microscopy
-
-### Mirror-enhanced 4Pi-SMLM with one objective enables isotropic nanoscale imaging
-**Nature Biotechnology** | Zijing Yu, Bei Zheng, Yajing Zhan, Shuxin Li, Xulong Wang et al. (+12 more)  
-*Published: 31 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41587-026-03083-7)
-
-> A new microscopy technique called mirror-enhanced 4Pi-SMLM with one objective enables isotropic nanoscale imaging.
-
-**Topics:** `microscopy` · `nanoscale imaging` · `single-molecule localization`
-
----
-
----
-## Nanoscience
-
-### Tuning phonon transmission via single-atom substituents
-**Nature Materials** | Yuxuan Luan, Matthias Blaschke, Yuji Isshiki, Jian Guan, Fabian Pauly et al. (+2 more)  
-*Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41563-026-02568-9)
-
-> Atomic-level changes to molecular junctions were found to significantly affect phonon transmission, with single atoms influencing thermal conductance.
-
-**Topics:** `nanoscience` · `materials science`
-
----
-
----
-## Nanotechnology
-
-### Nanoscale transfer-printed full-colour ultrahigh-resolution quantum dot LEDs
-**Nature** | Lihua Lin, Jie Wang, Hailong Hu, Haolin Luo, Yanbin Liu et al. (+8 more)  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10333-w)
-
-> Researchers developed a method for manufacturing high-performance full-color ultrahigh-resolution quantum dot LEDs using a dual-action force dynamics strategy.
-
-**Topics:** `nanotechnology` · `optoelectronics` · `materials science`
-
----
-
-### Nanophotonic chip-space interfaces for multidimensional nonlinear optics
-**Nature Materials** | Dunzhao Wei, Bo Chen, Shuai Wan, Yixuan Wang, Jiantao Ma et al. (+13 more)  
-*Published: 3 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41563-026-02570-1)
-
-> A nanophotonic chip-space interface generates on-demand nonlinear structured light, including tunable optical vortices and spatiotemporal vortex pulses.
-
-**Topics:** `nanotechnology` · `optics`
-
----
-
----
-## Neuroscience
-
-### Dopaminergic mechanisms of dynamical social specialization
-**Nature** | C. Solié, A. Nicolson, R. Justo, Y. Layadi, B. Morin et al. (+19 more)  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10301-4)
-
-> Longitudinal tracking of mice revealed that stable, specialized social roles emerge spontaneously within groups during a foraging task, driven by dopaminergic activity in the ventral tegmental area.
-
-**Topics:** `neuroscience` · `social behavior` · `dopamine`
-
----
-
-### An enteric neuron ionotropic receptor regulates salt stress resistance
-**Nature** | Jihye Yeon, Jinmahn Kim, Koji Sato, Stephen Nurrish, Laurie Chen et al. (+8 more)  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10348-3)
-
-> A specific enteric neuron in Caenorhabditis elegans has been found to regulate salt stress resistance. The GLR-9 ionotropic receptor is responsible for detecting high-salt conditions.
-
-**Topics:** `neuroscience` · `genetics`
-
----
-
----
-## Opioid Receptors
-
-### A µ-opioid receptor superagonist analgesic with minimal adverse effects
-**Nature** | Juan L. Gomez, Emilya N. Ventriglia, Zachary J. Frangos, Agnieszka Sulima, Michael J. Robertson et al. (+39 more)  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10299-9)
-
-> A new opioid receptor superagonist has been developed that produces analgesia with minimal adverse effects in rodent models.
-
-**Topics:** `opioid receptors` · `analgesics` · `pharmacology`
-
----
-
----
-## Organic Chemistry
-
-### Mix-and-match synthesis of 3D small molecules
-**Nature** | Huyen N. Nguyen, Daniel J. Blair  
-*Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00809-0)
-
-> A new method for synthesizing 3D small molecules has been developed, enabling modular synthesis and potential applications in drug discovery and materials design.
-
-**Topics:** `organic chemistry` · `synthetic methods` · `materials science`
-
----
-
----
-## Paleontology
 
 ### Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period
 **Nature** | James C. Lamsdell  
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00807-2)
 
-> Fossil evidence reveals how chelicerate arthropods, including spiders and scorpions, evolved. The origins of this group are now pushed back to the Cambrian period.
+> Fossil evidence reveals the evolution of chelicerate arthropods, which include spiders and scorpions. The findings push back the origins of this group to the Cambrian period.
 
 **Topics:** `paleontology` · `evolutionary biology`
 
 ---
 
+### Bunny or bug?
+**Nature** | Unknown authors  
+*Published: 31 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00912-2)
+
+> This paper appears to be a lighthearted article about unusual animal behaviors, with no scientific content.
+
+
 ---
-## Phage Biology
 
 ### Phages communicate across species to shape microbial ecosystems
 **Cell** | Francisca Gallego-del-Sol, Daniel Sin, Cora Chmielowska, Javier Mancheño-Bonillo, Yuyi Li, Sara Zamora-Caballero, Nuria Quiles-Puchalt, José R. Penadés, Alberto Marina  
 *Published: 31 Mar 2026* | 🟡 Medium  
 [Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00271-0?rss=yes)
 
-> Phages can communicate across species to regulate lysis-lysogeny decisions, shaping microbial ecosystems through crosstalk.
+> Phages have been found to communicate across species to shape microbial ecosystems through arbitrium-coding phage signals.
 
-**Topics:** `phage biology` · `microbial ecology` · `crosstalk`
+**Topics:** `virology` · `microbial ecology`
 
 ---
 
@@ -1004,86 +1029,16 @@
 ---
 
 ---
-## Plant Biology
+## Science Communication & Instrumentation
 
-### Complete biosynthesis of nicotine
-**Cell** | Lijing Chang, Zhen Xu, Purong Deng, Ning Zhang, Tingrui He, Xinying Liu, Wenqi He, Anqi Zheng, Wenjun Hu, Mingjun Pan, Wenjuan Li, Rayko Halitschke, Ran Li, Minrui Fan, Ian T. Baldwin, Yu Zhang, Dapeng Li  
+### An instrument named Cannoli
+**Nature Methods** | Vivien Marx  
 *Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00335-1?rss=yes)
+[Full paper](https://www.nature.com/articles/s41592-026-03059-0)
 
-> Researchers have developed a method to biosynthesize nicotine from scratch, enabling efficient production and pest resistance.
+> A lighthearted article shares the story of an instrument named Cannoli, highlighting scientists' affectionate naming conventions.
 
-**Topics:** `plant biology` · `metabolic engineering` · `nicotine biosynthesis`
-
----
-
----
-## Protein Structure
-
-### Electric dipole moment drives the dynamics of the&#xa0;TNFR1 complex I signalosome
-**Nature** | Jianping Liu, Jing Zhao, Jiayang Gao, Kun Zhao, Yaoyao Han et al. (+13 more)  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10304-1)
-
-> Long-range interactions mediated by protein electric dipole moments drive the assembly and disassembly of a complex involved in NF-κB signalling.
-
-**Topics:** `protein structure` · `cell biology` · `signal transduction`
-
----
-
----
-## Psychology
-
-### Daily briefing: Are boys really in crisis? What the science says
-**Nature** | Flora Graham  
-*Published: 31 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-01055-0)
-
-> Concerns about boys are widespread, but evidence suggests that worries should be understood in the context of all young people.
-
-**Topics:** `Psychology` · `Youth Development` · `Social Issues`
-
----
-
----
-## Public Health
-
-### Regular physical activity in midlife cuts risk of early death
-**Nature** | Unknown authors  
-*Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-01000-1)
-
-> Regular physical activity in midlife has been shown to significantly reduce the risk of early death, with even a few hours of moderate-to-vigorous exercise per week having a strong effect.
-
-**Topics:** `public health` · `exercise science`
-
----
-
----
-## Quantum Computing
-
-### ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity
-**Nature** | Davide Castelvecchi  
-*Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-01054-1)
-
-> Quantum computing breakthroughs pose a risk to cybersecurity, potentially compromising security keys and cryptocurrencies.
-
-**Topics:** `quantum computing` · `cybersecurity` · `information technology`
-
----
-
----
-## Science Communication
-
-### Engaging the head and the heart: why scientists turn to poetry
-**Nature** | Josie Glausiusz  
-*Published: 6 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-01028-3)
-
-> Researchers use poetry to visualize complex problems and communicate science to a wider audience.
-
-**Topics:** `science communication` · `poetry`
+**Topics:** `science communication` · `instrumentation`
 
 ---
 
@@ -1099,99 +1054,120 @@
 ---
 
 ---
-## Science Culture
+## Social Sciences & Reproducibility
 
-### An instrument named Cannoli
-**Nature Methods** | Vivien Marx  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41592-026-03059-0)
+### Engaging the head and the heart: why scientists turn to poetry
+**Nature** | Josie Glausiusz  
+*Published: 6 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-01028-3)
 
-> A lighthearted article shares the story of a scientist who named an instrument 'Cannoli'.
+> Scientists use poetry to visualize complex problems and communicate science to a wider audience.
 
-**Topics:** `science culture` · `instrumentation`
+**Topics:** `science communication` · `poetry`
+
+---
+
+### Why the US needs a unified, mission-based strategy for health innovation
+**Nature** | Victor J. Dzau, Melissa H. Laitner, Emily L. Shambaugh, Alex M. Helman  
+*Published: 6 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-01027-4)
+
+> A unified, mission-based strategy for health innovation in the US would address unmet medical needs, reduce costs, and improve treatment reach.
+
+**Topics:** `healthcare policy` · `medical research`
 
 ---
 
----
-## Science Methodology
-
-### More self-reflection in research can lead to better science
+### Regular physical activity in midlife cuts risk of early death
 **Nature** | Unknown authors  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00965-3)
-
-> A package of papers highlights the importance of self-reflection in research to improve the quality and reliability of scientific findings.
-
-**Topics:** `science methodology` · `research ethics`
-
----
-
----
-## Scientific Publishing
-
-### Option for transparent peer review
-**Nature Materials** | Unknown authors  
 *Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41563-026-02584-9)
+[Full paper](https://www.nature.com/articles/d41586-026-01000-1)
 
-> Nature Materials introduced an option for transparent peer review, allowing authors to include reviewer comments and rebuttal letters with their publication.
+> Regular physical activity in midlife reduces the risk of early death, with even a few hours of moderate-to-vigorous exercise per week having a strong effect.
 
-**Topics:** `scientific publishing` · `peer review`
-
----
+**Topics:** `public health` · `exercise science`
 
 ---
-## Single-Cell Genomics
-
-### Gene regulatory landscape dissected by single-cell four-omics sequencing
-**Nature** | Yujie Chen, Zhiyuan Liu, Heming Xu, Jiayu Liu, Mengxuan Wang et al. (+6 more)  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10322-z)
-
-> Single-cell four-omics sequencing revealed the dynamics and spatial clustering of epigenome profiles across cell types and tissues, enabling sophisticated analysis of gene regulation.
-
-**Topics:** `single-cell genomics` · `epigenetics` · `four-omics`
-
----
-
-### Scalable single-cell total RNA sequencing unifies coding and noncoding transcriptomics
-**Nature Biotechnology** | Alina Isakova, Daniel Dan Liu, Ivana Cvijović, Rahul Sinha, Anna E. Eastman et al. (+6 more)  
-*Published: 31 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41587-026-03068-6)
-
-> A new technique for simultaneous profiling of adenylated and non-adenylated RNAs reveals regulatory programs across diverse cell types.
-
-**Topics:** `single-cell genomics` · `RNA sequencing` · `regulatory biology`
-
----
-
----
-## Social Science
 
 ### Investigating the reproducibility of the social and behavioural sciences
 **Nature** | Olivia Miske, Anna Lou Abatayo, Mason Daley, Mirka Dirzo, Nicholas Fox et al. (+123 more)  
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/s41586-026-10203-5)
 
-> A study of over 600 papers in the social and behavioral sciences found that more recent papers are more likely to be reproducible, and that journals that require data sharing have higher reproducibility rates.
+> A study of over 600 papers in the social and behavioral sciences found that reproducibility has improved in recent years, particularly among journals that require data sharing.
 
-**Topics:** `social science` · `reproducibility` · `data sharing`
+**Topics:** `social science` · `behavioral science` · `reproducibility`
+
+---
+
+### Is social media addictive? Why a formal diagnosis is still out of reach
+**Nature** | Dar Meshi  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-01023-8)
+
+> Due to limited methods and a lack of guidance on diagnostic criteria, scientists are reluctant to use the term 'addiction' when describing social media's impact.
+
+**Topics:** `social media` · `psychology`
+
+---
+
+### Struggling to focus on research when the world is ‘on fire’? Some ways to cope
+**Nature** | Diana Kwon  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00264-x)
+
+> Researchers are struggling with the emotional toll of keeping up with distressing news, which is affecting their mental health and scientific work.
+
+**Topics:** `mental health` · `research productivity`
+
+---
+
+### More self-reflection in research can lead to better science
+**Nature** | Unknown authors  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00965-3)
+
+> A package of papers highlights the value of self-reflection in research, particularly in the social and behavioural sciences. The goal is to promote reproducible, replicable, and robust findings.
+
+**Topics:** `social sciences` · `science reproducibility`
+
+---
+
+### A responsible authorship culture is needed — it is a collective responsibility
+**Nature** | Véronique Kiermer, Kirsten Bibbins-Domingo, Magdalena Skipper  
+*Published: 31 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-00997-9)
+
+> The authors argue that a responsible authorship culture is needed in scientific publishing, emphasizing collective responsibility.
+
+**Topics:** `scientific publishing` · `authorship`
+
+---
+
+### Daily briefing: Are boys really in crisis? What the science says
+**Nature** | Flora Graham  
+*Published: 31 Mar 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-01055-0)
+
+> Concerns about boys being in crisis are widespread, but evidence suggests that these worries should be understood within the context of all young people.
+
+**Topics:** `Child Development` · `Youth Psychology`
+
+---
+
+### Option for transparent peer review
+**Nature Materials** | Unknown authors  
+*Published: 2 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41563-026-02584-9)
+
+> Nature Materials now offers the option for transparent peer review, allowing authors to include reviewer comments and rebuttals with their publication.
+
+**Topics:** `scientific publishing` · `peer review` · `open science`
 
 ---
 
 ---
-## Space Exploration
-
-### Moon fly-by live coverage: Artemis crew see intriguing colours on lunar surface
-**Nature** | Alexandra Witze  
-*Published: 6 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00989-9)
-
-> Astronauts on the Artemis mission observe intriguing colors on the lunar surface during a fly-by of the Moon's far side.
-
-**Topics:** `space exploration` · `lunar science` · `Artemis mission`
-
----
+## Space Exploration & Astronautics
 
 ### What Artemis II’s astronauts will look for on the Moon’s far side
 **Nature** | Alexandra Witze  
@@ -1200,7 +1176,29 @@
 
 > Mission scientists discuss the geological features they're most excited for the Artemis II crew to observe on the Moon's far side.
 
-**Topics:** `space exploration` · `lunar science` · `Artemis mission`
+**Topics:** `space exploration` · `geology`
+
+---
+
+### The Moon belongs to all of us — not just countries that can afford to reach it
+**Nature** | Moriba Jah  
+*Published: 2 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-01051-4)
+
+> The Moon should be considered a shared resource for humanity, rather than a privilege reserved for countries that can afford to explore it.
+
+**Topics:** `space law` · `sustainability`
+
+---
+
+### ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity
+**Nature** | Davide Castelvecchi  
+*Published: 2 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/d41586-026-01054-1)
+
+> Quantum computing breakthroughs pose a risk to cybersecurity, as quantum computers may be able to crack security keys and cryptocurrencies.
+
+**Topics:** `quantum computing` · `cybersecurity` · `computer science`
 
 ---
 
@@ -1209,9 +1207,20 @@
 *Published: 2 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-01059-w)
 
-> China plans to land people on the Moon by 2030 and establish a permanent lunar base, potentially beating the US to it.
+> China plans to land people on the Moon by 2030 and build a permanent base, potentially beating the United States to it.
 
 **Topics:** `space exploration` · `lunar missions` · `space policy`
+
+---
+
+### Nanoscale transfer-printed full-colour ultrahigh-resolution quantum dot LEDs
+**Nature** | Lihua Lin, Jie Wang, Hailong Hu, Haolin Luo, Yanbin Liu et al. (+8 more)  
+*Published: 1 Apr 2026* | 🟡 Medium  
+[Full paper](https://www.nature.com/articles/s41586-026-10333-w)
+
+> Researchers developed a method for manufacturing high-performance full-color ultrahigh-resolution quantum dot LEDs using a hard silicon template as a nanoimprinting stamp combined with inverted transfer printing.
+
+**Topics:** `nanotechnology` · `optoelectronics` · `materials science`
 
 ---
 
@@ -1220,9 +1229,9 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-00978-y)
 
-> The Artemis II mission sends humans to the Moon, marking a new era of exploration.
+> The Artemis II mission sends humans to the Moon, marking a new era of exploration and paving the way for future lunar missions.
 
-**Topics:** `space exploration` · `astronautics`
+**Topics:** `space exploration` · `astronautics` · `lunar missions`
 
 ---
 
@@ -1231,7 +1240,7 @@
 *Published: 1 Apr 2026* | 🟡 Medium  
 [Full paper](https://www.nature.com/articles/d41586-026-01097-4)
 
-> This article provides an update on NASA's Artemis II Moon mission, including the science it will conduct and its significance.
+> The upcoming NASA Artemis II Moon mission will conduct various scientific experiments, but some researchers are not concerned about its significance.
 
 **Topics:** `space exploration` · `NASA`
 
@@ -1244,109 +1253,6 @@
 
 > The NASA Artemis II mission will take astronauts around the Moon for the first time in over 50 years, marking a significant step towards lunar exploration.
 
-**Topics:** `Space Exploration` · `NASA` · `Artemis Program`
-
----
-
----
-## Space Law
-
-### The Moon belongs to all of us — not just countries that can afford to reach it
-**Nature** | Moriba Jah  
-*Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-01051-4)
-
-> The author argues that the Moon should be considered a shared resource for humanity, rather than being controlled by countries with the means to reach it.
-
-**Topics:** `space law` · `planetary governance`
-
----
-
----
-## Stem Cell Biology
-
-### Rheostats, not switches: Nuclear receptor dosage tunes somatic-to-iPSC reprogramming
-**Stem Cell Reports** | Constantinos Chronis  
-*Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00082-2?rss=yes)
-
-> Nuclear receptor dosage affects somatic-to-iPSC reprogramming, with moderate expression enhancing iPSC formation.
-
-**Topics:** `stem cell biology` · `reprogramming` · `nuclear receptors`
-
----
-
-### Dose-resolved control of somatic reprogramming by Rora
-**Stem Cell Reports** | Haiyun Wang, Yusha Li, Chunkou Yin, Zhen Zhang, Yixuan Wang, Yi Li, Chuang Li, Runxia Lin, Xiaoli Zhang, Jing Guo, Rongping Luo, Shumin Li, Lv Zhang, Yingting Zhuang, Anchun Xu, Jiani Wan, Lizhan Xiao, Bailing Chen, Shengyong Yu, Manish Kumar, Jing Liu  
-*Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00081-0?rss=yes)
-
-> Rora's impact on reprogramming is dose sensitive, with low doses enhancing and high doses inhibiting reprogramming.
-
-**Topics:** `stem cell biology` · `reprogramming` · `nuclear receptors`
-
----
-
-### Dietary restriction mitigates 5-fluorouracil-induced thrombocytopenia in aged mice via mitochondrial potentiation in hematopoietic stem cells and megakaryocyte progenitors
-**Stem Cell Reports** | Xingxing Qiu, Duozhuang Tang, Jiahao Lin, Zhiyang Chen, Rongrong Qiu, Qiao Wang, Siyao He, Shaotong Zhang, Qiang Zhan, Zhendong Tao, Liu Zhang, Si Tao  
-*Published: 2 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00080-9?rss=yes)
-
-> Dietary restriction mitigates chemotherapy-induced thrombocytopenia by improving mitochondrial homeostasis in hematopoietic stem cells.
-
-**Topics:** `stem cell biology` · `hematology` · `aging`
-
----
-
----
-## Superconductivity
-
-### Angle evolution of the superconducting phase diagram in twisted bilayer WSe<sub>2</sub>
-**Nature** | Yinjie Guo, John Cenker, Ammon Fischer, Daniel Muñoz-Segovia, Jordan Pack et al. (+11 more)  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10357-2)
-
-> A study found that superconductivity in twisted bilayer WSe2 evolves smoothly with twist angle and emerges near Fermi surface reconstruction.
-
-**Topics:** `superconductivity` · `materials science` · `nanoscience`
-
----
-
-### Author Correction: Signatures of ambient pressure superconductivity in thin film La<sub>3</sub>Ni<sub>2</sub>O<sub>7</sub>
-**Nature** | Eun Kyo Ko, Yijun Yu, Yidi Liu, Lopa Bhatt, Jiarui Li et al. (+9 more)  
-*Published: 31 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/s41586-026-10335-8)
-
-> An author correction was made to a previous paper on signatures of ambient pressure superconductivity in thin film La<sub>3</sub>Ni<sub>2</sub>O<sub>7</sub>.
-
-**Topics:** `superconductivity` · `materials science`
-
----
-
----
-## Sustainable Energy
-
-### These advanced solar cells have an antique source: old bullets
-**Nature** | Unknown authors  
-*Published: 1 Apr 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-01001-0)
-
-> Scientists discovered that old bullets can be recycled to provide raw materials for advanced solar cells.
-
-**Topics:** `sustainable energy` · `recycling`
-
----
-
----
-## Zoology
-
-### Bunny or bug?
-**Nature** | Unknown authors  
-*Published: 31 Mar 2026* | 🟡 Medium  
-[Full paper](https://www.nature.com/articles/d41586-026-00912-2)
-
-> This paper appears to be an article from the Nature archive, discussing a curious species of rabbit and bullfinches learning to eat primroses.
-
-**Topics:** `zoology` · `animal behavior`
+**Topics:** `Space Exploration` · `NASA` · `Artemis Mission`
 
 ---

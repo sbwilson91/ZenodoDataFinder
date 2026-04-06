@@ -1546,3 +1546,177 @@ date,tag,count,total_papers
 2026-04-07,us policy,1,111
 2026-04-07,youth development,1,111
 2026-04-07,zoology,1,111
+2026-04-07,ai,51,111
+2026-04-07,alloys,1,111
+2026-04-07,analgesics,1,111
+2026-04-07,antiviral research,1,111
+2026-04-07,artemis mission,1,111
+2026-04-07,artificial intelligence,3,111
+2026-04-07,astronautics,2,111
+2026-04-07,astronomy,2,111
+2026-04-07,astrophysics,1,111
+2026-04-07,atmospheric science,3,111
+2026-04-07,attosecond science,1,111
+2026-04-07,authorship,1,111
+2026-04-07,aviation,3,111
+2026-04-07,behavioral science,2,111
+2026-04-07,bioinformatics,8,111
+2026-04-07,biomedical engineering,1,111
+2026-04-07,black holes,1,111
+2026-04-07,brain-computer interfaces,1,111
+2026-04-07,cancer biology,2,111
+2026-04-07,cancer research,1,111
+2026-04-07,carbon capture and storage,1,111
+2026-04-07,career development,1,111
+2026-04-07,catalysis,2,111
+2026-04-07,cell biology,3,111
+2026-04-07,cellular biology,1,111
+2026-04-07,cellular morphology,1,111
+2026-04-07,chemical engineering,3,111
+2026-04-07,child development,1,111
+2026-04-07,chromatin accessibility,1,111
+2026-04-07,climate change,3,111
+2026-04-07,cluster:astrophysics & gravitational waves,2,111
+2026-04-07,cluster:atmospheric science & aviation,7,111
+2026-04-07,cluster:materials science & machine learning,8,111
+2026-04-07,cluster:materials science & metallurgy,1,111
+2026-04-07,cluster:materials science & nanotechnology,13,111
+2026-04-07,cluster:neuroscience & bioinformatics,37,111
+2026-04-07,cluster:paleontology & evolutionary biology,6,111
+2026-04-07,cluster:science communication & instrumentation,2,111
+2026-04-07,cluster:social sciences & reproducibility,24,111
+2026-04-07,cluster:space exploration & astronautics,11,111
+2026-04-07,computational biology,2,111
+2026-04-07,computer hardware,1,111
+2026-04-07,computer science,1,111
+2026-04-07,condensed matter physics,1,111
+2026-04-07,connectomics,1,111
+2026-04-07,copy number variants,1,111
+2026-04-07,crystallography,1,111
+2026-04-07,cybersecurity,1,111
+2026-04-07,data sharing,1,111
+2026-04-07,decision-making,1,111
+2026-04-07,developmental biology,1,111
+2026-04-07,dna damage,1,111
+2026-04-07,dna repair,1,111
+2026-04-07,dopamine signaling,1,111
+2026-04-07,drug discovery,1,111
+2026-04-07,economics,1,111
+2026-04-07,electrophysiology,1,111
+2026-04-07,embryonic development,1,111
+2026-04-07,energy policy,1,111
+2026-04-07,enhancers,1,111
+2026-04-07,environmental impact,1,111
+2026-04-07,epidemiology,1,111
+2026-04-07,epigenetics,2,111
+2026-04-07,ethics,1,111
+2026-04-07,evolutionary biology,2,111
+2026-04-07,exercise science,1,111
+2026-04-07,funding,1,111
+2026-04-07,genetics,1,111
+2026-04-07,genomics,5,111
+2026-04-07,geology,1,111
+2026-04-07,gerontology,1,111
+2026-04-07,gravitational waves,1,111
+2026-04-07,healthcare policy,1,111
+2026-04-07,hematology,1,111
+2026-04-07,homology detection,1,111
+2026-04-07,immunology,3,111
+2026-04-07,instrumentation,2,111
+2026-04-07,kidney,1,111
+2026-04-07,kidney disease,1,111
+2026-04-07,lunar missions,2,111
+2026-04-07,machine learning,8,111
+2026-04-07,magnetism,1,111
+2026-04-07,materials science,14,111
+2026-04-07,medical genetics,1,111
+2026-04-07,medical research,1,111
+2026-04-07,mental health,1,111
+2026-04-07,meta-research,1,111
+2026-04-07,metabolic engineering,1,111
+2026-04-07,metabolic regulation,1,111
+2026-04-07,metallurgy,1,111
+2026-04-07,methodology,1,111
+2026-04-07,microbial communication,1,111
+2026-04-07,microbial ecology,1,111
+2026-04-07,microbiology,1,111
+2026-04-07,microelectronics,1,111
+2026-04-07,microscopy,1,111
+2026-04-07,molecular biology,1,111
+2026-04-07,molecular electronics,1,111
+2026-04-07,molecular physics,1,111
+2026-04-07,nanoscale imaging,1,111
+2026-04-07,nanoscience,1,111
+2026-04-07,nanotechnology,4,111
+2026-04-07,nasa,2,111
+2026-04-07,neural crest cells,1,111
+2026-04-07,neurodevelopment,1,111
+2026-04-07,neuroscience,11,111
+2026-04-07,nonlinear optics,1,111
+2026-04-07,open science,1,111
+2026-04-07,opioid receptors,1,111
+2026-04-07,opioids,1,111
+2026-04-07,optoelectronics,2,111
+2026-04-07,organic chemistry,1,111
+2026-04-07,organoids,1,111
+2026-04-07,pain management,1,111
+2026-04-07,pain research,1,111
+2026-04-07,paleontology,2,111
+2026-04-07,peer review,1,111
+2026-04-07,phage biology,1,111
+2026-04-07,pharmacology,1,111
+2026-04-07,phonon transport,1,111
+2026-04-07,planetary science,1,111
+2026-04-07,plant biology,1,111
+2026-04-07,poetry,1,111
+2026-04-07,political science,1,111
+2026-04-07,population genetics,1,111
+2026-04-07,productivity,1,111
+2026-04-07,professions,1,111
+2026-04-07,protein function,1,111
+2026-04-07,protein structure,6,111
+2026-04-07,psychology,1,111
+2026-04-07,public health,1,111
+2026-04-07,quantum computing,1,111
+2026-04-07,quantum mechanics,1,111
+2026-04-07,recycling,1,111
+2026-04-07,regenerative medicine,1,111
+2026-04-07,regulatory genomics,3,111
+2026-04-07,replicability,1,111
+2026-04-07,reproducibility,3,111
+2026-04-07,reprogramming,2,111
+2026-04-07,research ethics,1,111
+2026-04-07,research productivity,1,111
+2026-04-07,rna sequencing,1,111
+2026-04-07,science,1,111
+2026-04-07,science communication,3,111
+2026-04-07,science policy,2,111
+2026-04-07,science reproducibility,3,111
+2026-04-07,scientific publishing,3,111
+2026-04-07,sequencing,2,111
+2026-04-07,signal processing,1,111
+2026-04-07,signal transduction,2,111
+2026-04-07,single-cell analysis,1,111
+2026-04-07,single-cell genomics,4,111
+2026-04-07,single-molecule imaging,1,111
+2026-04-07,social behavior,1,111
+2026-04-07,social media,1,111
+2026-04-07,social science,2,111
+2026-04-07,social sciences,5,111
+2026-04-07,solar cells,1,111
+2026-04-07,solar energy,1,111
+2026-04-07,space exploration,7,111
+2026-04-07,space law,1,111
+2026-04-07,space policy,1,111
+2026-04-07,spintronics,1,111
+2026-04-07,stem cell biology,4,111
+2026-04-07,structural biology,2,111
+2026-04-07,superconductivity,4,111
+2026-04-07,sustainability,4,111
+2026-04-07,sustainable energy,1,111
+2026-04-07,synaptic biology,1,111
+2026-04-07,therapeutics,1,111
+2026-04-07,thin film technology,1,111
+2026-04-07,transcriptional regulation,2,111
+2026-04-07,virology,1,111
+2026-04-07,youth psychology,1,111
