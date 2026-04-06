@@ -121,10 +121,9 @@ def run():
         print(f"Matched {len(all_papers)} preprints. Summarising...")
 
         # AI summarise
-        hf_token = os.environ.get("HF_TOKEN")
         for p in all_papers:
             if len(p.abstract) >= 50:
-                p.summary = get_ai_summary(p.abstract, hf_token=hf_token)
+                p.summary = get_ai_summary(p.abstract)
 
         # Classify organ/tissue
         for p in all_papers:

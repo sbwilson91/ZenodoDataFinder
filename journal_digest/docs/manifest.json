@@ -1,0 +1,1843 @@
+[
+  {
+    "date": "2026-04-07",
+    "html_file": "2026-04-07-weekly-digest.html",
+    "paper_count": 111,
+    "high_count": 0,
+    "featured_count": 49,
+    "papers": [
+      {
+        "title": "Engaging the head and the heart: why scientists turn to poetry",
+        "journal": "Nature",
+        "authors": "Josie Glausiusz",
+        "url": "https://www.nature.com/articles/d41586-026-01028-3",
+        "doi": null,
+        "published": "2026-04-06T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers use poetry to visualize complex problems and communicate science to a wider audience.",
+        "categories": [
+          "science communication",
+          "poetry"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Science Communication"
+      },
+      {
+        "title": "\u2018Yes, we can\u2019: a blueprint for a clean economy and healthy society",
+        "journal": "Nature",
+        "authors": "Andrew Macintosh",
+        "url": "https://www.nature.com/articles/d41586-026-01026-5",
+        "doi": null,
+        "published": "2026-04-06T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "An economist proposes a path to a more efficient, prosperous and sustainable world by transitioning to a clean economy.",
+        "categories": [
+          "sustainability",
+          "economics",
+          "energy policy"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Sustainability"
+      },
+      {
+        "title": "Why the US needs a unified, mission-based strategy for health innovation",
+        "journal": "Nature",
+        "authors": "Victor J. Dzau, Melissa H. Laitner, Emily L. Shambaugh, Alex M. Helman",
+        "url": "https://www.nature.com/articles/d41586-026-01027-4",
+        "doi": null,
+        "published": "2026-04-06T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A unified, mission-based strategy for health innovation is needed in the US to address unmet medical needs and improve treatment reach.",
+        "categories": [
+          "healthcare policy",
+          "medical research",
+          "innovation"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Healthcare Policy"
+      },
+      {
+        "title": "Moon fly-by live coverage: Artemis crew see intriguing colours on lunar surface",
+        "journal": "Nature",
+        "authors": "Alexandra Witze",
+        "url": "https://www.nature.com/articles/d41586-026-00989-9",
+        "doi": null,
+        "published": "2026-04-06T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Astronauts on the Artemis mission observe intriguing colors on the lunar surface during a fly-by of the Moon's far side.",
+        "categories": [
+          "space exploration",
+          "lunar science",
+          "Artemis mission"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Space Exploration"
+      },
+      {
+        "title": "What Artemis II\u2019s astronauts will look for on the Moon\u2019s far side",
+        "journal": "Nature",
+        "authors": "Alexandra Witze",
+        "url": "https://www.nature.com/articles/d41586-026-01103-9",
+        "doi": null,
+        "published": "2026-04-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Mission scientists discuss the geological features they're most excited for the Artemis II crew to observe on the Moon's far side.",
+        "categories": [
+          "space exploration",
+          "lunar science",
+          "Artemis mission"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Space Exploration"
+      },
+      {
+        "title": "Massive budget cuts for US science proposed again by Trump administration",
+        "journal": "Nature",
+        "authors": "Max Kozlov, Dan Garisto, Edward Chen",
+        "url": "https://www.nature.com/articles/d41586-026-01105-7",
+        "doi": null,
+        "published": "2026-04-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The Trump administration has proposed significant budget cuts for US science, which would also impact federal funding for scientific publishing.",
+        "categories": [
+          "US policy",
+          "science funding"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Us Policy"
+      },
+      {
+        "title": "Regular physical activity in midlife cuts risk of early death",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-01000-1",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Regular physical activity in midlife has been shown to significantly reduce the risk of early death, with even a few hours of moderate-to-vigorous exercise per week having a strong effect.",
+        "categories": [
+          "public health",
+          "exercise science"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Public Health"
+      },
+      {
+        "title": "Artemis II is go: humans head to the Moon after half-century absence",
+        "journal": "Nature",
+        "authors": "Benjamin Thompson, Alexandra Witze",
+        "url": "https://www.nature.com/articles/d41586-026-01060-3",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The Artemis II mission aims to send humans back to the Moon after a half-century absence, with various scientific experiments planned for the journey.",
+        "categories": [
+          "space exploration",
+          "astronautics"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Space Exploration"
+      },
+      {
+        "title": "The Moon belongs to all of us \u2014 not just countries that can afford to reach it",
+        "journal": "Nature",
+        "authors": "Moriba Jah",
+        "url": "https://www.nature.com/articles/d41586-026-01051-4",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The author argues that the Moon should be considered a shared resource for humanity, rather than being controlled by countries with the means to reach it.",
+        "categories": [
+          "space law",
+          "planetary governance"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Space Law"
+      },
+      {
+        "title": "\u2018Treasure trove\u2019 of antiviral proteins could inspire powerful molecular tools",
+        "journal": "Nature",
+        "authors": "Miryam Naddaf",
+        "url": "https://www.nature.com/articles/d41586-026-01011-y",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have identified a 'treasure trove' of antiviral proteins in bacteria, which could inspire the development of powerful molecular tools.",
+        "categories": [
+          "molecular biology",
+          "antiviral research"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Molecular Biology"
+      },
+      {
+        "title": "How procrastination can rob you of career fulfilment in science",
+        "journal": "Nature",
+        "authors": "Holly Newson",
+        "url": "https://www.nature.com/articles/d41586-026-00551-7",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "This paper discusses how procrastination can negatively impact career fulfillment in science.",
+        "categories": [
+          "career development",
+          "productivity"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Career Development"
+      },
+      {
+        "title": "\u2018It\u2019s a real shock\u2019: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+        "journal": "Nature",
+        "authors": "Davide Castelvecchi",
+        "url": "https://www.nature.com/articles/d41586-026-01054-1",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Quantum computing breakthroughs pose a risk to cybersecurity, potentially compromising security keys and cryptocurrencies.",
+        "categories": [
+          "quantum computing",
+          "cybersecurity",
+          "information technology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Quantum Computing"
+      },
+      {
+        "title": "China is planning to land people on the Moon \u2014 and might beat the United States to it",
+        "journal": "Nature",
+        "authors": "Jonathan O\u2019Callaghan",
+        "url": "https://www.nature.com/articles/d41586-026-01059-w",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "China plans to land people on the Moon by 2030 and establish a permanent lunar base, potentially beating the US to it.",
+        "categories": [
+          "space exploration",
+          "lunar missions",
+          "space policy"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Space Exploration"
+      },
+      {
+        "title": "Mix-and-match synthesis of 3D small molecules",
+        "journal": "Nature",
+        "authors": "Huyen N. Nguyen, Daniel J. Blair",
+        "url": "https://www.nature.com/articles/d41586-026-00809-0",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new method for synthesizing 3D small molecules has been developed, enabling modular synthesis and potential applications in drug discovery and materials design.",
+        "categories": [
+          "organic chemistry",
+          "synthetic methods",
+          "materials science"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Organic Chemistry"
+      },
+      {
+        "title": "Breakthrough computer chip tech could help meet \u2018monumental demand\u2019 driven by AI",
+        "journal": "Nature",
+        "authors": "Katherine Bourzac",
+        "url": "https://www.nature.com/articles/d41586-026-01050-5",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new computer chip technology uses giant mirrors to produce tiny transistors and circuits, potentially meeting the demand driven by AI.",
+        "categories": [
+          "microelectronics",
+          "nanotechnology",
+          "artificial intelligence"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Microelectronics"
+      },
+      {
+        "title": "Why some cancer-fighting immune cells lose their strength inside tumours",
+        "journal": "Nature",
+        "authors": "Edward Chen",
+        "url": "https://www.nature.com/articles/d41586-026-01015-8",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers found that some cancer-fighting immune cells called dendritic cells lose their strength when inside tumors due to a lack of mitochondria.",
+        "categories": [
+          "immunology",
+          "cancer biology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Immunology"
+      },
+      {
+        "title": "Structural modifications in strain-engineered bilayer nickelate thin films",
+        "journal": "Nature",
+        "authors": "Lopa Bhatt, Edgar Abarca Morales, Abigail Y. Jiang, Eun Kyo Ko, Yi-Feng Zhao et al. (+11 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10446-2",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Scientists engineered bilayer nickelate thin films and found structural modifications that can be made to improve their properties.",
+        "categories": [
+          "materials science",
+          "thin film technology"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Materials Science"
+      },
+      {
+        "title": "These scientists chased a jet to learn more about \u2018lean-burn\u2019 contrails",
+        "journal": "Nature",
+        "authors": "Benjamin Thompson, Shamini Bundell",
+        "url": "https://www.nature.com/articles/d41586-026-01052-3",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers conducted an in-flight experiment to study contrails and found that reducing soot emissions may not necessarily reduce their formation.",
+        "categories": [
+          "atmospheric science",
+          "aviation"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Atmospheric Science"
+      },
+      {
+        "title": "These advanced solar cells have an antique source: old bullets",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-01001-0",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Scientists discovered that old bullets can be recycled to provide raw materials for advanced solar cells.",
+        "categories": [
+          "sustainable energy",
+          "recycling"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Sustainable Energy"
+      },
+      {
+        "title": "DNA damage burden causes selective CUX2 neuron loss in neuroinflammation",
+        "journal": "Nature",
+        "authors": "Laura Morcom, Wenlong Xia, Zhaoyang Xu, Yashika Awasthi, Celine Geywitz et al. (+33 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10310-3",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers found that DNA damage burden and inadequate repair contribute to selective vulnerability in neuroinflammatory injury, specifically in CUX2+ cortical neurons.",
+        "categories": [
+          "neuroscience",
+          "genetics"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Neuroscience"
+      },
+      {
+        "title": "Entanglement and electronic coherence in attosecond molecular photoionization",
+        "journal": "Nature",
+        "authors": "L.-M. Koll, A. J. Su\u00f1er-Rubio, T. Witting, R. Y. Bello, A. Palacios et al. (+2 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10230-2",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers used attosecond laser pulses to study the dissociative ionization of H2 molecules. They found that entanglement between ions and photoelectrons influences electronic coherence, allowing control over this process.",
+        "categories": [
+          "quantum mechanics",
+          "molecular physics",
+          "attosecond science"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Quantum Mechanics"
+      },
+      {
+        "title": "The 1000 Chinese Pangenome empowers medical and population genetics",
+        "journal": "Nature",
+        "authors": "Yifei Wang, Zhongqu Duan, Dan Chen, Dandan Shi, Yi Ding et al. (+16 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10315-y",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A team of researchers developed a pangenome-informed genome assembly workflow, enabling the creation of 1,116 diploid genome assemblies representing medically relevant genic variations.",
+        "categories": [
+          "genomics",
+          "population genetics",
+          "medical genetics"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Genomics"
+      },
+      {
+        "title": "Gene regulatory landscape dissected by single-cell four-omics sequencing",
+        "journal": "Nature",
+        "authors": "Yujie Chen, Zhiyuan Liu, Heming Xu, Jiayu Liu, Mengxuan Wang et al. (+6 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10322-z",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Single-cell four-omics sequencing revealed the dynamics and spatial clustering of epigenome profiles across cell types and tissues, enabling sophisticated analysis of gene regulation.",
+        "categories": [
+          "single-cell genomics",
+          "epigenetics",
+          "four-omics"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Single-Cell Genomics"
+      },
+      {
+        "title": "Developmental organization of sensory and sympathetic ganglia",
+        "journal": "Nature",
+        "authors": "Keng Ioi Vong, Yanina D. Alvarez, Qingquan Zhang, Jiaming Weng, Geoffroy Noel et al. (+16 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10313-0",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers found that neural crest fate bias predominantly emerges within the neural tube, and only a minor subset of delaminated progenitors retain multipotency to generate both sensory and sympathetic derivatives.",
+        "categories": [
+          "neurodevelopment",
+          "embryology",
+          "neural crest"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Neurodevelopment"
+      },
+      {
+        "title": "Dopaminergic mechanisms of dynamical social specialization",
+        "journal": "Nature",
+        "authors": "C. Soli\u00e9, A. Nicolson, R. Justo, Y. Layadi, B. Morin et al. (+19 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10301-4",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Longitudinal tracking of mice revealed that stable, specialized social roles emerge spontaneously within groups during a foraging task, driven by dopaminergic activity in the ventral tegmental area.",
+        "categories": [
+          "neuroscience",
+          "social behavior",
+          "dopamine"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Neuroscience"
+      },
+      {
+        "title": "A \u00b5-opioid receptor superagonist analgesic with minimal adverse effects",
+        "journal": "Nature",
+        "authors": "Juan L. Gomez, Emilya N. Ventriglia, Zachary J. Frangos, Agnieszka Sulima, Michael J. Robertson et al. (+39 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10299-9",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new opioid receptor superagonist has been developed that produces analgesia with minimal adverse effects in rodent models.",
+        "categories": [
+          "opioid receptors",
+          "analgesics",
+          "pharmacology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Opioid Receptors"
+      },
+      {
+        "title": "Moir\u00e9 engineering of Cooper-pair density modulation states",
+        "journal": "Nature",
+        "authors": "Zihao Wang, Bing Xia, Stephen Paolini, Zi-Jie Yan, Pu Xiao et al. (+8 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10325-w",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers created a moir\u00e9 superlattice in Sb2Te3/FeTe bilayers, producing spatially modulated superconducting gaps that can be tuned by replacing Sb2Te3 with Bi2Te3.",
+        "categories": [
+          "superconductivity",
+          "materials science",
+          "nanotechnology"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Superconductivity"
+      },
+      {
+        "title": "Electric dipole moment drives the dynamics of the&#xa0;TNFR1 complex I signalosome",
+        "journal": "Nature",
+        "authors": "Jianping Liu, Jing Zhao, Jiayang Gao, Kun Zhao, Yaoyao Han et al. (+13 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10304-1",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Long-range interactions mediated by protein electric dipole moments drive the assembly and disassembly of a complex involved in NF-\u03baB signalling.",
+        "categories": [
+          "protein structure",
+          "cell biology",
+          "signal transduction"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Protein Structure"
+      },
+      {
+        "title": "Evidence of the pair-instability gap from black-hole masses",
+        "journal": "Nature",
+        "authors": "Hui Tong, Maya Fishbach, Eric Thrane, Matthew Mould, Thomas A. Callister et al. (+11 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10359-0",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "LIGO\u2013Virgo\u2013KAGRA\u2019s fourth Gravitational-Wave Transient Catalog shows evidence of a clear pair-instability gap in the distribution of binary black-hole secondary masses.",
+        "categories": [
+          "astrophysics",
+          "gravitational waves",
+          "black holes"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Astrophysics"
+      },
+      {
+        "title": "Expansion of outer cortical CUX2 neurons requires adaptations for DNA repair",
+        "journal": "Nature",
+        "authors": "Wenlong Xia, Laura Morcom, Zhaoyang Xu, I-Ling Lu, Qing Wang et al. (+15 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10290-4",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The transcription factor ATF4 regulates double-stranded DNA repair within vulnerable CUX2+ upper-layer 2/3 cortical neurons, enabling their survival during development.",
+        "categories": [
+          "neuroscience",
+          "DNA repair",
+          "transcription factors"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Neuroscience"
+      },
+      {
+        "title": "AhR inhibition promotes axon regeneration via a stress\u2013growth switch",
+        "journal": "Nature",
+        "authors": "Dalia Halawani, Yiqun Wang, Jiaxi Li, Daniel Halperin, Haofei Ni et al. (+7 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10295-z",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers found that inhibiting a protein called AhR promotes axon regeneration, which is the growth of nerve fibers. This discovery could lead to new treatments for nerve damage and paralysis.",
+        "categories": [
+          "neuroscience",
+          "axon regeneration",
+          "protein inhibition"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Neuroscience"
+      },
+      {
+        "title": "Substantial aircraft contrail formation at low soot emission levels",
+        "journal": "Nature",
+        "authors": "Christiane Voigt, Raphael M\u00e4rkl, Daniel Sauer, Rebecca Dischl, Charles Renard et al. (+25 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10286-0",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Contrails, or clouds formed by airplane exhaust, can still form even when soot emissions are low. This challenges the idea that reducing soot emissions will automatically reduce contrail formation.",
+        "categories": [
+          "climate science",
+          "aviation",
+          "contrails"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Climate Science"
+      },
+      {
+        "title": "Investigating the reproducibility of the social and behavioural sciences",
+        "journal": "Nature",
+        "authors": "Olivia Miske, Anna Lou Abatayo, Mason Daley, Mirka Dirzo, Nicholas Fox et al. (+123 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10203-5",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A study of over 600 papers in the social and behavioral sciences found that more recent papers are more likely to be reproducible, and that journals that require data sharing have higher reproducibility rates.",
+        "categories": [
+          "social science",
+          "reproducibility",
+          "data sharing"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Social Science"
+      },
+      {
+        "title": "Stoichiometric FeTe is a superconductor",
+        "journal": "Nature",
+        "authors": "Zi-Jie Yan, Zihao Wang, Bing Xia, Stephen Paolini, Ying-Ting Chan et al. (+11 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10321-0",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers discovered that stoichiometric FeTe, a material previously thought to be an antiferromagnetic metal, is actually a superconductor. This finding challenges our current understanding of this material.",
+        "categories": [
+          "materials science",
+          "superconductivity"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Materials Science"
+      },
+      {
+        "title": "Investigating the replicability of the social and behavioural sciences",
+        "journal": "Nature",
+        "authors": "Andrew H. Tyner, Anna Lou Abatayo, Mason Daley, Samuel Field, Nicholas Fox et al. (+287 more)",
+        "url": "https://www.nature.com/articles/s41586-025-10078-y",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A large-scale study found that about half of the results from social and behavioral science journals can be replicated, which challenges the idea that many studies in this field are not replicable.",
+        "categories": [
+          "social science",
+          "replicability"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Social Science"
+      },
+      {
+        "title": "Nanoscale transfer-printed full-colour ultrahigh-resolution quantum dot LEDs",
+        "journal": "Nature",
+        "authors": "Lihua Lin, Jie Wang, Hailong Hu, Haolin Luo, Yanbin Liu et al. (+8 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10333-w",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers developed a method for manufacturing high-performance full-color ultrahigh-resolution quantum dot LEDs using a dual-action force dynamics strategy.",
+        "categories": [
+          "nanotechnology",
+          "optoelectronics",
+          "materials science"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Nanotechnology"
+      },
+      {
+        "title": "Angle evolution of the superconducting phase diagram in twisted bilayer WSe<sub>2</sub>",
+        "journal": "Nature",
+        "authors": "Yinjie Guo, John Cenker, Ammon Fischer, Daniel Mu\u00f1oz-Segovia, Jordan Pack et al. (+11 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10357-2",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A study found that superconductivity in twisted bilayer WSe2 evolves smoothly with twist angle and emerges near Fermi surface reconstruction.",
+        "categories": [
+          "superconductivity",
+          "materials science",
+          "nanoscience"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Superconductivity"
+      },
+      {
+        "title": "Flexible ensheathment of axons enables myelination of complex CNS networks",
+        "journal": "Nature",
+        "authors": "Cody L. Call, Sarah A. Neely, Jason J. Early, Owen G. James, Lida Zoupi et al. (+6 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10312-1",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers discovered that axons can be ensheathed to enable myelination of complex CNS networks, which is crucial for neural function.",
+        "categories": [
+          "neuroscience",
+          "cell biology",
+          "myelin"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Neuroscience"
+      },
+      {
+        "title": "Evolution of pandemic cholera at its global source",
+        "journal": "Nature",
+        "authors": "Amber Barton, Mokibul Hassan Afrad, Alyce Taylor-Brown, Nisha Singh, Chetan Thakur et al. (+9 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10340-x",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A study found that the seventh cholera pandemic evolved separately in Bangladesh and India, with the Ganges Basin acting as the global source.",
+        "categories": [
+          "epidemiology",
+          "microbiology",
+          "evolutionary biology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Epidemiology"
+      },
+      {
+        "title": "Investigating the analytical robustness of the social and behavioural sciences",
+        "journal": "Nature",
+        "authors": "Balazs Aczel, Barnabas Szaszi, Harry T. Clelland, Marton Kovacs, Felix Holzmeister et al. (+489 more)",
+        "url": "https://www.nature.com/articles/s41586-025-09844-9",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "An investigation found that social and behavioural science claims have limited robustness, with only 34% of reanalyses closely matching the original results.",
+        "categories": [
+          "social sciences",
+          "behavioural sciences",
+          "methodology"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Social Sciences"
+      },
+      {
+        "title": "Dual-symmetry-guided assembly of complex lattices",
+        "journal": "Nature",
+        "authors": "Huang Fang, Xiaotian Li, Wensi Sun, Chengxin Wang, Nuo Chen et al. (+5 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10364-3",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A dual-symmetry-guided strategy has been developed for assembling complex lattices and quasicrystalline structures. This method provides a general and experimentally accessible route to complex-symmetry materials.",
+        "categories": [
+          "materials science",
+          "crystallography"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Materials Science"
+      },
+      {
+        "title": "A chelicera-bearing arthropod reveals the Cambrian origin of chelicerates",
+        "journal": "Nature",
+        "authors": "Rudy Lerosey-Aubril, Javier Ortega-Hern\u00e1ndez",
+        "url": "https://www.nature.com/articles/s41586-026-10284-2",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new arthropod species, Megachelicerax cousteaui, has been discovered in the Cambrian period. It features massive chelicerae and provides evidence for the origin of chelicerates.",
+        "categories": [
+          "paleontology",
+          "evolutionary biology"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Paleontology"
+      },
+      {
+        "title": "An enteric neuron ionotropic receptor regulates salt stress resistance",
+        "journal": "Nature",
+        "authors": "Jihye Yeon, Jinmahn Kim, Koji Sato, Stephen Nurrish, Laurie Chen et al. (+8 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10348-3",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A specific enteric neuron in Caenorhabditis elegans has been found to regulate salt stress resistance. The GLR-9 ionotropic receptor is responsible for detecting high-salt conditions.",
+        "categories": [
+          "neuroscience",
+          "genetics"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Neuroscience"
+      },
+      {
+        "title": "Deconstruction of a spino-brain\u2013spinal cord circuit that drives chronic pain",
+        "journal": "Nature",
+        "authors": "Qian Wang, Joo Han Lee, Gregory Nachtrab, Yuan Yuan, Lei Yuan et al. (+5 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10296-y",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A circuit between the spinal cord and brain has been identified as a key driver of chronic pain in mice. The circuit involves spinal-cord-projecting neurons in the rostral ventromedial medulla.",
+        "categories": [
+          "neuroscience",
+          "pain research"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Neuroscience"
+      },
+      {
+        "title": "General scales unlock AI evaluation with explanatory and predictive power",
+        "journal": "Nature",
+        "authors": "Lexin Zhou, Lorenzo Pacchiardi, Fernando Mart\u00ednez-Plumed, Katherine M. Collins, Yael Moros-Daval et al. (+21 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10303-2",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new methodology has been developed for evaluating the capabilities of AI systems. The approach uses rubrics to capture cognitive and intellectual demands, providing explanatory and predictive power.",
+        "categories": [
+          "artificial intelligence",
+          "machine learning"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Artificial Intelligence"
+      },
+      {
+        "title": "Hydroxy-induced cobalt oxides for syngas to light olefins",
+        "journal": "Nature",
+        "authors": "Yu Han, Jiafeng Yu, Jian Wei, Chuanyan Fang, Jianxiang Han et al. (+7 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10204-4",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new catalyst made from cobalt oxides and hydroxy promoters improves syngas to light olefins conversion using Fischer\u2013Tropsch synthesis.",
+        "categories": [
+          "catalysis",
+          "chemical engineering"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Catalysis"
+      },
+      {
+        "title": "Active dissociation of intracortical spiking and high gamma activity",
+        "journal": "Nature",
+        "authors": "Tianhao Lei, Michael R. Scheid, Robert D. Flint, Joshua I. Glaser, Marc W. Slutzky",
+        "url": "https://www.nature.com/articles/s41586-026-10331-y",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A brain\u2013machine interface study in monkeys reveals the biophysical underpinnings of cortical high gamma-band activity.",
+        "categories": [
+          "neuroscience",
+          "brain-machine interfaces"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Neuroscience"
+      },
+      {
+        "title": "Reproducibility and robustness of economics and political science research",
+        "journal": "Nature",
+        "authors": "Abel Brodeur, Derek Mikola, Nikolai Cook, Lenka Fiala, Thomas Brailey et al. (+342 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10251-x",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A study of economics and political science research finds high levels of robustness and reproducibility, despite data availability and author characteristics.",
+        "categories": [
+          "economics",
+          "political science",
+          "data sharing"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Economics"
+      },
+      {
+        "title": "Catalyst diverts course of industrial process to make valuable hydrocarbons",
+        "journal": "Nature",
+        "authors": "Jingxiu Xie",
+        "url": "https://www.nature.com/articles/d41586-026-00803-6",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new catalyst with two cobalt components could lead to sustainable processes for manufacturing light olefins.",
+        "categories": [
+          "catalysis",
+          "chemical engineering"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Catalysis"
+      },
+      {
+        "title": "Lift off! Artemis II mission sends humans to the Moon \u2014 opening a new era of exploration",
+        "journal": "Nature",
+        "authors": "Alexandra Witze",
+        "url": "https://www.nature.com/articles/d41586-026-00978-y",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The Artemis II mission sends humans to the Moon, marking a new era of exploration.",
+        "categories": [
+          "space exploration",
+          "astronautics"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Space Exploration"
+      },
+      {
+        "title": "Super-potent opioids could be safer-than-expected alternatives to conventional painkillers",
+        "journal": "Nature",
+        "authors": "Victor Mathis, Emmanuel Darcq",
+        "url": "https://www.nature.com/articles/d41586-026-00806-3",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers found that modified nitazenes, a type of opioid 1,000 times stronger than morphine, had remarkably few adverse effects in rodents. This could potentially make them safer alternatives to conventional painkillers.",
+        "categories": [
+          "opioids",
+          "pain relief"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Opioids"
+      },
+      {
+        "title": "Is social media addictive? Why a formal diagnosis is still out of reach",
+        "journal": "Nature",
+        "authors": "Dar Meshi",
+        "url": "https://www.nature.com/articles/d41586-026-01023-8",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Due to limited methods and a lack of guidance around diagnostic criteria, scientists are reluctant to use the term addiction when referring to social media.",
+        "categories": [
+          "addiction",
+          "social media"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Addiction"
+      },
+      {
+        "title": "Struggling to focus on research when the world is \u2018on fire\u2019? Some ways to cope",
+        "journal": "Nature",
+        "authors": "Diana Kwon",
+        "url": "https://www.nature.com/articles/d41586-026-00264-x",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers are struggling with the impact of distressing news on their mental health and scientific work.",
+        "categories": [
+          "mental health",
+          "scientific productivity"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Mental Health"
+      },
+      {
+        "title": "Hallucinated citations are polluting the scientific literature. What can be done?",
+        "journal": "Nature",
+        "authors": "Miryam Naddaf, Elizabeth Quill",
+        "url": "https://www.nature.com/articles/d41586-026-00969-z",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Tens of thousands of publications from 2025 may include invalid references generated by AI, according to a Nature analysis.",
+        "categories": [
+          "AI-generated content",
+          "scientific literature"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Ai-Generated Content"
+      },
+      {
+        "title": "Daily briefing: The countdown to NASA\u2019s Artemis II Moon mission launch",
+        "journal": "Nature",
+        "authors": "Flora Graham",
+        "url": "https://www.nature.com/articles/d41586-026-01097-4",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "This article provides an update on NASA's Artemis II Moon mission, including the science it will conduct and its significance.",
+        "categories": [
+          "space exploration",
+          "NASA"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Space Exploration"
+      },
+      {
+        "title": "Cutting aircraft soot emissions is not enough to curb contrail clouds",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00931-z",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Contrail clouds formed by jet engines contribute to global warming. However, in-flight measurements show that contrails are formed through different mechanisms depending on soot-emission levels and fuel composition.",
+        "categories": [
+          "aviation",
+          "climate change",
+          "atmospheric science"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Aviation"
+      },
+      {
+        "title": "Half of social-science studies fail replication test in years-long project",
+        "journal": "Nature",
+        "authors": "Nicola Jones",
+        "url": "https://www.nature.com/articles/d41586-026-00955-5",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A massive project to replicate social-science studies found that half of them failed the replication test. However, this also raised hope for solutions to improve the credibility of science.",
+        "categories": [
+          "social sciences",
+          "science reproducibility"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Social Sciences"
+      },
+      {
+        "title": "Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period",
+        "journal": "Nature",
+        "authors": "James C. Lamsdell",
+        "url": "https://www.nature.com/articles/d41586-026-00807-2",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Fossil evidence reveals how chelicerate arthropods, including spiders and scorpions, evolved. The origins of this group are now pushed back to the Cambrian period.",
+        "categories": [
+          "paleontology",
+          "evolutionary biology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Paleontology"
+      },
+      {
+        "title": "\u2018Replication games\u2019 test the robustness of social-science studies",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00684-9",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A large-scale assessment of social-science studies found that most were computationally reproducible, but about a quarter contained non-trivial coding errors.",
+        "categories": [
+          "social sciences",
+          "science reproducibility"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Social Sciences"
+      },
+      {
+        "title": "More self-reflection in research can lead to better science",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00965-3",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A package of papers highlights the importance of self-reflection in research to improve the quality and reliability of scientific findings.",
+        "categories": [
+          "science methodology",
+          "research ethics"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Science Methodology"
+      },
+      {
+        "title": "Why science has a credibility problem \u2014 and how to address it",
+        "journal": "Nature",
+        "authors": "Nicola Jones",
+        "url": "https://www.nature.com/articles/d41586-026-00972-4",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A meta-research project examined the reproducibility and replicability of published results in social sciences, highlighting lessons learned from a large-scale dissection.",
+        "categories": [
+          "meta-research",
+          "social sciences",
+          "reproducibility"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Meta-Research"
+      },
+      {
+        "title": "Huge meta-research project puts claims in social-science papers to the test",
+        "journal": "Nature",
+        "authors": "Alfredo S\u00e1nchez-T\u00f3jar, Jelte M. Wicherts, Robb Willer",
+        "url": "https://www.nature.com/articles/d41586-026-00805-4",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A huge meta-research project put claims in social-science papers to the test, discussing lessons learned from a large-scale dissection of published results.",
+        "categories": [
+          "meta-research",
+          "social sciences",
+          "reproducibility"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Meta-Research"
+      },
+      {
+        "title": "100 years of synthetic fuels",
+        "journal": "Nature",
+        "authors": "Ferdi Sch\u00fcth",
+        "url": "https://www.nature.com/articles/d41586-026-00808-1",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The Fischer\u2013Tropsch synthesis, a method for making liquid fuels from coal, has been revisited as a route to sustainable fuels.",
+        "categories": [
+          "sustainable energy",
+          "fuels",
+          "synthetic fuels"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Sustainable Energy"
+      },
+      {
+        "title": "Author Correction: Signatures of ambient pressure superconductivity in thin film La<sub>3</sub>Ni<sub>2</sub>O<sub>7</sub>",
+        "journal": "Nature",
+        "authors": "Eun Kyo Ko, Yijun Yu, Yidi Liu, Lopa Bhatt, Jiarui Li et al. (+9 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10335-8",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "An author correction was made to a previous paper on signatures of ambient pressure superconductivity in thin film La<sub>3</sub>Ni<sub>2</sub>O<sub>7</sub>.",
+        "categories": [
+          "superconductivity",
+          "materials science"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Superconductivity"
+      },
+      {
+        "title": "Structure of the mouse cytoplasmic lattice",
+        "journal": "Nature",
+        "authors": "Pengliang Chi, Xiang Wang, Jialu Li, Jingrui Huang, Sicheng Ju et al. (+13 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10442-6",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The structure of the mouse cytoplasmic lattice was determined, providing insights into cellular organization.",
+        "categories": [
+          "cell biology",
+          "structural biology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Cell Biology"
+      },
+      {
+        "title": "Author Correction: Phenome-wide analysis of copy number variants in 470,727 UK Biobank genomes",
+        "journal": "Nature",
+        "authors": "Xueqing Zoe Zou, Fengyuan Hu, Haiyi Lou, Oliver S. Burren, Xiaoyin Li et al. (+88 more)",
+        "url": "https://www.nature.com/articles/s41586-026-10389-8",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "This paper corrects an error in the original publication of a study analyzing copy number variants in 470,727 UK Biobank genomes.",
+        "categories": [
+          "genomics",
+          "copy number variants"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Genomics"
+      },
+      {
+        "title": "Schr\u00f6dinger\u2019s carbon\u2019: The misclassification of carbon capture and storage as standard mitigation",
+        "journal": "Nature",
+        "authors": "Rosalie Arendt",
+        "url": "https://www.nature.com/articles/d41586-026-01009-6",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The paper argues that carbon capture and storage is not a standard mitigation strategy for climate change, but rather a complex issue.",
+        "categories": [
+          "climate change",
+          "carbon capture and storage"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Climate Change"
+      },
+      {
+        "title": "Bunny or bug?",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-00912-2",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "This paper appears to be an article from the Nature archive, discussing a curious species of rabbit and bullfinches learning to eat primroses.",
+        "categories": [
+          "zoology",
+          "animal behavior"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Zoology"
+      },
+      {
+        "title": "A solar system is born",
+        "journal": "Nature",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/d41586-026-01002-z",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Astronomers have discovered a second planet forming from the material orbiting a young star, only the second such example known.",
+        "categories": [
+          "astronomy",
+          "exoplanets"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Astronomy"
+      },
+      {
+        "title": "A responsible authorship culture is needed \u2014 it is a collective responsibility",
+        "journal": "Nature",
+        "authors": "V\u00e9ronique Kiermer, Kirsten Bibbins-Domingo, Magdalena Skipper",
+        "url": "https://www.nature.com/articles/d41586-026-00997-9",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The authors argue that a responsible authorship culture is needed, and it is a collective responsibility.",
+        "categories": [
+          "authorship",
+          "academic publishing"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Authorship"
+      },
+      {
+        "title": "AI used in warfare needs a strong ethical framework",
+        "journal": "Nature",
+        "authors": "Yana Suchikova, Serhii Nazarovets",
+        "url": "https://www.nature.com/articles/d41586-026-01008-7",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The use of AI in warfare requires a strong ethical framework to ensure its responsible development and deployment.",
+        "categories": [
+          "AI",
+          "Ethics"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Ai"
+      },
+      {
+        "title": "The hidden costs of \u2018helpful\u2019 AI",
+        "journal": "Nature",
+        "authors": "Sylvie Delacroix",
+        "url": "https://www.nature.com/articles/d41586-026-00966-2",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Even when AI tools aid decision-making, they can quietly de-skill whole professions by narrowing how uncertainties and values are debated.",
+        "categories": [
+          "AI",
+          "Decision-Making",
+          "Professions"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Ai"
+      },
+      {
+        "title": "Artemis II mission is about to fly humans to the Moon \u2014 here\u2019s the science they\u2019ll do",
+        "journal": "Nature",
+        "authors": "Alexandra Witze",
+        "url": "https://www.nature.com/articles/d41586-026-00964-4",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "The NASA Artemis II mission will take astronauts around the Moon for the first time in over 50 years, marking a significant step towards lunar exploration.",
+        "categories": [
+          "Space Exploration",
+          "NASA",
+          "Artemis Program"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Space Exploration"
+      },
+      {
+        "title": "Daily briefing: Are boys really in crisis? What the science says",
+        "journal": "Nature",
+        "authors": "Flora Graham",
+        "url": "https://www.nature.com/articles/d41586-026-01055-0",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Concerns about boys are widespread, but evidence suggests that worries should be understood in the context of all young people.",
+        "categories": [
+          "Psychology",
+          "Youth Development",
+          "Social Issues"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Psychology"
+      },
+      {
+        "title": "Senescence in cancer: Hallmarks, paradoxes, and therapeutic promise",
+        "journal": "Cell",
+        "authors": "Clemens Hinterleitner, Hailey V. Goldberg, Domhnall McHugh, Valentin J.A. Barthet, Aveline Filliol, Scott W. Lowe",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00272-2?rss=yes",
+        "doi": null,
+        "published": "2026-04-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Cellular senescence is a program that halts cell division and rewires chromatin, metabolism, microenvironment sensing, and immune interactions to suppress or promote cancer.",
+        "categories": [
+          "Cancer Research",
+          "Cell Biology",
+          "Senescence"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Cancer Research"
+      },
+      {
+        "title": "Complete biosynthesis of nicotine",
+        "journal": "Cell",
+        "authors": "Lijing Chang, Zhen Xu, Purong Deng, Ning Zhang, Tingrui He, Xinying Liu, Wenqi He, Anqi Zheng, Wenjun Hu, Mingjun Pan, Wenjuan Li, Rayko Halitschke, Ran Li, Minrui Fan, Ian T. Baldwin, Yu Zhang, Dapeng Li",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00335-1?rss=yes",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers have developed a method to biosynthesize nicotine from scratch, enabling efficient production and pest resistance.",
+        "categories": [
+          "plant biology",
+          "metabolic engineering",
+          "nicotine biosynthesis"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Plant Biology"
+      },
+      {
+        "title": "Sulfur partitioning from cysteine controls T cell proliferation and effector function",
+        "journal": "Cell",
+        "authors": "Beth Kelly, Minsun Cha, Tatjana Gremelspacher, Jacob L. Martin, Massimo Andreis, Isha Maloo, Gustavo E. Carrizo, Mia Gidley, Michal A. Stanczak, Petya Apostolova, Joseph Longo, Lisa M. DeCamp, Eric H. Ma, Ryan D. Sheldon, Russell G. Jones, David E. Sanin, Ananya Majumdar, Erika L. Pearce",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00279-5?rss=yes",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Cysteine's sulfur is a key determinant of CD8+ T cell immune function, controlling proliferation and effector function.",
+        "categories": [
+          "immunology",
+          "metabolic regulation",
+          "T cell biology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Immunology"
+      },
+      {
+        "title": "A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer",
+        "journal": "Cell",
+        "authors": "Robin Caire, Roberta Bordo, Francesca Zanconato, Tito Panciera, Estelle Audoux, Paolo Contessotto, Michaela Fakiola, Ramona Bason, Oriana Romano, Ambela Suli, Giusy Battilana, Matteo Marchionni, Mattia Forcato, Sara Donzelli, Maria Vittoria Dieci, Gaia Griguolo, Mariantonia Carosi, Matteo Fassan, Vincenza Guzzardo, Angelo Paolo Dei Tos, Silvia Marsoni, Pei-Hsun Wu, Denis Wirtz, Shanshan He, Cecilia Casali, Francesco Volpin, Giovanni Blandino, Claudio Tripodo, Silvio Bicciato, Valentina Guarneri, Massimiliano Pagani, Michelangelo Cordenonsi, Stefano Piccolo",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00276-X?rss=yes",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A 3D morphogenetic blueprint for metastatic outgrowth in breast cancer has been identified, revealing a fractal lattice of epithelial cords.",
+        "categories": [
+          "cancer biology",
+          "metastasis",
+          "tissue engineering"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Cancer Biology"
+      },
+      {
+        "title": "Rational discovery of therapeutic PAK1 allosteric activators",
+        "journal": "Cell",
+        "authors": "Yu He, James S.H. Bae, El\u017cbieta Nowak, Carlos Outeiral, Daniel A. Nissley, Anthony Tumber, Georgina Berridge, Eidarus Salah, Yi Wang, Wenqi He, Hongyuan Zhang, Tangting Chen, Samuel Tusk, Sebastian Mathea, Ying-Jie Wang, Alexander Grassam-Rowe, Philipp Kukura, Christopher J. Schofield, Darragh P. O\u2019Brien, Andrea Pierangelini, Grant C. Churchill, Thomas Lanyon-Hogg, Yunbo Ke, Chao Xu, Tao Ye, Hugh Watkins, Liming Ying, Andreas Koschinski, R. John Solaro, Xiaoqiu Tan, Jani R. Bolla, Xin Wang, Stefan Knapp, Charlotte M. Deane, Manuela Zaccolo, Marcin Nowotny, Ming Lei",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00275-8?rss=yes",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A rational strategy has been developed to discover therapeutic PAK1 allosteric activators, which exhibit efficacy in hypertrophic cardiomyopathy.",
+        "categories": [
+          "kinase biology",
+          "allosteric activation",
+          "cardiovascular disease"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Kinase Biology"
+      },
+      {
+        "title": "Phages communicate across species to shape microbial ecosystems",
+        "journal": "Cell",
+        "authors": "Francisca Gallego-del-Sol, Daniel Sin, Cora Chmielowska, Javier Manche\u00f1o-Bonillo, Yuyi Li, Sara Zamora-Caballero, Nuria Quiles-Puchalt, Jos\u00e9 R. Penad\u00e9s, Alberto Marina",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00271-0?rss=yes",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Phages can communicate across species to regulate lysis-lysogeny decisions, shaping microbial ecosystems through crosstalk.",
+        "categories": [
+          "phage biology",
+          "microbial ecology",
+          "crosstalk"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Phage Biology"
+      },
+      {
+        "title": "Arbitrium phages can manipulate each other\u2019s lysis/lysogeny decisions",
+        "journal": "Cell",
+        "authors": "R. Manley, R. Woodhams, T.J. Arrowsmith, E. Smith, J. Bruce, T.R. Blower, B. Temperton, E.R. Westra",
+        "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00227-8?rss=yes",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Arbitrium phages can influence each other's infection dynamics by secreting similar signal peptides.",
+        "categories": [
+          "phage biology",
+          "microbial communication"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Phage Biology"
+      },
+      {
+        "title": "A semi-automated MEA spike sorting method for high-throughput assessment of cultured neurons",
+        "journal": "Stem Cell Reports",
+        "authors": "Xiaoxuan Ren, Carissa L. Sirois, Raymond Doudlah, Ethan E. Dayley, Natasha M. M\u00e9ndez-Albelo, Aviad Hai, Ari Rosenberg, Xinyu Zhao",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00083-4?rss=yes",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A semi-automated MEA spike sorting method (SAMS) improves efficiency and accuracy for analyzing cultured neurons.",
+        "categories": [
+          "electrophysiology",
+          "neuroscience",
+          "stem cell biology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Electrophysiology"
+      },
+      {
+        "title": "Rheostats, not switches: Nuclear receptor dosage tunes somatic-to-iPSC reprogramming",
+        "journal": "Stem Cell Reports",
+        "authors": "Constantinos Chronis",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00082-2?rss=yes",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Nuclear receptor dosage affects somatic-to-iPSC reprogramming, with moderate expression enhancing iPSC formation.",
+        "categories": [
+          "stem cell biology",
+          "reprogramming",
+          "nuclear receptors"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Stem Cell Biology"
+      },
+      {
+        "title": "Dose-resolved control of somatic reprogramming by Rora",
+        "journal": "Stem Cell Reports",
+        "authors": "Haiyun Wang, Yusha Li, Chunkou Yin, Zhen Zhang, Yixuan Wang, Yi Li, Chuang Li, Runxia Lin, Xiaoli Zhang, Jing Guo, Rongping Luo, Shumin Li, Lv Zhang, Yingting Zhuang, Anchun Xu, Jiani Wan, Lizhan Xiao, Bailing Chen, Shengyong Yu, Manish Kumar, Jing Liu",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00081-0?rss=yes",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Rora's impact on reprogramming is dose sensitive, with low doses enhancing and high doses inhibiting reprogramming.",
+        "categories": [
+          "stem cell biology",
+          "reprogramming",
+          "nuclear receptors"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Stem Cell Biology"
+      },
+      {
+        "title": "Dietary restriction mitigates 5-fluorouracil-induced thrombocytopenia in aged mice via mitochondrial potentiation in hematopoietic stem cells and megakaryocyte progenitors",
+        "journal": "Stem Cell Reports",
+        "authors": "Xingxing Qiu, Duozhuang Tang, Jiahao Lin, Zhiyang Chen, Rongrong Qiu, Qiao Wang, Siyao He, Shaotong Zhang, Qiang Zhan, Zhendong Tao, Liu Zhang, Si Tao",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00080-9?rss=yes",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Dietary restriction mitigates chemotherapy-induced thrombocytopenia by improving mitochondrial homeostasis in hematopoietic stem cells.",
+        "categories": [
+          "stem cell biology",
+          "hematology",
+          "aging"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Stem Cell Biology"
+      },
+      {
+        "title": "Discovery of kidney disease targets using multimodal human podocyte injury models",
+        "journal": "Stem Cell Reports",
+        "authors": "Amanda D. Barreto, Bowen Jiang, Morgan A. Burt, Nikolaos Dimitrakakis, Samira Musah",
+        "url": "https://www.cell.com/stem-cell-reports/fulltext/S2213-6711(26)00079-2?rss=yes",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers developed a comprehensive analysis of human podocyte injury using hiPSC-derived models to identify novel biomarkers and therapeutic targets for kidney disease.",
+        "categories": [
+          "single-cell genomics",
+          "organoids",
+          "kidney disease"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Single-Cell Genomics"
+      },
+      {
+        "title": "Scalable homology detection with ERAST",
+        "journal": "Nature Biotechnology",
+        "authors": "Yinuo Jiang, Bing He, Zihan Wu, Fang Wang, Tianxu Lv et al. (+6 more)",
+        "url": "https://www.nature.com/articles/s41587-026-03051-1",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new method called ERAST speeds up homology search and provides a vector database for 1 billion biological sequences.",
+        "categories": [
+          "bioinformatics",
+          "machine learning",
+          "homology detection"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Bioinformatics"
+      },
+      {
+        "title": "Scalable single-cell total RNA sequencing unifies coding and noncoding transcriptomics",
+        "journal": "Nature Biotechnology",
+        "authors": "Alina Isakova, Daniel Dan Liu, Ivana Cvijovi\u0107, Rahul Sinha, Anna E. Eastman et al. (+6 more)",
+        "url": "https://www.nature.com/articles/s41587-026-03068-6",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new technique for simultaneous profiling of adenylated and non-adenylated RNAs reveals regulatory programs across diverse cell types.",
+        "categories": [
+          "single-cell genomics",
+          "RNA sequencing",
+          "regulatory biology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Single-Cell Genomics"
+      },
+      {
+        "title": "Mirror-enhanced 4Pi-SMLM with one objective enables isotropic nanoscale imaging",
+        "journal": "Nature Biotechnology",
+        "authors": "Zijing Yu, Bei Zheng, Yajing Zhan, Shuxin Li, Xulong Wang et al. (+12 more)",
+        "url": "https://www.nature.com/articles/s41587-026-03083-7",
+        "doi": null,
+        "published": "2026-03-31T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new microscopy technique called mirror-enhanced 4Pi-SMLM with one objective enables isotropic nanoscale imaging.",
+        "categories": [
+          "microscopy",
+          "nanoscale imaging",
+          "single-molecule localization"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Microscopy"
+      },
+      {
+        "title": "A toolkit for modeling <i>cis</i>-regulatory logic of enhancers at large scale",
+        "journal": "Nature Methods",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/s41592-026-03058-1",
+        "doi": null,
+        "published": "2026-04-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new software package called CREsted provides data-driven insights into the regulatory elements driving enhancer function in cell types from single-cell chromatin accessibility atlases.",
+        "categories": [
+          "bioinformatics",
+          "regulatory genomics",
+          "enhancers"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Bioinformatics"
+      },
+      {
+        "title": "CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species",
+        "journal": "Nature Methods",
+        "authors": "Niklas Kempynck, Seppe De Winter, Casper H. Blaauw, Vasileios Konstantakos, Eren Can Ek\u015fi et al. (+10 more)",
+        "url": "https://www.nature.com/articles/s41592-026-03057-2",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "CREsted is a toolbox for analyzing, modeling, and designing cell-type-specific enhancers across various species. It's efficient and user-friendly.",
+        "categories": [
+          "genomics",
+          "bioinformatics",
+          "computational biology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Genomics"
+      },
+      {
+        "title": "Synaptic connectomics by sequencing",
+        "journal": "Nature Methods",
+        "authors": "Gilbert L. Henry, Anthony M. Zador",
+        "url": "https://www.nature.com/articles/s41592-026-03052-7",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new sequencing-based method maps synaptic connections in the brain by capturing paired neuronal barcodes from intact fragments, enabling comprehensive connectivity maps.",
+        "categories": [
+          "neuroscience",
+          "sequencing",
+          "connectomics"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Neuroscience"
+      },
+      {
+        "title": "Assessing uncertainty of sequence representations generated by protein language models",
+        "journal": "Nature Methods",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/s41592-026-03027-8",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A model-agnostic measure quantifies the reliability of language model-inferred protein, gene, and genome representations.",
+        "categories": [
+          "protein structure",
+          "machine learning",
+          "bioinformatics"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Protein Structure"
+      },
+      {
+        "title": "An instrument named Cannoli",
+        "journal": "Nature Methods",
+        "authors": "Vivien Marx",
+        "url": "https://www.nature.com/articles/s41592-026-03059-0",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A lighthearted article shares the story of an instrument named Cannoli, highlighting scientists' affectionate nicknames for their equipment.",
+        "categories": [
+          "science communication",
+          "instrumentation"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Science Communication"
+      },
+      {
+        "title": "Quantifying uncertainty in protein representations across models and tasks",
+        "journal": "Nature Methods",
+        "authors": "R. Prabakaran, Yana Bromberg",
+        "url": "https://www.nature.com/articles/s41592-026-03028-7",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A model-agnostic framework measures uncertainty in protein embeddings and assesses their biological relevance to improve model reliability.",
+        "categories": [
+          "protein structure",
+          "machine learning",
+          "bioinformatics"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Protein Structure"
+      },
+      {
+        "title": "AlphaFold as a prior: experimental structure determination conditioned on a pretrained neural network",
+        "journal": "Nature Methods",
+        "authors": "Alisia Fadini, Minhuan Li, Airlie J. McCoy, Suresh Banjara, Hiroki Okumura et al. (+8 more)",
+        "url": "https://www.nature.com/articles/s41592-026-03047-4",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new method called ROCKET improves experimental structure determination by combining information from a pre-trained neural network with X-ray crystallography and cryo-electron microscopy experiments.",
+        "categories": [
+          "protein structure",
+          "machine learning"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Protein Structure"
+      },
+      {
+        "title": "Two-dimensional materials for integrated sensing",
+        "journal": "Nature Materials",
+        "authors": "Hangyu Xu, Zhihao Xu, Qinqi Ren, Yuan Meng, Sangmoon Han et al. (+4 more)",
+        "url": "https://www.nature.com/articles/s41563-026-02551-4",
+        "doi": null,
+        "published": "2026-04-06T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Two-dimensional materials have potential for in situ encoding and optoelectronic sensing in computing technologies, but challenges remain for integrated sensing.",
+        "categories": [
+          "materials science",
+          "optoelectronics"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Materials Science"
+      },
+      {
+        "title": "Bulk nano-heterointerface secures molecular contacts in perovskite solar cells",
+        "journal": "Nature Materials",
+        "authors": "Yixin Luo, Jiahui Shen, Ke Zhao, Shenglong Chu, Yuan Tian et al. (+25 more)",
+        "url": "https://www.nature.com/articles/s41563-026-02546-1",
+        "doi": null,
+        "published": "2026-04-06T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A bulk nano-heterointerface design improves the operational stability of perovskite solar cells by strengthening molecular contacts.",
+        "categories": [
+          "materials science",
+          "solar energy"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Materials Science"
+      },
+      {
+        "title": "Hydrogels find their inner magnetism",
+        "journal": "Nature Materials",
+        "authors": "Stephen J. Blundell",
+        "url": "https://www.nature.com/articles/s41563-026-02572-z",
+        "doi": null,
+        "published": "2026-04-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Hydrogels containing C=O groups and calcium cations exhibit an unexpected paramagnetic effect with potential biomedical applications.",
+        "categories": [
+          "materials science",
+          "biomedical engineering"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Materials Science"
+      },
+      {
+        "title": "Nanophotonic chip-space interfaces for multidimensional nonlinear optics",
+        "journal": "Nature Materials",
+        "authors": "Dunzhao Wei, Bo Chen, Shuai Wan, Yixuan Wang, Jiantao Ma et al. (+13 more)",
+        "url": "https://www.nature.com/articles/s41563-026-02570-1",
+        "doi": null,
+        "published": "2026-04-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A nanophotonic chip-space interface generates on-demand nonlinear structured light, including tunable optical vortices and spatiotemporal vortex pulses.",
+        "categories": [
+          "nanotechnology",
+          "optics"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Nanotechnology"
+      },
+      {
+        "title": "Static magnetization switching in an artificial antiferromagnetic multilayer driven by a voltage-controlled magnetic anisotropy effect",
+        "journal": "Nature Materials",
+        "authors": "Hiroyasu Nakayama, Takayuki Nozaki, Toshiki Yamaji, Tomohiro Nozaki, Hiroshi Imamura et al. (+1 more)",
+        "url": "https://www.nature.com/articles/s41563-026-02575-w",
+        "doi": null,
+        "published": "2026-04-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers demonstrated static magnetization switching using voltage-controlled magnetic anisotropy without pulse width sensitivity.",
+        "categories": [
+          "magnetism",
+          "materials science"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Magnetism"
+      },
+      {
+        "title": "Removing aluminium impurities in primary magnesium at an ultra-low cost",
+        "journal": "Nature Materials",
+        "authors": "Rui Zheng, Bo Yang, Yue-Cun Wang, Bo-Yu Liu, Wei-Yi Yang et al. (+1 more)",
+        "url": "https://www.nature.com/articles/s41563-026-02561-2",
+        "doi": null,
+        "published": "2026-04-03T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A cost-effective method to remove aluminum impurities from primary magnesium was developed, enabling large-scale production of high-purity magnesium.",
+        "categories": [
+          "materials science",
+          "metallurgy"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Materials Science"
+      },
+      {
+        "title": "Option for transparent peer review",
+        "journal": "Nature Materials",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/s41563-026-02584-9",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Nature Materials introduced an option for transparent peer review, allowing authors to include reviewer comments and rebuttal letters with their publication.",
+        "categories": [
+          "scientific publishing",
+          "peer review"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Scientific Publishing"
+      },
+      {
+        "title": "Tuning phonon transmission via single-atom substituents",
+        "journal": "Nature Materials",
+        "authors": "Yuxuan Luan, Matthias Blaschke, Yuji Isshiki, Jian Guan, Fabian Pauly et al. (+2 more)",
+        "url": "https://www.nature.com/articles/s41563-026-02568-9",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Atomic-level changes to molecular junctions were found to significantly affect phonon transmission, with single atoms influencing thermal conductance.",
+        "categories": [
+          "nanoscience",
+          "materials science"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Nanoscience"
+      },
+      {
+        "title": "A toolkit for modeling <i>cis</i>-regulatory logic of enhancers at large scale",
+        "journal": "Nature Methods",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/s41592-026-03058-1",
+        "doi": null,
+        "published": "2026-04-04T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A software package called CREsted was developed to model and analyze enhancer regulatory logic at a large scale, using single-cell chromatin accessibility data.",
+        "categories": [
+          "bioinformatics",
+          "genomics"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Bioinformatics"
+      },
+      {
+        "title": "CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species",
+        "journal": "Nature Methods",
+        "authors": "Niklas Kempynck, Seppe De Winter, Casper H. Blaauw, Vasileios Konstantakos, Eren Can Ek\u015fi et al. (+10 more)",
+        "url": "https://www.nature.com/articles/s41592-026-03057-2",
+        "doi": null,
+        "published": "2026-04-02T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "CREsted is a toolbox for analyzing, modeling, and designing cell-type-specific enhancers across various species. It's efficient and user-friendly.",
+        "categories": [
+          "genomics",
+          "computational biology"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Genomics"
+      },
+      {
+        "title": "Synaptic connectomics by sequencing",
+        "journal": "Nature Methods",
+        "authors": "Gilbert L. Henry, Anthony M. Zador",
+        "url": "https://www.nature.com/articles/s41592-026-03052-7",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A new sequencing-based method maps synaptic connections by capturing paired neuronal barcodes from intact fragments, enabling comprehensive brain connectivity maps.",
+        "categories": [
+          "neuroscience",
+          "synaptic biology",
+          "sequencing technologies"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Neuroscience"
+      },
+      {
+        "title": "Assessing uncertainty of sequence representations generated by protein language models",
+        "journal": "Nature Methods",
+        "authors": "Unknown authors",
+        "url": "https://www.nature.com/articles/s41592-026-03027-8",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A model-agnostic measure quantifies the reliability of language model-inferred protein, gene, and genome representations.",
+        "categories": [
+          "protein structure",
+          "machine learning",
+          "bioinformatics"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Protein Structure"
+      },
+      {
+        "title": "An instrument named Cannoli",
+        "journal": "Nature Methods",
+        "authors": "Vivien Marx",
+        "url": "https://www.nature.com/articles/s41592-026-03059-0",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A lighthearted article shares the story of a scientist who named an instrument 'Cannoli'.",
+        "categories": [
+          "science culture",
+          "instrumentation"
+        ],
+        "watchlist_match": false,
+        "cluster_label": "Science Culture"
+      },
+      {
+        "title": "Quantifying uncertainty in protein representations across models and tasks",
+        "journal": "Nature Methods",
+        "authors": "R. Prabakaran, Yana Bromberg",
+        "url": "https://www.nature.com/articles/s41592-026-03028-7",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "A model-agnostic framework measures uncertainty in protein embeddings and assesses their biological relevance to improve model reliability.",
+        "categories": [
+          "protein structure",
+          "machine learning",
+          "bioinformatics"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Protein Structure"
+      },
+      {
+        "title": "AlphaFold as a prior: experimental structure determination conditioned on a pretrained neural network",
+        "journal": "Nature Methods",
+        "authors": "Alisia Fadini, Minhuan Li, Airlie J. McCoy, Suresh Banjara, Hiroki Okumura et al. (+8 more)",
+        "url": "https://www.nature.com/articles/s41592-026-03047-4",
+        "doi": null,
+        "published": "2026-04-01T00:00:00+00:00",
+        "significance": "Medium",
+        "summary": "Researchers developed a method called ROCKET that uses a neural network to improve the accuracy of determining protein structures through experimental methods like X-ray crystallography and cryo-electron microscopy.",
+        "categories": [
+          "protein structure",
+          "machine learning"
+        ],
+        "watchlist_match": true,
+        "cluster_label": "Protein Structure"
+      }
+    ]
+  }
+]

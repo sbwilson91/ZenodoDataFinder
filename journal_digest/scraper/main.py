@@ -12,7 +12,6 @@ from .cluster import cluster_papers
 
 def main():
     config    = load_config()
-    hf_token  = os.environ["HF_API_TOKEN"]   # Set in GitHub Actions secrets
 
     print("Step 1/4: Fetching papers from RSS feeds...")
     papers = fetch_papers(config)
@@ -24,8 +23,8 @@ def main():
     print("\nStep 2/4: Extracting repository links from abstracts...")
     extract_all_repos(papers)
 
-    print("\nStep 3/4: Generating summaries via HuggingFace Inference API...")
-    papers = summarise_papers(papers, hf_token=hf_token)
+    print("\nStep 3/4: Generating summaries via Local LLM...")
+    papers = summarise_papers(papers)
 
     # E1 — semantic clustering
     print("\nStep 3b: Clustering papers by topic...")
