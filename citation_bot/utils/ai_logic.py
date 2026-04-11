@@ -1,67 +1,72 @@
-"""Local Ollama AI summarization utility (OpenAI-compatible API)."""
-import re
+"""
+utils/ai_logic.py
+
+Drop-in replacement for the HuggingFace summarisation backend.
+Swaps to Gemini 2.5 Flash via the native Gemini API using only `requests`
+(already in requirements.txt — no new dependencies needed).
+
+Interface is identical to the original: get_ai_summary(prompt, max_tokens)
+so nothing else in the bot needs to change.
+
+Secret required: GOOGLE_API_KEY (free, no credit card — get at aistudio.google.com)
+"""
+
+import os
 import time
 import requests
 
-OLLAMA_URL    = "http://localhost:11434/v1/chat/completions"
-DEFAULT_MODEL = "llama3.1"
-MAX_RETRIES   = 3
 
-SYSTEM_PROMPT = (
-    "You are a scientific literature analyst. "
-    "Summarize the provided abstract in 2-3 plain-English sentences, "
-    "focusing on the key finding and its significance. "
-    "Never invent information not present in the abstract."
+_GEMINI_URL = (
+    "https://generativelanguage.googleapis.com/v1beta/models/"
+    "gemini-2.5-flash:generateContent"
 )
 
 
-def _call_chat(text, model_id):
-    headers = {"Content-Type": "application/json"}
-    payload = {
-        "model": model_id,
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user",   "content": text[:1500]},
-        ],
-        "max_tokens": 256,
-        "temperature": 0.2,
-    }
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            resp = requests.post(OLLAMA_URL, headers=headers, json=payload, timeout=120)
-        except requests.exceptions.ConnectionError:
-            raise RuntimeError("Ollama is not running — start it with: ollama serve")
-        if resp.status_code == 200:
-            return resp.json()["choices"][0]["message"]["content"].strip()
-        elif resp.status_code == 429:
-            wait = 30 * attempt
-            print(f"Ollama busy — waiting {wait}s (attempt {attempt}/{MAX_RETRIES})...")
-            time.sleep(wait)
-        else:
-            raise RuntimeError(
-                f"Ollama error {resp.status_code} for model '{model_id}': {resp.text[:200]}"
-            )
-    raise RuntimeError(f"Ollama failed after {MAX_RETRIES} attempts.")
-
-
-def get_ai_summary(text, hf_token=None, model_url=None):
-    """Summarize text using local Ollama (llama3.1).
+def get_ai_summary(prompt: str, max_tokens: int = 500) -> str:
+    """
+    Generate a summary using Gemini 2.5 Flash.
 
     Args:
-        text:      Raw text (HTML tags will be stripped). Truncated to 1500 chars.
-        hf_token:  Ignored (kept for backwards-compatible signature).
-        model_url: Ignored (kept for backwards-compatible signature).
+        prompt:     The full prompt string (same as before)
+        max_tokens: Maximum output tokens (default 500)
 
     Returns:
-        Summary string, or a descriptive fallback message.
+        Generated text string
+
+    Raises:
+        requests.HTTPError on non-2xx responses (after retries)
     """
-    clean_text = re.sub(r"<[^<]+?>", "", text).strip()
-    if len(clean_text) < 50:
-        return "Description too short for summary."
+    api_key = os.environ["GOOGLE_API_KEY"]
 
-    try:
-        return _call_chat(clean_text, DEFAULT_MODEL)
-    except RuntimeError as e:
-        print(f"  Ollama summary failed: {e}")
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "maxOutputTokens": max_tokens,
+            "temperature": 0.3,   # consistent, factual summaries
+        },
+    }
 
-    return "AI summary unavailable."
+    # Simple retry with exponential backoff for transient 429s / 503s
+    for attempt in range(3):
+        resp = requests.post(
+            _GEMINI_URL,
+            params={"key": api_key},
+            json=payload,
+            timeout=30,
+        )
+
+        if resp.status_code in (429, 503):
+            wait = 2 ** attempt * 5   # 5s, 10s, 20s
+            print(f"  Rate limited ({resp.status_code}), retrying in {wait}s…")
+            time.sleep(wait)
+            continue
+
+        resp.raise_for_status()
+        break
+
+    candidates = resp.json().get("candidates", [])
+    if not candidates:
+        return ""
+
+    parts = candidates[0].get("content", {}).get("parts", [])
+    return parts[0].get("text", "").strip() if parts else ""
