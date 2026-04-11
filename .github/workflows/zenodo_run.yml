@@ -1,27 +1,31 @@
-name: Zenodo scRNA-seq Bot
+name: Zenodo Bot
 
 on:
+  # Monday 07:00 UTC — dataset discovery to start the week
   schedule:
-    - cron: '0 5 * * 1' # Every Monday at 5 AM UTC
+    - cron: "0 7 * * 1"
   workflow_dispatch:
 
 jobs:
   zenodo-bot:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Activate venv
-        run: echo "/home/swilson/actions-runner-env/bin" >> $GITHUB_PATH
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
 
       - name: Install dependencies
-        run: pip install -q -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Run Zenodo bot
+      - name: Run Zenodo Bot
         env:
-          PYTHONPATH: zenodo_bot
-          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
-          EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          LOOKBACK_PERIOD: 'week'
+          PYTHONPATH:      zenodo_bot
+          GOOGLE_API_KEY:  ${{ secrets.GOOGLE_API_KEY }}
+          EMAIL_SENDER:    ${{ secrets.EMAIL_SENDER }}
+          EMAIL_RECEIVER:  ${{ secrets.EMAIL_RECEIVER }}
+          EMAIL_PASSWORD:  ${{ secrets.EMAIL_PASSWORD }}
+          LOOKBACK_PERIOD: week
         run: python zenodo_bot/zenodo_bot.py
