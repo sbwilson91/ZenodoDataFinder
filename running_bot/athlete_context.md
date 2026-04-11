@@ -8,9 +8,11 @@ or new races are completed. No Python knowledge required.
 
 ## Background
 
-- Male runner, currently based in Barcelona (relocated from Copenhagen Oct 2026)
-- Runs with MRC (Monday Running Club) — Tuesday fartlek sessions are the
-  cornerstone of speed work; also runs with a work crew on Wednesdays
+- Male runner, 35, currently based in Copenhagen 
+- Runs with MRC (Mikkeler Running Club) — Tuesday fartlek sessions are the
+  cornerstone of speed work
+- Runs with Saturday running crew occasionally, more relaxed runs that end with a beer
+- Also plays social football
 - Completed an 884-day run streak (Oct 2023 – Mar 2026), ended the day after
   the Barcelona Marathon due to illness; back running within 4 days
 - Stem cell / kidney organoid researcher, postdoc at EMBL Barcelona
@@ -27,7 +29,7 @@ or new races are completed. No Python knowledge required.
 | 100km ultra   | 17:23:21  | Kullamannen UTMB    | Nov 2024 |
 | 90km ultra    | 12:02:39  | Ultravasan          | Aug 2025 |
 
-Superhalfs series: **6/6 complete** (Tromsø, Lisbon, Prague, CPH, Berlin, Valencia)
+Superhalfs series: **6/6 complete** (Copenhagen, Lisbon, Prague, Cardiff, Berlin, Valencia)
 
 ## Key Physiological Benchmarks
 
@@ -57,9 +59,8 @@ Superhalfs series: **6/6 complete** (Tromsø, Lisbon, Prague, CPH, Berlin, Valen
 ## Current Goals
 
 - Sub-1:30 half marathon
-- Sub-3:20 marathon
 - Sub-19:30 parkrun
-- Settling into Barcelona — finding new routes and running community
+- Adding an S&C session at the end of some long runs
 - Post-streak: structured training without daily pressure
 
 ## Tone Guidance
