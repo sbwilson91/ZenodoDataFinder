@@ -1,158 +1,156 @@
 """
-scraper/summarise.py
+journal_digest/scraper/summarise.py
+
+Drop-in replacement for the HuggingFace summarisation backend.
+Swaps to Gemini 2.5 Flash. The public interface is unchanged — all other
+scraper modules (main.py, report.py, etc.) continue to work without modification.
+
+Secret required: GOOGLE_API_KEY (free — aistudio.google.com)
 """
 
 import os
-import re
-import json
 import time
 import requests
-import csv
-from datetime import datetime, timezone
 
-from .feeds import Paper
 
-OLLAMA_URL    = "http://localhost:11434/v1/chat/completions"
-DEFAULT_MODEL = "llama3.1"
-MAX_RETRIES   = 3
-
-SYSTEM_PROMPT = (
-    "You are a scientific literature analyst helping researchers stay current "
-    "with recent publications. You are precise, use domain-appropriate language, "
-    "and never invent information not present in the abstract."
+_GEMINI_URL = (
+    "https://generativelanguage.googleapis.com/v1beta/models/"
+    "gemini-2.5-flash:generateContent"
 )
 
-
-def _log_token_usage(doi: str, model: str, prompt_tokens: int, completion_tokens: int):
-    """Append a row to stats/usage.csv after every LLM call."""
-    stats_path = "stats/usage.csv"
-    os.makedirs("stats", exist_ok=True)
-    file_exists = os.path.isfile(stats_path)
-    with open(stats_path, "a", newline="") as f:
-        writer = csv.writer(f)
-        if not file_exists:
-            writer.writerow(["timestamp", "model", "doi", "prompt_tokens",
-                             "completion_tokens", "total_tokens"])
-        writer.writerow([
-            datetime.now(timezone.utc).isoformat(),
-            model,
-            doi or "unknown",
-            prompt_tokens,
-            completion_tokens,
-            prompt_tokens + completion_tokens,
-        ])
+# Keywords that flag a paper as high-relevance for this researcher's field.
+# Used to boost significance scoring in the prompt.
+_WATCHLIST = [
+    "organoid", "kidney", "assembloid", "bioprint", "single-cell",
+    "scRNA-seq", "iPSC", "spatial transcriptomics", "CRISPR", "nephron",
+    "podocyte", "proximal tubule", "vascularisation", "atlas", "ai",
+]
 
 
-def _build_user_prompt(papers):
-    papers_text = ""
-    for i, p in enumerate(papers, 1):
-        repo_str = ", ".join(p.repos)    if p.repos    else "None found"
-        kw_str   = ", ".join(p.keywords) if p.keywords else "Not provided"
-        papers_text += (
-            f"\n--- PAPER {i} ---\n"
-            f"Title: {p.title}\n"
-            f"Authors: {p.authors}\n"
-            f"Journal: {p.journal}\n"
-            f"Author Keywords: {kw_str}\n"
-            f"Repositories: {repo_str}\n"
-            f"Abstract: {p.abstract[:1500]}\n"
+def _gemini(prompt: str, max_tokens: int = 600) -> str:
+    """
+    Call Gemini 2.5 Flash with retry on transient errors.
+    Returns generated text or empty string on failure.
+    """
+    api_key = os.environ["GOOGLE_API_KEY"]
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "maxOutputTokens": max_tokens,
+            "temperature": 0.2,
+        },
+    }
+
+    for attempt in range(3):
+        resp = requests.post(
+            _GEMINI_URL,
+            params={"key": api_key},
+            json=payload,
+            timeout=30,
         )
-    return (
-        f"Below are {len(papers)} recent scientific papers.\n"
-        f"Return a JSON array with exactly {len(papers)} objects, each containing:\n"
-        f'  "summary"      : 3-4 sentence plain-English summary of key finding and significance\n'
-        f'  "categories"   : list of 2-4 broad topic tags (e.g. "single-cell genomics", "CRISPR",\n'
-        f'                   "machine learning", "organoids", "epigenetics", "protein structure")\n'
-        f'  "key_terms"    : list of 4-6 important technical terms\n'
-        f'  "significance" : one of "High", "Medium", or "Low"\n'
-        f'  "repos"        : list of any repository URLs mentioned (copy exactly, never invent)\n\n'
-        f"Return ONLY a valid JSON array. No explanation, no markdown fences, no other text.\n"
-        f"{papers_text}"
+        if resp.status_code in (429, 503):
+            wait = 2 ** attempt * 5
+            print(f"  Gemini rate limit ({resp.status_code}), retry in {wait}s…")
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        break
+
+    candidates = resp.json().get("candidates", [])
+    if not candidates:
+        return ""
+    parts = candidates[0].get("content", {}).get("parts", [])
+    return parts[0].get("text", "").strip() if parts else ""
+
+
+def _watchlist_match(text: str) -> list[str]:
+    """Return any watchlist terms found in text (case-insensitive)."""
+    text_lower = text.lower()
+    return [kw for kw in _WATCHLIST if kw.lower() in text_lower]
+
+
+def summarise_paper(title: str, abstract: str) -> dict:
+    """
+    Summarise a single paper and assign a significance score.
+
+    Returns a dict with keys:
+        summary      — 2–3 sentence plain-English summary
+        significance — "High" | "Medium" | "Low"
+        tags         — list of matched watchlist terms
+        takeaway     — one-sentence key finding
+    """
+    tags = _watchlist_match(f"{title} {abstract}")
+    watchlist_note = (
+        f"\nNOTE: This paper matches high-priority keywords: {', '.join(tags)}. "
+        "Weight the significance score accordingly."
+        if tags else ""
     )
 
+    prompt = f"""You are a research assistant summarising scientific papers for a kidney organoid and single-cell biology researcher.
 
-def _call_ollama(user_prompt, model_id):
-    headers = {"Content-Type": "application/json"}
-    payload = {
-        "model": model_id,
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user",   "content": user_prompt},
-        ],
-        "max_tokens": 2048,
-        "temperature": 0.2,
-    }
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            resp = requests.post(OLLAMA_URL, headers=headers, json=payload, timeout=300)
-        except requests.exceptions.ConnectionError:
-            raise RuntimeError("Ollama is not running — start it with: ollama serve")
-        if resp.status_code == 200:
-            data = resp.json()
-            content = data["choices"][0]["message"]["content"]
-            usage = data.get("usage", {})
-            return content, usage.get("prompt_tokens", 0), usage.get("completion_tokens", 0)
-        elif resp.status_code == 429:
-            wait = 30 * attempt
-            print(f"    Ollama busy — waiting {wait}s (attempt {attempt}/{MAX_RETRIES})...")
-            time.sleep(wait)
-        else:
-            raise RuntimeError(
-                f"Ollama error {resp.status_code} for model '{model_id}': {resp.text[:300]}"
-            )
-    raise RuntimeError(f"Ollama failed after {MAX_RETRIES} attempts.")
+Title: {title}
 
+Abstract: {abstract}{watchlist_note}
 
-def _extract_json(raw):
-    raw = re.sub(r"```(?:json)?", "", raw).strip()
-    start = raw.find("[")
-    end   = raw.rfind("]")
-    if start == -1 or end == -1:
-        raise ValueError(f"No JSON array in response. Got: {raw[:200]}")
-    return json.loads(raw[start:end + 1])
+Respond ONLY with a JSON object — no markdown fences:
+{{
+  "summary": "2–3 sentence plain-English summary of the paper's contribution",
+  "significance": "High|Medium|Low based on relevance to kidney organoids, single-cell RNA-seq, iPSC biology, or vascularisation",
+  "takeaway": "One sentence: the single most important finding or method"
+}}
+
+Significance criteria:
+  High   — directly relevant to kidney organoids, nephron biology, scRNA-seq methods, iPSC differentiation, or spatial transcriptomics
+  Medium — relevant adjacent field (other organoids, other single-cell methods, developmental biology)
+  Low    — general interest but not directly applicable"""
+
+    import json
+    raw = _gemini(prompt, max_tokens=400)
+
+    try:
+        # Strip fences if present despite instructions
+        if raw.startswith("```"):
+            raw = raw.split("\n", 1)[1].rsplit("```", 1)[0].strip()
+        result = json.loads(raw)
+        result["tags"] = tags
+        return result
+    except (json.JSONDecodeError, KeyError):
+        # Fallback: return raw text as summary
+        return {
+            "summary":      raw[:300] if raw else "Summary unavailable.",
+            "significance": "Medium",
+            "takeaway":     "",
+            "tags":         tags,
+        }
 
 
-def _empty_result():
-    return {
-        "summary": "Summary unavailable.",
-        "categories": [],
-        "key_terms": [],
-        "significance": "Medium",
-        "repos": [],
-    }
+def summarise_papers(papers: list[dict]) -> list[dict]:
+    """
+    Summarise a list of papers, adding AI fields to each.
+
+    Each paper dict should have 'title' and 'abstract' keys.
+    Returns the same list with 'summary', 'significance', 'takeaway',
+    and 'tags' fields added to each entry.
+    """
+    results = []
+    for i, paper in enumerate(papers):
+        title    = paper.get("title", "Untitled")
+        abstract = paper.get("abstract", "No abstract available.")
+        print(f"  [{i+1}/{len(papers)}] Summarising: {title[:60]}…")
+
+        ai = summarise_paper(title, abstract)
+        results.append({**paper, **ai})
+
+        # Small delay between calls to stay comfortably within 10 RPM free tier limit
+        if i < len(papers) - 1:
+            time.sleep(6)
+
+    return results
 
 
-def summarise_papers(papers, hf_token=None, model_id=None, batch_size=5):
-    model = model_id or os.environ.get("OLLAMA_MODEL", DEFAULT_MODEL)
-    print(f"  Using model: {model} (local Ollama)")
+# ── Backwards-compatible single-call interface ────────────────────────────────
+# The original summarise.py exposed get_ai_summary(prompt) in some bots.
+# Keep this alias so any direct callers don't break.
 
-    for batch_start in range(0, len(papers), batch_size):
-        batch = papers[batch_start:batch_start + batch_size]
-        label = f"{batch_start + 1}–{batch_start + len(batch)}"
-        print(f"  Summarising papers {label} of {len(papers)}...")
-
-        user_prompt = _build_user_prompt(batch)
-        results = None
-
-        try:
-            raw, prompt_tok, completion_tok = _call_ollama(user_prompt, model)
-            results = _extract_json(raw)
-            while len(results) < len(batch):
-                results.append(_empty_result())
-            results = results[:len(batch)]
-            _log_token_usage("batch", model, prompt_tok, completion_tok)
-        except (RuntimeError, ValueError, json.JSONDecodeError) as e:
-            print(f"    Ollama error: {e}")
-            results = [_empty_result() for _ in batch]
-
-        for paper, result in zip(batch, results):
-            paper.summary       = result.get("summary", "")
-            paper.categories    = result.get("categories", [])
-            paper.keywords      = result.get("key_terms", paper.keywords)
-            paper.repos         = sorted(set(paper.repos + result.get("repos", [])))
-            paper._significance = result.get("significance", "Medium")
-
-        if batch_start + batch_size < len(papers):
-            time.sleep(2)
-
-    return papers
+def get_ai_summary(prompt: str, max_tokens: int = 500) -> str:
+    return _gemini(prompt, max_tokens=max_tokens)
