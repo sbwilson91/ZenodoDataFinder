@@ -31,7 +31,7 @@ jobs:
           EMAIL_SENDER:    ${{ secrets.EMAIL_SENDER }}
           EMAIL_RECEIVER:  ${{ secrets.EMAIL_RECEIVER }}
           EMAIL_PASSWORD:  ${{ secrets.EMAIL_PASSWORD }}
-        run: python preprint_digest/preprint_bot.py
+        run: python preprint_digest/preprint_digest.py
 
       - name: Write bot status
         if: success()
