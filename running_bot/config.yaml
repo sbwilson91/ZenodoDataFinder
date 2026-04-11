@@ -1,0 +1,22 @@
+# running_bot/config.yaml
+# Bot configuration — mirrors the placement of journal_digest/config.yaml
+
+# ── Strava data ───────────────────────────────────────────────────────────────
+# How many weeks of history to pull for rolling averages and trend charts
+history_weeks: 16
+
+# Where to write HTML reports (relative to running_bot/)
+output_dir: reports
+
+# ── Email ─────────────────────────────────────────────────────────────────────
+# Set to false to skip emailing (report is still committed to the repo)
+send_email: true
+
+# ── Physiology ────────────────────────────────────────────────────────────────
+# Estimated max HR for zone calculation — update after a proper max HR test
+max_hr_estimate: 185
+
+# ── Parkrun detection ─────────────────────────────────────────────────────────
+# Saturday runs within this distance band are treated as parkrun efforts
+parkrun_distance_min_km: 4.8
+parkrun_distance_max_km: 5.3

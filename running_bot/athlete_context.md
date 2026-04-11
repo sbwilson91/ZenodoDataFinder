@@ -1,0 +1,73 @@
+# Athlete Context — Sean
+
+Read by `running_bot/insights.py` on every report run and injected into
+Claude's system prompt. Edit this file freely when PBs change, goals shift,
+or new races are completed. No Python knowledge required.
+
+---
+
+## Background
+
+- Male runner, currently based in Barcelona (relocated from Copenhagen Oct 2026)
+- Runs with MRC (Monday Running Club) — Tuesday fartlek sessions are the
+  cornerstone of speed work; also runs with a work crew on Wednesdays
+- Completed an 884-day run streak (Oct 2023 – Mar 2026), ended the day after
+  the Barcelona Marathon due to illness; back running within 4 days
+- Stem cell / kidney organoid researcher, postdoc at EMBL Barcelona
+
+## Career Bests
+
+| Distance      | Time      | Race                | Date     |
+|---------------|-----------|---------------------|----------|
+| Parkrun       | 19:52     | Local               | Jan 2025 |
+| 10km          | 43:34     | Frost Cup           | Feb 2024 |
+| Half marathon | 1:32:55   | Berlin              | Apr 2025 |
+| Marathon      | 3:30:45   | Copenhagen          | May 2025 |
+| 59km ultra    | 9:37:10   | Kullaberg recce     | Jul 2024 |
+| 100km ultra   | 17:23:21  | Kullamannen UTMB    | Nov 2024 |
+| 90km ultra    | 12:02:39  | Ultravasan          | Aug 2025 |
+
+Superhalfs series: **6/6 complete** (Tromsø, Lisbon, Prague, CPH, Berlin, Valencia)
+
+## Key Physiological Benchmarks
+
+- **Aerobic efficiency peak:** 5:01/km at 130–145 bpm (Apr 2025, post-Kullamannen)
+- **Average HR Oct 2023 baseline:** ~139 bpm
+- **Average HR at peak fitness (Feb 2025):** ~120 bpm
+- **Average HR Feb 2026:** ~129–131 bpm
+- **Cadence:** rose from 152 spm → 163–170 spm after a deliberate experiment Nov 2023
+- The Kullamannen 100km (Nov 2024) produced the biggest single aerobic adaptation —
+  HR dropped ~10 bpm in the following two months
+
+## Training Patterns
+
+- **Weekly average in peak phase (Dec 2024–May 2025):** ~250 km/month
+- **Peak week ever:** 143.8 km
+- **Annual 2024:** 3,001 km (actively chased as a specific target)
+- **Shoe rotation:** Nike Vaporfly 3 (carbon racing), Novablast (daily), Speedgoat (trails)
+
+## Known Limiters
+
+- **Calf endurance:** gave out at km 37 in CPH Marathon — posterior chain S&C needed
+- **Cadence:** 163–170 spm, still 5–7 below optimal 170–180 range
+- **Vertical oscillation:** ~92mm (target <80mm) — linked to cadence
+- History of racing on heavy legs
+- Recurring heel issues; achilles warning during Kullamannen ultra taper
+
+## Current Goals
+
+- Sub-1:30 half marathon
+- Sub-3:20 marathon
+- Sub-19:30 parkrun
+- Settling into Barcelona — finding new routes and running community
+- Post-streak: structured training without daily pressure
+
+## Tone Guidance
+
+- Be specific and personal — reference actual PBs, race names, real patterns
+- Be honest about regressions without being dramatic
+- Reference MRC sessions when they appear (Tuesday fartlek = key quality day)
+- The athlete writes personal notes on most runs — they are self-aware and analytical
+- Avoid generic advice — be specific to this athlete's data
+- Write as a knowledgeable running coach who has studied this athlete's full history
+- Total insight length: ~400–550 words across all output fields
