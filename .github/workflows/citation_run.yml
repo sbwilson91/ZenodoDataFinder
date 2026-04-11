@@ -6,9 +6,13 @@ on:
     - cron: "0 7 * * 3"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   citation-bot:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -29,3 +33,25 @@ jobs:
           EMAIL_PASSWORD:  ${{ secrets.EMAIL_PASSWORD }}
           LOOKBACK_PERIOD: week
         run: python citation_bot/citation_bot.py
+
+      - name: Write bot status
+        if: success()
+        run: |
+          mkdir -p docs
+          python - <<'EOF'
+          import json, datetime
+          from pathlib import Path
+          f = Path("docs/status.json")
+          status = json.loads(f.read_text()) if f.exists() else {}
+          status["citation_bot"] = {"last_run": datetime.date.today().isoformat(), "status": "success"}
+          f.write_text(json.dumps(status, indent=2))
+          EOF
+
+      - name: Commit status
+        if: success()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/status.json
+          git diff --staged --quiet || git commit -m "status: citation $(date +%Y-%m-%d) [skip ci]"
+          git push

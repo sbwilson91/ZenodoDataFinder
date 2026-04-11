@@ -1,0 +1,71 @@
+name: Build Dashboard
+
+on:
+  # Rebuild after any bot completes (success or failure — we want current status shown)
+  workflow_run:
+    workflows:
+      - "Running Bot"
+      - "Journal Digest"
+      - "Weekly Journal Digest"
+      - "Preprint Digest"
+      - "Zenodo Bot"
+      - "Citation Bot"
+      - "Update Athlete Context"
+    types:
+      - completed
+
+  # Also allow manual rebuild
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-dashboard:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Pull full history so we get all report files
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build dashboard
+        run: python build_dashboard.py
+
+      - name: Commit docs/
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "dashboard: rebuild $(date +%Y-%m-%d) [skip ci]"
+          git push
+
+  # Deploy the docs/ folder to GitHub Pages
+  deploy-pages:
+    needs: build-dashboard
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

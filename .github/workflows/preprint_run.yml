@@ -1,56 +1,55 @@
-# .github/workflows/preprint_run.yml
 name: Preprint Digest
 
 on:
+  # Thursday 07:00 UTC — between Citation (Wed) and Journal Digest (Fri)
   schedule:
-    - cron: '0 6 * * 4'   # Thursday 06:00 UTC
+    - cron: "0 7 * * 4"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   preprint-digest:
-    runs-on: self-hosted
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    runs-on: ubuntu-latest     # was self-hosted — fixed
 
-      - name: Activate venv
-        run: echo "/home/swilson/actions-runner-env/bin" >> $GITHUB_PATH
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
 
       - name: Install dependencies
-        run: pip install -q -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Run preprint digest
-        working-directory: preprint_digest
+      - name: Run Preprint Digest
         env:
-          PYTHONPATH: .
+          PYTHONPATH:      preprint_digest
+          GOOGLE_API_KEY:  ${{ secrets.GOOGLE_API_KEY }}
+          EMAIL_SENDER:    ${{ secrets.EMAIL_SENDER }}
           EMAIL_RECEIVER:  ${{ secrets.EMAIL_RECEIVER }}
-        run: python preprint_digest.py
+          EMAIL_PASSWORD:  ${{ secrets.EMAIL_PASSWORD }}
+        run: python preprint_digest/preprint_bot.py
 
-      - name: Commit digest to repository
+      - name: Write bot status
+        if: success()
+        run: |
+          mkdir -p docs
+          python - <<'EOF'
+          import json, datetime
+          from pathlib import Path
+          f = Path("docs/status.json")
+          status = json.loads(f.read_text()) if f.exists() else {}
+          status["preprint_digest"] = {"last_run": datetime.date.today().isoformat(), "status": "success"}
+          f.write_text(json.dumps(status, indent=2))
+          EOF
+
+      - name: Commit outputs
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add preprint_digest/digests/ || true
-          git diff --staged --quiet || git commit -m "Preprint digest $(date +%Y-%m-%d)"
+          git add preprint_digest/ docs/status.json
+          git diff --staged --quiet || git commit -m "preprint: $(date +%Y-%m-%d) [skip ci]"
           git push
-
-      - name: Get date
-        id: date
-        run: echo "today=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
-
-      - name: Send digest email
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
-          username: ${{ secrets.EMAIL_SENDER }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
-          to: ${{ secrets.EMAIL_RECEIVER }}
-          from: "Preprint Digest <${{ secrets.EMAIL_SENDER }}>"
-          subject: "bioRxiv Preprint Digest — ${{ steps.date.outputs.today }}"
-          html_body: file:///tmp/digest_email.html
-          body: file:///tmp/digest_plain.txt
-          attachments: preprint_digest/digests/${{ steps.date.outputs.today }}-preprint-digest.md
