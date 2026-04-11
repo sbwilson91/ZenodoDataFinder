@@ -10,12 +10,6 @@ from collections import defaultdict
 
 
 def refresh_access_token():
-    """
-    Exchange refresh token for a new access token.
-    Returns (access_token, new_refresh_token_or_None).
-    Strava rotates tokens on every use — the workflow captures any new token
-    and updates the GitHub secret automatically.
-    """
     resp = requests.post("https://www.strava.com/oauth/token", data={
         "client_id":     os.environ["STRAVA_CLIENT_ID"],
         "client_secret": os.environ["STRAVA_CLIENT_SECRET"],
@@ -121,7 +115,8 @@ def _parkruns(activities):
 
 def _notable(activities):
     keywords = {"marathon","half","ultra","race","parkrun","10k","10km","5k","5km",
-                "runstreak","pb","fartlek","interval","tempo","mrc","sprint","intervals"}
+                "runstreak","pb","fartlek","interval","tempo","mrc","sprint",
+                "intervals","mikkeler","speed","track"}
     out = []
     for a in activities:
         dist_km = a.get("distance", 0) / 1000
@@ -163,11 +158,11 @@ def _hr_zones(activities, max_hr=185):
 
 
 def build_report_data(token, history_weeks=16):
-    """Fetch all data needed for the weekly report. Returns a single dict."""
     now               = datetime.now(timezone.utc)
     days_since_monday = now.weekday()
     week_start = now - timedelta(
-        days=days_since_monday, hours=now.hour, minutes=now.minute, seconds=now.second
+        days=days_since_monday, hours=now.hour,
+        minutes=now.minute, seconds=now.second
     )
     week_end      = week_start + timedelta(days=7)
     history_start = week_start - timedelta(weeks=history_weeks)
@@ -180,7 +175,6 @@ def build_report_data(token, history_weeks=16):
 
     this_week = [a for a in all_acts if _dt(a) >= week_start.replace(tzinfo=None)]
 
-    # Weekly bucketed series
     buckets = defaultdict(list)
     for a in all_acts:
         d    = _dt(a)
@@ -206,11 +200,16 @@ def build_report_data(token, history_weeks=16):
 
     all_prs = _parkruns(all_acts)
 
+    type_counts = defaultdict(int)
+    for a in this_week:
+        type_counts[a.get("type", "Other")] += 1
+
     return {
         "generated_at":     now.strftime("%A %d %B %Y, %H:%M UTC"),
         "week_label":       week_start.strftime("w/c %d %B %Y"),
         "week_start":       week_start.strftime("%Y-%m-%d"),
         "this_week":        _weekly_stats(this_week),
+        "this_week_all":    this_week,       # ← raw list for speed_sessions.py
         "rolling_avg_km":   rolling,
         "weekly_series":    weekly_series[-16:],
         "aero_eff_now":     _aerobic_efficiency(recent),
@@ -221,4 +220,5 @@ def build_report_data(token, history_weeks=16):
         "zone_dist":        _hr_zones(this_week),
         "current_streak":   _detect_streak(all_acts),
         "total_activities": len(all_acts),
+        "speed_sessions":   [],              # populated by running_bot.py after stream fetch
     }

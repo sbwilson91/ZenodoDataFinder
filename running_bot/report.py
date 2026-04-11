@@ -1,9 +1,234 @@
 """
 running_bot/report.py — HTML report renderer.
-Generates a self-contained HTML file with Chart.js visualisations.
+Now includes a Speed Sessions section with per-interval breakdown and pace charts.
 """
 
 import json
+
+
+def _ms_to_pace_float(ms):
+    """m/s to float min/km, for chart axes."""
+    if not ms or ms <= 0:
+        return None
+    return round(1000 / ms / 60, 2)
+
+
+def _speed_sessions_section(sessions: list[dict]) -> str:
+    if not sessions:
+        return ""
+
+    cards = []
+    for s in sessions:
+        n_iv   = s["n_intervals"]
+        chart_id = f"chart-speed-{s['activity_id']}"
+
+        # Interval table rows
+        iv_rows = ""
+        for i, iv in enumerate(s["intervals"], 1):
+            hr_td  = f"<td>{iv['mean_hr']} bpm</td>" if iv.get("mean_hr") else "<td>–</td>"
+            cad_td = f"<td>{iv['mean_cad']} spm</td>" if iv.get("mean_cad") else "<td>–</td>"
+            dur    = f"{iv['duration_s']//60}:{iv['duration_s']%60:02d}"
+            iv_rows += f"""
+            <tr>
+              <td class="iv-num">#{i}</td>
+              <td class="iv-pace">{iv['mean_pace']}/km</td>
+              <td class="iv-pace-peak">{iv['peak_pace']}/km</td>
+              <td>{dur}</td>
+              {hr_td}
+              {cad_td}
+            </tr>"""
+
+        # Recovery rows (interleaved)
+        full_rows = ""
+        ivs  = s["intervals"]
+        recs = s.get("recoveries", [])
+        for i, iv in enumerate(ivs):
+            dur = f"{iv['duration_s']//60}:{iv['duration_s']%60:02d}"
+            hr_td  = f"<td>{iv['mean_hr']} bpm</td>" if iv.get("mean_hr") else "<td>–</td>"
+            cad_td = f"<td>{iv['mean_cad']} spm</td>" if iv.get("mean_cad") else "<td>–</td>"
+            full_rows += f"""
+            <tr class="effort-row">
+              <td class="iv-label">Effort {i+1}</td>
+              <td class="iv-pace">{iv['mean_pace']}/km</td>
+              <td>{iv['peak_pace']}/km</td>
+              <td>{dur}</td>
+              {hr_td}
+              {cad_td}
+            </tr>"""
+            if i < len(recs):
+                rec = recs[i]
+                rec_dur = f"{rec['duration_s']//60}:{rec['duration_s']%60:02d}"
+                
+                rec_ms = rec.get("mean_ms"); rec_pace = (lambda ms: f"{int(1000/ms/60)}:{int((1000/ms/60 % 1)*60):02d}")(rec_ms) if rec_ms else "–"
+                rec_hr   = f"{rec['mean_hr']} bpm" if rec.get("mean_hr") else "–"
+                full_rows += f"""
+            <tr class="rec-row">
+              <td class="rec-label">Recovery</td>
+              <td class="rec-pace">{rec_pace}/km</td>
+              <td>–</td>
+              <td>{rec_dur}</td>
+              <td>{rec_hr}</td>
+              <td>–</td>
+            </tr>"""
+
+        # Pace profile chart data
+        profile  = s.get("profile", [])
+        chart_t  = json.dumps([p["t"] for p in profile])
+        chart_p  = json.dumps([p["pace"] for p in profile])
+        chart_hr = json.dumps([p["hr"]   for p in profile])
+
+        # Effort bands for chart background shading
+        effort_bands = json.dumps([
+            {"start": iv["start_s"], "end": iv["end_s"]}
+            for iv in s["intervals"]
+        ])
+
+        cards.append(f"""
+        <div class="speed-card">
+          <div class="speed-card-header">
+            <div>
+              <div class="speed-date">{s['date']}</div>
+              <div class="speed-name">{s['name']}</div>
+            </div>
+            <div class="speed-meta">
+              <span class="speed-badge">{n_iv} interval{"s" if n_iv!=1 else ""}</span>
+              <span class="speed-best">Best: <strong>{s['best_pace']}/km</strong></span>
+              {"<span class='speed-hr'>Peak HR: "+str(s['session_peak_hr'])+" bpm</span>" if s.get('session_peak_hr') else ""}
+            </div>
+          </div>
+
+          <div class="speed-chart-wrap">
+            <canvas id="{chart_id}" height="160"></canvas>
+          </div>
+
+          <div class="speed-table-wrap">
+            <table class="speed-table">
+              <thead>
+                <tr>
+                  <th>Segment</th>
+                  <th>Avg pace</th>
+                  <th>Peak pace</th>
+                  <th>Duration</th>
+                  <th>HR</th>
+                  <th>Cadence</th>
+                </tr>
+              </thead>
+              <tbody>{full_rows}</tbody>
+            </table>
+          </div>
+
+          <script>
+          (function() {{
+            const ctx = document.getElementById('{chart_id}');
+            const times = {chart_t};
+            const paces = {chart_p};
+            const hrs   = {chart_hr};
+            const bands = {effort_bands};
+
+            const effortPlugin = {{
+              id: 'effortBands',
+              beforeDraw(chart) {{
+                const {{ctx: c, chartArea, scales}} = chart;
+                if (!chartArea) return;
+                c.save();
+                bands.forEach(b => {{
+                  const x1 = scales.x.getPixelForValue(b.start);
+                  const x2 = scales.x.getPixelForValue(b.end);
+                  c.fillStyle = 'rgba(249,115,22,0.10)';
+                  c.fillRect(x1, chartArea.top, x2-x1, chartArea.height);
+                }});
+                c.restore();
+              }}
+            }};
+
+            new Chart(ctx, {{
+              type: 'line',
+              plugins: [effortPlugin],
+              data: {{
+                labels: times,
+                datasets: [
+                  {{
+                    label: 'Pace (min/km)',
+                    data: paces,
+                    borderColor: '#f97316',
+                    backgroundColor: 'rgba(249,115,22,0.06)',
+                    borderWidth: 1.5,
+                    pointRadius: 0,
+                    tension: 0.3,
+                    fill: true,
+                    yAxisID: 'y',
+                  }},
+                  {{
+                    label: 'HR (bpm)',
+                    data: hrs,
+                    borderColor: 'rgba(239,68,68,0.6)',
+                    borderWidth: 1.2,
+                    pointRadius: 0,
+                    tension: 0.3,
+                    fill: false,
+                    yAxisID: 'y2',
+                  }}
+                ]
+              }},
+              options: {{
+                responsive: true,
+                maintainAspectRatio: true,
+                animation: false,
+                plugins: {{
+                  legend: {{ labels: {{ color: '#4a5270', boxWidth: 10, font: {{ size: 10 }} }} }},
+                  tooltip: {{ mode: 'index', intersect: false }}
+                }},
+                scales: {{
+                  x: {{
+                    grid: {{ display: false }},
+                    ticks: {{ display: false }}
+                  }},
+                  y: {{
+                    reverse: true,
+                    min: 3.0,
+                    max: 8.0,
+                    grid: {{ color: 'rgba(26,32,53,.9)' }},
+                    ticks: {{
+                      color: '#4a5270',
+                      font: {{ size: 10 }},
+                      callback: v => Math.floor(v)+':'+(Math.round((v-Math.floor(v))*60)+'').padStart(2,'0')
+                    }}
+                  }},
+                  y2: {{
+                    position: 'right',
+                    min: 100,
+                    max: 200,
+                    grid: {{ display: false }},
+                    ticks: {{ color: 'rgba(239,68,68,0.5)', font: {{ size: 10 }} }}
+                  }}
+                }}
+              }}
+            }});
+          }})();
+          </script>
+        </div>""")
+
+    return """
+  <div class="section">
+    <div class="sh">Speed Sessions <span class="ai-badge">◆ stream data</span></div>
+    <div class="speed-grid">""" + "\n".join(cards) + """
+    </div>
+  </div>"""
+
+
+def _speed_analysis_block(insights: dict) -> str:
+    text = insights.get("speed_analysis", "")
+    if not text:
+        return ""
+    paras = "".join(
+        f"<p>{p.strip()}</p>"
+        for p in text.split("\n\n") if p.strip()
+    )
+    return f"""
+  <div class="section">
+    <div class="sh">Speed Session Analysis <span class="ai-badge">◆ Claude</span></div>
+    <div class="narrative">{paras}</div>
+  </div>"""
 
 
 def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
@@ -18,7 +243,7 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
     vs_str  = (f"+{vs_avg}" if vs_avg >= 0 else str(vs_avg)) + " km"
     vs_col  = "#22c55e" if vs_avg >= 0 else "#ef4444"
 
-    ws = data.get("weekly_series", [])
+    ws       = data.get("weekly_series", [])
     w_labels = json.dumps([w["week"][5:] for w in ws])
     w_dists  = json.dumps([w["dist_km"]  for w in ws])
     w_hrs    = json.dumps([w["avg_hr"]   for w in ws])
@@ -69,7 +294,7 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
         for z in ["Z1","Z2","Z3","Z4","Z5"]
     )
 
-    # Notable activity cards
+    # Notable cards
     notable_html = ""
     for n in data.get("notable", [])[:8]:
         hr_span   = f'<span>♥ {n["hr"]} bpm</span>' if n.get("hr") else ""
@@ -86,7 +311,7 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
     if not notable_html:
         notable_html = '<p class="empty">No notable activities this week.</p>'
 
-    # AI signal cards
+    # AI signals
     sig_color = {"positive":"#22c55e","warning":"#ef4444","neutral":"#14b8a6"}
     sig_icon  = {"positive":"↑","warning":"⚠","neutral":"→"}
     signals_html = ""
@@ -106,8 +331,14 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
         for p in insights.get("week_narrative","").split("\n\n") if p.strip()
     )
 
-    headline    = insights.get("headline", f"{data['week_label']} — {dist} km")
-    next_focus  = insights.get("next_week_focus", "")
+    headline   = insights.get("headline", f"{data['week_label']} — {dist} km")
+    next_focus = insights.get("next_week_focus", "")
+
+    # Speed section HTML
+    speed_sessions      = data.get("speed_sessions", [])
+    speed_section_html  = _speed_sessions_section(speed_sessions)
+    speed_analysis_html = _speed_analysis_block(insights)
+
     aeff_delta_html = (
         f'<div><div style="font-family:IBM Plex Mono,monospace;font-size:9px;color:var(--mu);'
         f'text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;">vs prior 8 weeks</div>'
@@ -149,7 +380,6 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
   .hs-l{{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.12em;color:var(--mu);text-transform:uppercase;display:block;margin-bottom:4px;}}
   .hs-v{{font-family:'IBM Plex Mono',monospace;font-size:22px;font-weight:500;color:var(--o);display:block;line-height:1;}}
   .hs-v.g{{color:var(--g);}}.hs-v.t{{color:var(--t);}}.hs-v.a{{color:var(--a);}}.hs-v.r{{color:var(--r);}}.hs-v.m{{color:var(--mu);}}
-  .hs-d{{font-size:11px;color:var(--mu);margin-top:3px;display:block;}}
   .hs-delta{{font-family:'IBM Plex Mono',monospace;font-size:11px;margin-top:3px;display:block;}}
   .section{{padding:40px 0 28px;border-top:1px solid var(--bdr);}}
   .sh{{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;color:var(--o);text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:10px;}}
@@ -185,6 +415,29 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
   .zb{{flex:1;height:6px;background:var(--dim);border-radius:3px;overflow:hidden;}}
   .zbi{{height:100%;border-radius:3px;opacity:.85;}}
   .zp{{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--mu);width:30px;text-align:right;}}
+  /* SPEED SESSIONS */
+  .speed-grid{{display:flex;flex-direction:column;gap:20px;}}
+  .speed-card{{background:var(--card);border:1px solid var(--bdr);border-radius:12px;overflow:hidden;border-top:3px solid var(--o);}}
+  .speed-card-header{{padding:16px 20px;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;border-bottom:1px solid var(--bdr);}}
+  .speed-date{{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--mu);}}
+  .speed-name{{font-size:15px;font-weight:600;color:var(--tx);margin-top:3px;}}
+  .speed-meta{{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}}
+  .speed-badge{{font-family:'IBM Plex Mono',monospace;font-size:10px;background:rgba(249,115,22,.12);border:1px solid rgba(249,115,22,.3);color:var(--o);padding:3px 8px;border-radius:4px;}}
+  .speed-best{{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--mu);}}
+  .speed-best strong{{color:var(--g);}}
+  .speed-hr{{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--r);}}
+  .speed-chart-wrap{{padding:14px 20px 0;}}
+  .speed-table-wrap{{padding:14px 20px 20px;overflow-x:auto;}}
+  .speed-table{{width:100%;border-collapse:collapse;font-family:'IBM Plex Mono',monospace;font-size:12px;}}
+  .speed-table th{{color:var(--mu);text-transform:uppercase;font-size:9px;letter-spacing:.1em;padding:5px 8px;border-bottom:1px solid var(--bdr);text-align:left;}}
+  .speed-table td{{padding:7px 8px;border-bottom:1px solid var(--dim);}}
+  .effort-row td{{color:var(--tx);}}
+  .iv-pace{{color:var(--o);font-weight:500;}}
+  .iv-pace-peak{{color:var(--g);}}
+  .iv-label{{color:var(--o);font-weight:500;}}
+  .rec-row td{{color:var(--mu);font-size:11px;}}
+  .rec-label{{color:var(--t);}}
+  .rec-pace{{color:var(--t);}}
   .footer{{border-top:1px solid var(--bdr);padding:32px 0 48px;margin-top:48px;}}
   .footer p{{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--mu);line-height:1.9;}}
 </style>
@@ -212,12 +465,17 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
     <div class="hs"><span class="hs-l">Streak</span><span class="hs-v" style="color:{streak_color}">{streak}d</span></div>
     <div class="hs"><span class="hs-l">Aero Eff.</span><span class="hs-v t">{aeff_str}</span><span class="hs-delta" style="color:{aeff_delta_color}">{aeff_delta}</span></div>
   </div>
+
   <div class="section">
     <div class="sh">Analysis <span class="ai-badge">◆ Claude</span></div>
     <div class="narrative">{narrative_html}</div>
     <div class="signals">{signals_html}</div>
     <div class="next-focus"><div class="nf-tag">Focus for next week</div><div class="nf-body">{next_focus}</div></div>
   </div>
+
+  {speed_section_html}
+  {speed_analysis_html}
+
   <div class="section">
     <div class="sh">Volume — Last {history_weeks} Weeks</div>
     <div class="fig">
@@ -226,10 +484,12 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
       <div class="fig-cap">Weekly distance (bars). Orange = this week. Teal dashed = 8-week rolling average.</div>
     </div>
   </div>
+
   <div class="section">
     <div class="sh">Notable Activities This Week</div>
     <div class="act-grid">{notable_html}</div>
   </div>
+
   <div class="section">
     <div class="sh">Heart Rate</div>
     <div class="fig">
@@ -243,6 +503,7 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
       <div class="fig-cap">Estimated from avg HR vs max 185 bpm. Polarised = high Z1–Z2, low Z3.</div>
     </div>
   </div>
+
   <div class="section">
     <div class="sh">Aerobic Efficiency</div>
     <div class="fig">
@@ -255,23 +516,24 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
           </div>
           {aeff_delta_html}
         </div>
-        <div style="margin-top:14px;font-size:13px;color:var(--mu);">Holds cardiac effort constant. Faster at same HR = aerobic engine improving.</div>
       </div>
     </div>
   </div>
+
   <div class="section">
     <div class="sh">Parkrun</div>
     {bp_html}
     <div class="fig">
       <div class="fig-h"><span class="fig-title">Parkrun Times & HR</span><span class="fig-n">Fig. 5</span></div>
       <div class="fig-body"><canvas id="chart-parkrun" height="230"></canvas></div>
-      <div class="fig-cap">Finish time (bars, left). HR (line, right). Green = sub-20. Orange = sub-22.</div>
+      <div class="fig-cap">Finish time (bars, left). HR (line, right). Green = sub-20.</div>
     </div>
   </div>
+
   <div class="footer">
     <p>ResearchAssistants_SBW · running_bot · {data["generated_at"]}<br>
-    Data: Strava API · Insights: Claude (claude-sonnet-4-20250514)<br>
-    {history_weeks}-week window · {data["total_activities"]} activities</p>
+    Data: Strava API (activity streams) · Insights: Claude (claude-sonnet-4-20250514)<br>
+    {history_weeks}-week window · {data["total_activities"]} activities · {len(data.get("speed_sessions",[]))} speed session(s) analysed</p>
   </div>
 </div>
 <script>
