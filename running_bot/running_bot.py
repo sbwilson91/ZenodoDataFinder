@@ -1,15 +1,9 @@
 #!/usr/bin/env python3
-"""
-running_bot/running_bot.py
-
-Weekly running report bot for ResearchAssistants_SBW.
-Entry point called by .github/workflows/running_bot_run.yml.
-"""
+"""running_bot/running_bot.py"""
 
 import os
 import datetime
 from pathlib import Path
-
 import yaml
 
 from strava import refresh_access_token, build_report_data
@@ -20,86 +14,83 @@ from utils.email_logic import send_email
 
 
 def load_config():
-    config_path = Path(__file__).parent / "config.yaml"
-    with open(config_path) as f:
+    with open(Path(__file__).parent / "config.yaml") as f:
         return yaml.safe_load(f)
 
 
 def load_athlete_context():
-    ctx_path = Path(__file__).parent / "athlete_context.md"
-    return ctx_path.read_text(encoding="utf-8")
+    return (Path(__file__).parent / "athlete_context.md").read_text(encoding="utf-8")
 
 
 def run():
     print(f"=== Running Bot — {datetime.date.today()} ===")
-
     cfg         = load_config()
-    history_wks = cfg.get("history_weeks", 16)
     output_dir  = Path(__file__).parent / cfg.get("output_dir", "reports")
     output_dir.mkdir(exist_ok=True)
-    send_email_report = cfg.get("send_email", True)
+    history_wks = cfg.get("history_weeks", 16)
 
     athlete_context = load_athlete_context()
 
-    # 1. Strava auth
+    # 1. Strava
     access_token, new_refresh = refresh_access_token()
     if new_refresh:
         Path("new_refresh_token.txt").write_text(new_refresh)
-        print("⚠  Refresh token rotated")
 
     # 2. Weekly metrics
     data = build_report_data(access_token, history_weeks=history_wks)
 
-    # 3. Speed session deep-dive (fetches streams for Tue/Thu/MRC/Mikkeler runs)
+    # 3. Speed sessions (Strava stream data)
     print("\nAnalysing speed sessions…")
-    speed_sessions = get_speed_sessions(access_token, data.get("this_week_all", []))
-    data["speed_sessions"] = speed_sessions
+    data["speed_sessions"] = get_speed_sessions(access_token, data.get("this_week_all", []))
 
-    # 4. Claude insights (now includes speed session data)
+    # 4. Garmin (analytics + calendar)
+    garmin_data = {"available": False, "analytics": {}, "last_week": [], "next_week": []}
+    if cfg.get("garmin_enabled", True) and os.environ.get("GARMIN_EMAIL"):
+        try:
+            from garmin import get_garmin_data
+            garmin_data = get_garmin_data(data.get("this_week_all", []))
+        except Exception as e:
+            print(f"⚠  Garmin failed: {e}")
+    data["garmin"] = garmin_data
+
+    # 5. Claude insights
     try:
         insights = get_claude_insights(data, athlete_context)
     except Exception as e:
-        print(f"⚠  Claude error: {e} — using fallback")
+        print(f"⚠  Claude error: {e}")
         tw = data.get("this_week") or {}
         insights = {
-            "headline":        f"{data['week_label']} — {tw.get('dist_km','?')} km",
-            "week_narrative":  "AI insights unavailable this week.",
-            "speed_analysis":  "",
-            "key_signals":     [],
-            "next_week_focus": "Review the charts below.",
+            "headline": f"{data['week_label']} — {tw.get('dist_km','?')} km",
+            "week_narrative": "AI insights unavailable.",
+            "physiological_analysis": "", "speed_analysis": "",
+            "form_analysis": "", "plan_vs_actual": "",
+            "next_week_preview": "", "key_signals": [],
+            "next_week_focus": "Review charts manually.",
         }
 
-    # 5. Render HTML
-    html = generate_html(data, insights, history_weeks=history_wks)
-
-    # 6. Save
+    # 6. Render + save
+    html     = generate_html(data, insights, history_weeks=history_wks)
     date_str = datetime.date.today().strftime("%Y-%m-%d")
-    dated    = output_dir / f"report_{date_str}.html"
-    latest   = output_dir / "index.html"
-    dated.write_text(html, encoding="utf-8")
-    latest.write_text(html, encoding="utf-8")
-    print(f"\n✓ {dated}")
+    for path in [output_dir / f"report_{date_str}.html", output_dir / "index.html"]:
+        path.write_text(html, encoding="utf-8")
+    print(f"✓ report_{date_str}.html")
 
     # 7. Email
-    if send_email_report:
+    if cfg.get("send_email", True):
         try:
-            tw      = data.get("this_week") or {}
-            subject = (f"🏃 Weekly Run Report — {data['week_label']} — "
-                       f"{tw.get('dist_km','?')} km")
-            send_email(subject, html)
+            tw = data.get("this_week") or {}
+            send_email(f"🏃 Weekly Run Report — {data['week_label']} — {tw.get('dist_km','?')} km", html)
             print("✓ Email sent")
         except Exception as e:
-            print(f"⚠  Email failed: {e}")
+            print(f"⚠  Email: {e}")
 
-    # 8. Summary to Actions log
+    # 8. Summary
     tw = data.get("this_week") or {}
-    print(f"\n── {data['week_label']} ──────────────────────")
-    print(f"  {tw.get('dist_km','–')} km · {tw.get('runs','–')} runs · "
-          f"{tw.get('avg_pace','–')}/km · {tw.get('avg_hr','–')} bpm")
-    print(f"  Speed sessions: {len(speed_sessions)}")
-    for s in speed_sessions:
-        print(f"    {s['date']} {s['name'][:40]} — "
-              f"{s['n_intervals']} intervals, best {s['best_pace']}/km")
+    print(f"\n── {data['week_label']} ──────────────────")
+    print(f"  {tw.get('dist_km','–')} km · {tw.get('avg_pace','–')}/km · {tw.get('avg_hr','–')} bpm")
+    if garmin_data.get("available"):
+        ts = garmin_data.get("analytics", {}).get("training_status", {})
+        print(f"  Load ratio: {ts.get('load_ratio','–')} | Status: {ts.get('status_label','–')}")
     print(f'\n  "{insights["headline"]}"')
 
 
