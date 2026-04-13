@@ -6,5 +6,9 @@
   "running_bot": {
     "last_run": "2026-04-12",
     "status": "success"
+  },
+  "zenodo_bot": {
+    "last_run": "2026-04-13",
+    "status": "success"
   }
 }
