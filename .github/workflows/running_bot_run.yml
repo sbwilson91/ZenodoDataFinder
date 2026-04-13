@@ -2,7 +2,7 @@ name: Running Bot
 
 on:
   schedule:
-    - cron: "0 8 * * 1"   # Monday 08:00 UTC
+    - cron: "0 21 * * 0"   # Runs at 21:00, only on Sunday
   workflow_dispatch:
 
 permissions:
