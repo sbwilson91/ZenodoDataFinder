@@ -10,5 +10,9 @@
   "zenodo_bot": {
     "last_run": "2026-04-13",
     "status": "success"
+  },
+  "citation_bot": {
+    "last_run": "2026-04-15",
+    "status": "success"
   }
 }
