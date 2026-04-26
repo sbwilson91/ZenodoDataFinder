@@ -188,13 +188,9 @@ def _hr_zones(activities, token, max_hr=185):
 
 
 def build_report_data(token, history_weeks=16):
-    now               = datetime.now(timezone.utc)
-    days_since_monday = now.weekday()
-    week_start = now - timedelta(
-        days=days_since_monday, hours=now.hour,
-        minutes=now.minute, seconds=now.second
-    )
-    week_end      = week_start + timedelta(days=7)
+    now           = datetime.now(timezone.utc)
+    week_start    = now - timedelta(days=7)
+    week_end      = now
     history_start = week_start - timedelta(weeks=history_weeks)
 
     print(f"Fetching {history_start.date()} → {week_end.date()}…")
@@ -236,7 +232,7 @@ def build_report_data(token, history_weeks=16):
 
     return {
         "generated_at":     now.strftime("%A %d %B %Y, %H:%M UTC"),
-        "week_label":       week_start.strftime("w/c %d %B %Y"),
+        "week_label":       f"{week_start.strftime('%d %b')} – {now.strftime('%d %b %Y')}",
         "week_start":       week_start.strftime("%Y-%m-%d"),
         "this_week":        _weekly_stats(this_week),
         "this_week_all":    this_week,       # ← raw list for speed_sessions.py
