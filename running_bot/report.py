@@ -765,7 +765,7 @@ def generate_html(data: dict, insights: dict, history_weeks: int = 16) -> str:
     <div class="fig">
       <div class="fig-h"><span class="fig-title">HR Zone Distribution — This Week</span><span class="fig-n">Fig. 3</span></div>
       <div class="fig-body"><div class="zones">{zones_html}</div></div>
-      <div class="fig-cap">Estimated from avg HR vs max 185 bpm.</div>
+      <div class="fig-cap">Seconds per zone from Strava activity data.</div>
     </div>
   </div>
   <div class="section">

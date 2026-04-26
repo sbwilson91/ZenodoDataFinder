@@ -146,14 +146,44 @@ def _detect_streak(activities):
     return streak
 
 
-def _hr_zones(activities, max_hr=185):
+def _fetch_activity_hr_zones(token, activity_id):
+    """Return list of HR zone buckets (dicts with 'time' in seconds) for one activity."""
+    resp = requests.get(
+        f"https://www.strava.com/api/v3/activities/{activity_id}/zones",
+        headers={"Authorization": f"Bearer {token}"},
+        timeout=15,
+    )
+    if resp.status_code != 200:
+        return []
+    for zone in resp.json():
+        if zone.get("type") == "heartrate":
+            return zone.get("distribution_buckets", [])
+    return []
+
+
+def _hr_zones(activities, token, max_hr=185):
+    """Compute total seconds in each HR zone across all runs, using Strava's per-activity
+    zone data. Falls back to moving_time-weighted average HR if zones aren't available."""
     zones = {"Z1": 0, "Z2": 0, "Z3": 0, "Z4": 0, "Z5": 0}
-    for a in [x for x in activities if x.get("type") == "Run"]:
-        hr = a.get("average_heartrate")
-        if hr:
-            pct = hr / max_hr * 100
-            z = "Z1" if pct<60 else "Z2" if pct<70 else "Z3" if pct<80 else "Z4" if pct<90 else "Z5"
-            zones[z] += 1
+    z_keys = list(zones.keys())
+    runs = [a for a in activities if a.get("type") == "Run"]
+
+    for a in runs:
+        buckets = _fetch_activity_hr_zones(token, a["id"])
+        if buckets:
+            # Buckets are sorted low→high by Strava; map to Z1-Z5.
+            # If Strava returns 6 buckets, merge the last two into Z5.
+            merged = buckets[:4] + [{"time": sum(b.get("time", 0) for b in buckets[4:])}]
+            for i, bucket in enumerate(merged):
+                zones[z_keys[i]] += bucket.get("time", 0)
+        else:
+            # Fallback: classify by average HR, weight by moving_time
+            hr = a.get("average_heartrate")
+            mt = a.get("moving_time", 0)
+            if hr and mt:
+                pct = hr / max_hr * 100
+                z = "Z1" if pct<60 else "Z2" if pct<70 else "Z3" if pct<80 else "Z4" if pct<90 else "Z5"
+                zones[z] += mt
     return zones
 
 
@@ -217,7 +247,7 @@ def build_report_data(token, history_weeks=16):
         "all_parkruns":     all_prs[-20:],
         "best_parkrun":     min(all_prs, key=lambda x: x["time_s"]) if all_prs else None,
         "notable":          _notable(this_week),
-        "zone_dist":        _hr_zones(this_week),
+        "zone_dist":        _hr_zones(this_week, token),
         "current_streak":   _detect_streak(all_acts),
         "total_activities": len(all_acts),
         "speed_sessions":   [],              # populated by running_bot.py after stream fetch
