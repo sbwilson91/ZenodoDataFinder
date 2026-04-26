@@ -246,7 +246,7 @@ def _fetch_running_dynamics(client, today_dt: date, strava_activities: list) -> 
         cadences, voscs, gcts, vrats = [], [], [], []
         for act in raw:
             if act.get("averageRunningCadenceInStepsPerMinute"):
-                cadences.append(act["averageRunningCadenceInStepsPerMinute"] * 2)
+                cadences.append(act["averageRunningCadenceInStepsPerMinute"])
             if act.get("avgVerticalOscillation"):
                 voscs.append(act["avgVerticalOscillation"])
             if act.get("avgGroundContactTime"):
