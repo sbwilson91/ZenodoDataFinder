@@ -22,13 +22,24 @@ _GEMINI_URL = (
 )
 
 
-def get_ai_summary(prompt: str, max_tokens: int = 500) -> str:
+_SYSTEM_PROMPT = (
+    "You are a scientific literature analyst. "
+    "Summarize the provided abstract in 4-5 plain-English sentences. "
+    "Cover: (1) the biological or scientific question addressed, "
+    "(2) the key methods or approach used, "
+    "(3) the main findings, and "
+    "(4) the significance or implications of the work. "
+    "Never invent information not present in the abstract."
+)
+
+
+def get_ai_summary(prompt: str, max_tokens: int = 1024) -> str:
     """
     Generate a summary using Gemini 2.5 Flash.
 
     Args:
-        prompt:     The full prompt string (same as before)
-        max_tokens: Maximum output tokens (default 500)
+        prompt:     The abstract text to summarize
+        max_tokens: Maximum output tokens (default 1024)
 
     Returns:
         Generated text string
@@ -39,6 +50,7 @@ def get_ai_summary(prompt: str, max_tokens: int = 500) -> str:
     api_key = os.environ["GOOGLE_API_KEY"]
 
     payload = {
+        "system_instruction": {"parts": [{"text": _SYSTEM_PROMPT}]},
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "maxOutputTokens": max_tokens,

@@ -9,8 +9,11 @@ MAX_RETRIES   = 3
 
 SYSTEM_PROMPT = (
     "You are a scientific literature analyst. "
-    "Summarize the provided abstract in 2-3 plain-English sentences, "
-    "focusing on the key finding and its significance. "
+    "Summarize the provided abstract in 4-5 plain-English sentences. "
+    "Cover: (1) the biological or scientific question addressed, "
+    "(2) the key methods or approach used, "
+    "(3) the main findings, and "
+    "(4) the significance or implications of the work. "
     "Never invent information not present in the abstract."
 )
 
@@ -23,7 +26,7 @@ def _call_chat(text, model_id):
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user",   "content": text[:1500]},
         ],
-        "max_tokens": 256,
+        "max_tokens": 1024,
         "temperature": 0.2,
     }
     for attempt in range(1, MAX_RETRIES + 1):
