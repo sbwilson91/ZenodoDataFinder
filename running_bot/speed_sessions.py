@@ -25,8 +25,8 @@ from datetime import datetime
 # ── Config ────────────────────────────────────────────────────────────────────
 
 # Pace threshold: efforts faster than this are counted as intervals
-# 4:35/km = 3.97 m/s — well above easy pace (~5:30+) for this athlete
-FAST_THRESHOLD_MS   = 1000 / 60 / 4.1   # m/s equivalent of 4:35/km
+# 4:45/km = 3.509 m/s — well above easy pace (~5:30+) for this athlete
+FAST_THRESHOLD_MS   = 1000 / 60 / 4.75  # m/s equivalent of 4:45/km
 
 # Minimum continuous duration to count as an effort (seconds)
 MIN_EFFORT_SECS     = 20
