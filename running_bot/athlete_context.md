@@ -17,6 +17,10 @@ or new races are completed. No Python knowledge required.
   the Barcelona Marathon due to illness; back running within 4 days
 - Stem cell / kidney organoid researcher, postdoc at EMBL Barcelona
 
+## Any other info
+- Currently on holiday in Australia visiting family (23rd April to 18th May)
+- Trying to run 3-4 times per week following a Runna maintenance plan during the holiday period
+
 ## Career Bests
 
 | Distance      | Time      | Race                | Date     |
