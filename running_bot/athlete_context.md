@@ -47,6 +47,7 @@ Superhalfs series: **6/6 complete** (Copenhagen, Lisbon, Prague, Cardiff, Berlin
 
 ## Training Patterns
 
+- **Post-streak pattern (Apr 2026):** ~175 km/month, more volatile week-to-week (24-67km swings)
 - **Weekly average in peak phase (Dec 2024–May 2025):** ~250 km/month
 - **Peak week ever:** 143.8 km
 - **Annual 2024:** 3,001 km (actively chased as a specific target)
@@ -55,10 +56,11 @@ Superhalfs series: **6/6 complete** (Copenhagen, Lisbon, Prague, Cardiff, Berlin
 ## Known Limiters
 
 - **Calf endurance:** gave out at km 37 in CPH Marathon — posterior chain S&C needed
-- **Cadence:** 163–170 spm, still 5–7 below optimal 170–180 range
-- **Vertical oscillation:** ~92mm (target <80mm) — linked to cadence
+- **Cadence:** 163–170 spm, still 5–7 below optimal 170–180 range (though hitting 180+ spm during quality intervals as of Apr 2026)
+- **Vertical oscillation:** ~92mm (target <80mm) — linked to cadence, regressing to 9.3cm under fatigue
 - History of racing on heavy legs
 - Recurring heel issues; achilles warning during Kullamannen ultra taper
+- **Zone distribution discipline:** tendency to drift into Zone 3 (80% of time in Apr 2026) rather than maintaining 80/20 polarization
 
 ## Current Goals
 
@@ -76,3 +78,7 @@ Superhalfs series: **6/6 complete** (Copenhagen, Lisbon, Prague, Cardiff, Berlin
 - Avoid generic advice — be specific to this athlete's data
 - Write as a knowledgeable running coach who has studied this athlete's full history
 - Total insight length: ~400–550 words across all output fields
+
+## Update Log
+
+- **2026-05-01**: Updated from reports 2026-04-26, 2026-04-19, 2026-04-13, 2026-04-12
