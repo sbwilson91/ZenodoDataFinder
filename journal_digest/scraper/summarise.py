@@ -124,22 +124,23 @@ Significance criteria:
         }
 
 
-def summarise_papers(papers: list[dict]) -> list[dict]:
+def summarise_papers(papers: list) -> list:
     """
-    Summarise a list of papers, adding AI fields to each.
-
-    Each paper dict should have 'title' and 'abstract' keys.
-    Returns the same list with 'summary', 'significance', 'takeaway',
-    and 'tags' fields added to each entry.
+    Summarise a list of Paper objects, adding AI fields to each.
+    Returns the same list with summary, significance, takeaway, and tags
+    set as attributes on each Paper.
     """
     results = []
     for i, paper in enumerate(papers):
-        title    = paper.get("title", "Untitled")
-        abstract = paper.get("abstract", "No abstract available.")
+        title    = paper.title
+        abstract = paper.abstract
         print(f"  [{i+1}/{len(papers)}] Summarising: {title[:60]}…")
 
         ai = summarise_paper(title, abstract)
-        results.append({**paper, **ai})
+        paper.summary      = ai.get("summary", "")
+        paper.significance = ai.get("significance", "Medium")
+        paper.takeaway     = ai.get("takeaway", "")
+        results.append(paper)
 
         # Small delay between calls to stay comfortably within 10 RPM free tier limit
         if i < len(papers) - 1:
